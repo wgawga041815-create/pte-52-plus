@@ -336,7 +336,7 @@
           '<div class="stat"><b>' + (QS.length - o.done) + "</b><span>还没练的题</span></div>" +
         "</div>" +
 
-        '<div class="lesson-strip"><div><b>第 2 课 · RS + ASQ</b><span>PPT 里的 37 句 RS + 40 题 ASQ 已收录，一键练这一组。</span></div><button class="btn btn-primary" id="startL2">做这一组 →</button></div>' +
+        '<div class="lesson-strip"><div><b>第 2 课 · RS + ASQ</b><span>PPT 里的 38 句 RS + 40 题 ASQ 已收录，一键练这一组。</span></div><button class="btn btn-primary" id="startL2">做这一组 →</button></div>' +
 
         '<div class="section-title"><h2>8 天路线</h2><span>每天 4 题，约 15 分钟；其余自由加练</span></div>' +
         '<div class="plan">' + planHTML + "</div>" +
