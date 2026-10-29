@@ -27,7 +27,7 @@ python3 -m http.server 8000
 ## 说明
 
 - 所有题目按官方题型自编，**不是真题原文**；正式备考请配合官方练习题。
-- 听力音频使用浏览器语音合成（SpeechSynthesis），建议 Chrome / Edge。
+- 听力音频使用浏览器语音合成（SpeechSynthesis），优先选择 Samantha / Google US English 等自然英语音；如声音仍然奇怪，请换 Chrome / Edge，或在系统里安装英语语音包。
 - 录音只保存在本地浏览器，不会上传。
 - 题库在 `assets/questions.js`，按同样格式追加即可。
 
