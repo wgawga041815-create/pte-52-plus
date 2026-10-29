@@ -174,32 +174,64 @@
     loadVoices();
     window.speechSynthesis.onvoiceschanged = loadVoices;
   }
+  const NOVELTY_VOICE = /Albert|Bad News|Bahh|Bells|Boing|Bubbles|Cellos|Deranged|Good News|Hysterical|Jester|Organ|Pipe Organ|Superstar|Trinoids|Whisper|Wobble|Zarvox|Basso|Fred|Junior|Ralph|Kathy|Princess|Agnes|Grandma|Grandpa|Eddy|Flo|Reed|Rocko|Sandy|Shelley/i;
+  const PREFERRED_VOICE = [
+    /^Samantha$/i, /^Ava\b/i, /^Allison$/i, /^Alex$/i,
+    /Google US English/i, /Google UK English Female/i,
+    /Microsoft (Aria|Jenny|Zira|Guy|Sonia|Ryan)/i,
+    /^Karen$/i, /^Daniel$/i, /^Moira$/i, /^Tessa$/i, /^Serena$/i
+  ];
   function pickVoice() {
-    return voices.find(v => /en[-_]US/i.test(v.lang)) || voices.find(v => /^en/i.test(v.lang)) || null;
+    const en = voices.filter(v => /^en([-_]|$)/i.test(v.lang) && !NOVELTY_VOICE.test(v.name));
+    for (const re of PREFERRED_VOICE) {
+      const v = en.find(x => re.test(x.name));
+      if (v) return v;
+    }
+    return en.find(v => /en[-_]US/i.test(v.lang)) || en[0] || null;
   }
+  let speakToken = 0;
   function speakText(text, btn) {
     if (!("speechSynthesis" in window)) {
       alert("当前浏览器不支持语音播放，请使用 Chrome 或 Edge。");
       return;
     }
+    const token = ++speakToken;
     window.speechSynthesis.cancel();
     const parts = String(text).split("||").map(s => s.trim()).filter(Boolean);
     const box = btn ? btn.closest(".audio-box") : null;
     if (btn) { btn.disabled = true; btn.dataset.old = btn.textContent; btn.textContent = "播放中…"; }
     if (box) box.querySelector(".wave")?.classList.add("playing");
+    let finished = false;
     const done = () => {
+      if (finished) return;
+      finished = true;
       if (btn) { btn.disabled = false; btn.textContent = btn.dataset.old || "▶ 播放"; }
       if (box) box.querySelector(".wave")?.classList.remove("playing");
     };
-    parts.forEach((p, i) => {
-      const u = new SpeechSynthesisUtterance(p);
+    const next = (i) => {
+      if (token !== speakToken) return;
+      if (i >= parts.length) { done(); return; }
+      const u = new SpeechSynthesisUtterance(parts[i]);
       u.lang = "en-US";
-      u.rate = 0.92;
+      u.rate = 0.95;
+      u.pitch = 1;
+      u.volume = 1;
       const v = pickVoice();
-      if (v) u.voice = v;
-      if (i === parts.length - 1) { u.onend = done; u.onerror = done; }
+      if (v) { u.voice = v; u.lang = v.lang || "en-US"; }
+      u.onend = () => {
+        if (token !== speakToken) return;
+        const pause = parts.length > 1 ? 430 : 40;
+        setTimeout(() => next(i + 1), pause);
+      };
+      u.onerror = () => { if (token === speakToken) done(); };
       window.speechSynthesis.speak(u);
-    });
+    };
+    if (!voices.length) {
+      loadVoices();
+      setTimeout(() => { if (token === speakToken) next(0); }, 180);
+    } else {
+      next(0);
+    }
   }
 
   /* ---------------- recording ---------------- */
@@ -237,6 +269,7 @@
   window.addEventListener("hashchange", route);
   function route() {
     stopTimer();
+    if ("speechSynthesis" in window) { window.speechSynthesis.cancel(); speakToken++; }
     syncChrome();
     const raw = location.hash.replace(/^#\/?/, "");
     const [page, arg] = raw.split("/");
@@ -557,7 +590,7 @@
     };
     startTimer();
     if (q.type === "wfd" || q.type === "sst" || q.type === "fib-l" || q.type === "rs" || q.type === "asq") {
-      setTimeout(() => { const b = document.querySelector("[data-play]"); if (b) b.click(); }, 350);
+      setTimeout(() => { const b = document.querySelector("[data-play]"); if (b) b.click(); }, 600);
     }
   }
 
