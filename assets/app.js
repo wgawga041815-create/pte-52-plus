@@ -12,12 +12,14 @@
   ["asq-01", "asq-02"].forEach(id => {
     if (BY_ID[id] && !L2_IDS.includes(id)) L2_IDS.push(id);
   });
+  const L3_IDS = QS.filter(q => q.lesson === "L3").map(q => q.id);
 
   const TYPE = {
     ra:      { name: "Read Aloud",              sec: "speaking",  label: "朗读" },
     rs:      { name: "Repeat Sentence",         sec: "speaking",  label: "复述" },
     di:      { name: "Describe Image",          sec: "speaking",  label: "描述图片" },
     rts:     { name: "Respond to a Situation",  sec: "speaking",  label: "情景应答" },
+    rl:      { name: "Retell Lecture",          sec: "speaking",  label: "复述讲座" },
     asq:     { name: "Answer Short Question",   sec: "speaking",  label: "简答" },
     swt:     { name: "Summarize Written Text",  sec: "writing",   label: "一句话概括" },
     we:      { name: "Write Essay",             sec: "writing",   label: "大作文" },
@@ -45,7 +47,7 @@
   const PLAN = [
     { day: 1, title: "规则 + RA", desc: "认识考试，练朗读节奏", types: ["ra"] },
     { day: 2, title: "RS + ASQ", desc: "短时记忆，敢开口", types: ["rs", "asq"] },
-    { day: 3, title: "DI + RTS", desc: "三句话讲完图，情景能应对", types: ["di", "rts"] },
+    { day: 3, title: "DI + RL", desc: "三句话讲完图，讲座能复述", types: ["di", "rl"] },
     { day: 4, title: "SWT + WE", desc: "一句话 + 四段作文", types: ["swt", "we"] },
     { day: 5, title: "阅读 FIB", desc: "词性、搭配、逻辑", types: ["fib-rw"] },
     { day: 6, title: "RO + 多选", desc: "找首句，只选有依据的", types: ["ro", "mcq-s", "mcq-m"] },
@@ -309,7 +311,7 @@
     return ids.slice(0, 4);
   }
   function mockQueue() {
-    const auto = QS.filter(q => !["ra", "rs", "di", "rts", "swt", "we", "sst"].includes(q.type));
+    const auto = QS.filter(q => !["ra", "rs", "di", "rts", "rl", "swt", "we", "sst"].includes(q.type));
     const shuffled = auto.slice().sort(() => Math.random() - 0.5);
     return shuffled.slice(0, 10).map(q => q.id);
   }
@@ -353,7 +355,7 @@
           "<div>" +
             '<div class="eyebrow">PTE Academic · 52 分冲刺</div>' +
             "<h1>8 天，把该拿的分拿到</h1>" +
-            "<p>" + QS.length + " 道题，覆盖 19 种题型：RA、RS、DI、WFD、SWT、FIB，以及第 2 课 RS/ASQ 全部例题。做完立刻看解析。</p>" +
+            "<p>" + QS.length + " 道题，覆盖 20 种题型：RA、RS、DI、WFD、SWT、FIB，以及第 2 课 RS/ASQ 全部例题。做完立刻看解析。</p>" +
             '<div class="hero-actions">' +
               '<button class="btn btn-light" id="startToday">开始第 ' + nd.day + " 天练习 →</button>" +
               '<button class="btn btn-ghost" id="startExam" style="color:#fff;border-color:rgba(255,255,255,.25)">全真模考</button>' +
@@ -370,6 +372,7 @@
         "</div>" +
 
         '<div class="lesson-strip"><div><b>第 2 课 · RS + ASQ</b><span>PPT 里的 38 句 RS + 40 题 ASQ 已收录，一键练这一组。</span></div><button class="btn btn-primary" id="startL2">做这一组 →</button></div>' +
+        '<div class="lesson-strip"><div><b>第 3 课 · DI + RL</b><span>8 张图 + 5 篇讲座，25/40 和 10/40 计时，一键练这一组。</span></div><button class="btn btn-primary" id="startL3">做这一组 →</button></div>' +
 
         '<div class="section-title"><h2>8 天路线</h2><span>每天 4 题，约 15 分钟；其余自由加练</span></div>' +
         '<div class="plan">' + planHTML + "</div>" +
@@ -392,6 +395,7 @@
     $("#startToday").onclick = () => go("#/today");
     $("#startExam").onclick = () => go("#/exam");
     $("#startL2").onclick = () => startQueue(L2_IDS, "l2");
+    $("#startL3").onclick = () => startQueue(L3_IDS, "l3");
     document.querySelectorAll(".day").forEach(el => {
       el.onclick = () => {
         const d = PLAN.find(x => x.day === Number(el.dataset.day));
@@ -589,7 +593,7 @@
       player.idx++; renderPlayer();
     };
     startTimer();
-    if (q.type === "wfd" || q.type === "sst" || q.type === "fib-l" || q.type === "rs" || q.type === "asq") {
+    if (q.type === "wfd" || q.type === "sst" || q.type === "fib-l" || q.type === "rs" || q.type === "asq" || q.type === "rl") {
       setTimeout(() => { const b = document.querySelector("[data-play]"); if (b) b.click(); }, 600);
     }
   }
@@ -680,8 +684,18 @@
           '<div id="rec-holder" style="margin-top:12px"></div>';
       }
       case "di": {
-        return '<div style="background:var(--paper);border-radius:12px;padding:12px">' + chartSVG(q.chart) + "</div>" +
+        const visual = q.chart && q.chart.type === "image"
+          ? '<img src="' + esc(q.chart.src) + '" alt="' + esc(q.chart.title || "Describe Image") + '" style="width:100%;display:block;border-radius:10px">'
+          : chartSVG(q.chart);
+        return '<div style="background:var(--paper);border-radius:12px;padding:12px">' + visual + "</div>" +
           '<div class="actions"><button class="btn btn-ghost" id="recBtn">● 开始录音</button><span class="note" style="margin:0">25 秒准备，40 秒作答</span></div>' +
+          '<div id="rec-holder" style="margin-top:12px"></div>';
+      }
+      case "rl": {
+        return '<div class="audio-box"><div class="wave"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>' +
+          '<button class="btn btn-primary" data-play>▶ 播放讲座</button><span class="label">10 秒准备，40 秒复述</span></div>' +
+          '<p class="note">先记 4 个关键词：主题 / 要点 1 / 要点 2 / 例子；复述时用自己的话。</p>' +
+          '<div class="actions"><button class="btn btn-ghost" id="recBtn">● 开始录音</button></div>' +
           '<div id="rec-holder" style="margin-top:12px"></div>';
       }
       case "rs": {
