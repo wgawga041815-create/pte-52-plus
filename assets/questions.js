@@ -1,6 +1,5 @@
-/* PTE 52 Lab Plus — 扩充题库
- * 所有题目按官方题型自编，非真题原文。
- * 含第 2 课 RS / ASQ 全部例题。
+/* PTE 52 Lab Plus — 164 questions
+ * Lesson 3 DI + RL examples included.
  */
 window.QUESTIONS = [
   {
@@ -3235,5 +3234,340 @@ window.QUESTIONS = [
       "hydrogen"
     ],
     "answer": 0
+  },
+  {
+    "id": "di-09",
+    "type": "di",
+    "section": "speaking",
+    "level": 2,
+    "time": 65,
+    "title": "能源结构（柱状图）",
+    "lesson": "L3",
+    "instruction": "25 秒准备，40 秒作答。用“开头—特征—对比—结论”；至少说 3 个特征。",
+    "chart": {
+      "type": "image",
+      "src": "assets/di/di-energy.png",
+      "title": "能源结构（柱状图）"
+    },
+    "model": "The bar chart shows the share of energy sources in Country X in 2024. Coal was the largest source, at 32 percent, followed by gas at 24 percent. Hydro and wind accounted for 15 and 14 percent respectively, while solar made up 9 percent. Nuclear was the smallest, at 6 percent. Overall, fossil fuels still supplied more than half of the country's energy, but renewables together reached 38 percent.",
+    "checklist": [
+      "开头说清图型 + 主题",
+      "说了 3 个特征",
+      "至少 2 个数字",
+      "有一句 Overall",
+      "说满 35–40 秒"
+    ],
+    "explanation": "DI 评分看 Content（关键元素、关系、结论）、Oral fluency、Pronunciation；不要求每个数字，但不能漏掉趋势和 overall。",
+    "tip": "先总述，再说最高/相加/最低；不要逐根读。"
+  },
+  {
+    "id": "di-10",
+    "type": "di",
+    "section": "speaking",
+    "level": 2,
+    "time": 65,
+    "title": "可再生能源占比（折线图）",
+    "lesson": "L3",
+    "instruction": "25 秒准备，40 秒作答。用“开头—特征—对比—结论”；至少说 3 个特征。",
+    "chart": {
+      "type": "image",
+      "src": "assets/di/di-renewable.png",
+      "title": "可再生能源占比（折线图）"
+    },
+    "model": "The line graph shows the share of renewable energy from 2010 to 2024. It rose steadily from 12 percent in 2010 to 41 percent in 2024. The increase was especially strong after 2018, when the figure climbed from 25 to 33 percent in four years. Overall, renewable energy more than tripled over the period, and the upward trend is likely to continue.",
+    "checklist": [
+      "开头说清图型 + 主题",
+      "说了 3 个特征",
+      "至少 2 个数字",
+      "有一句 Overall",
+      "说满 35–40 秒"
+    ],
+    "explanation": "DI 评分看 Content（关键元素、关系、结论）、Oral fluency、Pronunciation；不要求每个数字，但不能漏掉趋势和 overall。",
+    "tip": "折线图先说起点和终点，中间只挑一个加速段。"
+  },
+  {
+    "id": "di-11",
+    "type": "di",
+    "section": "speaking",
+    "level": 2,
+    "time": 65,
+    "title": "家庭用水（饼图）",
+    "lesson": "L3",
+    "instruction": "25 秒准备，40 秒作答。用“开头—特征—对比—结论”；至少说 3 个特征。",
+    "chart": {
+      "type": "image",
+      "src": "assets/di/di-water.png",
+      "title": "家庭用水（饼图）"
+    },
+    "model": "The pie chart shows how water is used in the home. Showering accounted for the largest share, at 35 percent, followed by toilets at 25 percent and laundry at 18 percent. Kitchen and garden use made up 12 and 10 percent respectively. Overall, personal hygiene and sanitation together used 60 percent of household water, while outdoor use was the smallest category.",
+    "checklist": [
+      "开头说清图型 + 主题",
+      "说了 3 个特征",
+      "至少 2 个数字",
+      "有一句 Overall",
+      "说满 35–40 秒"
+    ],
+    "explanation": "DI 评分看 Content（关键元素、关系、结论）、Oral fluency、Pronunciation；不要求每个数字，但不能漏掉趋势和 overall。",
+    "tip": "饼图不要读所有块；相邻两块相加就是好特征。"
+  },
+  {
+    "id": "di-12",
+    "type": "di",
+    "section": "speaking",
+    "level": 2,
+    "time": 65,
+    "title": "五国入境游客（表格）",
+    "lesson": "L3",
+    "instruction": "25 秒准备，40 秒作答。用“开头—特征—对比—结论”；至少说 3 个特征。",
+    "chart": {
+      "type": "image",
+      "src": "assets/di/di-tourism.png",
+      "title": "五国入境游客（表格）"
+    },
+    "model": "The table shows international tourist arrivals in five countries in 2024. France received the most visitors, at 89 million, followed by Spain with 84 million and the USA with 79 million. China attracted 66 million, the lowest figure, and was also the only country with a decline of 1 percent. Overall, four of the five destinations grew, with Spain recording the strongest increase at 5 percent.",
+    "checklist": [
+      "开头说清图型 + 主题",
+      "说了 3 个特征",
+      "至少 2 个数字",
+      "有一句 Overall",
+      "说满 35–40 秒"
+    ],
+    "explanation": "DI 评分看 Content（关键元素、关系、结论）、Oral fluency、Pronunciation；不要求每个数字，但不能漏掉趋势和 overall。",
+    "tip": "表格先说最高/最低，再说唯一的 negative。"
+  },
+  {
+    "id": "di-13",
+    "type": "di",
+    "section": "speaking",
+    "level": 2,
+    "time": 65,
+    "title": "塑料瓶回收（流程图）",
+    "lesson": "L3",
+    "instruction": "25 秒准备，40 秒作答。用“开头—特征—对比—结论”；至少说 3 个特征。",
+    "chart": {
+      "type": "image",
+      "src": "assets/di/di-recycling.png",
+      "title": "塑料瓶回收（流程图）"
+    },
+    "model": "The diagram shows how plastic bottles are recycled. First, used bottles are collected from homes and businesses. They are then sorted by type and colour, before being cleaned to remove labels and dirt. Next, the plastic is processed into small pellets. Finally, these pellets are used to make new products. Overall, the process has five main stages and turns used bottles into raw material for new items.",
+    "checklist": [
+      "开头说清图型 + 主题",
+      "说了 3 个特征",
+      "至少 2 个数字",
+      "有一句 Overall",
+      "说满 35–40 秒"
+    ],
+    "explanation": "DI 评分看 Content（关键元素、关系、结论）、Oral fluency、Pronunciation；不要求每个数字，但不能漏掉趋势和 overall。",
+    "tip": "流程图用 First / Then / Next / Finally；每步只读动词 + 宾语。"
+  },
+  {
+    "id": "di-14",
+    "type": "di",
+    "section": "speaking",
+    "level": 2,
+    "time": 65,
+    "title": "校园设施（地图）",
+    "lesson": "L3",
+    "instruction": "25 秒准备，40 秒作答。用“开头—特征—对比—结论”；至少说 3 个特征。",
+    "chart": {
+      "type": "image",
+      "src": "assets/di/di-campus.png",
+      "title": "校园设施（地图）"
+    },
+    "model": "The map shows the main facilities on a university campus. The library is in the north-west, next to the lecture hall, while the café and gym are in the north-east. The student centre is in the south-east, near the bus stop, which is in the south-west. A path connects the bus stop, the student centre and the gym. Overall, the campus is compact, and the main buildings are within walking distance.",
+    "checklist": [
+      "开头说清图型 + 主题",
+      "说了 3 个特征",
+      "至少 2 个数字",
+      "有一句 Overall",
+      "说满 35–40 秒"
+    ],
+    "explanation": "DI 评分看 Content（关键元素、关系、结论）、Oral fluency、Pronunciation；不要求每个数字，但不能漏掉趋势和 overall。",
+    "tip": "地图用方位词；不要编路线细节。"
+  },
+  {
+    "id": "di-15",
+    "type": "di",
+    "section": "speaking",
+    "level": 2,
+    "time": 65,
+    "title": "通勤方式（柱状图）",
+    "lesson": "L3",
+    "instruction": "25 秒准备，40 秒作答。用“开头—特征—对比—结论”；至少说 3 个特征。",
+    "chart": {
+      "type": "image",
+      "src": "assets/di/di-commute.png",
+      "title": "通勤方式（柱状图）"
+    },
+    "model": "The bar chart shows how people in a city commute. Nearly half of them, 48 percent, travel by car. Buses are the second most common option at 22 percent, followed by trains at 15 percent. Cycling and walking account for 9 and 6 percent respectively. Overall, private cars remain dominant, while public transport is used by just over a third of commuters.",
+    "checklist": [
+      "开头说清图型 + 主题",
+      "说了 3 个特征",
+      "至少 2 个数字",
+      "有一句 Overall",
+      "说满 35–40 秒"
+    ],
+    "explanation": "DI 评分看 Content（关键元素、关系、结论）、Oral fluency、Pronunciation；不要求每个数字，但不能漏掉趋势和 overall。",
+    "tip": "两个数字相加（22+15=37）比逐根读更有内容分。"
+  },
+  {
+    "id": "di-16",
+    "type": "di",
+    "section": "speaking",
+    "level": 2,
+    "time": 65,
+    "title": "空气质量指数（折线图）",
+    "lesson": "L3",
+    "instruction": "25 秒准备，40 秒作答。用“开头—特征—对比—结论”；至少说 3 个特征。",
+    "chart": {
+      "type": "image",
+      "src": "assets/di/di-air.png",
+      "title": "空气质量指数（折线图）"
+    },
+    "model": "The line graph shows the air quality index from 2015 to 2023. A lower index means better air quality. The index fell from 82 in 2015 to 58 in 2023, a drop of 24 points. The decline was steady, with only small fluctuations. Overall, air quality improved over the period, and the trend suggests it is likely to continue.",
+    "checklist": [
+      "开头说清图型 + 主题",
+      "说了 3 个特征",
+      "至少 2 个数字",
+      "有一句 Overall",
+      "说满 35–40 秒"
+    ],
+    "explanation": "DI 评分看 Content（关键元素、关系、结论）、Oral fluency、Pronunciation；不要求每个数字，但不能漏掉趋势和 overall。",
+    "tip": "先解释 lower is better，否则会把下降说成变差。"
+  },
+  {
+    "id": "rl-01",
+    "type": "rl",
+    "section": "speaking",
+    "level": 2,
+    "time": 100,
+    "title": "城市绿地（讲座）",
+    "lesson": "L3",
+    "instruction": "听讲座，10 秒准备，40 秒复述。记 4 个关键词，用自己的话。",
+    "audio": "Today I want to discuss green spaces in cities. Parks are not just decorative. They cool the air, absorb rainwater and give people a place to exercise. Research also shows that residents living near trees report lower stress. However, parks are expensive to maintain, and some cities struggle to keep them safe. The speaker argues that cities should design green spaces that are cheap to maintain and easy to use, rather than building expensive showpiece parks.",
+    "keypoints": [
+      "Parks cool air, absorb rainwater, provide exercise",
+      "Residents near trees report lower stress",
+      "Maintenance is expensive; safety is a concern",
+      "Design cheap, safe, easy-to-use green spaces"
+    ],
+    "model": "The lecture discusses the role of green spaces in cities. First, the speaker explains that parks cool the air, absorb rainwater and provide places for exercise. Second, research shows that residents living near trees feel less stressed. However, parks are expensive to maintain and can be unsafe. In conclusion, the speaker argues that cities should design cheap, safe and easy-to-use green spaces rather than expensive showpiece parks.",
+    "checklist": [
+      "第一句有主题",
+      "2 个要点",
+      "1 个例子/数字",
+      "有 In conclusion",
+      "40 秒内说完"
+    ],
+    "explanation": "RL 评分看 Content（关键要点、关系、结论）、Oral fluency、Pronunciation；不要逐句背原文。",
+    "tip": "两个好处 + 一个转折 + 一个建议；不要背原文形容词。"
+  },
+  {
+    "id": "rl-02",
+    "type": "rl",
+    "section": "speaking",
+    "level": 2,
+    "time": 100,
+    "title": "睡眠与记忆（讲座）",
+    "lesson": "L3",
+    "instruction": "听讲座，10 秒准备，40 秒复述。记 4 个关键词，用自己的话。",
+    "audio": "Today's lecture is about sleep and memory. During deep sleep, the brain replays information from the day and moves it into long-term memory. Students who sleep seven to eight hours before an exam usually remember more than those who stay up late. However, caffeine and screens can delay sleep. The speaker recommends a regular routine and says that a good night's sleep is part of effective revision.",
+    "keypoints": [
+      "Deep sleep moves information into long-term memory",
+      "7–8 hours before an exam improves recall",
+      "Caffeine and screens delay sleep",
+      "Regular routine; sleep is part of revision"
+    ],
+    "model": "The lecture explains how sleep affects memory. During deep sleep, the brain replays information from the day and moves it into long-term memory. Students who sleep seven to eight hours before an exam remember more than those who stay up late. The speaker also warns that caffeine and screens can delay sleep. In conclusion, a regular routine and a good night's sleep are part of effective revision.",
+    "checklist": [
+      "第一句有主题",
+      "2 个要点",
+      "1 个例子/数字",
+      "有 In conclusion",
+      "40 秒内说完"
+    ],
+    "explanation": "RL 评分看 Content（关键要点、关系、结论）、Oral fluency、Pronunciation；不要逐句背原文。",
+    "tip": "数字 7–8 小时要保留；caffeine / screens 是第二个要点。"
+  },
+  {
+    "id": "rl-03",
+    "type": "rl",
+    "section": "speaking",
+    "level": 2,
+    "time": 100,
+    "title": "远程工作（讲座）",
+    "lesson": "L3",
+    "instruction": "听讲座，10 秒准备，40 秒复述。记 4 个关键词，用自己的话。",
+    "audio": "Remote work has become common in many companies. Employees save time on commuting and can organize their day more flexibly. However, working alone for long periods can make people feel isolated, and managers find it harder to build trust. Many companies now combine remote work with regular office days. The speaker suggests that the future is hybrid, not fully remote.",
+    "keypoints": [
+      "Saves commuting time; flexible schedule",
+      "Isolation; harder to build trust",
+      "Many companies combine home and office",
+      "Future is hybrid, not fully remote"
+    ],
+    "model": "The lecture discusses the advantages and disadvantages of remote work. Employees save commuting time and can organize their day flexibly. However, working alone for long periods can make people feel isolated, and managers find it harder to build trust. The speaker notes that many companies now combine remote work with regular office days. In conclusion, the future is likely to be hybrid rather than fully remote.",
+    "checklist": [
+      "第一句有主题",
+      "2 个要点",
+      "1 个例子/数字",
+      "有 In conclusion",
+      "40 秒内说完"
+    ],
+    "explanation": "RL 评分看 Content（关键要点、关系、结论）、Oral fluency、Pronunciation；不要逐句背原文。",
+    "tip": "两个好处 + 两个问题 + 一个结论；hybrid 是关键词。"
+  },
+  {
+    "id": "rl-04",
+    "type": "rl",
+    "section": "speaking",
+    "level": 2,
+    "time": 100,
+    "title": "食物浪费（讲座）",
+    "lesson": "L3",
+    "instruction": "听讲座，10 秒准备，40 秒复述。记 4 个关键词，用自己的话。",
+    "audio": "A third of the food produced for human consumption is wasted. In wealthy countries, much of this waste happens in shops and homes, where food is thrown away after passing a label date. In poorer countries, waste often occurs after harvest because storage is inadequate. Apps can connect shops with buyers, but the speaker argues that prevention is better than finding new uses for wasted food. Solutions therefore need to differ by region.",
+    "keypoints": [
+      "One third of food is wasted",
+      "Rich countries: shops and homes",
+      "Poor countries: after harvest, poor storage",
+      "Prevention > new uses; solutions differ by region"
+    ],
+    "model": "The lecture is about food waste. A third of food produced for human consumption is wasted. In rich countries, much waste happens in shops and homes; in poorer countries, it happens after harvest because storage is inadequate. Apps can connect shops with buyers, but the speaker argues that prevention is better than finding new uses for wasted food. In conclusion, solutions need to differ by region.",
+    "checklist": [
+      "第一句有主题",
+      "2 个要点",
+      "1 个例子/数字",
+      "有 In conclusion",
+      "40 秒内说完"
+    ],
+    "explanation": "RL 评分看 Content（关键要点、关系、结论）、Oral fluency、Pronunciation；不要逐句背原文。",
+    "tip": "对比 rich / poor 两个原因；prevention 是结论关键词。"
+  },
+  {
+    "id": "rl-05",
+    "type": "rl",
+    "section": "speaking",
+    "level": 2,
+    "time": 100,
+    "title": "博物馆与社区（讲座）",
+    "lesson": "L3",
+    "instruction": "听讲座，10 秒准备，40 秒复述。记 4 个关键词，用自己的话。",
+    "audio": "Today's topic is the changing role of museums. Museums used to be mainly storehouses of objects, but many now run workshops, talks and school programmes. These activities attract local residents who rarely visit traditional exhibitions. However, they require staff time and funding. The speaker argues that museums should measure their community impact, not only visitor numbers.",
+    "keypoints": [
+      "Museums used to store objects",
+      "Now run workshops, talks, school programmes",
+      "Attract local residents; need staff and funding",
+      "Measure community impact, not only visitor numbers"
+    ],
+    "model": "The lecture discusses the changing role of museums. Museums used to be storehouses of objects, but many now run workshops, talks and school programmes. These activities attract local residents who rarely visit traditional exhibitions. However, they require staff time and funding. In conclusion, the speaker argues that museums should measure their community impact, not only visitor numbers.",
+    "checklist": [
+      "第一句有主题",
+      "2 个要点",
+      "1 个例子/数字",
+      "有 In conclusion",
+      "40 秒内说完"
+    ],
+    "explanation": "RL 评分看 Content（关键要点、关系、结论）、Oral fluency、Pronunciation；不要逐句背原文。",
+    "tip": "过去 vs 现在；转折 however；结论是 measure community impact。"
   }
 ];
