@@ -13,6 +13,8 @@
     if (BY_ID[id] && !L2_IDS.includes(id)) L2_IDS.push(id);
   });
   const L3_IDS = QS.filter(q => q.lesson === "L3").map(q => q.id);
+  const L4_IDS = QS.filter(q => q.type === "rts" || q.lesson === "L4").map(q => q.id);
+  const L5_IDS = QS.filter(q => q.type === "swt" || q.type === "we").map(q => q.id);
 
   const TYPE = {
     ra:      { name: "Read Aloud",              sec: "speaking",  label: "朗读" },
@@ -20,6 +22,7 @@
     di:      { name: "Describe Image",          sec: "speaking",  label: "描述图片" },
     rts:     { name: "Respond to a Situation",  sec: "speaking",  label: "情景应答" },
     rl:      { name: "Retell Lecture",          sec: "speaking",  label: "复述讲座" },
+    sgd:     { name: "Summarize Group Discussion", sec: "speaking", label: "总结讨论" },
     asq:     { name: "Answer Short Question",   sec: "speaking",  label: "简答" },
     swt:     { name: "Summarize Written Text",  sec: "writing",   label: "一句话概括" },
     we:      { name: "Write Essay",             sec: "writing",   label: "大作文" },
@@ -311,7 +314,7 @@
     return ids.slice(0, 4);
   }
   function mockQueue() {
-    const auto = QS.filter(q => !["ra", "rs", "di", "rts", "rl", "swt", "we", "sst"].includes(q.type));
+    const auto = QS.filter(q => !["ra", "rs", "di", "rts", "rl", "sgd", "swt", "we", "sst"].includes(q.type));
     const shuffled = auto.slice().sort(() => Math.random() - 0.5);
     return shuffled.slice(0, 10).map(q => q.id);
   }
@@ -355,7 +358,7 @@
           "<div>" +
             '<div class="eyebrow">PTE Academic · 52 分冲刺</div>' +
             "<h1>8 天，把该拿的分拿到</h1>" +
-            "<p>" + QS.length + " 道题，覆盖 20 种题型：RA、RS、DI、WFD、SWT、FIB，以及第 2 课 RS/ASQ 全部例题。做完立刻看解析。</p>" +
+            "<p>" + QS.length + " 道题，覆盖 21 种题型：RA、RS、DI、WFD、SWT、FIB，以及第 2 课 RS/ASQ 全部例题。做完立刻看解析。</p>" +
             '<div class="hero-actions">' +
               '<button class="btn btn-light" id="startToday">开始第 ' + nd.day + " 天练习 →</button>" +
               '<button class="btn btn-ghost" id="startExam" style="color:#fff;border-color:rgba(255,255,255,.25)">全真模考</button>' +
@@ -373,6 +376,8 @@
 
         '<div class="lesson-strip"><div><b>第 2 课 · RS + ASQ</b><span>PPT 里的 38 句 RS + 40 题 ASQ 已收录，一键练这一组。</span></div><button class="btn btn-primary" id="startL2">做这一组 →</button></div>' +
         '<div class="lesson-strip"><div><b>第 3 课 · DI + RL</b><span>8 张图 + 5 篇讲座，25/40 和 10/40 计时，一键练这一组。</span></div><button class="btn btn-primary" id="startL3">做这一组 →</button></div>' +
+        '<div class="lesson-strip"><div><b>第 4 课 · RTS + SGD</b><span>8 个情景应答 + 3 篇小组讨论，10/40 和 2 分钟总结，一键练这一组。</span></div><button class="btn btn-primary" id="startL4">做这一组 →</button></div>' +
+        '<div class="lesson-strip"><div><b>第 5 课 · SWT + WE</b><span>8 篇一句话概括 + 6 个作文题，10 分钟/20 分钟计时，一键练这一组。</span></div><button class="btn btn-primary" id="startL5">做这一组 →</button></div>' +
 
         '<div class="section-title"><h2>8 天路线</h2><span>每天 4 题，约 15 分钟；其余自由加练</span></div>' +
         '<div class="plan">' + planHTML + "</div>" +
@@ -396,6 +401,8 @@
     $("#startExam").onclick = () => go("#/exam");
     $("#startL2").onclick = () => startQueue(L2_IDS, "l2");
     $("#startL3").onclick = () => startQueue(L3_IDS, "l3");
+    $("#startL4").onclick = () => startQueue(L4_IDS, "l4");
+    $("#startL5").onclick = () => startQueue(L5_IDS, "l5");
     document.querySelectorAll(".day").forEach(el => {
       el.onclick = () => {
         const d = PLAN.find(x => x.day === Number(el.dataset.day));
@@ -593,7 +600,7 @@
       player.idx++; renderPlayer();
     };
     startTimer();
-    if (q.type === "wfd" || q.type === "sst" || q.type === "fib-l" || q.type === "rs" || q.type === "asq" || q.type === "rl") {
+    if (q.type === "wfd" || q.type === "sst" || q.type === "fib-l" || q.type === "rs" || q.type === "asq" || q.type === "rl" || q.type === "sgd") {
       setTimeout(() => { const b = document.querySelector("[data-play]"); if (b) b.click(); }, 600);
     }
   }
@@ -689,6 +696,13 @@
           : chartSVG(q.chart);
         return '<div style="background:var(--paper);border-radius:12px;padding:12px">' + visual + "</div>" +
           '<div class="actions"><button class="btn btn-ghost" id="recBtn">● 开始录音</button><span class="note" style="margin:0">25 秒准备，40 秒作答</span></div>' +
+          '<div id="rec-holder" style="margin-top:12px"></div>';
+      }
+      case "sgd": {
+        return '<div class="audio-box"><div class="wave"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>' +
+          '<button class="btn btn-primary" data-play>▶ 播放讨论</button><span class="label">10 秒准备，2 分钟总结</span></div>' +
+          '<p class="note">笔记分三栏：S1 / S2 / S3；标出 = 同意、≠ 反对，最后写 outcome。</p>' +
+          '<div class="actions"><button class="btn btn-ghost" id="recBtn">● 开始录音</button></div>' +
           '<div id="rec-holder" style="margin-top:12px"></div>';
       }
       case "rl": {
