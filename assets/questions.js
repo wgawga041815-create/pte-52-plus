@@ -1,5 +1,5 @@
-/* PTE 52 Lab Plus — 164 questions
- * Lesson 3 DI + RL examples included.
+/* PTE 52 Lab Plus — 170 questions
+ * Lesson 4 RTS + SGD and Lesson 5 SWT + WE included.
  */
 window.QUESTIONS = [
   {
@@ -220,15 +220,15 @@ window.QUESTIONS = [
     "time": 55,
     "title": "朋友找自习室",
     "instruction": "10 秒准备，40 秒作答。给一个具体地点 + 两个理由。",
-    "content": "A friend is visiting your city and asks where to study for a few hours. Respond to your friend.",
-    "model": "I'd recommend the city library. It's quiet, free, and right next to the metro. If you need a coffee, there's a cafe downstairs. I can show you the way on Saturday.",
+    "content": "Your friend cannot find a quiet place to study. You know an empty seminar room on campus. Respond to your friend.",
+    "model": "Hi, I know the library is full. You could use the empty seminar room on the second floor; I saw it was free this morning. It's quiet until four, so you could study there. I can show you where it is.",
     "checklist": [
       "给了明确地点",
       "给了两个理由",
       "有收尾句"
     ],
-    "explanation": "理由用 it's + 形容词 就够了：quiet、free、close to transport。",
-    "tip": "卡住时用 Let me put it another way 争取 2 秒，不要沉默。"
+    "explanation": "RTS 只给口语供分：先回应，再给具体地点和可用时间；不要总结情景。",
+    "tip": "给具体地点 + 可用时间；不要说“随便找个地方”。"
   },
   {
     "id": "swt-01",
@@ -3569,5 +3569,152 @@ window.QUESTIONS = [
     ],
     "explanation": "RL 评分看 Content（关键要点、关系、结论）、Oral fluency、Pronunciation；不要逐句背原文。",
     "tip": "过去 vs 现在；转折 however；结论是 measure community impact。"
+  },
+  {
+    "id": "sgd-01",
+    "type": "sgd",
+    "section": "speaking",
+    "level": 3,
+    "time": 160,
+    "title": "校园健身房开放时间",
+    "lesson": "L4",
+    "instruction": "听 3 人讨论，10 秒准备，2 分钟总结。要说清谁说了什么、他们同意/反对什么、最后结果。",
+    "audio": "Speaker 1: I think the gym should stay open until 11 p.m. Many students have labs in the afternoon and can only exercise late. It's also good for mental health. Speaker 2: I see the point, but staff and security costs would rise. I doubt many people would use it after 10. I'd rather spend the money on more equipment. Speaker 3: Why not trial it for two weeks until 9 p.m.? We can check the usage data and decide. That keeps costs down and helps students who finish late. Speaker 2: I could accept that if we review the numbers after the trial.",
+    "keypoints": [
+      "S1: extend to 11 pm; late labs; mental health",
+      "S2: cost; few users after 10; prefer equipment",
+      "S3: trial to 9 pm, 2 weeks, check data",
+      "Outcome: trial accepted with review"
+    ],
+    "model": "The three speakers discussed whether the campus gym should stay open later. The first speaker supported extending it until 11 p.m., arguing that students with afternoon labs can only exercise late and that it would help mental health. The second speaker was concerned about staff and security costs, doubted that many people would use the gym after 10, and preferred to spend the money on equipment. The third speaker proposed a two-week trial until 9 p.m. and checking the usage data before making a decision. In the end, the second speaker accepted the trial on condition that the numbers were reviewed.",
+    "checklist": [
+      "第一句有主题",
+      "3 个说话人都提到",
+      "说清 = / ≠",
+      "有 outcome",
+      "说满 90 秒以上"
+    ],
+    "explanation": "SGD 同时给口语和听力供分；Content 0–6。不要按顺序流水账；要 paraphrase，并说明三人观点关系。",
+    "tip": "总述 + 三人 + 结论；trial 是关键词。"
+  },
+  {
+    "id": "sgd-02",
+    "type": "sgd",
+    "section": "speaking",
+    "level": 3,
+    "time": 160,
+    "title": "线上考试",
+    "lesson": "L4",
+    "instruction": "听 3 人讨论，10 秒准备，2 分钟总结。要说清谁说了什么、他们同意/反对什么、最后结果。",
+    "audio": "Speaker 1: Online exams are better. Students can type instead of handwriting, and people with disabilities can use their own equipment. It also reduces exam stress. Speaker 2: But cheating is a serious risk, and the internet can fail. If we don't use proctoring, the results won't be trusted. I think we should keep written exams. Speaker 3: Maybe we don't need a choice between online and written. We could use open-book online tasks plus a short oral check. That tests understanding and makes cheating harder. Speaker 1: I like that, as long as the oral check is manageable for large classes.",
+    "keypoints": [
+      "S1: typing, accessibility, less stress",
+      "S2: cheating, internet failure, trust",
+      "S3: open-book + oral check",
+      "Outcome: mixed model, manageable oral check"
+    ],
+    "model": "The three speakers discussed whether exams should be online. The first speaker supported online exams because students can type, people with disabilities can use their own equipment, and the format reduces stress. The second speaker worried about cheating and internet failure, arguing that without proctoring the results would not be trusted, and preferred written exams. The third speaker suggested a mixed model: open-book online tasks plus a short oral check, which would test understanding and make cheating harder. The first speaker agreed, provided the oral check was manageable for large classes.",
+    "checklist": [
+      "第一句有主题",
+      "3 个说话人都提到",
+      "说清 = / ≠",
+      "有 outcome",
+      "说满 90 秒以上"
+    ],
+    "explanation": "SGD 同时给口语和听力供分；Content 0–6。不要按顺序流水账；要 paraphrase，并说明三人观点关系。",
+    "tip": "不要只说 online vs written；结论是 mixed model。"
+  },
+  {
+    "id": "sgd-03",
+    "type": "sgd",
+    "section": "speaking",
+    "level": 3,
+    "time": 160,
+    "title": "小组作业评分",
+    "lesson": "L4",
+    "instruction": "听 3 人讨论，10 秒准备，2 分钟总结。要说清谁说了什么、他们同意/反对什么、最后结果。",
+    "audio": "Speaker 1: I don't like group grades. One person does most of the work, but everyone gets the same mark. It's unfair. I'd prefer individual grades. Speaker 2: But group work is about teamwork, and individual grades don't reward collaboration. We could use peer assessment so students rate each other's contribution. Speaker 3: Why not split the grade? Sixty percent for the group product and forty percent for individual contribution, with a short contribution log. That rewards both teamwork and effort. Speaker 2: That seems fair, if the log is simple and the criteria are clear.",
+    "keypoints": [
+      "S1: group grade unfair; individual",
+      "S2: teamwork; peer assessment",
+      "S3: 60/40 + contribution log",
+      "Outcome: split grade with clear criteria"
+    ],
+    "model": "The three speakers discussed how group projects should be graded. The first speaker opposed group grades because one person often does most of the work while everyone receives the same mark, and preferred individual grades. The second speaker defended group work as a way to reward teamwork and suggested peer assessment instead. The third speaker proposed splitting the grade: 60 percent for the group product and 40 percent for individual contribution, supported by a short contribution log. The second speaker agreed, provided the log was simple and the criteria were clear.",
+    "checklist": [
+      "第一句有主题",
+      "3 个说话人都提到",
+      "说清 = / ≠",
+      "有 outcome",
+      "说满 90 秒以上"
+    ],
+    "explanation": "SGD 同时给口语和听力供分；Content 0–6。不要按顺序流水账；要 paraphrase，并说明三人观点关系。",
+    "tip": "结论是 60/40；不要漏掉 contribution log。"
+  },
+  {
+    "id": "swt-07",
+    "type": "swt",
+    "section": "writing",
+    "level": 2,
+    "time": 600,
+    "title": "旅游与过度拥挤",
+    "lesson": "L5",
+    "instruction": "10 分钟内用一句话概括（5–75 词），只能有一个句号。",
+    "content": "Tourism brings income to local communities and supports hotels, restaurants and transport. However, popular destinations often suffer from overcrowding, rising rents and environmental damage. Some cities now limit visitor numbers or ban large cruise ships. Residents generally support these measures, although businesses worry about losing revenue.",
+    "model": "Although tourism brings income to local communities, some destinations are limiting visitor numbers because overcrowding, rising rents and environmental damage make daily life harder for residents.",
+    "checklist": [
+      "只有一个句号",
+      "字数 35–55",
+      "覆盖主旨 + 转折",
+      "没有抄整句"
+    ],
+    "explanation": "SWT 评分：Content 2、Form 1、Grammar 2、Vocabulary 2；少于 5 或多于 75 词 = 0，两个句号 = Form 0。",
+    "tip": "公式：Although A, B because C。先保一句，再改高级词。"
+  },
+  {
+    "id": "swt-08",
+    "type": "swt",
+    "section": "writing",
+    "level": 2,
+    "time": 600,
+    "title": "博物馆与社区",
+    "lesson": "L5",
+    "instruction": "10 分钟内用一句话概括（5–75 词），只能有一个句号。",
+    "content": "Museums used to be mainly storehouses of objects, but many now run workshops, talks and school programmes. These activities attract local residents who rarely visit traditional exhibitions. However, they require staff time and funding. Museums should therefore measure their community impact, not only visitor numbers.",
+    "model": "Although museums still need funding, many now run workshops and school programmes because these activities attract local residents and allow museums to measure community impact rather than visitor numbers alone.",
+    "checklist": [
+      "只有一个句号",
+      "字数 35–55",
+      "覆盖主旨 + 转折",
+      "没有抄整句"
+    ],
+    "explanation": "SWT 评分：Content 2、Form 1、Grammar 2、Vocabulary 2；少于 5 或多于 75 词 = 0，两个句号 = Form 0。",
+    "tip": "公式：Although A, B because C。先保一句，再改高级词。"
+  },
+  {
+    "id": "we-06",
+    "type": "we",
+    "section": "writing",
+    "level": 2,
+    "time": 1200,
+    "title": "社交媒体的影响",
+    "lesson": "L5",
+    "instruction": "20 分钟写 200–300 词，四段：观点 / 理由 1 / 理由 2 / 结论。",
+    "content": "Some people think social media brings people together, while others believe it makes people more isolated. Discuss both views and give your own opinion.",
+    "outline": [
+      "引言：双方观点 + 我的立场（取决于使用方式）",
+      "主体 1：连接远方亲友 + 例子",
+      "主体 2：被动刷屏、比较、焦虑",
+      "结论：数字素养 + 平衡使用"
+    ],
+    "model": "Social media is often praised for connecting people, but it is also blamed for increasing isolation. In my view, its effect depends on how it is used and on the skills of the user.\n\nOn the one hand, social media allows families and friends to stay in touch across distances. For example, international students can speak to their parents every day at little cost, and older relatives can see photos of family events. For people who live alone or have limited mobility, these platforms can reduce loneliness and provide practical support.\n\nOn the other hand, passive scrolling can replace face-to-face contact and increase anxiety. People may compare their lives with edited images and feel lonelier, while spending hours online can crowd out sleep, exercise and real conversations. The problem is not the platform itself but the way it is used.\n\nIn conclusion, social media is a tool rather than a solution. Digital literacy and balanced use determine whether it connects or isolates us.",
+    "checklist": [
+      "四段清楚",
+      "字数 200+",
+      "每段有例子或解释",
+      "立场明确"
+    ],
+    "explanation": "WE 评分看内容、形式、展开、语法、词汇、拼写；52 分不需要复杂论证，需要结构完整、字数够、不跑题。",
+    "tip": "三个万能理由：save time / save money / more convenient，但每段要配一个具体例子。"
   }
 ];
