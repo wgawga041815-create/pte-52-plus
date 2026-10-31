@@ -1,5 +1,5 @@
-/* PTE 52 Lab Plus — 170 questions
- * Lesson 4 RTS + SGD and Lesson 5 SWT + WE included.
+/* PTE 52 Lab Plus — 183 questions
+ * Expanded RTS (16) and SGD (8) banks.
  */
 window.QUESTIONS = [
   {
@@ -3716,5 +3716,292 @@ window.QUESTIONS = [
     ],
     "explanation": "WE 评分看内容、形式、展开、语法、词汇、拼写；52 分不需要复杂论证，需要结构完整、字数够、不跑题。",
     "tip": "三个万能理由：save time / save money / more convenient，但每段要配一个具体例子。"
+  },
+  {
+    "id": "rts-09",
+    "type": "rts",
+    "section": "speaking",
+    "level": 2,
+    "time": 55,
+    "title": "请教授写推荐信",
+    "lesson": "L4",
+    "instruction": "读情景，10 秒准备，40 秒作答。用“回应—说明—理由/安排—收尾”。",
+    "content": "Your professor has agreed to write a reference letter for your master's application, but you need to confirm the deadline and provide your CV. Talk to your professor.",
+    "model": "Dear Professor Lee, thank you for agreeing to write my reference letter. The application deadline is 15 November. I've attached my CV and a list of relevant courses. Would you like any other information, such as my transcript or personal statement? I'm happy to meet during your office hours.",
+    "checklist": [
+      "先回应了对方",
+      "给出了具体建议/安排",
+      "说满 30 秒"
+    ],
+    "explanation": "RTS 只给口语供分，Content 0–6；要直接对情景里的人说话，不总结情景，细节不能改。",
+    "tip": "正式语气：感谢 + deadline + 材料 + 下一步。"
+  },
+  {
+    "id": "rts-10",
+    "type": "rts",
+    "section": "speaking",
+    "level": 2,
+    "time": 55,
+    "title": "图书馆书逾期",
+    "lesson": "L4",
+    "instruction": "读情景，10 秒准备，40 秒作答。用“回应—说明—理由/安排—收尾”。",
+    "content": "Your library book is three days overdue because you were ill. Explain the situation to the librarian and ask what to do.",
+    "model": "Hello, I'm sorry my book is three days overdue. I was ill last week and couldn't come to campus. Could you tell me the fine and whether I can renew it? I can pay the fine now and return the book this afternoon.",
+    "checklist": [
+      "先回应了对方",
+      "给出了具体建议/安排",
+      "说满 30 秒"
+    ],
+    "explanation": "RTS 只给口语供分，Content 0–6；要直接对情景里的人说话，不总结情景，细节不能改。",
+    "tip": "先道歉 + 原因 + 两个具体请求（罚款/续借）。"
+  },
+  {
+    "id": "rts-11",
+    "type": "rts",
+    "section": "speaking",
+    "level": 2,
+    "time": 55,
+    "title": "邀请同学加入学习小组",
+    "lesson": "L4",
+    "instruction": "读情景，10 秒准备，40 秒作答。用“回应—说明—理由/安排—收尾”。",
+    "content": "You are forming a study group for the statistics exam. Invite a classmate who is struggling with the subject.",
+    "model": "Hi Sam, a few of us are forming a statistics study group. We meet on Tuesdays at six in the library. Would you like to join us? We can go through past papers together, and I can explain the topics you found difficult.",
+    "checklist": [
+      "先回应了对方",
+      "给出了具体建议/安排",
+      "说满 30 秒"
+    ],
+    "explanation": "RTS 只给口语供分，Content 0–6；要直接对情景里的人说话，不总结情景，细节不能改。",
+    "tip": "朋友语气：邀请 + 时间地点 + 具体好处。"
+  },
+  {
+    "id": "rts-12",
+    "type": "rts",
+    "section": "speaking",
+    "level": 2,
+    "time": 55,
+    "title": "房东修暖气",
+    "lesson": "L4",
+    "instruction": "读情景，10 秒准备，40 秒作答。用“回应—说明—理由/安排—收尾”。",
+    "content": "The heating in your rented flat has stopped working. Ask your landlord to repair it.",
+    "model": "Hello, the heating in my flat has stopped working since Monday. The rooms are very cold, and I have a health condition that makes it difficult to sleep. Could you arrange for a repair this week? I'm available on Wednesday or Friday afternoon.",
+    "checklist": [
+      "先回应了对方",
+      "给出了具体建议/安排",
+      "说满 30 秒"
+    ],
+    "explanation": "RTS 只给口语供分，Content 0–6；要直接对情景里的人说话，不总结情景，细节不能改。",
+    "tip": "服务场景：问题 + 影响 + 时间选择。"
+  },
+  {
+    "id": "rts-13",
+    "type": "rts",
+    "section": "speaking",
+    "level": 2,
+    "time": 55,
+    "title": "拒绝朋友生日邀请",
+    "lesson": "L4",
+    "instruction": "读情景，10 秒准备，40 秒作答。用“回应—说明—理由/安排—收尾”。",
+    "content": "Your friend invites you to a birthday party, but you have an important exam the next morning. Decline politely and suggest another time.",
+    "model": "Thanks so much for inviting me. I'd really like to come, but I have an important exam the next morning and need to revise. Could we meet for lunch on Sunday instead? I'd love to celebrate with you then.",
+    "checklist": [
+      "先回应了对方",
+      "给出了具体建议/安排",
+      "说满 30 秒"
+    ],
+    "explanation": "RTS 只给口语供分，Content 0–6；要直接对情景里的人说话，不总结情景，细节不能改。",
+    "tip": "拒绝 + 原因 + 替代时间；不要只说 I can't come."
+  },
+  {
+    "id": "rts-14",
+    "type": "rts",
+    "section": "speaking",
+    "level": 2,
+    "time": 55,
+    "title": "和同事换班",
+    "lesson": "L4",
+    "instruction": "读情景，10 秒准备，40 秒作答。用“回应—说明—理由/安排—收尾”。",
+    "content": "You cannot work your Saturday shift because of a family event. Ask a coworker to swap shifts with you.",
+    "model": "Hi Alex, are you free to swap shifts this Saturday? I have a family event that I can't move. I could take your Sunday shift instead, or cover two of your evening shifts next week. Let me know which works better for you.",
+    "checklist": [
+      "先回应了对方",
+      "给出了具体建议/安排",
+      "说满 30 秒"
+    ],
+    "explanation": "RTS 只给口语供分，Content 0–6；要直接对情景里的人说话，不总结情景，细节不能改。",
+    "tip": "同事语气：请求 + 原因 + 两个交换方案。"
+  },
+  {
+    "id": "rts-15",
+    "type": "rts",
+    "section": "speaking",
+    "level": 2,
+    "time": 55,
+    "title": "向小组道歉",
+    "lesson": "L4",
+    "instruction": "读情景，10 秒准备，40 秒作答。用“回应—说明—理由/安排—收尾”。",
+    "content": "You missed a group deadline because you were ill. Apologize to your group and explain how you will fix it.",
+    "model": "Hi everyone, I'm really sorry I missed the deadline. I was ill for two days and didn't finish my section in time. I've completed it now and will send it tonight. I can also take the editing task this week to make up for the delay.",
+    "checklist": [
+      "先回应了对方",
+      "给出了具体建议/安排",
+      "说满 30 秒"
+    ],
+    "explanation": "RTS 只给口语供分，Content 0–6；要直接对情景里的人说话，不总结情景，细节不能改。",
+    "tip": "道歉 + 原因 + 补救 + 额外承担。"
+  },
+  {
+    "id": "rts-16",
+    "type": "rts",
+    "section": "speaking",
+    "level": 2,
+    "time": 55,
+    "title": "重置学校密码",
+    "lesson": "L4",
+    "instruction": "读情景，10 秒准备，40 秒作答。用“回应—说明—理由/安排—收尾”。",
+    "content": "You cannot log in to the university portal because your password has expired. Ask IT support for help.",
+    "model": "Hello, I can't log in to the student portal because my password has expired. Could you help me reset it? My student ID is 2024123. I can verify my identity by email or come to the IT desk this afternoon.",
+    "checklist": [
+      "先回应了对方",
+      "给出了具体建议/安排",
+      "说满 30 秒"
+    ],
+    "explanation": "RTS 只给口语供分，Content 0–6；要直接对情景里的人说话，不总结情景，细节不能改。",
+    "tip": "服务场景：问题 + 身份信息 + 可选方式。"
+  },
+  {
+    "id": "sgd-04",
+    "type": "sgd",
+    "section": "speaking",
+    "level": 3,
+    "time": 160,
+    "title": "校园食堂价格",
+    "lesson": "L4",
+    "instruction": "听 3 人讨论，10 秒准备，2 分钟总结。要说清谁说了什么、他们同意/反对什么、最后结果。",
+    "audio": "Speaker 1: I think the campus food is too expensive. A basic lunch costs almost ten dollars, and some students skip meals or eat instant noodles instead. Speaker 2: I agree it's expensive, but healthy food costs more, and the canteen has to pay staff and rent. If we cut prices, the service might close. Speaker 3: What if we trial a discount meal plan for students on financial aid, and survey how many people use it? That targets the students who need help without cutting prices for everyone. Speaker 1: That sounds fair, as long as the survey is quick and the plan is advertised clearly.",
+    "keypoints": [
+      "S1: food too expensive; students skip meals",
+      "S2: healthy food/staff/rent costs; service may close",
+      "S3: trial discount meal plan + survey",
+      "Outcome: targeted trial, clear advertising"
+    ],
+    "model": "The three speakers discussed the cost of campus food. The first speaker argued that prices are too high and some students skip meals. The second speaker agreed but warned that healthy food, staff and rent are expensive, and cutting prices could close the service. The third speaker proposed a trial discount meal plan for students on financial aid and a survey of its use, which would target those who need help without cutting prices for everyone. The first speaker accepted this if the survey was quick and the plan was well advertised.",
+    "checklist": [
+      "第一句有主题",
+      "3 个说话人都提到",
+      "说清 = / ≠",
+      "有 outcome",
+      "说满 90 秒以上"
+    ],
+    "explanation": "SGD 同时给口语和听力供分；Content 0–6。不要按顺序流水账；要 paraphrase，并说明三人观点关系。",
+    "tip": "总述 + 三人 + 结论；targeted 是关键。"
+  },
+  {
+    "id": "sgd-05",
+    "type": "sgd",
+    "section": "speaking",
+    "level": 3,
+    "time": 160,
+    "title": "出勤政策",
+    "lesson": "L4",
+    "instruction": "听 3 人讨论，10 秒准备，2 分钟总结。要说清谁说了什么、他们同意/反对什么、最后结果。",
+    "audio": "Speaker 1: Attendance should be compulsory. Students pay for classes, and when they don't come, group work suffers and they fall behind. Speaker 2: But university students are adults. Some work or commute long distances, and recorded lectures are just as useful. We shouldn't punish them for missing one class. Speaker 3: Why not require attendance for seminars and labs, where discussion matters, but make lectures optional with recordings? That protects the interactive parts without treating everyone like children. Speaker 2: I'd accept that if the recordings are reliable and the seminar rule is explained at the start.",
+    "keypoints": [
+      "S1: compulsory; group work; falling behind",
+      "S2: adults; work/commute; recordings",
+      "S3: seminars required, lectures optional",
+      "Outcome: hybrid attendance with reliable recordings"
+    ],
+    "model": "The three speakers discussed whether attendance should be compulsory. The first speaker supported compulsory attendance, arguing that students pay for classes and group work suffers when they are absent. The second speaker said university students are adults, some work or commute, and recorded lectures are useful. The third speaker proposed requiring attendance for seminars and labs but making lectures optional with recordings. The second speaker accepted this if the recordings were reliable and the rule was explained at the start.",
+    "checklist": [
+      "第一句有主题",
+      "3 个说话人都提到",
+      "说清 = / ≠",
+      "有 outcome",
+      "说满 90 秒以上"
+    ],
+    "explanation": "SGD 同时给口语和听力供分；Content 0–6。不要按顺序流水账；要 paraphrase，并说明三人观点关系。",
+    "tip": "结论是 hybrid attendance；不要只说 for/against。"
+  },
+  {
+    "id": "sgd-06",
+    "type": "sgd",
+    "section": "speaking",
+    "level": 3,
+    "time": 160,
+    "title": "作业中使用 AI",
+    "lesson": "L4",
+    "instruction": "听 3 人讨论，10 秒准备，2 分钟总结。要说清谁说了什么、他们同意/反对什么、最后结果。",
+    "audio": "Speaker 1: AI should be banned in assignments. It writes essays for students, and markers can't tell what the student actually knows. That's unfair to everyone who does the work. Speaker 2: But AI is already used in workplaces, so students need to learn how to use it responsibly. Banning it just pushes it underground. Speaker 3: We could allow it with a declaration: students say which parts they used AI for, and then explain their work in a short oral check. That teaches responsible use and protects academic integrity. Speaker 1: I could accept that if the oral check is consistent across courses.",
+    "keypoints": [
+      "S1: ban; fairness; markers can't tell",
+      "S2: workplace use; teach responsible use",
+      "S3: declaration + oral check",
+      "Outcome: allowed with disclosure and oral check"
+    ],
+    "model": "The three speakers discussed whether AI should be allowed in assignments. The first speaker wanted a ban, arguing that AI writes essays and markers cannot tell what students know. The second speaker said AI is already used in workplaces and students should learn to use it responsibly. The third speaker proposed allowing it with a declaration of which parts used AI, followed by a short oral check. The first speaker accepted this if the oral check was consistent across courses.",
+    "checklist": [
+      "第一句有主题",
+      "3 个说话人都提到",
+      "说清 = / ≠",
+      "有 outcome",
+      "说满 90 秒以上"
+    ],
+    "explanation": "SGD 同时给口语和听力供分；Content 0–6。不要按顺序流水账；要 paraphrase，并说明三人观点关系。",
+    "tip": "结论是 disclosure + oral check，不是简单 ban。"
+  },
+  {
+    "id": "sgd-07",
+    "type": "sgd",
+    "section": "speaking",
+    "level": 3,
+    "time": 160,
+    "title": "校园可持续发展",
+    "lesson": "L4",
+    "instruction": "听 3 人讨论，10 秒准备，2 分钟总结。要说清谁说了什么、他们同意/反对什么、最后结果。",
+    "audio": "Speaker 1: The university should install solar panels on every building. It's the most visible way to cut emissions, and it saves money in the long run. Speaker 2: Solar is expensive upfront, and some buildings are too old. We'd get more results from better recycling and a campaign to reduce energy waste. Speaker 3: Why not start with solar on the new buildings, where installation is cheaper, and use the savings to fund a student green fund for recycling projects? That combines both ideas. Speaker 2: That works if we audit the savings and publish the results each year.",
+    "keypoints": [
+      "S1: solar panels; visible; long-term savings",
+      "S2: upfront cost; old buildings; recycling/behavior",
+      "S3: solar on new buildings + student green fund",
+      "Outcome: combined pilot with annual audit"
+    ],
+    "model": "The three speakers discussed how the university should become more sustainable. The first speaker proposed solar panels on every building, citing long-term savings. The second speaker warned about upfront costs and old buildings, and preferred better recycling and an energy-waste campaign. The third speaker suggested solar on new buildings, using the savings to fund a student green fund for recycling projects. The second speaker agreed on condition that the savings were audited and published each year.",
+    "checklist": [
+      "第一句有主题",
+      "3 个说话人都提到",
+      "说清 = / ≠",
+      "有 outcome",
+      "说满 90 秒以上"
+    ],
+    "explanation": "SGD 同时给口语和听力供分；Content 0–6。不要按顺序流水账；要 paraphrase，并说明三人观点关系。",
+    "tip": "结论是 combination；不要忽略 audit。"
+  },
+  {
+    "id": "sgd-08",
+    "type": "sgd",
+    "section": "speaking",
+    "level": 3,
+    "time": 160,
+    "title": "海外交换要求",
+    "lesson": "L4",
+    "instruction": "听 3 人讨论，10 秒准备，2 分钟总结。要说清谁说了什么、他们同意/反对什么、最后结果。",
+    "audio": "Speaker 1: Every student should do a semester abroad. It builds independence, language skills and cross-cultural experience that employers value. Speaker 2: That's unrealistic. Many students can't afford it or have family commitments. Making it compulsory would punish them for financial reasons. Speaker 3: What if we make a short funded exchange optional, and offer scholarships for students who can't afford a full semester? That gives everyone a chance without forcing anyone. Speaker 1: I'd support that, as long as the short program is credit-bearing.",
+    "keypoints": [
+      "S1: compulsory semester abroad; skills",
+      "S2: cost/family; compulsory unfair",
+      "S3: optional funded short exchange + scholarships",
+      "Outcome: optional with funding and credit"
+    ],
+    "model": "The three speakers discussed whether every student should study abroad. The first speaker argued that a semester abroad builds independence, language skills and cross-cultural experience. The second speaker said this was unrealistic because many students cannot afford it or have family commitments, and making it compulsory would punish them. The third speaker proposed an optional, funded short exchange with scholarships for students who cannot afford a full semester. The first speaker supported this, provided the short program was credit-bearing.",
+    "checklist": [
+      "第一句有主题",
+      "3 个说话人都提到",
+      "说清 = / ≠",
+      "有 outcome",
+      "说满 90 秒以上"
+    ],
+    "explanation": "SGD 同时给口语和听力供分；Content 0–6。不要按顺序流水账；要 paraphrase，并说明三人观点关系。",
+    "tip": "结论是 optional + funded；credit-bearing 是条件。"
   }
 ];
