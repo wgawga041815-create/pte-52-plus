@@ -3668,7 +3668,7 @@ window.QUESTIONS = [
       "覆盖主旨 + 转折",
       "没有抄整句"
     ],
-    "explanation": "SWT 评分：Content 2、Form 1、Grammar 2、Vocabulary 2；少于 5 或多于 75 词 = 0，两个句号 = Form 0。",
+    "explanation": "SWT 评分：Content 2、Form 1、Grammar 2、Vocabulary 2；少于 5 或多于 75 词 = Content 0，两个句号 = Form 0。",
     "tip": "公式：Although A, B because C。先保一句，再改高级词。"
   },
   {
@@ -3688,7 +3688,7 @@ window.QUESTIONS = [
       "覆盖主旨 + 转折",
       "没有抄整句"
     ],
-    "explanation": "SWT 评分：Content 2、Form 1、Grammar 2、Vocabulary 2；少于 5 或多于 75 词 = 0，两个句号 = Form 0。",
+    "explanation": "SWT 评分：Content 2、Form 1、Grammar 2、Vocabulary 2；少于 5 或多于 75 词 = Content 0，两个句号 = Form 0。",
     "tip": "公式：Although A, B because C。先保一句，再改高级词。"
   },
   {
