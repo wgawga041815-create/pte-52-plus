@@ -15,6 +15,7 @@
   const L3_IDS = QS.filter(q => q.lesson === "L3").map(q => q.id);
   const L4_IDS = QS.filter(q => q.type === "rts" || q.lesson === "L4").map(q => q.id);
   const L5_IDS = QS.filter(q => q.type === "swt" || q.type === "we").map(q => q.id);
+  const L6_IDS = QS.filter(q => q.lesson === "L6").map(q => q.id);
 
   const TYPE = {
     ra:      { name: "Read Aloud",              sec: "speaking",  label: "朗读" },
@@ -378,6 +379,7 @@
         '<div class="lesson-strip"><div><b>第 3 课 · DI + RL</b><span>8 张图 + 5 篇讲座，25/40 和 10/40 计时，一键练这一组。</span></div><button class="btn btn-primary" id="startL3">做这一组 →</button></div>' +
         '<div class="lesson-strip"><div><b>第 4 课 · RTS + SGD</b><span>16 个情景应答 + 8 篇小组讨论，10/40 和 2 分钟总结，一键练这一组。</span></div><button class="btn btn-primary" id="startL4">做这一组 →</button></div>' +
         '<div class="lesson-strip"><div><b>第 5 课 · SWT + WE</b><span>8 篇一句话概括 + 6 个作文题，10 分钟/20 分钟计时，一键练这一组。</span></div><button class="btn btn-primary" id="startL5">做这一组 →</button></div>' +
+        '<div class="lesson-strip"><div><b>第 6 课 · 阅读五大题型</b><span>FIB-RW、FIB-R、RO、MCQ 单选/多选，22 道新题，一键练这一组。</span></div><button class="btn btn-primary" id="startL6">做这一组 →</button></div>' +
 
         '<div class="section-title"><h2>8 天路线</h2><span>每天 4 题，约 15 分钟；其余自由加练</span></div>' +
         '<div class="plan">' + planHTML + "</div>" +
@@ -403,6 +405,7 @@
     $("#startL3").onclick = () => startQueue(L3_IDS, "l3");
     $("#startL4").onclick = () => startQueue(L4_IDS, "l4");
     $("#startL5").onclick = () => startQueue(L5_IDS, "l5");
+    $("#startL6").onclick = () => startQueue(L6_IDS, "l6");
     document.querySelectorAll(".day").forEach(el => {
       el.onclick = () => {
         const d = PLAN.find(x => x.day === Number(el.dataset.day));
