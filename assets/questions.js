@@ -1,5 +1,5 @@
-/* PTE 52 Lab Plus — 205 questions
- * Lesson 6 reading bank (22 new items).
+/* PTE 52 Lab Plus — 215 questions
+ * 10 harder FIB-RW items added.
  */
 window.QUESTIONS = [
   {
@@ -4711,5 +4711,515 @@ window.QUESTIONS = [
     ],
     "explanation": "A 对应 inspire interest；C 对应 Regulations are still limited。B 与 high emissions 相反；D 与 uncertain 相反。",
     "tip": "注意 uncertain / limited 这类限定词，往往对应正确项。"
+  },
+  {
+    "id": "fib-rw-14",
+    "type": "fib-rw",
+    "section": "reading",
+    "level": 4,
+    "time": 150,
+    "title": "选择的悖论（高难）",
+    "lesson": "L6",
+    "instruction": "每空选一个词。高难：先判词性，再看搭配/语篇逻辑。",
+    "content": "Choice is often treated as an unquestionable good, yet research suggests that an excess of options can produce [[1]] rather than satisfaction. When consumers face too many alternatives, they may delay decisions or avoid choosing altogether. Retailers can [[2]] this effect by organising products into clear categories and offering recommended defaults. The challenge is to preserve variety without creating [[3]] costs. In this sense, the [[4]] number of options is not necessarily the largest one.",
+    "blanks": [
+      {
+        "options": [
+          "paralysed",
+          "paralysis",
+          "paralysing",
+          "paralyse"
+        ],
+        "answer": 1
+      },
+      {
+        "options": [
+          "mitigates",
+          "mitigated",
+          "mitigating",
+          "mitigate"
+        ],
+        "answer": 3
+      },
+      {
+        "options": [
+          "cognitive",
+          "cognition",
+          "cognitively",
+          "cognitions"
+        ],
+        "answer": 0
+      },
+      {
+        "options": [
+          "optimise",
+          "optimally",
+          "optimal",
+          "optimism"
+        ],
+        "answer": 2
+      }
+    ],
+    "explanation": "① produce + 名词 → paralysis；② can + 动词原形 → mitigate；③ 修饰 costs 用形容词 → cognitive；④ 修饰 number 用形容词 → optimal。",
+    "tip": "高难：先判断名词/动词/形容词，再看搭配（produce paralysis / mitigate an effect / cognitive costs）。"
+  },
+  {
+    "id": "fib-rw-15",
+    "type": "fib-rw",
+    "section": "reading",
+    "level": 4,
+    "time": 150,
+    "title": "城市再野化（高难）",
+    "lesson": "L6",
+    "instruction": "每空选一个词。高难：先判词性，再看搭配/语篇逻辑。",
+    "content": "Rewilding projects in cities are increasingly [[1]] by planners, but they remain contested. Supporters argue that reintroducing native species can restore ecological processes and make cities more resilient. Critics, however, question whether large animals can thrive in fragmented habitats and whether the benefits are fairly [[2]] across neighbourhoods. Effective projects therefore require [[3]] consultation and careful monitoring. Without these, rewilding risks becoming a [[4]] exercise rather than a genuine environmental strategy.",
+    "blanks": [
+      {
+        "options": [
+          "champion",
+          "championing",
+          "championed",
+          "champions"
+        ],
+        "answer": 2
+      },
+      {
+        "options": [
+          "distributed",
+          "distribute",
+          "distributing",
+          "distribution"
+        ],
+        "answer": 0
+      },
+      {
+        "options": [
+          "meaning",
+          "meaningfully",
+          "meanings",
+          "meaningful"
+        ],
+        "answer": 3
+      },
+      {
+        "options": [
+          "symbol",
+          "symbolic",
+          "symbolise",
+          "symbolically"
+        ],
+        "answer": 1
+      }
+    ],
+    "explanation": "① are + 过去分词 → championed；② are fairly + 过去分词 → distributed；③ 修饰 consultation 用形容词 → meaningful；④ 修饰 exercise 用形容词 → symbolic。",
+    "tip": "高难：被动语态 be + done；fairly 后接过去分词；两个形容词空看名词搭配。"
+  },
+  {
+    "id": "fib-rw-16",
+    "type": "fib-rw",
+    "section": "reading",
+    "level": 4,
+    "time": 150,
+    "title": "可重复性危机（高难）",
+    "lesson": "L6",
+    "instruction": "每空选一个词。高难：先判词性，再看搭配/语篇逻辑。",
+    "content": "The reproducibility crisis has prompted journals to [[1]] stricter reporting standards. Many published findings cannot be replicated, which raises questions about the [[2]] of peer review. Researchers are now encouraged to share data and pre-register their methods, making the research process more [[3]]. However, greater transparency alone cannot [[4]] poor study design.",
+    "blanks": [
+      {
+        "options": [
+          "adopts",
+          "adopt",
+          "adopted",
+          "adopting"
+        ],
+        "answer": 1
+      },
+      {
+        "options": [
+          "robust",
+          "robustly",
+          "robustness",
+          "robustness"
+        ],
+        "answer": 2
+      },
+      {
+        "options": [
+          "transparent",
+          "transparency",
+          "transparently",
+          "transparence"
+        ],
+        "answer": 0
+      },
+      {
+        "options": [
+          "remedies",
+          "remedied",
+          "remedying",
+          "remedy"
+        ],
+        "answer": 3
+      }
+    ],
+    "explanation": "① prompt sb to do → adopt；② the + 名词 → robustness；③ make + 宾语 + 形容词 → transparent；④ cannot + 动词原形 → remedy。",
+    "tip": "高难：the + 名词、make + 形容词、cannot + 原形；注意 robustness 拼写。"
+  },
+  {
+    "id": "fib-rw-17",
+    "type": "fib-rw",
+    "section": "reading",
+    "level": 4,
+    "time": 150,
+    "title": "算法问责（高难）",
+    "lesson": "L6",
+    "instruction": "每空选一个词。高难：先判词性，再看搭配/语篇逻辑。",
+    "content": "Algorithms increasingly determine who receives a loan, a job interview or a rental flat. Because their decision rules are often [[1]], affected individuals may struggle to challenge an outcome. Regulators are calling for independent [[2]] of high-risk systems and a clear right of [[3]] for those who are rejected. Yet the technical complexity of these systems makes effective oversight difficult, and the burden of proof may fall [[4]] on the people least able to contest it.",
+    "blanks": [
+      {
+        "options": [
+          "opacity",
+          "opaquely",
+          "opaqueness",
+          "opaque"
+        ],
+        "answer": 3
+      },
+      {
+        "options": [
+          "audit",
+          "audits",
+          "auditing",
+          "audited"
+        ],
+        "answer": 1
+      },
+      {
+        "options": [
+          "resource",
+          "recourses",
+          "recourse",
+          "recoursing"
+        ],
+        "answer": 2
+      },
+      {
+        "options": [
+          "disproportionately",
+          "disproportionate",
+          "disproportion",
+          "disproportional"
+        ],
+        "answer": 0
+      }
+    ],
+    "explanation": "① are often + 形容词 → opaque；② independent + 名词复数 → audits；③ right of + 名词 → recourse；④ 修饰动词 fall 用副词 → disproportionately。",
+    "tip": "高难：opaque 不透明；recourse 追索权/救济；disproportionately 副词修饰 fall。"
+  },
+  {
+    "id": "fib-rw-18",
+    "type": "fib-rw",
+    "section": "reading",
+    "level": 4,
+    "time": 150,
+    "title": "注意力经济（高难）",
+    "lesson": "L6",
+    "instruction": "每空选一个词。高难：先判词性，再看搭配/语篇逻辑。",
+    "content": "Digital platforms have become adept at [[1]] attention into a measurable commodity. Features such as infinite scroll and autoplay are designed to sustain [[2]] rather than to satisfy a genuine need. Users are often [[3]] to these designs, especially when they are tired or anxious. Some governments are now considering limits on persuasive design, but effective [[4]] must balance consumer protection with innovation.",
+    "blanks": [
+      {
+        "options": [
+          "turning",
+          "turn",
+          "turned",
+          "turns"
+        ],
+        "answer": 0
+      },
+      {
+        "options": [
+          "engage",
+          "engaging",
+          "engagement",
+          "engaged"
+        ],
+        "answer": 2
+      },
+      {
+        "options": [
+          "susceptibility",
+          "susceptibly",
+          "susceptibilities",
+          "susceptible"
+        ],
+        "answer": 3
+      },
+      {
+        "options": [
+          "regulate",
+          "regulation",
+          "regulatory",
+          "regulated"
+        ],
+        "answer": 1
+      }
+    ],
+    "explanation": "① at + 动名词 → turning；② sustain + 名词 → engagement；③ be susceptible to 固定搭配；④ effective + 名词 → regulation。",
+    "tip": "高难：be adept at doing；be susceptible to；effective 后接名词。"
+  },
+  {
+    "id": "fib-rw-19",
+    "type": "fib-rw",
+    "section": "reading",
+    "level": 4,
+    "time": 150,
+    "title": "微塑料与食物链（高难）",
+    "lesson": "L6",
+    "instruction": "每空选一个词。高难：先判词性，再看搭配/语篇逻辑。",
+    "content": "Microplastics are now [[1]] in marine environments, from coastal waters to deep-sea sediments. Small organisms [[2]] these particles, and the plastics can [[3]] up the food chain. The long-term [[4]] for human health are still uncertain, but the presence of plastic in seafood has prompted calls for stricter controls.",
+    "blanks": [
+      {
+        "options": [
+          "ubiquity",
+          "ubiquitously",
+          "ubiquitous",
+          "ubiquitousness"
+        ],
+        "answer": 2
+      },
+      {
+        "options": [
+          "ingests",
+          "ingested",
+          "ingesting",
+          "ingest"
+        ],
+        "answer": 3
+      },
+      {
+        "options": [
+          "accumulate",
+          "accumulates",
+          "accumulated",
+          "accumulating"
+        ],
+        "answer": 0
+      },
+      {
+        "options": [
+          "implication",
+          "implications",
+          "implicated",
+          "implicating"
+        ],
+        "answer": 1
+      }
+    ],
+    "explanation": "① are + 形容词 → ubiquitous；② 主语 organisms 复数，谓语用原形 ingest；③ can + 动词原形 → accumulate；④ long-term + 名词复数 → implications。",
+    "tip": "高难：ubiquitous 无处不在；ingest 摄入；accumulate up the food chain 沿食物链累积。"
+  },
+  {
+    "id": "fib-rw-20",
+    "type": "fib-rw",
+    "section": "reading",
+    "level": 4,
+    "time": 150,
+    "title": "语言流失（高难）",
+    "lesson": "L6",
+    "instruction": "每空选一个词。高难：先判词性，再看搭配/语篇逻辑。",
+    "content": "Language attrition occurs when speakers gradually lose proficiency in a language they once used regularly. It is most common among migrants whose first language is no longer [[1]] in daily life. The process can affect vocabulary, grammar and even the ability to [[2]] complex ideas. Intergenerational transmission is crucial: if parents stop using the language at home, children may never [[3]] it fully. Community programmes and digital archives can help [[4]] what might otherwise be lost.",
+    "blanks": [
+      {
+        "options": [
+          "dominate",
+          "dominance",
+          "dominated",
+          "dominant"
+        ],
+        "answer": 3
+      },
+      {
+        "options": [
+          "articulate",
+          "articulates",
+          "articulated",
+          "articulating"
+        ],
+        "answer": 0
+      },
+      {
+        "options": [
+          "acquires",
+          "acquired",
+          "acquire",
+          "acquiring"
+        ],
+        "answer": 2
+      },
+      {
+        "options": [
+          "preserves",
+          "preserve",
+          "preserved",
+          "preserving"
+        ],
+        "answer": 1
+      }
+    ],
+    "explanation": "① is no longer + 形容词 → dominant；② ability to + 动词原形 → articulate；③ may never + 动词原形 → acquire；④ help + 动词原形 → preserve。",
+    "tip": "高难：attrition 流失；articulate ideas 清楚表达；help (to) do。"
+  },
+  {
+    "id": "fib-rw-21",
+    "type": "fib-rw",
+    "section": "reading",
+    "level": 4,
+    "time": 150,
+    "title": "照护经济学（高难）",
+    "lesson": "L6",
+    "instruction": "每空选一个词。高难：先判词性，再看搭配/语篇逻辑。",
+    "content": "Care work is often [[1]] because it is associated with unpaid domestic labour and emotional closeness. Economists argue that this omission [[2]] the true cost of an ageing population. Public investment in childcare and elder care can [[3]] participation in the paid workforce, particularly among women. However, expanding services requires a [[4]] distribution of costs between households, employers and the state.",
+    "blanks": [
+      {
+        "options": [
+          "undervalue",
+          "undervalued",
+          "undervaluing",
+          "undervalues"
+        ],
+        "answer": 1
+      },
+      {
+        "options": [
+          "understate",
+          "understated",
+          "understating",
+          "understates"
+        ],
+        "answer": 3
+      },
+      {
+        "options": [
+          "boosts",
+          "boosted",
+          "boost",
+          "boosting"
+        ],
+        "answer": 2
+      },
+      {
+        "options": [
+          "equitable",
+          "equity",
+          "equitably",
+          "equitableness"
+        ],
+        "answer": 0
+      }
+    ],
+    "explanation": "① is often + 过去分词 → undervalued；② this omission 单数，谓语 understates；③ can + 动词原形 → boost；④ a + 形容词 + distribution → equitable。",
+    "tip": "高难：主谓一致（omission → understates）；equitable 公平的。"
+  },
+  {
+    "id": "fib-rw-22",
+    "type": "fib-rw",
+    "section": "reading",
+    "level": 4,
+    "time": 150,
+    "title": "气候适应与 maladaptation（高难）",
+    "lesson": "L6",
+    "instruction": "每空选一个词。高难：先判词性，再看搭配/语篇逻辑。",
+    "content": "Adaptation is essential as extreme weather becomes more frequent, but poorly designed responses can be [[1]]. For example, building higher sea walls may protect one district while [[2]] flooding elsewhere. Vulnerable communities often lack the resources to [[3]] to changing conditions, and adaptation finance is unevenly distributed. Planners therefore need to assess not only immediate protection but also long-term [[4]].",
+    "blanks": [
+      {
+        "options": [
+          "maladaptive",
+          "maladaptation",
+          "maladaptively",
+          "maladapted"
+        ],
+        "answer": 0
+      },
+      {
+        "options": [
+          "displace",
+          "displaced",
+          "displacement",
+          "displacing"
+        ],
+        "answer": 3
+      },
+      {
+        "options": [
+          "adapts",
+          "adapt",
+          "adapted",
+          "adapting"
+        ],
+        "answer": 1
+      },
+      {
+        "options": [
+          "consequence",
+          "consequent",
+          "consequences",
+          "consequently"
+        ],
+        "answer": 2
+      }
+    ],
+    "explanation": "① can be + 形容词 → maladaptive；② while + 动名词 → displacing；③ to + 动词原形 → adapt；④ long-term + 名词复数 → consequences。",
+    "tip": "高难：maladaptive 适应不良的；while doing 表同时；adapt to。"
+  },
+  {
+    "id": "fib-rw-23",
+    "type": "fib-rw",
+    "section": "reading",
+    "level": 4,
+    "time": 150,
+    "title": "基因编辑伦理（高难）",
+    "lesson": "L6",
+    "instruction": "每空选一个词。高难：先判词性，再看搭配/语篇逻辑。",
+    "content": "Gene editing technologies raise profound ethical questions, particularly when changes are [[1]] and can be passed to future generations. Some argue that editing could [[2]] serious inherited diseases, while others worry about unintended effects and the risk of [[3]] enhancement. Meaningful consent is difficult when future generations cannot speak for themselves. Robust [[4]] is therefore needed before such technologies become widely available.",
+    "blanks": [
+      {
+        "options": [
+          "heritability",
+          "heritably",
+          "heritable",
+          "heritage"
+        ],
+        "answer": 2
+      },
+      {
+        "options": [
+          "eliminates",
+          "eliminate",
+          "eliminated",
+          "eliminating"
+        ],
+        "answer": 1
+      },
+      {
+        "options": [
+          "genetics",
+          "genetically",
+          "geneticist",
+          "genetic"
+        ],
+        "answer": 3
+      },
+      {
+        "options": [
+          "governance",
+          "govern",
+          "governed",
+          "governing"
+        ],
+        "answer": 0
+      }
+    ],
+    "explanation": "① are + 形容词 → heritable；② could + 动词原形 → eliminate；③ 修饰 enhancement 用形容词 → genetic；④ robust + 名词 → governance。",
+    "tip": "高难：heritable 可遗传的；genetic enhancement 基因增强；governance 治理。"
   }
 ];
