@@ -1,5 +1,5 @@
-/* PTE 52 Lab Plus — 215 questions
- * 10 harder FIB-RW items added.
+/* PTE 52 Lab Plus — 223 questions
+ * 8 harder Re-order Paragraphs added.
  */
 window.QUESTIONS = [
   {
@@ -5221,5 +5221,213 @@ window.QUESTIONS = [
     ],
     "explanation": "① are + 形容词 → heritable；② could + 动词原形 → eliminate；③ 修饰 enhancement 用形容词 → genetic；④ robust + 名词 → governance。",
     "tip": "高难：heritable 可遗传的；genetic enhancement 基因增强；governance 治理。"
+  },
+  {
+    "id": "ro-11",
+    "type": "ro",
+    "section": "reading",
+    "level": 4,
+    "time": 180,
+    "title": "公地悲剧（高难）",
+    "lesson": "L6",
+    "instruction": "按正确顺序点击句子。高难：先找首句，再顺指代/连接词。",
+    "sentences": [
+      "This outcome is often called the tragedy of the commons.",
+      "When a resource is shared and unowned, each individual has an incentive to take as much as possible.",
+      "Over time, the resource is depleted, and everyone is worse off.",
+      "However, communities can avoid this outcome by agreeing on rules and monitoring compliance.",
+      "The concept was popularised by Garrett Hardin in 1968, although he used the example of grazing land."
+    ],
+    "answer": [
+      1,
+      2,
+      0,
+      4,
+      3
+    ],
+    "explanation": "首句 B 讲机制，没有指代；C 的 Over time 接结果；A 的 This outcome 指资源枯竭；E 补充概念来源；D 的 However 转折到解决方案。",
+    "tip": "首句没有 This/However；A 的 This outcome 必须指前一句的结果。"
+  },
+  {
+    "id": "ro-12",
+    "type": "ro",
+    "section": "reading",
+    "level": 4,
+    "time": 180,
+    "title": "自动化的悖论（高难）",
+    "lesson": "L6",
+    "instruction": "按正确顺序点击句子。高难：先找首句，再顺指代/连接词。",
+    "sentences": [
+      "As operators become more reliant on automated systems, their manual skills may decline.",
+      "This creates a paradox: the more reliable the system, the less practice people get.",
+      "When an unexpected failure occurs, they may then be unable to respond effectively.",
+      "Airlines and hospitals therefore use regular manual drills to keep skills current.",
+      "The risk is greatest in rare emergencies, when automation provides little warning."
+    ],
+    "answer": [
+      0,
+      1,
+      4,
+      2,
+      3
+    ],
+    "explanation": "A 提出技能退化；B 的 This creates a paradox 总结；E 的 The risk 指这种悖论；C 的 they 指 operators；D 的 therefore 给出对策。",
+    "tip": "B 的 This 指 A 整句；E 的 The risk 指“没有练习”的风险；D 的 therefore 是结论。"
+  },
+  {
+    "id": "ro-13",
+    "type": "ro",
+    "section": "reading",
+    "level": 4,
+    "time": 180,
+    "title": "地方报纸的衰落（高难）",
+    "lesson": "L6",
+    "instruction": "按正确顺序点击句子。高难：先找首句，再顺指代/连接词。",
+    "sentences": [
+      "This decline has been linked to lower voter turnout and higher municipal borrowing costs.",
+      "Local newspapers have closed at an accelerating rate over the past two decades.",
+      "Whether these experiments can replace the advertising revenue that newspapers lost remains unclear.",
+      "As a result, fewer journalists cover council meetings, courts and local elections.",
+      "Some philanthropists and public broadcasters are now funding local news pilots."
+    ],
+    "answer": [
+      1,
+      3,
+      0,
+      4,
+      2
+    ],
+    "explanation": "首句 B 讲现象；D 的 As a result 接记者减少；A 的 This decline 指报纸关闭；E 讲新的资助实验；C 的 these experiments 指 E。",
+    "tip": "A 的 This decline 和 C 的 these experiments 是强指代；先找被指代的对象。"
+  },
+  {
+    "id": "ro-14",
+    "type": "ro",
+    "section": "reading",
+    "level": 4,
+    "time": 180,
+    "title": "认知负荷与学习（高难）",
+    "lesson": "L6",
+    "instruction": "按正确顺序点击句子。高难：先找首句，再顺指代/连接词。",
+    "sentences": [
+      "Working memory can hold only a few pieces of information at once.",
+      "If too many elements compete for attention, learning slows and errors increase.",
+      "Chunking helps by grouping separate items into a single meaningful unit.",
+      "Teachers therefore introduce new material in small steps and provide worked examples.",
+      "The same principle explains why experts can process complex tasks that overwhelm beginners."
+    ],
+    "answer": [
+      0,
+      1,
+      2,
+      4,
+      3
+    ],
+    "explanation": "A 讲工作记忆限制；B 讲超载结果；C 讲 chunking；E 的 The same principle 指 chunking；D 的 therefore 给出教学对策。",
+    "tip": "E 的 The same principle 必须紧接 C 的 chunking；D 是结论。"
+  },
+  {
+    "id": "ro-15",
+    "type": "ro",
+    "section": "reading",
+    "level": 4,
+    "time": 180,
+    "title": "反弹效应（高难）",
+    "lesson": "L6",
+    "instruction": "按正确顺序点击句子。高难：先找首句，再顺指代/连接词。",
+    "sentences": [
+      "This behaviour can offset part of the expected saving, a phenomenon known as the rebound effect.",
+      "Combining efficiency rules with carbon pricing can help close the gap.",
+      "Energy-efficient appliances reduce the electricity needed for a given task.",
+      "Policymakers who ignore the effect may overestimate the benefits of efficiency standards.",
+      "However, consumers may use them more often or buy larger models."
+    ],
+    "answer": [
+      2,
+      4,
+      0,
+      3,
+      1
+    ],
+    "explanation": "首句 C 讲节能；E 的 However 转折到使用更多；A 的 This behaviour 指 E；D 讲政策误判；B 的 Combining 给出综合方案。",
+    "tip": "A 的 This behaviour 指 E 的“更频繁使用/买更大型号”；B 是最后方案。"
+  },
+  {
+    "id": "ro-16",
+    "type": "ro",
+    "section": "reading",
+    "level": 4,
+    "time": 180,
+    "title": "电子表格的历史（高难）",
+    "lesson": "L6",
+    "instruction": "按正确顺序点击句子。高难：先找首句，再顺指代/连接词。",
+    "sentences": [
+      "This made financial modelling accessible to people without programming skills.",
+      "Today, they remain central to budgeting and analysis, despite repeated predictions of their decline.",
+      "Before computers, accountants recorded figures in large paper ledgers.",
+      "The first electronic spreadsheet, VisiCalc, allowed users to change one number and recalculate everything instantly.",
+      "Spreadsheets spread rapidly through offices and became a symbol of the personal computer."
+    ],
+    "answer": [
+      2,
+      3,
+      0,
+      4,
+      1
+    ],
+    "explanation": "首句 C 讲纸本账本；D 的 The first electronic spreadsheet 接 VisiCalc；A 的 This made 指即时重算；E 讲普及；B 的 Today 收尾。",
+    "tip": "A 的 This 指 D 的“改一个数、全部重算”；B 的 they 指 spreadsheets。"
+  },
+  {
+    "id": "ro-17",
+    "type": "ro",
+    "section": "reading",
+    "level": 4,
+    "time": 180,
+    "title": "城市噪音（高难）",
+    "lesson": "L6",
+    "instruction": "按正确顺序点击句子。高难：先找首句，再顺指代/连接词。",
+    "sentences": [
+      "Some cities now use quieter road surfaces and restrict night-time construction.",
+      "Noise is also unevenly distributed: low-income neighbourhoods often face the highest levels.",
+      "Urban noise comes from traffic, construction and entertainment venues.",
+      "Yet noise receives far less policy attention than air pollution.",
+      "Prolonged exposure has been linked to sleep disturbance and heart disease."
+    ],
+    "answer": [
+      2,
+      4,
+      1,
+      0,
+      3
+    ],
+    "explanation": "首句 C 讲来源；E 讲健康影响；B 的 also 补充分布不均；A 讲措施；D 的 Yet 转折到政策关注不足。",
+    "tip": "B 的 also 必须在健康影响之后；D 的 Yet 是最后转折。"
+  },
+  {
+    "id": "ro-18",
+    "type": "ro",
+    "section": "reading",
+    "level": 4,
+    "time": 180,
+    "title": "习惯改变（高难）",
+    "lesson": "L6",
+    "instruction": "按正确顺序点击句子。高难：先找首句，再顺指代/连接词。",
+    "sentences": [
+      "This is why habit change programmes focus on environments rather than willpower alone.",
+      "New behaviours are more likely to stick when they are linked to an existing routine.",
+      "Habits are triggered by cues in a stable context.",
+      "If the cue is removed or the environment changed, the old routine becomes less automatic.",
+      "Replacing an unwanted habit is often easier than trying to suppress it entirely."
+    ],
+    "answer": [
+      2,
+      4,
+      3,
+      1,
+      0
+    ],
+    "explanation": "首句 C 讲 cue；E 讲替代比压制容易；D 讲移除 cue；B 讲新行为绑定旧 routine；A 的 This is why 总结。",
+    "tip": "A 的 This is why 指前面“环境比意志力重要”；B 的 existing routine 是关键词。"
   }
 ];
