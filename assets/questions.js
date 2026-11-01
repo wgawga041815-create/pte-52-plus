@@ -1,5 +1,5 @@
-/* PTE 52 Lab Plus — 183 questions
- * Expanded RTS (16) and SGD (8) banks.
+/* PTE 52 Lab Plus — 205 questions
+ * Lesson 6 reading bank (22 new items).
  */
 window.QUESTIONS = [
   {
@@ -4003,5 +4003,713 @@ window.QUESTIONS = [
     ],
     "explanation": "SGD 同时给口语和听力供分；Content 0–6。不要按顺序流水账；要 paraphrase，并说明三人观点关系。",
     "tip": "结论是 optional + funded；credit-bearing 是条件。"
+  },
+  {
+    "id": "fib-rw-09",
+    "type": "fib-rw",
+    "section": "reading",
+    "level": 2,
+    "time": 120,
+    "title": "博物馆与科技",
+    "lesson": "L6",
+    "instruction": "每空选一个词。先判词性，再看搭配和逻辑。",
+    "content": "Many museums are using digital tools to reach new audiences. Virtual tours allow visitors to [[1]] exhibitions from home, while apps provide information in several languages. However, some critics argue that screens can [[2]] the experience of seeing real objects. Museums therefore need to [[3]] technology with traditional displays. The most successful projects use digital tools to [[4]] curiosity, not to replace the objects themselves.",
+    "blanks": [
+      {
+        "options": [
+          "explores",
+          "explore",
+          "exploring",
+          "exploration"
+        ],
+        "answer": 1
+      },
+      {
+        "options": [
+          "weak",
+          "weakness",
+          "weakened",
+          "weaken"
+        ],
+        "answer": 3
+      },
+      {
+        "options": [
+          "balance",
+          "balanced",
+          "balancing",
+          "balances"
+        ],
+        "answer": 0
+      },
+      {
+        "options": [
+          "sparks",
+          "sparked",
+          "spark",
+          "sparking"
+        ],
+        "answer": 2
+      }
+    ],
+    "explanation": "① allow sb to do → explore；② can + 动词原形 → weaken；③ need to + 动词原形 → balance；④ to + 动词原形 → spark。",
+    "tip": "先看空前搭配：allow…to、can、need to、to；四个空都考动词原形。"
+  },
+  {
+    "id": "fib-rw-10",
+    "type": "fib-rw",
+    "section": "reading",
+    "level": 2,
+    "time": 120,
+    "title": "城市骑行",
+    "lesson": "L6",
+    "instruction": "每空选一个词。先判词性，再看搭配和逻辑。",
+    "content": "Cycling is becoming a popular way to travel in cities. Dedicated lanes make cyclists feel safer and encourage more people to [[1]] their cars at home. However, building these lanes can be expensive and may reduce space for [[2]]. Cities that provide secure parking and bike-sharing schemes see the greatest [[3]] in cycling. Public campaigns can also [[4]] drivers to share the road safely.",
+    "blanks": [
+      {
+        "options": [
+          "left",
+          "leaving",
+          "leave",
+          "leaves"
+        ],
+        "answer": 2
+      },
+      {
+        "options": [
+          "traffic",
+          "traffics",
+          "trafficking",
+          "trafficked"
+        ],
+        "answer": 0
+      },
+      {
+        "options": [
+          "increased",
+          "increasing",
+          "increases",
+          "increase"
+        ],
+        "answer": 3
+      },
+      {
+        "options": [
+          "encourages",
+          "encourage",
+          "encouraged",
+          "encouraging"
+        ],
+        "answer": 1
+      }
+    ],
+    "explanation": "① encourage sb to do → leave；② space for + 名词 → traffic（不可数）；③ the greatest + 名词 → increase；④ can + 动词原形 → encourage。",
+    "tip": "名词空先判断可数/不可数：traffic 不可数，increase 在此作名词。"
+  },
+  {
+    "id": "fib-rw-11",
+    "type": "fib-rw",
+    "section": "reading",
+    "level": 2,
+    "time": 120,
+    "title": "咖啡与可持续发展",
+    "lesson": "L6",
+    "instruction": "每空选一个词。先判词性，再看搭配和逻辑。",
+    "content": "Coffee is one of the most traded commodities in the world. Small changes in temperature and rainfall can [[1]] the quality of the beans. Many farmers now receive training in sustainable [[2]] to protect their land. Consumers are also willing to pay more for coffee that is clearly [[3]]. However, certification schemes can be expensive for small producers, so support from governments is [[4]].",
+    "blanks": [
+      {
+        "options": [
+          "effect",
+          "affect",
+          "affects",
+          "affecting"
+        ],
+        "answer": 1
+      },
+      {
+        "options": [
+          "practice",
+          "practicing",
+          "practices",
+          "practical"
+        ],
+        "answer": 2
+      },
+      {
+        "options": [
+          "labelled",
+          "label",
+          "labels",
+          "labelling"
+        ],
+        "answer": 0
+      },
+      {
+        "options": [
+          "essence",
+          "essentially",
+          "essentialism",
+          "essential"
+        ],
+        "answer": 3
+      }
+    ],
+    "explanation": "① can + 动词原形 → affect（effect 多作名词）；② sustainable + 名词复数 → practices；③ is clearly + 过去分词 → labelled；④ is + 形容词 → essential。",
+    "tip": "affect 动词 / effect 名词；先判词性再选。"
+  },
+  {
+    "id": "fib-rw-12",
+    "type": "fib-rw",
+    "section": "reading",
+    "level": 2,
+    "time": 120,
+    "title": "塑料替代品",
+    "lesson": "L6",
+    "instruction": "每空选一个词。先判词性，再看搭配和逻辑。",
+    "content": "Plastic pollution has prompted a search for alternative materials. Some companies now produce packaging from seaweed or plant waste, which can [[1]] naturally. These materials are often more expensive than plastic, but prices are likely to [[2]] as production increases. Consumers can help by choosing products with less packaging and by [[3]] containers. Governments can also [[4]] single-use plastics in certain settings.",
+    "blanks": [
+      {
+        "options": [
+          "decomposes",
+          "decomposed",
+          "decomposing",
+          "decompose"
+        ],
+        "answer": 3
+      },
+      {
+        "options": [
+          "falls",
+          "fall",
+          "fell",
+          "falling"
+        ],
+        "answer": 1
+      },
+      {
+        "options": [
+          "reuse",
+          "reused",
+          "reusing",
+          "reusable"
+        ],
+        "answer": 2
+      },
+      {
+        "options": [
+          "ban",
+          "bans",
+          "banned",
+          "banning"
+        ],
+        "answer": 0
+      }
+    ],
+    "explanation": "① can + 动词原形 → decompose；② be likely to + 动词原形 → fall；③ by + 动名词 → reusing；④ can also + 动词原形 → ban。",
+    "tip": "by 后面接动名词；be likely to 后面接原形。"
+  },
+  {
+    "id": "fib-rw-13",
+    "type": "fib-rw",
+    "section": "reading",
+    "level": 2,
+    "time": 120,
+    "title": "睡眠与屏幕",
+    "lesson": "L6",
+    "instruction": "每空选一个词。先判词性，再看搭配和逻辑。",
+    "content": "Many students use their phones late at night, and this can [[1]] their sleep. Bright screens signal to the brain that it is still daytime, making it harder to [[2]] asleep. A regular routine and a dark room can [[3]] sleep quality. Experts also recommend keeping devices out of the bedroom and [[4]] the screen an hour before bed.",
+    "blanks": [
+      {
+        "options": [
+          "affect",
+          "effect",
+          "affects",
+          "affecting"
+        ],
+        "answer": 0
+      },
+      {
+        "options": [
+          "fell",
+          "fallen",
+          "fall",
+          "falling"
+        ],
+        "answer": 2
+      },
+      {
+        "options": [
+          "improves",
+          "improved",
+          "improving",
+          "improve"
+        ],
+        "answer": 3
+      },
+      {
+        "options": [
+          "turn off",
+          "turning off",
+          "turned off",
+          "turns off"
+        ],
+        "answer": 1
+      }
+    ],
+    "explanation": "① can + 动词原形 → affect；② harder to + 动词原形 → fall asleep；③ can + 动词原形 → improve；④ and 连接并列成分，前为 keeping，后也用 turning off。",
+    "tip": "and 前后结构要平行：keeping… and turning off…。"
+  },
+  {
+    "id": "fib-r-05",
+    "type": "fib-r",
+    "section": "reading",
+    "level": 2,
+    "time": 150,
+    "title": "珊瑚礁",
+    "lesson": "L6",
+    "instruction": "从词库选词填空。先判词性，再看搭配和逻辑。",
+    "content": "Coral reefs support an enormous [[1]] of marine life. However, rising sea temperatures can cause coral to lose its colour, a process known as [[2]]. Reefs also face pressure from pollution and overfishing. Scientists are now testing ways to [[3]] damaged reefs, including growing coral in laboratories. Protecting these ecosystems is [[4]] for coastal communities that depend on fishing and tourism.",
+    "bank": [
+      "variety",
+      "bleaching",
+      "restore",
+      "essential",
+      "decline",
+      "harvest",
+      "optional",
+      "pollution"
+    ],
+    "blanks": [
+      {
+        "answer": "variety"
+      },
+      {
+        "answer": "bleaching"
+      },
+      {
+        "answer": "restore"
+      },
+      {
+        "answer": "essential"
+      }
+    ],
+    "explanation": "① an enormous variety of 固定搭配；② coral bleaching 珊瑚白化；③ restore damaged reefs 修复；④ be essential for 固定搭配。",
+    "tip": "先按词性分组：名词 variety/bleaching/decline/harvest/pollution；动词 restore；形容词 essential/optional。"
+  },
+  {
+    "id": "fib-r-06",
+    "type": "fib-r",
+    "section": "reading",
+    "level": 2,
+    "time": 150,
+    "title": "公共演讲",
+    "lesson": "L6",
+    "instruction": "从词库选词填空。先判词性，再看搭配和逻辑。",
+    "content": "Many people feel anxious about speaking in public. Preparation and practice can reduce this [[1]]. It also helps to focus on the audience rather than on your own [[2]]. Speaking slowly and pausing between points makes your message [[3]]. Finally, remember that most listeners are [[4]] to hear what you have to say.",
+    "bank": [
+      "anxiety",
+      "nerves",
+      "clearer",
+      "eager",
+      "confidence",
+      "louder",
+      "hostile",
+      "optional"
+    ],
+    "blanks": [
+      {
+        "answer": "anxiety"
+      },
+      {
+        "answer": "nerves"
+      },
+      {
+        "answer": "clearer"
+      },
+      {
+        "answer": "eager"
+      }
+    ],
+    "explanation": "① reduce this anxiety 焦虑；② your own nerves 紧张；③ make + 宾语 + 形容词比较级 clearer；④ be eager to do 渴望。",
+    "tip": "make your message clearer 是“make + 宾语 + 形容词”结构。"
+  },
+  {
+    "id": "fib-r-07",
+    "type": "fib-r",
+    "section": "reading",
+    "level": 2,
+    "time": 150,
+    "title": "食品标签",
+    "lesson": "L6",
+    "instruction": "从词库选词填空。先判词性，再看搭配和逻辑。",
+    "content": "Food labels can help shoppers make healthier [[1]]. However, the information is often difficult to [[2]], especially for people with limited literacy. Some countries now use simple front-of-pack labels with colours or stars. Research suggests that clear labels can [[3]] consumers towards healthier products. Campaigners argue that labelling should be [[4]] across all supermarkets.",
+    "bank": [
+      "choices",
+      "understand",
+      "guide",
+      "consistent",
+      "prices",
+      "ignore",
+      "optional",
+      "reduce"
+    ],
+    "blanks": [
+      {
+        "answer": "choices"
+      },
+      {
+        "answer": "understand"
+      },
+      {
+        "answer": "guide"
+      },
+      {
+        "answer": "consistent"
+      }
+    ],
+    "explanation": "① make healthier choices 固定搭配；② difficult to understand；③ guide consumers towards；④ should be consistent 一致的。",
+    "tip": "difficult to 后接动词原形；should be 后接形容词。"
+  },
+  {
+    "id": "fib-r-08",
+    "type": "fib-r",
+    "section": "reading",
+    "level": 2,
+    "time": 150,
+    "title": "远程团队",
+    "lesson": "L6",
+    "instruction": "从词库选词填空。先判词性，再看搭配和逻辑。",
+    "content": "Remote teams depend on clear communication. Without regular [[1]], members may work on the wrong tasks. Managers should set [[2]] goals and check progress in short meetings. It is also important to [[3]] time for informal conversation, which helps build trust. Teams that communicate well can be just as [[4]] as those in the same office.",
+    "bank": [
+      "updates",
+      "measurable",
+      "allow",
+      "productive",
+      "delays",
+      "personal",
+      "refuse",
+      "expensive"
+    ],
+    "blanks": [
+      {
+        "answer": "updates"
+      },
+      {
+        "answer": "measurable"
+      },
+      {
+        "answer": "allow"
+      },
+      {
+        "answer": "productive"
+      }
+    ],
+    "explanation": "① regular updates 定期更新；② measurable goals 可衡量目标；③ allow time for 留出时间；④ as productive as 和……一样高效。",
+    "tip": "as + 形容词 + as 结构；productive 是形容词。"
+  },
+  {
+    "id": "ro-07",
+    "type": "ro",
+    "section": "reading",
+    "level": 2,
+    "time": 150,
+    "title": "茶的历史",
+    "lesson": "L6",
+    "instruction": "按正确顺序点击句子。按相邻对给分，先连确定的。",
+    "sentences": [
+      "In Britain, tea became a popular drink in the eighteenth century.",
+      "Tea was first drunk in China thousands of years ago.",
+      "Today, it is one of the most widely consumed drinks in the world.",
+      "From there, it spread to Japan and later to Europe.",
+      "Traders shipped it in large quantities, making it cheaper."
+    ],
+    "answer": [
+      1,
+      3,
+      0,
+      4,
+      2
+    ],
+    "explanation": "首句 B 交代起源（没有指代）；D 的 there 指 China；A 讲英国；E 的 it 指 tea，解释变便宜；C 的 Today 收尾。",
+    "tip": "先找没有 this/these/they 的句子；再顺着时间线：起源→传播→英国→贸易→今天。"
+  },
+  {
+    "id": "ro-08",
+    "type": "ro",
+    "section": "reading",
+    "level": 2,
+    "time": 150,
+    "title": "疫苗如何起作用",
+    "lesson": "L6",
+    "instruction": "按正确顺序点击句子。按相邻对给分，先连确定的。",
+    "sentences": [
+      "After vaccination, the body produces antibodies.",
+      "A vaccine trains the immune system to recognise a disease.",
+      "This is why vaccines can prevent illness without causing it.",
+      "It contains a harmless part of the virus or bacterium.",
+      "If the real pathogen enters later, the immune system responds quickly."
+    ],
+    "answer": [
+      1,
+      3,
+      0,
+      4,
+      2
+    ],
+    "explanation": "首句 B 定义疫苗；D 的 It 指 vaccine；A 讲接种后产生抗体；E 讲以后遇到病原体；C 的 This is why 总结。",
+    "tip": "It / This 是强指代线索；先找被指代的名词。"
+  },
+  {
+    "id": "ro-09",
+    "type": "ro",
+    "section": "reading",
+    "level": 2,
+    "time": 150,
+    "title": "播客的兴起",
+    "lesson": "L6",
+    "instruction": "按正确顺序点击句子。按相邻对给分，先连确定的。",
+    "sentences": [
+      "Producers started making shows on news, science and comedy.",
+      "Podcasts began as a way to listen to audio files on portable players.",
+      "Today, millions of people listen while commuting or exercising.",
+      "As smartphones spread, listening became easier.",
+      "Advertisers followed, and some podcasts became profitable."
+    ],
+    "answer": [
+      1,
+      3,
+      0,
+      4,
+      2
+    ],
+    "explanation": "首句 B 起源；D 讲智能手机；A 讲节目类型；E 讲广告/盈利；C 的 Today 收尾。",
+    "tip": "时间线：起源→技术普及→内容→商业化→今天。"
+  },
+  {
+    "id": "ro-10",
+    "type": "ro",
+    "section": "reading",
+    "level": 2,
+    "time": 150,
+    "title": "自行车的历史",
+    "lesson": "L6",
+    "instruction": "按正确顺序点击句子。按相邻对给分，先连确定的。",
+    "sentences": [
+      "The first bicycles had no pedals and were pushed along with the feet.",
+      "Later designs added pedals, making travel faster.",
+      "Cycling became a popular form of transport in the late nineteenth century.",
+      "Today, bikes are promoted as a clean alternative to cars.",
+      "However, early riders faced rough roads and high prices."
+    ],
+    "answer": [
+      0,
+      1,
+      2,
+      4,
+      3
+    ],
+    "explanation": "首句 A 讲最早的自行车；B 的 Later 接设计改进；C 讲流行；E 的 However 转折早期困难；D 的 Today 收尾。",
+    "tip": "However 常接在“普遍情况”之后，引出限制；Today 通常收尾。"
+  },
+  {
+    "id": "mcq-s-08",
+    "type": "mcq-s",
+    "section": "reading",
+    "level": 2,
+    "time": 100,
+    "title": "再野化",
+    "lesson": "L6",
+    "instruction": "读短文，选一个正确答案。",
+    "content": "Rewilding aims to restore natural processes by reintroducing species and reducing human control. Supporters say it can bring back biodiversity and store carbon. Critics worry that large animals may damage farmland or come into conflict with local communities. Most projects now include consultation with residents and long-term monitoring, suggesting that rewilding is as much a social challenge as an ecological one.",
+    "question": "What is the main idea of the passage?",
+    "options": [
+      "Rewilding is opposed by all local communities.",
+      "Rewilding only focuses on carbon storage.",
+      "Rewilding has ecological benefits but also social challenges.",
+      "Rewilding has no scientific support."
+    ],
+    "answer": 2,
+    "explanation": "文章先讲生态好处，再讲与农民/社区的冲突，最后说“social challenge as ecological”，所以选 A。B、C、D 都过于绝对或片面。",
+    "tip": "最后一句常是主旨；出现 as much…as… 时，注意两个层面。"
+  },
+  {
+    "id": "mcq-s-09",
+    "type": "mcq-s",
+    "section": "reading",
+    "level": 2,
+    "time": 100,
+    "title": "数字极简主义",
+    "lesson": "L6",
+    "instruction": "读短文，选一个正确答案。",
+    "content": "Digital minimalism encourages people to use technology intentionally rather than simply reducing screen time. Followers often remove notifications, schedule time for email and keep only apps that support their goals. However, critics note that not all screen time is harmful and that constant self-monitoring can create new anxiety. The approach works best, they argue, when it is adapted to individual needs.",
+    "question": "What can be inferred about digital minimalism?",
+    "options": [
+      "It requires giving up all technology.",
+      "It should be adapted rather than applied as a fixed rule.",
+      "It is harmful for everyone.",
+      "It only works for students."
+    ],
+    "answer": 1,
+    "explanation": "最后一句 works best when adapted to individual needs 对应 A。B、C 太绝对；D 文中没提。",
+    "tip": "infer 题不要选原文没说的群体；优先选“有保留”的选项。"
+  },
+  {
+    "id": "mcq-s-10",
+    "type": "mcq-s",
+    "section": "reading",
+    "level": 2,
+    "time": 100,
+    "title": "零工经济",
+    "lesson": "L6",
+    "instruction": "读短文，选一个正确答案。",
+    "content": "Gig work offers flexibility: workers can choose when and how much they work. However, gig workers often lack sick pay, paid holidays and pensions, and their income can be unpredictable. Some choose gig work for freedom, while others rely on it because they cannot find secure employment. As the sector grows, governments face pressure to extend basic protections without destroying the flexibility that attracts workers.",
+    "question": "What is the passage mainly about?",
+    "options": [
+      "Why gig workers earn more than employees.",
+      "How to end gig work completely.",
+      "Why flexibility is unimportant.",
+      "The benefits and risks of gig work, and the policy dilemma."
+    ],
+    "answer": 3,
+    "explanation": "文章既讲 flexibility，也讲 lack of protections，最后说政府要在保护与灵活之间平衡，选 A。",
+    "tip": "主旨题要找“两方面 + 作者态度”，不要只抓一个细节。"
+  },
+  {
+    "id": "mcq-s-11",
+    "type": "mcq-s",
+    "section": "reading",
+    "level": 2,
+    "time": 100,
+    "title": "习惯养成",
+    "lesson": "L6",
+    "instruction": "读短文，选一个正确答案。",
+    "content": "Research suggests that habits are formed through repetition in a stable context. Missing one day does not necessarily break a habit, and trying to be perfect can be counterproductive. People who link a new behaviour to an existing routine, such as walking after lunch, are more likely to maintain it. Consistency matters more than intensity, especially in the first few weeks.",
+    "question": "What does the passage suggest about habit formation?",
+    "options": [
+      "Consistency is more important than perfection.",
+      "Missing one day ruins a habit.",
+      "Intensity is the key factor.",
+      "Habits form without any context."
+    ],
+    "answer": 0,
+    "explanation": "最后一句 Consistency matters more than intensity 对应 A；B 与原文相反；C、D 与原文不符。",
+    "tip": "留意 more than / rather than 结构，往往是答案。"
+  },
+  {
+    "id": "mcq-s-12",
+    "type": "mcq-s",
+    "section": "reading",
+    "level": 2,
+    "time": 100,
+    "title": "城市热岛",
+    "lesson": "L6",
+    "instruction": "读短文，选一个正确答案。",
+    "content": "Cities are often hotter than surrounding countryside because concrete and asphalt absorb heat. Trees can cool streets through shade and evaporation, but not all neighbourhoods have equal access to green space. Low-income areas often have fewer trees and more heat-related health problems. Planting programmes therefore need to target these areas and include long-term maintenance, not just one-off planting events.",
+    "question": "What is the author's main concern?",
+    "options": [
+      "Cities should stop planting trees.",
+      "Tree planting should prioritise disadvantaged areas and maintenance.",
+      "Heat is only a rural problem.",
+      "All neighbourhoods have equal green space."
+    ],
+    "answer": 1,
+    "explanation": "文章说 low-income areas fewer trees，最后说 programmes need to target these areas + maintenance，选 A。",
+    "tip": "作者 concern 通常出现在最后一句的建议里。"
+  },
+  {
+    "id": "mcq-m-07",
+    "type": "mcq-m",
+    "section": "reading",
+    "level": 3,
+    "time": 110,
+    "title": "四天工作制",
+    "lesson": "L6",
+    "instruction": "选 2 个正确选项。注意：错选倒扣 1 分，只选有依据的。",
+    "content": "Some companies have trialled a four-day week with no cut in pay. Most reported stable or higher productivity, lower staff turnover and less burnout. However, the model is easier to apply in office jobs than in hospitals, retail or manufacturing, where cover must be maintained. Critics also warn that compressing work into fewer days can increase daily stress for some employees.",
+    "question": "Which two statements are supported by the passage?",
+    "options": [
+      "Some trials found stable or higher productivity.",
+      "The model suits all industries equally.",
+      "Some employees may feel more daily stress.",
+      "All companies reported lower costs."
+    ],
+    "answer": [
+      0,
+      2
+    ],
+    "explanation": "A 对应 stable or higher productivity；C 对应 compressing work can increase daily stress。B、D 过于绝对/原文没有。",
+    "tip": "多选只选有原句支持的；all / equally 先警惕。"
+  },
+  {
+    "id": "mcq-m-08",
+    "type": "mcq-m",
+    "section": "reading",
+    "level": 3,
+    "time": 110,
+    "title": "电动滑板车",
+    "lesson": "L6",
+    "instruction": "选 2 个正确选项。注意：错选倒扣 1 分，只选有依据的。",
+    "content": "Electric scooters can reduce short car trips and give people a cheap way to travel. However, injuries have risen in cities where they are common, especially on pavements. Some cities now limit speed, require helmets or create dedicated lanes. Operators argue that clear rules and better infrastructure are more effective than outright bans.",
+    "question": "Which two statements are true?",
+    "options": [
+      "Injuries have fallen where scooters are common.",
+      "E-scooters may replace some short car journeys.",
+      "Operators support complete bans.",
+      "Clear rules and infrastructure are suggested."
+    ],
+    "answer": [
+      1,
+      3
+    ],
+    "explanation": "A 对应 reduce short car trips；C 对应 clear rules and better infrastructure。B 与原文相反；D 与 operators argue 相反。",
+    "tip": "注意 operators argue 后的观点；不要把自己的立场当成原文。"
+  },
+  {
+    "id": "mcq-m-09",
+    "type": "mcq-m",
+    "section": "reading",
+    "level": 3,
+    "time": 110,
+    "title": "在线评论",
+    "lesson": "L6",
+    "instruction": "选 2 个正确选项。注意：错选倒扣 1 分，只选有依据的。",
+    "content": "Online reviews help consumers compare products and services, and many people read them before booking. However, fake reviews are common, and some businesses pay for positive ratings. Platforms are now using algorithms to detect suspicious patterns and requiring reviewers to verify purchases. Researchers warn that no system is perfect, so consumers should look for detailed comments rather than relying only on star ratings.",
+    "question": "Which two statements are supported?",
+    "options": [
+      "Fake reviews are a problem for consumers.",
+      "Star ratings are always reliable.",
+      "Researchers say the system is perfect.",
+      "Platforms are trying to detect suspicious reviews."
+    ],
+    "answer": [
+      0,
+      3
+    ],
+    "explanation": "A 对应 fake reviews common；C 对应 platforms using algorithms。B、D 与原文相反。",
+    "tip": "always / perfect 这类绝对词通常是错误项。"
+  },
+  {
+    "id": "mcq-m-10",
+    "type": "mcq-m",
+    "section": "reading",
+    "level": 3,
+    "time": 110,
+    "title": "太空旅游",
+    "lesson": "L6",
+    "instruction": "选 2 个正确选项。注意：错选倒扣 1 分，只选有依据的。",
+    "content": "Space tourism is expanding, with several companies offering short flights to the edge of space. Supporters argue that it can inspire interest in science and fund new technology. Critics point to the high emissions per passenger and the enormous cost, which could be spent on public priorities. Regulations are still limited, and the long-term environmental impact is uncertain.",
+    "question": "Which two statements are supported?",
+    "options": [
+      "It has very low emissions per passenger.",
+      "Space tourism may inspire interest in science.",
+      "Regulations are still limited.",
+      "Its environmental impact is fully known."
+    ],
+    "answer": [
+      1,
+      2
+    ],
+    "explanation": "A 对应 inspire interest；C 对应 Regulations are still limited。B 与 high emissions 相反；D 与 uncertain 相反。",
+    "tip": "注意 uncertain / limited 这类限定词，往往对应正确项。"
   }
 ];
