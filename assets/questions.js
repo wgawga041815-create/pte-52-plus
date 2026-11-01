@@ -1,5 +1,5 @@
-/* PTE 52 Lab Plus — 223 questions
- * 8 harder Re-order Paragraphs added.
+/* PTE 52 Lab Plus — 248 questions
+ * 25 harder reading questions across five types.
  */
 window.QUESTIONS = [
   {
@@ -5429,5 +5429,800 @@ window.QUESTIONS = [
     ],
     "explanation": "首句 C 讲 cue；E 讲替代比压制容易；D 讲移除 cue；B 讲新行为绑定旧 routine；A 的 This is why 总结。",
     "tip": "A 的 This is why 指前面“环境比意志力重要”；B 的 existing routine 是关键词。"
+  },
+  {
+    "id": "fib-rw-24",
+    "type": "fib-rw",
+    "section": "reading",
+    "level": 4,
+    "time": 160,
+    "title": "科学的马太效应（高难）",
+    "lesson": "L6",
+    "instruction": "每空选一个词。高难：先判词性，再看搭配/语篇逻辑。",
+    "content": "Scientific recognition is not distributed evenly. Researchers who receive a prestigious grant early in their careers tend to attract further funding, a pattern known as cumulative advantage. This can [[1]] the visibility of already successful scientists while [[2]] equally promising work by outsiders. Funding agencies have therefore begun to [[3]] applicants on the quality of their proposals rather than their past record. However, such reforms are difficult to [[4]] when reviewers rely on reputation as a shortcut.",
+    "blanks": [
+      {
+        "options": [
+          "amplifies",
+          "amplify",
+          "amplified",
+          "amplifying"
+        ],
+        "answer": 1
+      },
+      {
+        "options": [
+          "overshadow",
+          "overshadows",
+          "overshadowed",
+          "overshadowing"
+        ],
+        "answer": 3
+      },
+      {
+        "options": [
+          "assess",
+          "assesses",
+          "assessed",
+          "assessing"
+        ],
+        "answer": 0
+      },
+      {
+        "options": [
+          "implemented",
+          "implementing",
+          "implement",
+          "implements"
+        ],
+        "answer": 2
+      }
+    ],
+    "explanation": "① can + 动词原形 → amplify；② while + 动名词 → overshadowing；③ begin to + 动词原形 → assess；④ difficult to + 动词原形 → implement。",
+    "tip": "高难：while 后接动名词；begin to do；be difficult to do。"
+  },
+  {
+    "id": "fib-rw-25",
+    "type": "fib-rw",
+    "section": "reading",
+    "level": 4,
+    "time": 160,
+    "title": "城市蔓延的财政成本（高难）",
+    "lesson": "L6",
+    "instruction": "每空选一个词。高难：先判词性，再看搭配/语篇逻辑。",
+    "content": "Low-density development on the edge of cities can [[1]] the cost of providing roads, pipes and public transport. Because each household is spread over a larger area, local governments collect less tax revenue per kilometre of infrastructure. This fiscal gap may [[2]] into higher charges for residents or deferred maintenance. Some regions have responded with growth boundaries and higher [[3]] in central areas. The aim is to make compact development more [[4]] than sprawl.",
+    "blanks": [
+      {
+        "options": [
+          "raises",
+          "raised",
+          "raise",
+          "raising"
+        ],
+        "answer": 2
+      },
+      {
+        "options": [
+          "translate",
+          "translates",
+          "translated",
+          "translating"
+        ],
+        "answer": 0
+      },
+      {
+        "options": [
+          "dense",
+          "densely",
+          "densities",
+          "density"
+        ],
+        "answer": 3
+      },
+      {
+        "options": [
+          "attract",
+          "attractive",
+          "attraction",
+          "attractively"
+        ],
+        "answer": 1
+      }
+    ],
+    "explanation": "① can + 动词原形 → raise；② may + 动词原形 → translate；③ higher + 名词 → density；④ make + 宾语 + 形容词 → attractive。",
+    "tip": "高难：translate into 转化为；higher density；make compact development more attractive。"
+  },
+  {
+    "id": "fib-rw-26",
+    "type": "fib-rw",
+    "section": "reading",
+    "level": 4,
+    "time": 160,
+    "title": "宽容的悖论（高难）",
+    "lesson": "L6",
+    "instruction": "每空选一个词。高难：先判词性，再看搭配/语篇逻辑。",
+    "content": "The philosopher Karl Popper argued that a society that is tolerant without limit may eventually be [[1]] by intolerant groups. If a group uses freedom of speech to [[2]] the freedom of others, unrestricted tolerance can become self-defeating. Popper therefore suggested that tolerance should be [[3]] by a commitment to the open society. Critics warn that this argument can be [[4]] to silence legitimate dissent.",
+    "blanks": [
+      {
+        "options": [
+          "undermine",
+          "undermined",
+          "undermining",
+          "undermines"
+        ],
+        "answer": 1
+      },
+      {
+        "options": [
+          "destroys",
+          "destroyed",
+          "destroy",
+          "destroying"
+        ],
+        "answer": 2
+      },
+      {
+        "options": [
+          "balanced",
+          "balance",
+          "balancing",
+          "balances"
+        ],
+        "answer": 0
+      },
+      {
+        "options": [
+          "abuse",
+          "abusing",
+          "abusive",
+          "abused"
+        ],
+        "answer": 3
+      }
+    ],
+    "explanation": "① may be + 过去分词 → undermined；② use sth to + 动词原形 → destroy；③ should be + 过去分词 → balanced；④ can be + 过去分词 → abused。",
+    "tip": "高难：被动语态 may be undermined / should be balanced / can be abused。"
+  },
+  {
+    "id": "fib-rw-27",
+    "type": "fib-rw",
+    "section": "reading",
+    "level": 4,
+    "time": 160,
+    "title": "抗生素耐药性（高难）",
+    "lesson": "L6",
+    "instruction": "每空选一个词。高难：先判词性，再看搭配/语篇逻辑。",
+    "content": "The overuse of antibiotics in medicine and agriculture has [[1]] the emergence of resistant bacteria. When a course of treatment is stopped early, surviving bacteria may [[2]] and spread. Hospitals are now introducing stewardship programmes to [[3]] prescriptions to cases where they are truly needed. Yet the pipeline for new antibiotics remains [[4]], partly because the drugs are used sparingly and therefore less profitable.",
+    "blanks": [
+      {
+        "options": [
+          "accelerate",
+          "accelerating",
+          "accelerates",
+          "accelerated"
+        ],
+        "answer": 3
+      },
+      {
+        "options": [
+          "multiplies",
+          "multiply",
+          "multiplied",
+          "multiplying"
+        ],
+        "answer": 1
+      },
+      {
+        "options": [
+          "restricts",
+          "restricted",
+          "restrict",
+          "restricting"
+        ],
+        "answer": 2
+      },
+      {
+        "options": [
+          "weak",
+          "weakness",
+          "weaken",
+          "weakly"
+        ],
+        "answer": 0
+      }
+    ],
+    "explanation": "① has + 过去分词 → accelerated；② may + 动词原形 → multiply；③ to + 动词原形 → restrict；④ remains + 形容词 → weak。",
+    "tip": "高难：现在完成 has accelerated；restrict sth to；remains weak。"
+  },
+  {
+    "id": "fib-rw-28",
+    "type": "fib-rw",
+    "section": "reading",
+    "level": 4,
+    "time": 160,
+    "title": "免费停车的隐性成本（高难）",
+    "lesson": "L6",
+    "instruction": "每空选一个词。高难：先判词性，再看搭配/语篇逻辑。",
+    "content": "Minimum parking requirements often [[1]] developers to provide more spaces than the market would demand. The resulting supply of free parking [[2]] driving and makes public transport less competitive. Economists argue that the land used for parking has a high [[3]] cost, especially in city centres. Some cities have therefore [[4]] these requirements and allowed developers to pay into a transport fund instead.",
+    "blanks": [
+      {
+        "options": [
+          "require",
+          "requires",
+          "required",
+          "requiring"
+        ],
+        "answer": 0
+      },
+      {
+        "options": [
+          "encourage",
+          "encouraged",
+          "encourages",
+          "encouraging"
+        ],
+        "answer": 2
+      },
+      {
+        "options": [
+          "opportune",
+          "opportunely",
+          "opportunities",
+          "opportunity"
+        ],
+        "answer": 3
+      },
+      {
+        "options": [
+          "abolish",
+          "abolished",
+          "abolishing",
+          "abolition"
+        ],
+        "answer": 1
+      }
+    ],
+    "explanation": "① often + 动词原形（主语 requirements 复数）→ require；② supply 单数，谓语 encourages；③ high + 名词 → opportunity；④ have + 过去分词 → abolished。",
+    "tip": "高难：主谓一致（supply encourages）；opportunity cost；have abolished。"
+  },
+  {
+    "id": "fib-r-09",
+    "type": "fib-r",
+    "section": "reading",
+    "level": 4,
+    "time": 170,
+    "title": "传粉昆虫（高难）",
+    "lesson": "L6",
+    "instruction": "从词库选词填空。高难：先按词性分组，再看搭配。",
+    "content": "Honeybees and wild pollinators are essential for many crops. Their populations are [[1]] by pesticides, disease and the loss of flowering habitats. Farmers who depend on pollination may see lower [[2]] and higher production costs. Planting wildflower strips and reducing pesticide use can [[3]] pollinator numbers. However, such measures require coordination between neighbouring farms, because bees do not respect [[4]].",
+    "bank": [
+      "threatened",
+      "yields",
+      "restore",
+      "boundaries",
+      "increased",
+      "prices",
+      "ignore",
+      "borders"
+    ],
+    "blanks": [
+      {
+        "answer": "threatened"
+      },
+      {
+        "answer": "yields"
+      },
+      {
+        "answer": "restore"
+      },
+      {
+        "answer": "boundaries"
+      }
+    ],
+    "explanation": "① are + 过去分词 → threatened；② lower + 名词 → yields；③ can + 动词原形 → restore；④ respect + 名词复数 → boundaries。",
+    "tip": "高难：threatened by；lower yields；restore numbers；boundaries 边界。"
+  },
+  {
+    "id": "fib-r-10",
+    "type": "fib-r",
+    "section": "reading",
+    "level": 4,
+    "time": 170,
+    "title": "零的历史（高难）",
+    "lesson": "L6",
+    "instruction": "从词库选词填空。高难：先按词性分组，再看搭配。",
+    "content": "The concept of zero emerged separately in several ancient cultures. At first, it was used as a [[1]] to show an empty position in a number. Later, mathematicians began to treat zero as a number in its own right, which [[2]] new forms of calculation. The idea took centuries to become [[3]] in Europe. Its acceptance depended as much on trade and accounting as on [[4]].",
+    "bank": [
+      "placeholder",
+      "enabled",
+      "accepted",
+      "mathematics",
+      "symbol",
+      "prevented",
+      "rare",
+      "commerce"
+    ],
+    "blanks": [
+      {
+        "answer": "placeholder"
+      },
+      {
+        "answer": "enabled"
+      },
+      {
+        "answer": "accepted"
+      },
+      {
+        "answer": "mathematics"
+      }
+    ],
+    "explanation": "① a + 名词 → placeholder；② which + 谓语 → enabled；③ become + 形容词 → accepted；④ as on + 名词 → mathematics。",
+    "tip": "高难：placeholder 占位符；enabled new forms；accepted 被接受。"
+  },
+  {
+    "id": "fib-r-11",
+    "type": "fib-r",
+    "section": "reading",
+    "level": 4,
+    "time": 170,
+    "title": "青少年睡眠（高难）",
+    "lesson": "L6",
+    "instruction": "从词库选词填空。高难：先按词性分组，再看搭配。",
+    "content": "Adolescents experience a shift in their [[1]] rhythms, which makes it difficult for them to fall asleep early. Early school start times can therefore [[2]] sleep deprivation. This is associated with poorer concentration and lower academic [[3]]. Some districts have responded by delaying the start of the school day, and early evidence suggests that attendance and [[4]] improve.",
+    "bank": [
+      "circadian",
+      "worsen",
+      "performance",
+      "wellbeing",
+      "digestive",
+      "improve",
+      "attendance",
+      "anxiety"
+    ],
+    "blanks": [
+      {
+        "answer": "circadian"
+      },
+      {
+        "answer": "worsen"
+      },
+      {
+        "answer": "performance"
+      },
+      {
+        "answer": "wellbeing"
+      }
+    ],
+    "explanation": "① circadian rhythms 生物钟；② can + 动词原形 → worsen；③ academic performance 固定搭配；④ attendance and wellbeing 并列。",
+    "tip": "高难：circadian rhythms；worsen deprivation；academic performance；wellbeing。"
+  },
+  {
+    "id": "fib-r-12",
+    "type": "fib-r",
+    "section": "reading",
+    "level": 4,
+    "time": 170,
+    "title": "漂绿（高难）",
+    "lesson": "L6",
+    "instruction": "从词库选词填空。高难：先按词性分组，再看搭配。",
+    "content": "Companies increasingly advertise their environmental credentials, but not all claims are [[1]]. Greenwashing occurs when a firm [[2]] a small improvement to distract from a larger problem. Consumers may lack the expertise to [[3]] such claims, and regulators have been slow to act. Clear standards and independent verification are needed to [[4]] trust.",
+    "bank": [
+      "accurate",
+      "highlights",
+      "verify",
+      "restore",
+      "false",
+      "hides",
+      "ignore",
+      "reduce"
+    ],
+    "blanks": [
+      {
+        "answer": "accurate"
+      },
+      {
+        "answer": "highlights"
+      },
+      {
+        "answer": "verify"
+      },
+      {
+        "answer": "restore"
+      }
+    ],
+    "explanation": "① are + 形容词 → accurate；② a firm 单数，谓语 highlights；③ to + 动词原形 → verify；④ to + 动词原形 → restore。",
+    "tip": "高难：greenwashing 漂绿；highlights a small improvement；verify claims；restore trust。"
+  },
+  {
+    "id": "fib-r-13",
+    "type": "fib-r",
+    "section": "reading",
+    "level": 4,
+    "time": 170,
+    "title": "遗忘的适应性（高难）",
+    "lesson": "L6",
+    "instruction": "从词库选词填空。高难：先按词性分组，再看搭配。",
+    "content": "Forgetting is often seen as a failure of memory, but it can be [[1]]. The brain prunes information that is no longer useful, which [[2]] the retrieval of what matters. Forgetting also reduces [[3]] between similar memories. Rather than trying to remember everything, learners may benefit from [[4]] what they need and reviewing it at intervals.",
+    "bank": [
+      "adaptive",
+      "facilitates",
+      "interference",
+      "selecting",
+      "harmful",
+      "blocks",
+      "attention",
+      "ignoring"
+    ],
+    "blanks": [
+      {
+        "answer": "adaptive"
+      },
+      {
+        "answer": "facilitates"
+      },
+      {
+        "answer": "interference"
+      },
+      {
+        "answer": "selecting"
+      }
+    ],
+    "explanation": "① can be + 形容词 → adaptive；② which + 谓语 → facilitates；③ reduces + 名词 → interference；④ from + 动名词 → selecting。",
+    "tip": "高难：adaptive 适应性的；facilitates retrieval；interference 干扰；selecting。"
+  },
+  {
+    "id": "ro-19",
+    "type": "ro",
+    "section": "reading",
+    "level": 4,
+    "time": 180,
+    "title": "孤独天才的神话（高难）",
+    "lesson": "L6",
+    "instruction": "按正确顺序点击句子。高难：先找首句，再顺指代/连接词。",
+    "sentences": [
+      "This attribution overlooks the dense networks of assistants, collaborators and rivals who shaped the work.",
+      "The idea of the lone genius remains attractive because it simplifies complex discoveries into a single story.",
+      "Historians of science have therefore begun to study laboratories, correspondence and funding as closely as the final publication.",
+      "In reality, major breakthroughs rarely emerge from a single mind working in isolation.",
+      "Such studies show that credit is often distributed unevenly, with the most senior figure receiving the greatest share."
+    ],
+    "answer": [
+      1,
+      3,
+      0,
+      2,
+      4
+    ],
+    "explanation": "首句 B 讲“孤独天才”观念；D 的 In reality 转折；A 的 This attribution 指前面；C 的 therefore 讲研究转向；E 的 Such studies 指 C。",
+    "tip": "A 的 This attribution 指 B 的“孤独天才”；E 的 Such studies 指 C 的研究。"
+  },
+  {
+    "id": "ro-20",
+    "type": "ro",
+    "section": "reading",
+    "level": 4,
+    "time": 180,
+    "title": "维修经济（高难）",
+    "lesson": "L6",
+    "instruction": "按正确顺序点击句子。高难：先找首句，再顺指代/连接词。",
+    "sentences": [
+      "Manufacturers argue that sealed devices are necessary for safety and reliability.",
+      "The repair economy aims to extend the life of products rather than replace them.",
+      "However, access to spare parts and manuals is often restricted, which limits independent repair.",
+      "Legislation known as “right to repair” seeks to require companies to share these resources.",
+      "If successful, such laws could reduce electronic waste and lower costs for consumers."
+    ],
+    "answer": [
+      1,
+      0,
+      2,
+      3,
+      4
+    ],
+    "explanation": "首句 B 定义维修经济；A 讲制造商立场；C 的 However 转折到限制；D 讲立法；E 的 such laws 指 D。",
+    "tip": "C 的 However 是对 A 的回应；E 的 such laws 指 D 的 right to repair。"
+  },
+  {
+    "id": "ro-21",
+    "type": "ro",
+    "section": "reading",
+    "level": 4,
+    "time": 180,
+    "title": "资源诅咒（高难）",
+    "lesson": "L6",
+    "instruction": "按正确顺序点击句子。高难：先找首句，再顺指代/连接词。",
+    "sentences": [
+      "This paradox is known as the resource curse.",
+      "Countries rich in oil or minerals often grow more slowly than resource-poor economies.",
+      "Volatile export prices can destabilise public budgets, while weak institutions may allow revenues to be captured by elites.",
+      "Some governments have responded by creating sovereign wealth funds and diversifying their economies.",
+      "Whether these strategies succeed depends largely on the quality of governance."
+    ],
+    "answer": [
+      1,
+      2,
+      0,
+      3,
+      4
+    ],
+    "explanation": "首句 B 讲现象；C 解释原因；A 的 This paradox 指前面；D 讲对策；E 的 these strategies 指 D。",
+    "tip": "A 的 This paradox 指 B 的“资源多反而增长慢”；E 的 these strategies 指 D。"
+  },
+  {
+    "id": "ro-22",
+    "type": "ro",
+    "section": "reading",
+    "level": 4,
+    "time": 180,
+    "title": "城市降温（高难）",
+    "lesson": "L6",
+    "instruction": "按正确顺序点击句子。高难：先找首句，再顺指代/连接词。",
+    "sentences": [
+      "Trees cool streets through shade and evaporation, while parks allow hot air to rise and circulate.",
+      "The effectiveness of these measures depends on design, irrigation and maintenance.",
+      "Cities are increasingly using green infrastructure to reduce heat.",
+      "However, not all neighbourhoods have equal access to trees and open space.",
+      "Planners therefore need to target the hottest and most vulnerable areas first."
+    ],
+    "answer": [
+      2,
+      0,
+      3,
+      1,
+      4
+    ],
+    "explanation": "首句 C 讲绿色基础设施；A 讲树木/公园机制；D 的 However 讲不平等；B 讲效果取决于设计；E 的 therefore 给出结论。",
+    "tip": "D 的 However 是对 A 的补充/转折；E 的 therefore 是最后结论。"
+  },
+  {
+    "id": "ro-23",
+    "type": "ro",
+    "section": "reading",
+    "level": 4,
+    "time": 180,
+    "title": "铅笔的历史（高难）",
+    "lesson": "L6",
+    "instruction": "按正确顺序点击句子。高难：先找首句，再顺指代/连接词。",
+    "sentences": [
+      "Mass production in the nineteenth century made pencils cheap enough for schools.",
+      "Its history shows how a humble material can reshape education and design.",
+      "Graphite was discovered in England in the sixteenth century and was initially used to mark sheep.",
+      "Today, the pencil remains a simple but remarkably durable technology.",
+      "The invention of the modern pencil depended on finding a way to encase brittle graphite in wood."
+    ],
+    "answer": [
+      2,
+      4,
+      0,
+      3,
+      1
+    ],
+    "explanation": "首句 C 讲石墨发现；E 的 The invention 接石墨；A 讲量产；D 的 Today 收尾；B 的 Its history 总结。",
+    "tip": "E 的 The invention 指把石墨包进木头；B 的 Its history 指整篇。"
+  },
+  {
+    "id": "mcq-s-13",
+    "type": "mcq-s",
+    "section": "reading",
+    "level": 3,
+    "time": 110,
+    "title": "效率悖论（高难）",
+    "lesson": "L6",
+    "instruction": "读短文，选一个正确答案。",
+    "content": "When a machine becomes more efficient, the cost of each unit of output falls. Economists have long observed that this can increase total consumption rather than reduce it, because consumers use more of the cheaper good or spend the savings elsewhere. This phenomenon, known as the Jevons paradox, complicates the claim that efficiency alone will reduce resource use. Policy therefore needs to consider total demand, not just per-unit efficiency.",
+    "question": "What is the main point of the passage?",
+    "options": [
+      "Efficiency always reduces resource use.",
+      "Consumers never respond to lower prices.",
+      "Efficiency gains may increase total consumption.",
+      "The Jevons paradox has been disproved."
+    ],
+    "answer": 2,
+    "explanation": "文章说效率提高→成本下降→总消费可能增加，最后说政策要看 total demand，选 A。",
+    "tip": "Jevons paradox：效率越高，总消耗可能越大。"
+  },
+  {
+    "id": "mcq-s-14",
+    "type": "mcq-s",
+    "section": "reading",
+    "level": 3,
+    "time": 110,
+    "title": "注意力时长（高难）",
+    "lesson": "L6",
+    "instruction": "读短文，选一个正确答案。",
+    "content": "Claims that smartphones have destroyed attention spans are widespread, but the evidence is mixed. Some studies find declines in sustained attention, while others find no change or improved multitasking. Researchers warn that laboratory tasks may not reflect real-life behaviour. Rather than panic, they suggest teaching focus skills and designing devices that are less distracting.",
+    "question": "What can be inferred from the passage?",
+    "options": [
+      "Smartphones have definitely destroyed attention.",
+      "The evidence on attention spans is inconclusive.",
+      "Laboratory tasks always reflect real life.",
+      "Focus skills cannot be taught."
+    ],
+    "answer": 1,
+    "explanation": "mixed evidence / may not reflect real life / rather than panic 对应 A。B、C 太绝对；D 与 teaching focus skills 相反。",
+    "tip": "infer 题选“有保留”的选项。"
+  },
+  {
+    "id": "mcq-s-15",
+    "type": "mcq-s",
+    "section": "reading",
+    "level": 3,
+    "time": 110,
+    "title": "阴性结果（高难）",
+    "lesson": "L6",
+    "instruction": "读短文，选一个正确答案。",
+    "content": "Scientific journals have traditionally preferred studies with positive findings. As a result, experiments that fail to confirm a hypothesis are often left unpublished, a problem known as the file-drawer effect. This publication bias can distort meta-analyses and waste resources, because other researchers repeat work that has already been done. Some funders now require negative results to be registered and reported.",
+    "question": "What is the passage mainly about?",
+    "options": [
+      "Why positive findings are always wrong.",
+      "How to increase publication costs.",
+      "Why meta-analyses are unnecessary.",
+      "The harm caused by unpublished negative results."
+    ],
+    "answer": 3,
+    "explanation": "文章讲 negative results 不发表→file-drawer→meta-analysis 失真→浪费，最后要求登记，选 A。",
+    "tip": "file-drawer effect：阴性结果被抽屉锁起来。"
+  },
+  {
+    "id": "mcq-s-16",
+    "type": "mcq-s",
+    "section": "reading",
+    "level": 3,
+    "time": 110,
+    "title": "助推的伦理（高难）",
+    "lesson": "L6",
+    "instruction": "读短文，选一个正确答案。",
+    "content": "Nudges alter the way choices are presented without banning any option. Supporters argue that defaults, reminders and simplified forms can help people make better decisions at low cost. Critics worry that nudges can manipulate people without their knowledge, and that policymakers may choose goals that reflect their own preferences rather than the public's. Transparency and independent evaluation are therefore essential.",
+    "question": "What is the author's attitude towards nudges?",
+    "options": [
+      "Supportive but concerned about transparency.",
+      "Completely opposed to all nudges.",
+      "Certain that nudges are always neutral.",
+      "Indifferent to their ethical effects."
+    ],
+    "answer": 0,
+    "explanation": "文章既讲好处，也讲 manipulation 风险，最后说 transparency/evaluation essential，选 A。",
+    "tip": "态度题：支持 + 保留 = supportive but concerned。"
+  },
+  {
+    "id": "mcq-s-17",
+    "type": "mcq-s",
+    "section": "reading",
+    "level": 3,
+    "time": 110,
+    "title": "二手时尚（高难）",
+    "lesson": "L6",
+    "instruction": "读短文，选一个正确答案。",
+    "content": "The second-hand clothing market has grown rapidly as consumers look for cheaper and more sustainable options. Resale can reduce demand for new production, but it also creates transport emissions and may displace local textile workers. Some platforms argue that buying second-hand is always better for the environment, yet the picture depends on how clothes are shipped, cleaned and eventually discarded. Policy should therefore focus on durability and circular design, not just resale volume.",
+    "question": "What does the passage suggest about second-hand clothing?",
+    "options": [
+      "It is always better than new clothing.",
+      "It has no effect on textile workers.",
+      "Its environmental benefits depend on how the market operates.",
+      "Resale volume is the only thing that matters."
+    ],
+    "answer": 2,
+    "explanation": "文章说 benefits depend on shipping/cleaning/disposal，最后说 focus on durability/circular design，选 A。",
+    "tip": "注意 always / only 这类绝对词。"
+  },
+  {
+    "id": "mcq-m-11",
+    "type": "mcq-m",
+    "section": "reading",
+    "level": 4,
+    "time": 120,
+    "title": "全民基本收入（高难）",
+    "lesson": "L6",
+    "instruction": "选 2 个正确选项。注意：错选倒扣 1 分，只选有依据的。",
+    "content": "Several countries have trialled a universal basic income (UBI), a regular payment to every adult regardless of income. Trials have reported improved mental health and little reduction in paid work, but most lasted only a few years and involved small samples. Critics point to the cost of paying everyone, including those who do not need it, and argue that targeted benefits may be more efficient. Supporters counter that UBI reduces stigma and administrative complexity.",
+    "question": "Which two statements are supported by the passage?",
+    "options": [
+      "Trials have reported improved mental health.",
+      "UBI has been proven to reduce all work.",
+      "Critics question the cost of universal payments.",
+      "All trials used large national samples."
+    ],
+    "answer": [
+      0,
+      2
+    ],
+    "explanation": "A 对应 improved mental health；C 对应 critics point to cost。B 与 little reduction in work 相反；D 与 small samples 相反。",
+    "tip": "高难：proven / all 这类绝对词通常是错项。"
+  },
+  {
+    "id": "mcq-m-12",
+    "type": "mcq-m",
+    "section": "reading",
+    "level": 4,
+    "time": 120,
+    "title": "拥堵收费（高难）",
+    "lesson": "L6",
+    "instruction": "选 2 个正确选项。注意：错选倒扣 1 分，只选有依据的。",
+    "content": "Congestion charges aim to reduce traffic by making drivers pay to enter busy areas at peak times. Cities that have introduced them report shorter journey times and lower emissions, and the revenue can fund public transport. However, charges can be regressive if low-income drivers have no alternative, and businesses near the boundary may lose customers. Exemptions and reinvestment are often used to address these concerns.",
+    "question": "Which two statements are supported?",
+    "options": [
+      "Charges are always fair to low-income drivers.",
+      "Congestion charges can reduce journey times.",
+      "Businesses never lose customers.",
+      "Revenue can be used for public transport."
+    ],
+    "answer": [
+      1,
+      3
+    ],
+    "explanation": "A 对应 shorter journey times；C 对应 revenue can fund public transport。B、D 过于绝对。",
+    "tip": "高难：regressive / exemptions 是公平性关键词。"
+  },
+  {
+    "id": "mcq-m-13",
+    "type": "mcq-m",
+    "section": "reading",
+    "level": 4,
+    "time": 120,
+    "title": "开放获取出版（高难）",
+    "lesson": "L6",
+    "instruction": "选 2 个正确选项。注意：错选倒扣 1 分，只选有依据的。",
+    "content": "Open-access publishing makes research free to read, but authors often pay an article-processing charge. This can disadvantage researchers in low-income countries and shift costs from libraries to grants. Some funders now cover these charges, and some journals waive them for authors who cannot pay. Critics worry that high fees may create a two-tier system, even though access for readers improves.",
+    "question": "Which two statements are true?",
+    "options": [
+      "Open access can shift costs to authors or funders.",
+      "Article charges never affect low-income researchers.",
+      "Open access always creates a two-tier system.",
+      "Some journals waive fees for authors who cannot pay."
+    ],
+    "answer": [
+      0,
+      3
+    ],
+    "explanation": "A 对应 shift costs；C 对应 waive fees。B、D 过于绝对。",
+    "tip": "高难：two-tier system 是“双轨制”；always 先排除。"
+  },
+  {
+    "id": "mcq-m-14",
+    "type": "mcq-m",
+    "section": "reading",
+    "level": 4,
+    "time": 120,
+    "title": "垂直农业（高难）",
+    "lesson": "L6",
+    "instruction": "选 2 个正确选项。注意：错选倒扣 1 分，只选有依据的。",
+    "content": "Vertical farms grow crops in stacked layers indoors, using less land and water than conventional agriculture. They can operate near cities and reduce transport, but they consume large amounts of electricity for lighting and cooling. Leafy greens currently work best; staple crops such as wheat remain difficult to grow profitably. Supporters see a role for vertical farms in specific markets, not as a replacement for all farming.",
+    "question": "Which two statements are supported?",
+    "options": [
+      "They are profitable for all staple crops.",
+      "Vertical farms use less land and water.",
+      "Electricity use is a major limitation.",
+      "They will replace all conventional farming."
+    ],
+    "answer": [
+      1,
+      2
+    ],
+    "explanation": "A 对应 less land/water；C 对应 large amounts of electricity。B、D 与原文相反。",
+    "tip": "高难：specific markets vs replacement；注意 not as a replacement。"
+  },
+  {
+    "id": "mcq-m-15",
+    "type": "mcq-m",
+    "section": "reading",
+    "level": 4,
+    "time": 120,
+    "title": "公民科学（高难）",
+    "lesson": "L6",
+    "instruction": "选 2 个正确选项。注意：错选倒扣 1 分，只选有依据的。",
+    "content": "Citizen science projects ask volunteers to collect or classify data, from bird counts to galaxy images. They can cover far more sites than professional teams and engage the public in research. However, data quality depends on training and verification, and volunteers may lose interest over time. Successful projects therefore combine simple protocols, regular feedback and professional checks.",
+    "question": "Which two statements are supported?",
+    "options": [
+      "Citizen science can cover more sites than professional teams.",
+      "All volunteer data are equally reliable.",
+      "Training and verification affect data quality.",
+      "Volunteers never lose interest."
+    ],
+    "answer": [
+      0,
+      2
+    ],
+    "explanation": "A 对应 cover far more sites；C 对应 quality depends on training/verification。B、D 过于绝对。",
+    "tip": "高难：quality depends on… 是限定表达，通常是正确项。"
   }
 ];
