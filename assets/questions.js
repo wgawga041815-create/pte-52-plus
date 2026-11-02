@@ -1,5 +1,5 @@
 /* PTE 52 Lab Plus — 307 questions
- * Listening topics rotated (SST/HCS/WFD).
+ * All listening hard topics rotated.
  */
 window.QUESTIONS = [
   {
@@ -6862,21 +6862,21 @@ window.QUESTIONS = [
     "section": "listening",
     "level": 4,
     "time": 110,
-    "title": "认知负荷（高难）",
+    "title": "自行车历史（高难）",
     "lesson": "L7",
     "instruction": "听录音，选正确答案。音频只放一遍。",
-    "audio": "Today's lecture is about cognitive load. Working memory can hold only a few items at once. When too many elements compete for attention, learning slows and errors increase. Teachers can reduce load by chunking material and providing worked examples. However, too much support can prevent students from developing independent problem-solving skills.",
-    "question": "What is the speaker's attitude to worked examples?",
+    "audio": "The first bicycles had no pedals and were pushed with the feet. Later designs added pedals, which made travel faster. Cycling became popular in the late nineteenth century, although early riders faced rough roads and high prices.",
+    "question": "What made bicycle travel faster?",
     "options": [
-      "Useful but should be faded over time",
-      "Always harmful",
-      "Only useful for exams",
-      "They replace independent practice"
+      "Rough roads",
+      "High prices",
+      "The addition of pedals",
+      "The invention of the car"
     ],
-    "answer": 0,
+    "answer": 2,
     "multi": false,
-    "explanation": "文章说 worked examples 能降低负荷，但 too much support 会妨碍独立解题，所以是“有用但要逐渐减少”，选 A。",
-    "tip": "态度题：先找 however 后的保留。"
+    "explanation": "Later designs added pedals, which made travel faster 对应 A。B、C 是困难，D 原文没提。",
+    "tip": "因果题：which made travel faster 直接给答案。"
   },
   {
     "id": "mcq-l-12",
@@ -6884,24 +6884,24 @@ window.QUESTIONS = [
     "section": "listening",
     "level": 4,
     "time": 110,
-    "title": "研究伦理（高难）",
+    "title": "火山与气候（高难）",
     "lesson": "L7",
     "instruction": "听录音，选正确答案。音频只放一遍。 多选：对 +1，错 −1。",
-    "audio": "Students who plan to interview human participants must obtain ethics approval before collecting data. Applications should include the interview questions and a consent form. Studies that involve children require additional safeguards. The committee meets on the first Monday of each month, and late applications are considered only in exceptional cases.",
+    "audio": "Volcanic eruptions release ash and gases. Sulfur dioxide can form droplets that reflect sunlight and cool the planet for a year or two. However, the effect is uneven and temporary, and eruptions can disrupt air travel.",
     "question": "Which two statements are true?",
     "options": [
-      "Ethics approval is needed before data collection.",
-      "Children require additional safeguards.",
-      "Late applications are always accepted.",
-      "Consent forms are optional."
+      "Eruptions never affect air travel.",
+      "Sulfur dioxide can cool the planet.",
+      "The effect is always even.",
+      "The cooling effect is temporary."
     ],
     "answer": [
-      0,
-      1
+      1,
+      3
     ],
     "multi": true,
-    "explanation": "A 对应 before collecting data；B 对应 children require additional safeguards。C 与 only in exceptional cases 相反；D 与 should include a consent form 相反。",
-    "tip": "多选：only/always 先排除。"
+    "explanation": "A 对应 cool the planet；B 对应 temporary。C、D 与原文相反。",
+    "tip": "多选：never / always 先排除。"
   },
   {
     "id": "mcq-l-13",
@@ -6909,21 +6909,21 @@ window.QUESTIONS = [
     "section": "listening",
     "level": 4,
     "time": 110,
-    "title": "气候适应（高难）",
+    "title": "咖啡经济（高难）",
     "lesson": "L7",
     "instruction": "听录音，选正确答案。音频只放一遍。",
-    "audio": "Adaptation is essential as extreme weather becomes more frequent. However, poorly designed responses can be maladaptive. For example, sea walls may protect one district while displacing flooding elsewhere. Planners therefore need to assess long-term consequences, not just immediate protection.",
-    "question": "What is the main point about adaptation?",
+    "audio": "Coffee is one of the most traded agricultural commodities. Millions of small farmers depend on it, but prices are volatile and climate change threatens suitable growing areas. Certification can help, but it is costly to join.",
+    "question": "What are the main challenges for coffee farmers?",
     "options": [
-      "It can have unintended negative effects.",
-      "It always reduces flooding.",
-      "It is unnecessary.",
-      "It only concerns sea walls."
+      "Too many buyers",
+      "Free certification",
+      "Stable weather",
+      "Volatile prices and climate change"
     ],
-    "answer": 0,
+    "answer": 3,
     "multi": false,
-    "explanation": "maladaptive / displacing flooding elsewhere / long-term consequences 对应 A；B、C 太绝对；D 只是例子。",
-    "tip": "主旨题选概括“问题+例子”的选项。"
+    "explanation": "volatile prices + climate change threatens growing areas 对应 A。B、C、D 与原文相反。",
+    "tip": "并列问题：prices + climate。"
   },
   {
     "id": "mcq-l-14",
@@ -6931,24 +6931,24 @@ window.QUESTIONS = [
     "section": "listening",
     "level": 4,
     "time": 110,
-    "title": "博物馆经费（高难）",
+    "title": "野生动物走廊（高难）",
     "lesson": "L7",
     "instruction": "听录音，选正确答案。音频只放一遍。 多选：对 +1，错 −1。",
-    "audio": "Museums increasingly rely on special exhibitions and donations because public funding has fallen. Free entry can increase visitor numbers, but it does not cover conservation costs. Some museums now charge for special exhibitions while keeping permanent collections free. Critics argue that this creates a two-tier system.",
+    "audio": "Habitat fragmentation isolates animal populations. Wildlife corridors connect patches of habitat, allowing animals to move and mate. However, corridors must be planned with local communities because they can conflict with farming.",
     "question": "Which two statements are true?",
     "options": [
-      "Free entry does not cover conservation costs.",
-      "Some museums charge for special exhibitions.",
-      "Public funding has increased.",
-      "Critics say there is no two-tier system."
+      "Corridors connect patches of habitat.",
+      "Fragmentation increases genetic diversity.",
+      "Corridors can conflict with farming.",
+      "Corridors need no community input."
     ],
     "answer": [
       0,
-      1
+      2
     ],
     "multi": true,
-    "explanation": "A 对应 does not cover conservation costs；B 对应 charge for special exhibitions。C 与 funding has fallen 相反；D 与 creates a two-tier system 相反。",
-    "tip": "多选：数字/经费变化先记清。"
+    "explanation": "A 对应 connect patches；B 对应 conflict with farming。C、D 与原文相反。",
+    "tip": "多选：注意冲突/限制句。"
   },
   {
     "id": "mcq-l-15",
@@ -6956,21 +6956,21 @@ window.QUESTIONS = [
     "section": "listening",
     "level": 4,
     "time": 110,
-    "title": "语言流失（高难）",
+    "title": "音乐与大脑（高难）",
     "lesson": "L7",
     "instruction": "听录音，选正确答案。音频只放一遍。",
-    "audio": "Language attrition occurs when speakers lose proficiency in a language they once used regularly. It is common among migrants whose first language is no longer dominant. Intergenerational transmission is crucial: if parents stop using the language at home, children may never acquire it fully. Community programmes can help preserve it.",
-    "question": "What is the main idea?",
+    "audio": "Music activates brain regions involved in memory, emotion and movement. Familiar music can help people with dementia recall personal memories and reduce agitation. However, music is not a cure, and responses vary.",
+    "question": "What does the speaker say about music therapy?",
     "options": [
-      "Home use is crucial for passing on a language.",
-      "Migrants always lose their first language.",
-      "Community programmes are useless.",
-      "Children cannot learn languages."
+      "It can help but is not a cure.",
+      "It cures dementia.",
+      "It works the same for everyone.",
+      "It should be avoided."
     ],
     "answer": 0,
     "multi": false,
-    "explanation": "Intergenerational transmission is crucial / parents stop using at home 对应 A；B、C、D 太绝对或与原文相反。",
-    "tip": "主旨题：注意 crucial 后的解释。"
+    "explanation": "not a cure / responses vary 对应 A；B、C 与原文相反；D 没有依据。",
+    "tip": "态度题：however 后是限制。"
   },
   {
     "id": "fib-l-10",
@@ -6978,24 +6978,24 @@ window.QUESTIONS = [
     "section": "listening",
     "level": 4,
     "time": 120,
-    "title": "注意力经济（高难）",
+    "title": "自行车的历史（高难）",
     "lesson": "L7",
     "instruction": "听讲座，补全 3 个空。拼写必须正确。",
-    "audio": "Platforms earn money by keeping users engaged. Features such as infinite scroll are designed to increase engagement. Some governments are considering regulation on persuasive design.",
-    "content": "Platforms earn money by keeping users [[1]]. Features such as infinite scroll are designed to increase [[2]]. Some governments are considering [[3]] on persuasive design.",
+    "audio": "The first bicycles had no pedals and were pushed with the feet. Later designs added pedals and made travel faster. Today, cities need safe lanes and secure parking.",
+    "content": "The first bicycles had no [[1]] and were pushed with the feet. Later designs added pedals and made travel [[2]]. Today, cities need safe lanes and secure [[3]].",
     "answers": [
       [
-        "engaged"
+        "pedals"
       ],
       [
-        "engagement"
+        "faster"
       ],
       [
-        "regulation"
+        "parking"
       ]
     ],
-    "explanation": "engaged（过去分词）、engagement（名词）、regulation（名词）；注意拼写。",
-    "tip": "keep users + 形容词/分词；increase + 名词；considering + 名词。"
+    "explanation": "pedals（复数）、faster（比较级）、parking（名词）。",
+    "tip": "no + 复数；made travel + 形容词；secure + 名词。"
   },
   {
     "id": "fib-l-11",
@@ -7003,24 +7003,24 @@ window.QUESTIONS = [
     "section": "listening",
     "level": 4,
     "time": 120,
-    "title": "抗生素耐药性（高难）",
+    "title": "火山与气候（高难）",
     "lesson": "L7",
     "instruction": "听讲座，补全 3 个空。拼写必须正确。",
-    "audio": "Antibiotic resistance is a growing threat. Overuse in agriculture accelerates the evolution of resistant bacteria. Hospitals are introducing stewardship programmes.",
-    "content": "Antibiotic [[1]] is a growing threat. Overuse in agriculture [[2]] the evolution of resistant bacteria. Hospitals are introducing [[3]] programmes.",
+    "audio": "Volcanic eruptions release ash and gases into the atmosphere. Sulfur dioxide can reflect sunlight and cool the planet temporarily. Scientists study volcanoes to improve predictions.",
+    "content": "Volcanic eruptions release ash and [[1]] into the atmosphere. Sulfur dioxide can reflect sunlight and cool the planet [[2]]. Scientists study volcanoes to improve [[3]].",
     "answers": [
       [
-        "resistance"
+        "gases"
       ],
       [
-        "accelerates"
+        "temporarily"
       ],
       [
-        "stewardship"
+        "predictions"
       ]
     ],
-    "explanation": "resistance（名词）、accelerates（单三）、stewardship（名词）。",
-    "tip": "主语 Overuse 单数 → accelerates；stewardship 拼写。"
+    "explanation": "gases（复数）、temporarily（副词）、predictions（复数）。",
+    "tip": "ash and + 复数；cool + 副词；improve + 名词。"
   },
   {
     "id": "fib-l-12",
@@ -7028,24 +7028,24 @@ window.QUESTIONS = [
     "section": "listening",
     "level": 4,
     "time": 120,
-    "title": "可重复性（高难）",
+    "title": "咖啡经济（高难）",
     "lesson": "L7",
     "instruction": "听讲座，补全 3 个空。拼写必须正确。",
-    "audio": "Many published findings cannot be replicated. Journals now require data sharing and pre-registration. However, transparency alone cannot fix poor study design.",
-    "content": "Many published findings cannot be [[1]]. Journals now require data sharing and [[2]]. However, transparency alone cannot fix poor study [[3]].",
+    "audio": "Coffee is one of the most traded agricultural commodities. Millions of small farmers depend on it, but prices are volatile. Certification schemes can help farmers receive a premium.",
+    "content": "Coffee is one of the most traded [[1]] commodities. Millions of small farmers depend on it, but prices are [[2]]. Certification schemes can help farmers receive a [[3]].",
     "answers": [
       [
-        "replicated"
+        "agricultural"
       ],
       [
-        "pre-registration"
+        "volatile"
       ],
       [
-        "design"
+        "premium"
       ]
     ],
-    "explanation": "replicated（过去分词）、pre-registration（名词）、design（名词）。",
-    "tip": "be replicated 被动；pre-registration 连字符。"
+    "explanation": "agricultural（形容词）、volatile（形容词）、premium（名词）。",
+    "tip": "traded + 形容词；prices are + 形容词；receive a + 名词。"
   },
   {
     "id": "fib-l-13",
@@ -7053,24 +7053,24 @@ window.QUESTIONS = [
     "section": "listening",
     "level": 4,
     "time": 120,
-    "title": "算法问责（高难）",
+    "title": "野生动物走廊（高难）",
     "lesson": "L7",
     "instruction": "听讲座，补全 3 个空。拼写必须正确。",
-    "audio": "Algorithms decide who receives a loan or a job. Their rules are often opaque. Regulators want independent audits and a right of appeal.",
-    "content": "Algorithms decide who receives a loan or a job. Their rules are often [[1]]. Regulators want independent [[2]] and a right of [[3]].",
+    "audio": "Habitat fragmentation isolates animal populations and reduces genetic diversity. Wildlife corridors connect patches of habitat. However, corridors must be planned with local communities.",
+    "content": "Habitat fragmentation isolates animal populations and reduces [[1]] diversity. Wildlife corridors connect patches of [[2]]. However, corridors must be planned with local [[3]].",
     "answers": [
       [
-        "opaque"
+        "genetic"
       ],
       [
-        "audits"
+        "habitat"
       ],
       [
-        "appeal"
+        "communities"
       ]
     ],
-    "explanation": "opaque（形容词）、audits（复数）、appeal（名词）。",
-    "tip": "are often + 形容词；independent + 复数；right of appeal。"
+    "explanation": "genetic diversity 固定搭配；patches of habitat；local communities 复数。",
+    "tip": "genetic diversity；patches of + 名词；local + 复数。"
   },
   {
     "id": "fib-l-14",
@@ -7078,24 +7078,24 @@ window.QUESTIONS = [
     "section": "listening",
     "level": 4,
     "time": 120,
-    "title": "选择的悖论（高难）",
+    "title": "音乐与大脑（高难）",
     "lesson": "L7",
     "instruction": "听讲座，补全 3 个空。拼写必须正确。",
-    "audio": "Too many options can lead to paralysis. Retailers use defaults to simplify decisions. However, these can also manipulate consumers.",
-    "content": "Too many options can lead to [[1]]. Retailers use [[2]] to simplify decisions. However, these can also [[3]] consumers.",
+    "audio": "Music activates many brain regions, including those involved in memory and emotion. Listening to familiar music can help people with dementia recall personal memories. However, music is not a cure.",
+    "content": "Music activates many brain regions, including those involved in [[1]] and emotion. Listening to familiar music can help people with dementia recall [[2]] memories. However, music is not a [[3]].",
     "answers": [
       [
-        "paralysis"
+        "memory"
       ],
       [
-        "defaults"
+        "personal"
       ],
       [
-        "manipulate"
+        "cure"
       ]
     ],
-    "explanation": "paralysis（名词）、defaults（复数）、manipulate（动词原形）。",
-    "tip": "lead to + 名词；use + 复数；can also + 动词原形。"
+    "explanation": "memory（不可数）、personal（形容词）、cure（名词）。",
+    "tip": "in + 名词；personal memories；not a + 名词。"
   },
   {
     "id": "hcs-07",
@@ -7208,20 +7208,20 @@ window.QUESTIONS = [
     "section": "listening",
     "level": 4,
     "time": 90,
-    "title": "注意力经济（高难）",
+    "title": "自行车（选缺失词）",
     "lesson": "L7",
     "instruction": "听录音，选出最后缺失的词或短语。",
-    "audio": "The lecture explains the attention economy. Platforms earn money by keeping users ...",
+    "audio": "The first bicycles had no pedals and were pushed with the ...",
     "question": "Which word completes the recording?",
     "options": [
-      "engaged",
-      "isolated",
-      "educated",
-      "exhausted"
+      "feet",
+      "hands",
+      "ropes",
+      "wheels"
     ],
     "answer": 0,
-    "explanation": "keep users engaged 是固定搭配。",
-    "tip": "keep + 宾语 + 形容词/分词。"
+    "explanation": "最早的自行车没有踏板，用脚蹬地前进，所以是 feet。",
+    "tip": "with the feet 固定搭配。"
   },
   {
     "id": "smw-08",
@@ -7229,20 +7229,20 @@ window.QUESTIONS = [
     "section": "listening",
     "level": 4,
     "time": 90,
-    "title": "抗生素耐药性（高难）",
+    "title": "火山（选缺失词）",
     "lesson": "L7",
     "instruction": "听录音，选出最后缺失的词或短语。",
-    "audio": "The main cause of antibiotic resistance is the overuse of ...",
+    "audio": "The gas that can reflect sunlight and cool the planet after an eruption is ...",
     "question": "Which word completes the recording?",
     "options": [
-      "antibiotics",
-      "pesticides",
-      "fertilisers",
-      "vaccines"
+      "sulfur dioxide",
+      "oxygen",
+      "nitrogen",
+      "hydrogen"
     ],
     "answer": 0,
-    "explanation": "抗生素滥用是耐药性的主要原因。",
-    "tip": "the overuse of + 名词。"
+    "explanation": "火山喷发后能形成气溶胶、反射阳光的是 sulfur dioxide（二氧化硫）。",
+    "tip": "火山 + 降温 → sulfur dioxide。"
   },
   {
     "id": "smw-09",
@@ -7250,20 +7250,20 @@ window.QUESTIONS = [
     "section": "listening",
     "level": 4,
     "time": 90,
-    "title": "可重复性（高难）",
+    "title": "咖啡（选缺失词）",
     "lesson": "L7",
     "instruction": "听录音，选出最后缺失的词或短语。",
-    "audio": "The reproducibility crisis refers to the difficulty of ...",
+    "audio": "Coffee prices are often ...",
     "question": "Which word completes the recording?",
     "options": [
-      "replicating published findings",
-      "teaching statistics",
-      "funding laboratories",
-      "publishing books"
+      "volatile",
+      "stable",
+      "fixed",
+      "falling"
     ],
     "answer": 0,
-    "explanation": "reproducibility = 可重复性；crisis 指很多研究无法复现。",
-    "tip": "replicate findings 固定搭配。"
+    "explanation": "咖啡价格经常波动，volatile 是“波动大的”。",
+    "tip": "prices are often + 形容词；volatile 拼写。"
   },
   {
     "id": "smw-10",
@@ -7271,20 +7271,20 @@ window.QUESTIONS = [
     "section": "listening",
     "level": 4,
     "time": 90,
-    "title": "算法问责（高难）",
+    "title": "野生动物（选缺失词）",
     "lesson": "L7",
     "instruction": "听录音，选出最后缺失的词或短语。",
-    "audio": "When algorithms are opaque, affected people may lack ...",
+    "audio": "Wildlife corridors connect patches of ...",
     "question": "Which word completes the recording?",
     "options": [
-      "information about decisions",
-      "access to computers",
-      "job interviews",
-      "loan applications"
+      "habitat",
+      "farmland",
+      "cities",
+      "oceans"
     ],
     "answer": 0,
-    "explanation": "opaque 不透明 → 缺少决策信息。",
-    "tip": "lack + 名词；information 不可数。"
+    "explanation": "野生动物走廊连接的是 patches of habitat（栖息地斑块）。",
+    "tip": "patches of habitat 固定搭配。"
   },
   {
     "id": "smw-11",
@@ -7292,20 +7292,20 @@ window.QUESTIONS = [
     "section": "listening",
     "level": 4,
     "time": 90,
-    "title": "选择的悖论（高难）",
+    "title": "音乐（选缺失词）",
     "lesson": "L7",
     "instruction": "听录音，选出最后缺失的词或短语。",
-    "audio": "The paradox of choice suggests that too many options can cause ...",
+    "audio": "Familiar music can help people with dementia recall ...",
     "question": "Which word completes the recording?",
     "options": [
-      "paralysis",
-      "satisfaction",
-      "confidence",
-      "wealth"
+      "personal memories",
+      "phone numbers",
+      "shopping lists",
+      "addresses"
     ],
     "answer": 0,
-    "explanation": "选择过多导致 paralysis（瘫痪/无法决定）。",
-    "tip": "paradox of choice 的结论是 paralysis。"
+    "explanation": "熟悉音乐能帮助痴呆患者回忆 personal memories（个人记忆）。",
+    "tip": "recall personal memories。"
   },
   {
     "id": "hiw-10",
@@ -7313,15 +7313,15 @@ window.QUESTIONS = [
     "section": "listening",
     "level": 4,
     "time": 100,
-    "title": "注意力经济（点错词）",
+    "title": "自行车（点错词）",
     "lesson": "L7",
     "instruction": "听音频，点出文中与音频不一致的词。错点倒扣。",
-    "audio": "Platforms design features to keep users engaged. Infinite scroll and autoplay increase time online. Regulators are now considering limits on persuasive design.",
-    "content": "Platforms design features to keep users addicted Infinite scroll and autoplay increase reduce online. Regulators are now considering subsidies on persuasive design.",
+    "audio": "The first bicycles had no pedals and were pushed with the feet. Later designs added pedals and made travel faster. Today, cities need safe lanes and secure parking for cyclists.",
+    "content": "The first bicycles had no wheels and were pushed with the feet. Later designs added pedals and made travel cheaper Today, cities need safe roads and secure parking for cyclists.",
     "wrong": [
-      6,
-      12,
-      18
+      5,
+      19,
+      24
     ],
     "explanation": "音频与文本有替换；只点确定的差异，错点 −1。",
     "tip": "数字/形容词/连接词最常被替换。"
@@ -7332,15 +7332,15 @@ window.QUESTIONS = [
     "section": "listening",
     "level": 4,
     "time": 100,
-    "title": "抗生素耐药性（点错词）",
+    "title": "火山（点错词）",
     "lesson": "L7",
     "instruction": "听音频，点出文中与音频不一致的词。错点倒扣。",
-    "audio": "Antibiotic resistance is a growing threat. Overuse in agriculture and medicine accelerates it. New antibiotics are urgently needed.",
-    "content": "Antibiotic resistance is a minor threat. education in agriculture and medicine accelerates it. New antibiotics rarely urgently needed.",
+    "audio": "Volcanic eruptions release ash and gases into the atmosphere. Sulfur dioxide can reflect sunlight and cool the planet temporarily. Scientists study volcanoes to improve predictions, not to stop global warming.",
+    "content": "Volcanic eruptions release ash liquids gases into the atmosphere. Sulfur dioxide can reflect sunlight and warm the planet temporarily. Scientists study volcanoes to reduce predictions, not to stop global warming.",
     "wrong": [
       4,
-      6,
-      15
+      15,
+      23
     ],
     "explanation": "音频与文本有替换；只点确定的差异，错点 −1。",
     "tip": "数字/形容词/连接词最常被替换。"
@@ -7351,15 +7351,15 @@ window.QUESTIONS = [
     "section": "listening",
     "level": 4,
     "time": 100,
-    "title": "可重复性（点错词）",
+    "title": "咖啡（点错词）",
     "lesson": "L7",
     "instruction": "听音频，点出文中与音频不一致的词。错点倒扣。",
-    "audio": "Many published findings cannot be replicated. Journals now require data sharing. However, transparency alone cannot fix poor design.",
-    "content": "Few published findings cannot be replicated. Journals refuse require data sharing. However, transparency always cannot fix poor design.",
+    "audio": "Coffee is one of the most traded agricultural commodities. Millions of small farmers depend on it, but prices are volatile. Certification schemes can help farmers receive a premium.",
+    "content": "Coffee is one of the most grown agricultural commodities. Millions of small farmers depend on it, but prices are stable Certification schemes can help farmers receive a discount",
     "wrong": [
-      0,
-      7,
-      13
+      6,
+      19,
+      27
     ],
     "explanation": "音频与文本有替换；只点确定的差异，错点 −1。",
     "tip": "数字/形容词/连接词最常被替换。"
@@ -7370,15 +7370,15 @@ window.QUESTIONS = [
     "section": "listening",
     "level": 4,
     "time": 100,
-    "title": "算法问责（点错词）",
+    "title": "野生动物（点错词）",
     "lesson": "L7",
     "instruction": "听音频，点出文中与音频不一致的词。错点倒扣。",
-    "audio": "Algorithms decide who gets a loan or a job. Their rules are often opaque. Regulators want independent audits and a right of appeal.",
-    "content": "Algorithms decide who gets a house or a job. Their obvious are often opaque. Regulators internal independent audits and a right of appeal.",
+    "audio": "Habitat fragmentation isolates animal populations and reduces genetic diversity. Wildlife corridors connect patches of habitat, allowing animals to move, find food and mate. However, corridors must be planned with local communities, because they can conflict with farming and development.",
+    "content": "Habitat fragmentation isolates animal populations and increases genetic diversity. Wildlife corridors connect patches of habitat, allowing animals to move, lose food and mate. However, corridors must be planned with local governments because they can conflict with farming and development.",
     "wrong": [
-      5,
-      10,
-      15
+      6,
+      19,
+      30
     ],
     "explanation": "音频与文本有替换；只点确定的差异，错点 −1。",
     "tip": "数字/形容词/连接词最常被替换。"
@@ -7389,15 +7389,15 @@ window.QUESTIONS = [
     "section": "listening",
     "level": 4,
     "time": 100,
-    "title": "选择的悖论（点错词）",
+    "title": "音乐（点错词）",
     "lesson": "L7",
     "instruction": "听音频，点出文中与音频不一致的词。错点倒扣。",
-    "audio": "Too many options can lead to paralysis. Retailers use defaults to simplify decisions. However, defaults can also manipulate consumers.",
-    "content": "Too many options can lead to confidence Retailers use defaults to complicate decisions. However, defaults can also protect consumers.",
+    "audio": "Music activates many brain regions, including those involved in memory, emotion and movement. Listening to familiar music can help people with dementia recall personal memories and reduce agitation. However, music is not a cure, and responses vary widely.",
+    "content": "Music damages many brain regions, including those involved in memory, emotion and movement. Listening to foreign music can help people with dementia recall personal memories and increase agitation. However, music is not a cure, and responses vary widely.",
     "wrong": [
-      6,
-      11,
-      17
+      1,
+      15,
+      26
     ],
     "explanation": "音频与文本有替换；只点确定的差异，错点 −1。",
     "tip": "数字/形容词/连接词最常被替换。"
