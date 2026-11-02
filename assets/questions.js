@@ -1,5 +1,5 @@
-/* PTE 52 Lab Plus — 248 questions
- * 25 harder reading questions across five types.
+/* PTE 52 Lab Plus — 272 questions
+ * Lesson 7 listening bank (24 new items).
  */
 window.QUESTIONS = [
   {
@@ -6224,5 +6224,506 @@ window.QUESTIONS = [
     ],
     "explanation": "A 对应 cover far more sites；C 对应 quality depends on training/verification。B、D 过于绝对。",
     "tip": "高难：quality depends on… 是限定表达，通常是正确项。"
+  },
+  {
+    "id": "sst-07",
+    "type": "sst",
+    "section": "listening",
+    "level": 3,
+    "time": 600,
+    "title": "城市噪音（讲座）",
+    "lesson": "L7",
+    "instruction": "听讲座，10 分钟内写 50–70 词摘要。",
+    "audio": "Today I want to discuss noise in cities. Traffic, construction and entertainment venues all produce sound that many residents cannot escape. Prolonged exposure has been linked to sleep disturbance and heart disease. However, noise receives far less attention than air pollution. The speaker argues that cities should map noise levels, protect quiet areas and require quieter road surfaces.",
+    "model": "The lecture discusses noise pollution in cities. Traffic, construction and entertainment venues are the main sources, and prolonged exposure is linked to sleep disturbance and heart disease. However, noise receives less attention than air pollution. In conclusion, cities should map noise, protect quiet areas and use quieter road surfaces.",
+    "checklist": [
+      "字数 50–70",
+      "主题 + 两个要点",
+      "有结论",
+      "没有整句照抄"
+    ],
+    "explanation": "SST 评分：内容 2、形式 2（50–70 词；少于 40 或多于 100 直接 0）、语法/词汇/拼写各 2。",
+    "tip": "主题 + 三个来源 + 健康影响 + 一个建议；不要逐句背。"
+  },
+  {
+    "id": "sst-08",
+    "type": "sst",
+    "section": "listening",
+    "level": 3,
+    "time": 600,
+    "title": "公民科学（讲座）",
+    "lesson": "L7",
+    "instruction": "听讲座，10 分钟内写 50–70 词摘要。",
+    "audio": "Citizen science projects ask volunteers to collect or classify data, from bird counts to galaxy images. They can cover far more sites than professional teams and engage the public in research. However, data quality depends on training and verification, and volunteers may lose interest over time. Successful projects therefore combine simple protocols, regular feedback and professional checks.",
+    "model": "The lecture discusses citizen science, where volunteers collect or classify data. Such projects can cover more sites than professional teams and engage the public. However, data quality depends on training and verification, and volunteers may lose interest. In conclusion, successful projects use simple protocols, regular feedback and professional checks.",
+    "checklist": [
+      "字数 50–70",
+      "主题 + 两个要点",
+      "有结论",
+      "没有整句照抄"
+    ],
+    "explanation": "SST 评分：内容 2、形式 2（50–70 词；少于 40 或多于 100 直接 0）、语法/词汇/拼写各 2。",
+    "tip": "好处 + 问题 + 三个成功条件；however 后是重点。"
+  },
+  {
+    "id": "sst-09",
+    "type": "sst",
+    "section": "listening",
+    "level": 3,
+    "time": 600,
+    "title": "零的历史（讲座）",
+    "lesson": "L7",
+    "instruction": "听讲座，10 分钟内写 50–70 词摘要。",
+    "audio": "The concept of zero emerged separately in several ancient cultures. At first, it was used as a placeholder to show an empty position in a number. Later, mathematicians began to treat zero as a number in its own right, which enabled new forms of calculation. The idea took centuries to become accepted in Europe, and its spread depended as much on trade and accounting as on mathematics.",
+    "model": "The lecture discusses the history of zero. It first appeared as a placeholder for an empty position, and later mathematicians treated it as a number, which enabled new calculations. The idea took centuries to be accepted in Europe. In conclusion, its spread depended on trade and accounting as much as on mathematics.",
+    "checklist": [
+      "字数 50–70",
+      "主题 + 两个要点",
+      "有结论",
+      "没有整句照抄"
+    ],
+    "explanation": "SST 评分：内容 2、形式 2（50–70 词；少于 40 或多于 100 直接 0）、语法/词汇/拼写各 2。",
+    "tip": "时间线：placeholder → number → Europe；结论是 trade/accounting。"
+  },
+  {
+    "id": "mcq-l-05",
+    "type": "mcq-l",
+    "section": "listening",
+    "level": 3,
+    "time": 100,
+    "title": "图书馆延长开放",
+    "lesson": "L7",
+    "instruction": "听录音，选正确答案。音频只放一遍。",
+    "audio": "The library will stay open until midnight during the exam period. After ten o'clock, security staff will check student cards at the entrance. The café will close at nine, but the quiet study rooms on the second floor will remain available.",
+    "question": "What will happen after 10 p.m.?",
+    "options": [
+      "Students must show their student cards.",
+      "The library will close.",
+      "The café will stay open.",
+      "Quiet rooms will be unavailable."
+    ],
+    "answer": 0,
+    "multi": false,
+    "explanation": "原文 After ten o'clock, security staff will check student cards 对应 A；B、C、D 与原文相反。",
+    "tip": "时间点后的条件句是听力选择的高频考点。"
+  },
+  {
+    "id": "mcq-l-06",
+    "type": "mcq-l",
+    "section": "listening",
+    "level": 3,
+    "time": 100,
+    "title": "健身房试运营",
+    "lesson": "L7",
+    "instruction": "听录音，选正确答案。音频只放一遍。",
+    "audio": "The campus gym will open at six in the morning for a two-week trial. The aim is to see whether there is enough demand for early opening. Students will be asked to complete a short survey, and the gym will return to its usual hours if numbers are low.",
+    "question": "Why will the gym open early?",
+    "options": [
+      "To test whether there is enough demand.",
+      "To reduce staff costs.",
+      "To close the gym later.",
+      "To prepare for an exam."
+    ],
+    "answer": 0,
+    "multi": false,
+    "explanation": "The aim is to see whether there is enough demand 对应 A；其他选项没有依据。",
+    "tip": "听到 aim / purpose 立刻记下，后面通常就是原因题答案。"
+  },
+  {
+    "id": "mcq-l-07",
+    "type": "mcq-l",
+    "section": "listening",
+    "level": 3,
+    "time": 100,
+    "title": "睡眠研究招募",
+    "lesson": "L7",
+    "instruction": "听录音，选正确答案。音频只放一遍。 多选：对 +1，错 −1。",
+    "audio": "Students who want to take part in the sleep study should sign up by Friday. Participants must be over eighteen and willing to spend two nights in the laboratory. The study will measure sleep quality and concentration, and participants will receive a small payment.",
+    "question": "Which two statements are true?",
+    "options": [
+      "Participants must be over 18.",
+      "The study lasts two weeks.",
+      "Participants spend two nights in the lab.",
+      "Students can sign up after Friday."
+    ],
+    "answer": [
+      0,
+      2
+    ],
+    "multi": true,
+    "explanation": "A 对应 over eighteen；C 对应 two nights in the laboratory。B 是 two nights 不是 two weeks；D 与 by Friday 相反。",
+    "tip": "多选先把数字/时间记准：two nights ≠ two weeks。"
+  },
+  {
+    "id": "fib-l-07",
+    "type": "fib-l",
+    "section": "listening",
+    "level": 3,
+    "time": 110,
+    "title": "城市噪音（听力填空）",
+    "lesson": "L7",
+    "instruction": "听讲座，补全 3 个空。拼写必须正确。",
+    "audio": "Today's lecture is about noise in cities. We will discuss three main sources and some practical solutions. The final section will look at how other cities have reduced traffic noise.",
+    "content": "Today's lecture is about [[1]] in cities. We will discuss three main [[2]] and some practical [[3]]. The final section will look at how other cities have reduced traffic noise.",
+    "answers": [
+      [
+        "noise"
+      ],
+      [
+        "sources"
+      ],
+      [
+        "solutions"
+      ]
+    ],
+    "explanation": "三个词都是讲座高频词：noise、sources（复数）、solutions（复数）。",
+    "tip": "先看空格前后：about + 名词；three main + 复数；practical + 名词。"
+  },
+  {
+    "id": "fib-l-08",
+    "type": "fib-l",
+    "section": "listening",
+    "level": 3,
+    "time": 110,
+    "title": "零的历史（听力填空）",
+    "lesson": "L7",
+    "instruction": "听讲座，补全 3 个空。拼写必须正确。",
+    "audio": "The idea of zero first appeared as a placeholder in ancient number systems. Later, mathematicians treated it as a number in its own right. Its spread depended on trade and accounting as much as on mathematics.",
+    "content": "The idea of zero first appeared as a [[1]] in ancient number systems. Later, mathematicians treated it as a [[2]] in its own right. Its spread depended on trade and [[3]] as much as on mathematics.",
+    "answers": [
+      [
+        "placeholder"
+      ],
+      [
+        "number"
+      ],
+      [
+        "accounting"
+      ]
+    ],
+    "explanation": "placeholder、number、accounting；注意 accounting 的拼写。",
+    "tip": "a + 名词；as a + 名词；trade and + 名词。"
+  },
+  {
+    "id": "fib-l-09",
+    "type": "fib-l",
+    "section": "listening",
+    "level": 3,
+    "time": 110,
+    "title": "公民科学（听力填空）",
+    "lesson": "L7",
+    "instruction": "听讲座，补全 3 个空。拼写必须正确。",
+    "audio": "Citizen science projects rely on volunteers to collect data. However, data quality depends on training and verification. Successful projects provide regular feedback and professional checks.",
+    "content": "Citizen science projects rely on [[1]] to collect data. However, data quality depends on [[2]] and verification. Successful projects provide regular [[3]] and professional checks.",
+    "answers": [
+      [
+        "volunteers"
+      ],
+      [
+        "training"
+      ],
+      [
+        "feedback"
+      ]
+    ],
+    "explanation": "volunteers（复数）、training（不可数）、feedback（不可数）。",
+    "tip": "rely on + 名词；depends on + 名词；regular + 名词。"
+  },
+  {
+    "id": "hcs-04",
+    "type": "hcs",
+    "section": "listening",
+    "level": 2,
+    "time": 100,
+    "title": "茶的历史（讲座）",
+    "lesson": "L7",
+    "instruction": "听讲座，选出最准确的摘要。",
+    "audio": "Tea was first drunk in China thousands of years ago. It spread to Japan and later to Europe, where it became popular in the eighteenth century. Traders shipped it in large quantities, which made it cheaper. Today it is one of the most widely consumed drinks in the world.",
+    "question": "Which summary is correct?",
+    "options": [
+      "Tea spread from China to Europe and became cheaper through trade.",
+      "Tea was first drunk in Europe.",
+      "Tea became more expensive because of trade.",
+      "Tea is no longer popular today."
+    ],
+    "answer": 0,
+    "explanation": "A 覆盖起源、传播、贸易变便宜；B、C、D 与原文相反。",
+    "tip": "选覆盖全文的摘要，不选只讲一个细节的选项。"
+  },
+  {
+    "id": "hcs-05",
+    "type": "hcs",
+    "section": "listening",
+    "level": 2,
+    "time": 100,
+    "title": "习惯科学（讲座）",
+    "lesson": "L7",
+    "instruction": "听讲座，选出最准确的摘要。",
+    "audio": "Habits are triggered by cues in a stable context. Replacing an unwanted habit is often easier than trying to suppress it. If the cue is removed or the environment changed, the old routine becomes less automatic. This is why habit programmes focus on environments rather than willpower alone.",
+    "question": "Which summary is correct?",
+    "options": [
+      "Habits are shaped by cues and environment, not just willpower.",
+      "Habits can be changed by willpower alone.",
+      "All habits are impossible to change.",
+      "Cues have no effect on habits."
+    ],
+    "answer": 0,
+    "explanation": "A 对应 cues/environment；B 与 rather than willpower 相反；C、D 过于绝对。",
+    "tip": "注意 rather than 结构，答案常在后半句。"
+  },
+  {
+    "id": "hcs-06",
+    "type": "hcs",
+    "section": "listening",
+    "level": 2,
+    "time": 100,
+    "title": "共享经济（讲座）",
+    "lesson": "L7",
+    "instruction": "听讲座，选出最准确的摘要。",
+    "audio": "The sharing economy allows people to rent out rooms, cars and tools through digital platforms. It can reduce costs and make better use of underused assets. However, workers who provide services may lack insurance and stable income, and regulations have struggled to keep up.",
+    "question": "Which summary is correct?",
+    "options": [
+      "The sharing economy has benefits but also regulatory and worker-protection problems.",
+      "The sharing economy has no disadvantages.",
+      "All sharing-economy workers have stable incomes.",
+      "Regulations are already complete."
+    ],
+    "answer": 0,
+    "explanation": "A 同时覆盖 benefits 和 problems；B、C、D 与原文矛盾。",
+    "tip": "摘要题要选“既……又……”的平衡项。"
+  },
+  {
+    "id": "mcq-l-08",
+    "type": "mcq-l",
+    "section": "listening",
+    "level": 2,
+    "time": 90,
+    "title": "校园巴士",
+    "lesson": "L7",
+    "instruction": "听录音，选一个正确答案。音频只放一遍。",
+    "audio": "The campus bus will run every fifteen minutes during the exam period instead of every thirty. The first bus leaves at seven, and the last bus leaves the library at eleven. Students do not need to show a ticket, but they must tap their student card when they get on.",
+    "question": "What must students do on the bus?",
+    "options": [
+      "Tap their student card.",
+      "Buy a ticket.",
+      "Show their passport.",
+      "Book a seat."
+    ],
+    "answer": 0,
+    "explanation": "must tap their student card 对应 A；B 与 do not need a ticket 相反。",
+    "tip": "转折 but 后常是规则/要求。"
+  },
+  {
+    "id": "mcq-l-09",
+    "type": "mcq-l",
+    "section": "listening",
+    "level": 2,
+    "time": 90,
+    "title": "实验室安全",
+    "lesson": "L7",
+    "instruction": "听录音，选一个正确答案。音频只放一遍。",
+    "audio": "Before entering the laboratory, students must wear safety glasses and closed shoes. Food and drink are not allowed. If a student forgets their glasses, they can borrow a pair from the technician, but they cannot start the experiment until they have them.",
+    "question": "What happens if a student forgets safety glasses?",
+    "options": [
+      "They can borrow a pair from the technician.",
+      "They can enter without glasses.",
+      "They must go home.",
+      "They can wear sunglasses."
+    ],
+    "answer": 0,
+    "explanation": "can borrow a pair from the technician 对应 A；B、C、D 没有依据。",
+    "tip": "条件句 If… 后常出细节题。"
+  },
+  {
+    "id": "mcq-l-10",
+    "type": "mcq-l",
+    "section": "listening",
+    "level": 2,
+    "time": 90,
+    "title": "选课讲座",
+    "lesson": "L7",
+    "instruction": "听录音，选一个正确答案。音频只放一遍。",
+    "audio": "Students can change their course selection during the first two weeks of the semester. Changes after the deadline require approval from the course coordinator. The online system closes at five on Friday, so students should not wait until the last minute.",
+    "question": "What is required after the deadline?",
+    "options": [
+      "Approval from the course coordinator.",
+      "A fee.",
+      "A new student card.",
+      "A written exam."
+    ],
+    "answer": 0,
+    "explanation": "require approval from the course coordinator 对应 A；其他没有依据。",
+    "tip": "after the deadline 是定位词，答案就在附近。"
+  },
+  {
+    "id": "smw-04",
+    "type": "smw",
+    "section": "listening",
+    "level": 2,
+    "time": 80,
+    "title": "光合作用（选缺失词）",
+    "lesson": "L7",
+    "instruction": "听录音，选出最后缺失的词或短语。",
+    "audio": "The lecture explains how plants use sunlight to make food. The green pigment that absorbs light is called ...",
+    "question": "Which word completes the recording?",
+    "options": [
+      "chlorophyll",
+      "hemoglobin",
+      "glucose",
+      "starch"
+    ],
+    "answer": 0,
+    "explanation": "吸收光能的绿色色素是 chlorophyll（叶绿素）。",
+    "tip": "先听上下文：green pigment + absorbs light → chlorophyll。"
+  },
+  {
+    "id": "smw-05",
+    "type": "smw",
+    "section": "listening",
+    "level": 2,
+    "time": 80,
+    "title": "图书馆通知（选缺失词）",
+    "lesson": "L7",
+    "instruction": "听录音，选出最后缺失的词或短语。",
+    "audio": "The library will close early on Friday for ...",
+    "question": "Which word completes the recording?",
+    "options": [
+      "staff training",
+      "exam week",
+      "building work",
+      "a public holiday"
+    ],
+    "answer": 0,
+    "explanation": "通知说周五提前闭馆是为了 staff training（员工培训）。",
+    "tip": "for 后面就是原因；听清名词短语。"
+  },
+  {
+    "id": "smw-06",
+    "type": "smw",
+    "section": "listening",
+    "level": 2,
+    "time": 80,
+    "title": "温室效应（选缺失词）",
+    "lesson": "L7",
+    "instruction": "听录音，选出最后缺失的词或短语。",
+    "audio": "The lecture explains the greenhouse effect. Heat from the sun is trapped in the atmosphere by gases. The main cause is ...",
+    "question": "Which word completes the recording?",
+    "options": [
+      "carbon dioxide",
+      "oxygen",
+      "nitrogen",
+      "hydrogen"
+    ],
+    "answer": 0,
+    "explanation": "温室效应主要气体是 carbon dioxide（二氧化碳）。",
+    "tip": "the main cause is 后常接专有名词/气体名。"
+  },
+  {
+    "id": "hiw-07",
+    "type": "hiw",
+    "section": "listening",
+    "level": 3,
+    "time": 90,
+    "title": "图书馆通知（点错词）",
+    "lesson": "L7",
+    "instruction": "听音频，点出文中与音频不一致的词。错点倒扣。",
+    "audio": "The library will open at nine on Saturday. Students can borrow up to eight books. Return them to the front desk.",
+    "content": "The library will open at ten on Saturday. Students can borrow up to six books. Return them to the front desk.",
+    "wrong": [
+      5,
+      13
+    ],
+    "explanation": "音频是 nine / eight，文中被改成 ten / six。",
+    "tip": "数字是 HIW 最常改的地方；听到数字先记下。"
+  },
+  {
+    "id": "hiw-08",
+    "type": "hiw",
+    "section": "listening",
+    "level": 3,
+    "time": 90,
+    "title": "博物馆参观（点错词）",
+    "lesson": "L7",
+    "instruction": "听音频，点出文中与音频不一致的词。错点倒扣。",
+    "audio": "The tour begins at the main entrance at two. Visitors should not touch the paintings. Photography is allowed without flash.",
+    "content": "The tour begins at the main entrance at three Visitors should not touch the paintings. Photography is forbidden without flash.",
+    "wrong": [
+      8,
+      17
+    ],
+    "explanation": "音频是 two / allowed，文中被改成 three / forbidden。",
+    "tip": "时间、情态动词（allowed/forbidden）是高频替换点。"
+  },
+  {
+    "id": "hiw-09",
+    "type": "hiw",
+    "section": "listening",
+    "level": 3,
+    "time": 90,
+    "title": "讲座开场（点错词）",
+    "lesson": "L7",
+    "instruction": "听音频，点出文中与音频不一致的词。错点倒扣。",
+    "audio": "Today's lecture examines urban transport. We will compare three cities and discuss policy options. The final section reviews funding.",
+    "content": "Today's lecture examines rural transport. We will compare four cities and discuss policy options. The final section reviews funding.",
+    "wrong": [
+      3,
+      8
+    ],
+    "explanation": "音频是 urban / three，文中被改成 rural / four。",
+    "tip": "形容词和数字最容易被替换；先看名词前的形容词。"
+  },
+  {
+    "id": "wfd-08",
+    "type": "wfd",
+    "section": "listening",
+    "level": 2,
+    "time": 110,
+    "title": "听写 ×3（校园）",
+    "lesson": "L7",
+    "instruction": "点播放，每句只播一遍。整句听完再打字，写完检查单复数。",
+    "audio": "The student centre is open until eight on weekdays.||You can collect your timetable from the front desk.||Late applications will not be accepted.",
+    "answers": [
+      "The student centre is open until eight on weekdays.",
+      "You can collect your timetable from the front desk.",
+      "Late applications will not be accepted."
+    ],
+    "explanation": "WFD 每词 1 分；注意 weekdays、timetable、applications 的拼写。",
+    "tip": "写半句也有分；先写主干，最后查拼写。"
+  },
+  {
+    "id": "wfd-09",
+    "type": "wfd",
+    "section": "listening",
+    "level": 2,
+    "time": 110,
+    "title": "听写 ×3（学术）",
+    "lesson": "L7",
+    "instruction": "点播放，每句只播一遍。整句听完再打字，写完检查单复数。",
+    "audio": "The study found a strong link between sleep and memory.||Participants were asked to complete a short questionnaire.||The results were published in a medical journal.",
+    "answers": [
+      "The study found a strong link between sleep and memory.",
+      "Participants were asked to complete a short questionnaire.",
+      "The results were published in a medical journal."
+    ],
+    "explanation": "WFD 每词 1 分；注意 questionnaire、published、journal 拼写。",
+    "tip": "写半句也有分；先写主干，最后查拼写。"
+  },
+  {
+    "id": "wfd-10",
+    "type": "wfd",
+    "section": "listening",
+    "level": 2,
+    "time": 110,
+    "title": "听写 ×3（环境）",
+    "lesson": "L7",
+    "instruction": "点播放，每句只播一遍。整句听完再打字，写完检查单复数。",
+    "audio": "The council plans to install solar panels on public buildings.||Residents are encouraged to recycle food waste.||The project will be reviewed after one year.",
+    "answers": [
+      "The council plans to install solar panels on public buildings.",
+      "Residents are encouraged to recycle food waste.",
+      "The project will be reviewed after one year."
+    ],
+    "explanation": "WFD 每词 1 分；注意 council、install、reviewed 拼写。",
+    "tip": "写半句也有分；先写主干，最后查拼写。"
   }
 ];
