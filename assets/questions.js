@@ -1,5 +1,5 @@
 /* PTE 52 Lab Plus — 307 questions
- * 35 harder listening questions added.
+ * Listening topics rotated (SST/HCS/WFD).
  */
 window.QUESTIONS = [
   {
@@ -6732,19 +6732,25 @@ window.QUESTIONS = [
     "section": "listening",
     "level": 4,
     "time": 650,
-    "title": "注意力经济（高难）",
+    "title": "自行车的历史（讲座）",
     "lesson": "L7",
     "instruction": "听讲座，10 分钟内写 50–70 词摘要。",
-    "audio": "Today I want to discuss the attention economy. Digital platforms earn money by keeping users engaged, so they design features such as infinite scroll and autoplay. These features can extend time online, but they may also increase anxiety and reduce sleep. Some governments are now considering limits on persuasive design. The speaker argues that regulation should protect users without removing the benefits of digital services.",
-    "model": "The lecture discusses the attention economy. Platforms earn money by keeping users engaged, using features such as infinite scroll and autoplay. These features can increase anxiety and reduce sleep. In conclusion, the speaker argues that regulation should protect users without removing the benefits of digital services.",
+    "audio": "The first bicycles had no pedals and were pushed along with the feet. Later designs added pedals, which made travel faster and more comfortable. Cycling became a popular form of transport in the late nineteenth century, although early riders faced rough roads and high prices. Today, bikes are promoted as a clean alternative to cars, but cities still need safe lanes and secure parking.",
+    "model": "The lecture discusses the history of the bicycle. Early bicycles had no pedals, and later designs added pedals, making travel faster. Cycling became popular in the late nineteenth century despite rough roads and high prices. In conclusion, bicycles are now promoted as clean transport, but cities need safe lanes and secure parking.",
     "checklist": [
       "字数 50–70",
       "主题 + 两个要点",
       "有结论",
       "没有整句照抄"
     ],
-    "explanation": "SST 评分：内容 2、形式 2（50–70 词；少于 40 或多于 100 直接 0）、语法/词汇/拼写各 2。",
-    "tip": "主题 + 机制 + 问题 + 建议；不要写个人观点。"
+    "explanation": "SST：内容 2、形式 2、语法/词汇/拼写各 2；50–70 词。",
+    "tip": "时间线：无踏板→踏板→流行→今天；结论是基础设施。",
+    "points": [
+      "No pedals → pushed with feet",
+      "Pedals made travel faster",
+      "Popular in late 19th century",
+      "Today: clean transport; need lanes/parking"
+    ]
   },
   {
     "id": "sst-11",
@@ -6752,19 +6758,25 @@ window.QUESTIONS = [
     "section": "listening",
     "level": 4,
     "time": 650,
-    "title": "抗生素耐药性（高难）",
+    "title": "火山与气候（讲座）",
     "lesson": "L7",
     "instruction": "听讲座，10 分钟内写 50–70 词摘要。",
-    "audio": "Antibiotic resistance is a growing threat to public health. Overuse in medicine and agriculture accelerates the evolution of resistant bacteria. When infections become untreatable, routine surgery and chemotherapy become riskier. Hospitals are introducing stewardship programmes, but the pipeline for new antibiotics remains weak. The speaker argues that governments must fund research and regulate agricultural use.",
-    "model": "The lecture discusses antibiotic resistance. Overuse in medicine and agriculture accelerates the evolution of resistant bacteria, which makes routine surgery and chemotherapy riskier. Hospitals are introducing stewardship programmes, but the pipeline for new antibiotics remains weak. In conclusion, governments should fund research and regulate agricultural use.",
+    "audio": "Volcanic eruptions release ash and gases into the atmosphere. Sulfur dioxide can form tiny droplets that reflect sunlight and cool the planet for a year or two. However, the effect is uneven and temporary, and eruptions also damage crops and disrupt air travel. Scientists study volcanoes to improve predictions, but they are not a solution to global warming.",
+    "model": "The lecture discusses how volcanoes affect climate. Eruptions release ash and gases, and sulfur dioxide can reflect sunlight and cool the planet for a year or two. However, the effect is uneven and temporary, and eruptions damage crops and disrupt travel. In conclusion, volcanoes help scientists make predictions but are not a solution to global warming.",
     "checklist": [
       "字数 50–70",
       "主题 + 两个要点",
       "有结论",
       "没有整句照抄"
     ],
-    "explanation": "SST 评分：内容 2、形式 2（50–70 词；少于 40 或多于 100 直接 0）、语法/词汇/拼写各 2。",
-    "tip": "问题—后果—对策；stewardship / pipeline 是关键词。"
+    "explanation": "SST：内容 2、形式 2、语法/词汇/拼写各 2；50–70 词。",
+    "tip": "好处/机制 + 限制 + 结论；不要把它说成解决变暖。",
+    "points": [
+      "Ash and gases; sulfur dioxide",
+      "Aerosols reflect sunlight; short cooling",
+      "Uneven/temporary; crop and travel damage",
+      "Not a solution to global warming"
+    ]
   },
   {
     "id": "sst-12",
@@ -6772,19 +6784,25 @@ window.QUESTIONS = [
     "section": "listening",
     "level": 4,
     "time": 650,
-    "title": "可重复性危机（高难）",
+    "title": "咖啡经济（讲座）",
     "lesson": "L7",
     "instruction": "听讲座，10 分钟内写 50–70 词摘要。",
-    "audio": "Many published findings cannot be replicated. Journals have traditionally preferred positive results, which creates publication bias. Some now require data sharing and pre-registration. However, transparency alone cannot fix poor study design. The speaker argues that researchers need better training and incentives for rigorous work.",
-    "model": "The lecture discusses the reproducibility crisis. Many published findings cannot be replicated, partly because journals have preferred positive results, creating publication bias. Some journals now require data sharing and pre-registration. However, transparency alone cannot fix poor study design. In conclusion, researchers need better training and incentives.",
+    "audio": "Coffee is one of the most traded agricultural commodities. Millions of small farmers depend on it, but prices are volatile and climate change threatens suitable growing areas. Certification schemes can help farmers receive a premium, yet they are costly to join. The speaker argues that investment in adaptation and fair contracts is more important than labels alone.",
+    "model": "The lecture discusses the coffee economy. Coffee is heavily traded and supports millions of small farmers, but prices are volatile and climate change threatens growing areas. Certification can provide a premium, but it is costly to join. In conclusion, adaptation investment and fair contracts matter more than labels alone.",
     "checklist": [
       "字数 50–70",
       "主题 + 两个要点",
       "有结论",
       "没有整句照抄"
     ],
-    "explanation": "SST 评分：内容 2、形式 2（50–70 词；少于 40 或多于 100 直接 0）、语法/词汇/拼写各 2。",
-    "tip": "定义问题—原因—措施—结论；不要漏 publication bias。"
+    "explanation": "SST：内容 2、形式 2、语法/词汇/拼写各 2；50–70 词。",
+    "tip": "问题—措施—评价；结论是“不只是标签”。",
+    "points": [
+      "Millions of small farmers",
+      "Volatile prices; climate threat",
+      "Certification costly",
+      "Adaptation + fair contracts > labels"
+    ]
   },
   {
     "id": "sst-13",
@@ -6792,19 +6810,25 @@ window.QUESTIONS = [
     "section": "listening",
     "level": 4,
     "time": 650,
-    "title": "算法问责（高难）",
+    "title": "野生动物走廊（讲座）",
     "lesson": "L7",
     "instruction": "听讲座，10 分钟内写 50–70 词摘要。",
-    "audio": "Algorithms increasingly decide who receives a loan, a job or a rental flat. Their rules are often opaque, so affected people may not know why they were rejected. Regulators are calling for independent audits and a right of appeal. However, technical complexity makes oversight difficult. The speaker argues that accountability must be built into the design of these systems.",
-    "model": "The lecture discusses algorithmic accountability. Algorithms decide who receives loans, jobs or flats, but their rules are often opaque, so people may not know why they were rejected. Regulators want independent audits and a right of appeal. However, complexity makes oversight difficult. In conclusion, accountability must be built into system design.",
+    "audio": "Habitat fragmentation isolates animal populations and reduces genetic diversity. Wildlife corridors connect patches of habitat, allowing animals to move, find food and mate. However, corridors must be planned with local communities, because they can conflict with farming and development. The speaker argues that corridors are most effective when they are part of a wider land-use strategy.",
+    "model": "The lecture discusses wildlife corridors. Habitat fragmentation isolates populations and reduces genetic diversity, while corridors connect patches and allow animals to move and mate. However, corridors must be planned with local communities because they can conflict with farming. In conclusion, they work best as part of a wider land-use strategy.",
     "checklist": [
       "字数 50–70",
       "主题 + 两个要点",
       "有结论",
       "没有整句照抄"
     ],
-    "explanation": "SST 评分：内容 2、形式 2（50–70 词；少于 40 或多于 100 直接 0）、语法/词汇/拼写各 2。",
-    "tip": "问题—权利—困难—结论；opaque / audits / appeal。"
+    "explanation": "SST：内容 2、形式 2、语法/词汇/拼写各 2；50–70 词。",
+    "tip": "问题—方案—限制—结论；community 是关键词。",
+    "points": [
+      "Fragmentation → isolation, less diversity",
+      "Corridors connect habitat",
+      "Conflict with farming/development",
+      "Part of wider land-use strategy"
+    ]
   },
   {
     "id": "sst-14",
@@ -6812,19 +6836,25 @@ window.QUESTIONS = [
     "section": "listening",
     "level": 4,
     "time": 650,
-    "title": "选择的悖论（高难）",
+    "title": "音乐与大脑（讲座）",
     "lesson": "L7",
     "instruction": "听讲座，10 分钟内写 50–70 词摘要。",
-    "audio": "Choice is often treated as a good, but too many options can lead to paralysis. Consumers may delay decisions or avoid choosing altogether. Retailers can reduce this effect by organising products and offering defaults. However, defaults can also manipulate consumers. The speaker argues that choice architecture should be transparent and designed to support informed decisions.",
-    "model": "The lecture discusses the paradox of choice. Too many options can lead to paralysis, so consumers delay or avoid decisions. Retailers can reduce this by organising products and offering defaults, but defaults can also manipulate consumers. In conclusion, choice architecture should be transparent and support informed decisions.",
+    "audio": "Music activates many brain regions, including those involved in memory, emotion and movement. Listening to familiar music can help people with dementia recall personal memories and reduce agitation. However, music is not a cure, and responses vary widely. The speaker argues that music therapy should be delivered by trained practitioners as part of a broader care plan.",
+    "model": "The lecture discusses music and the brain. Music activates regions involved in memory, emotion and movement, and familiar music can help people with dementia recall memories and reduce agitation. However, it is not a cure and responses vary. In conclusion, music therapy should be delivered by trained practitioners within a broader care plan.",
     "checklist": [
       "字数 50–70",
       "主题 + 两个要点",
       "有结论",
       "没有整句照抄"
     ],
-    "explanation": "SST 评分：内容 2、形式 2（50–70 词；少于 40 或多于 100 直接 0）、语法/词汇/拼写各 2。",
-    "tip": "paradox of choice；defaults 双刃剑。"
+    "explanation": "SST：内容 2、形式 2、语法/词汇/拼写各 2；50–70 词。",
+    "tip": "好处 + 限制 + 建议；不要夸大音乐治疗。",
+    "points": [
+      "Music activates memory/emotion/movement",
+      "Familiar music helps dementia",
+      "Not a cure; responses vary",
+      "Trained practitioners + care plan"
+    ]
   },
   {
     "id": "mcq-l-11",
@@ -7073,20 +7103,20 @@ window.QUESTIONS = [
     "section": "listening",
     "level": 4,
     "time": 110,
-    "title": "注意力经济（高难）",
+    "title": "自行车的历史（高难）",
     "lesson": "L7",
     "instruction": "听讲座，选出最准确的摘要。",
-    "audio": "Digital platforms earn money by keeping users engaged. Features such as infinite scroll and autoplay extend time online, but they may increase anxiety and reduce sleep. Some governments are considering limits on persuasive design, while the speaker argues that regulation should protect users without removing the benefits of digital services.",
+    "audio": "The first bicycles had no pedals and were pushed along with the feet. Later designs added pedals, which made travel faster and more comfortable. Cycling became a popular form of transport in the late nineteenth century, although early riders faced rough roads and high prices. Today, bikes are promoted as a clean alternative to cars, but cities still need safe lanes and secure parking.",
     "question": "Which summary is correct?",
     "options": [
-      "Platforms profit from engagement, but persuasive design can harm users, so regulation is needed.",
-      "Platforms do not profit from engagement.",
-      "Infinite scroll has no effect on users.",
-      "Regulation should ban all digital services."
+      "Bicycles were invented in the twentieth century.",
+      "Early bicycles were cheap and comfortable.",
+      "Bicycles evolved from a simple foot-powered design into popular transport, but need infrastructure today.",
+      "Cycling has no need for safe lanes."
     ],
-    "answer": 0,
-    "explanation": "A 覆盖盈利机制、问题、监管；B、C、D 与原文相反或过于绝对。",
-    "tip": "摘要题选“机制+问题+建议”的平衡项。"
+    "answer": 2,
+    "explanation": "A 覆盖发展、流行、今天的基础设施；B、C、D 与原文相反。",
+    "tip": "选覆盖时间线的摘要，不选单一细节。"
   },
   {
     "id": "hcs-08",
@@ -7094,20 +7124,20 @@ window.QUESTIONS = [
     "section": "listening",
     "level": 4,
     "time": 110,
-    "title": "抗生素耐药性（高难）",
+    "title": "火山与气候（高难）",
     "lesson": "L7",
     "instruction": "听讲座，选出最准确的摘要。",
-    "audio": "Antibiotic resistance is a growing threat. Overuse in medicine and agriculture accelerates the evolution of resistant bacteria. When infections become untreatable, routine surgery and chemotherapy become riskier. Hospitals are introducing stewardship programmes, but the pipeline for new antibiotics remains weak. The speaker argues that governments must fund research and regulate agricultural use.",
+    "audio": "Volcanic eruptions release ash and gases into the atmosphere. Sulfur dioxide can form tiny droplets that reflect sunlight and cool the planet for a year or two. However, the effect is uneven and temporary, and eruptions also damage crops and disrupt air travel. Scientists study volcanoes to improve predictions, but they are not a solution to global warming.",
     "question": "Which summary is correct?",
     "options": [
-      "Resistance is driven by overuse, and governments must fund research and regulate agriculture.",
-      "Antibiotics are becoming more effective.",
-      "Surgery is no longer risky.",
-      "The pipeline for new antibiotics is strong."
+      "Volcanoes permanently stop global warming.",
+      "Volcanoes can cool the planet briefly, but are not a solution to global warming.",
+      "Volcanic cooling is always even.",
+      "Volcanoes have no effect on travel."
     ],
-    "answer": 0,
-    "explanation": "A 覆盖原因+对策；B、C、D 与原文相反。",
-    "tip": "注意 but 后的 pipeline weak，是问题不是结论。"
+    "answer": 1,
+    "explanation": "A 覆盖短时降温+限制+不是解决方案；B、C、D 与原文相反。",
+    "tip": "注意 temporary / not a solution。"
   },
   {
     "id": "hcs-09",
@@ -7115,20 +7145,20 @@ window.QUESTIONS = [
     "section": "listening",
     "level": 4,
     "time": 110,
-    "title": "可重复性危机（高难）",
+    "title": "咖啡经济（高难）",
     "lesson": "L7",
     "instruction": "听讲座，选出最准确的摘要。",
-    "audio": "Many published findings cannot be replicated. Journals have traditionally preferred positive results, which creates publication bias. Some now require data sharing and pre-registration. However, transparency alone cannot fix poor study design. The speaker argues that researchers need better training and incentives for rigorous work.",
+    "audio": "Coffee is one of the most traded agricultural commodities. Millions of small farmers depend on it, but prices are volatile and climate change threatens suitable growing areas. Certification schemes can help farmers receive a premium, yet they are costly to join. The speaker argues that investment in adaptation and fair contracts is more important than labels alone.",
     "question": "Which summary is correct?",
     "options": [
-      "Publication bias and poor design drive the crisis; transparency alone is not enough.",
-      "All published findings can be replicated.",
-      "Data sharing solves every problem.",
-      "Journals prefer negative results."
+      "Coffee prices are always stable.",
+      "Certification is free for all farmers.",
+      "Climate change helps coffee growing.",
+      "Coffee supports many farmers but faces price and climate risks; adaptation matters more than labels."
     ],
-    "answer": 0,
-    "explanation": "A 覆盖 publication bias + poor design + transparency not enough；B、C、D 与原文相反。",
-    "tip": "HCS 选“两个原因 + 一个限制”的选项。"
+    "answer": 3,
+    "explanation": "A 覆盖小农、价格/气候风险、认证成本、适应投资；B、C、D 与原文相反。",
+    "tip": "摘要要含“问题+评价”。"
   },
   {
     "id": "hcs-10",
@@ -7136,20 +7166,20 @@ window.QUESTIONS = [
     "section": "listening",
     "level": 4,
     "time": 110,
-    "title": "算法问责（高难）",
+    "title": "野生动物走廊（高难）",
     "lesson": "L7",
     "instruction": "听讲座，选出最准确的摘要。",
-    "audio": "Algorithms increasingly decide who receives a loan, a job or a rental flat. Their rules are often opaque, so affected people may not know why they were rejected. Regulators are calling for independent audits and a right of appeal. However, technical complexity makes oversight difficult. The speaker argues that accountability must be built into the design of these systems.",
+    "audio": "Habitat fragmentation isolates animal populations and reduces genetic diversity. Wildlife corridors connect patches of habitat, allowing animals to move, find food and mate. However, corridors must be planned with local communities, because they can conflict with farming and development. The speaker argues that corridors are most effective when they are part of a wider land-use strategy.",
     "question": "Which summary is correct?",
     "options": [
-      "Opaque algorithms need audits and appeal rights, but complexity makes oversight hard.",
-      "Algorithms are always transparent.",
-      "Affected people always know why they were rejected.",
-      "Oversight is easy."
+      "Corridors connect fragmented habitats but must be planned with communities and wider land use.",
+      "Corridors always conflict with farming.",
+      "Habitat fragmentation increases diversity.",
+      "Corridors work best alone."
     ],
     "answer": 0,
-    "explanation": "A 覆盖 opaque/audits/appeal/complexity；B、C、D 与原文相反。",
-    "tip": "摘要题保留 however 后的限制。"
+    "explanation": "A 覆盖连接、社区、整体规划；B、C、D 太绝对或与原文相反。",
+    "tip": "注意 however 后的限制。"
   },
   {
     "id": "hcs-11",
@@ -7157,20 +7187,20 @@ window.QUESTIONS = [
     "section": "listening",
     "level": 4,
     "time": 110,
-    "title": "选择的悖论（高难）",
+    "title": "音乐与大脑（高难）",
     "lesson": "L7",
     "instruction": "听讲座，选出最准确的摘要。",
-    "audio": "Choice is often treated as a good, but too many options can lead to paralysis. Consumers may delay decisions or avoid choosing altogether. Retailers can reduce this effect by organising products and offering defaults. However, defaults can also manipulate consumers. The speaker argues that choice architecture should be transparent and designed to support informed decisions.",
+    "audio": "Music activates many brain regions, including those involved in memory, emotion and movement. Listening to familiar music can help people with dementia recall personal memories and reduce agitation. However, music is not a cure, and responses vary widely. The speaker argues that music therapy should be delivered by trained practitioners as part of a broader care plan.",
     "question": "Which summary is correct?",
     "options": [
-      "Too much choice can paralyse consumers; defaults can help but must be transparent.",
-      "More choice always improves decisions.",
-      "Defaults never influence consumers.",
-      "Retailers should remove all defaults."
+      "Music cures dementia.",
+      "All patients respond the same way.",
+      "Music can support memory and mood in dementia, but is not a cure and needs trained delivery.",
+      "Music therapy needs no training."
     ],
-    "answer": 0,
-    "explanation": "A 覆盖 paralysis + defaults 双刃剑 + transparency；B、C、D 太绝对。",
-    "tip": "注意 however 后 defaults 也可能操纵。"
+    "answer": 2,
+    "explanation": "A 覆盖好处、限制、trained practitioners；B、C、D 与原文相反。",
+    "tip": "摘要保留 not a cure / vary。"
   },
   {
     "id": "smw-07",
@@ -7378,16 +7408,16 @@ window.QUESTIONS = [
     "section": "listening",
     "level": 3,
     "time": 120,
-    "title": "听写 ×3（可重复性）",
+    "title": "听写 ×3（自行车）",
     "lesson": "L7",
     "instruction": "点播放，每句只播一遍。整句听完再打字，写完检查单复数。",
-    "audio": "The reproducibility of published research has become a major concern.||Journals now require authors to share their data.||Transparency alone cannot guarantee that a study is well designed.",
+    "audio": "The first bicycles had no pedals and were pushed with the feet.||Later designs added pedals and made travel faster.||Today, cities need safe lanes and secure parking for cyclists.",
     "answers": [
-      "The reproducibility of published research has become a major concern.",
-      "Journals now require authors to share their data.",
-      "Transparency alone cannot guarantee that a study is well designed."
+      "The first bicycles had no pedals and were pushed with the feet.",
+      "Later designs added pedals and made travel faster.",
+      "Today, cities need safe lanes and secure parking for cyclists."
     ],
-    "explanation": "注意 reproducibility、guarantee、designed 拼写。",
+    "explanation": "注意 pedals、designs、secure、cyclists 拼写。",
     "tip": "写半句也有分；先写主干，最后查拼写。"
   },
   {
@@ -7396,16 +7426,16 @@ window.QUESTIONS = [
     "section": "listening",
     "level": 3,
     "time": 120,
-    "title": "听写 ×3（抗生素）",
+    "title": "听写 ×3（火山）",
     "lesson": "L7",
     "instruction": "点播放，每句只播一遍。整句听完再打字，写完检查单复数。",
-    "audio": "Antibiotic resistance is accelerated by the overuse of drugs in agriculture.||New treatments are urgently needed to protect public health.||Governments should invest in surveillance and stewardship.",
+    "audio": "Volcanic eruptions release ash and gases into the atmosphere.||Sulfur dioxide can reflect sunlight and cool the planet temporarily.||Scientists study volcanoes to improve predictions, not to stop global warming.",
     "answers": [
-      "Antibiotic resistance is accelerated by the overuse of drugs in agriculture.",
-      "New treatments are urgently needed to protect public health.",
-      "Governments should invest in surveillance and stewardship."
+      "Volcanic eruptions release ash and gases into the atmosphere.",
+      "Sulfur dioxide can reflect sunlight and cool the planet temporarily.",
+      "Scientists study volcanoes to improve predictions, not to stop global warming."
     ],
-    "explanation": "注意 resistance、accelerated、surveillance、stewardship 拼写。",
+    "explanation": "注意 volcanic、atmosphere、sulfur dioxide、predictions 拼写。",
     "tip": "写半句也有分；先写主干，最后查拼写。"
   },
   {
@@ -7414,16 +7444,16 @@ window.QUESTIONS = [
     "section": "listening",
     "level": 3,
     "time": 120,
-    "title": "听写 ×3（算法）",
+    "title": "听写 ×3（咖啡）",
     "lesson": "L7",
     "instruction": "点播放，每句只播一遍。整句听完再打字，写完检查单复数。",
-    "audio": "Algorithms are increasingly used to allocate loans and jobs.||Their decision rules are often opaque to the people affected.||Independent audits can help ensure that the systems are fair.",
+    "audio": "Coffee is one of the most traded agricultural commodities.||Climate change threatens the areas suitable for growing coffee.||Fair contracts and adaptation investment matter more than labels alone.",
     "answers": [
-      "Algorithms are increasingly used to allocate loans and jobs.",
-      "Their decision rules are often opaque to the people affected.",
-      "Independent audits can help ensure that the systems are fair."
+      "Coffee is one of the most traded agricultural commodities.",
+      "Climate change threatens the areas suitable for growing coffee.",
+      "Fair contracts and adaptation investment matter more than labels alone."
     ],
-    "explanation": "注意 algorithms、allocate、opaque、independent 拼写。",
+    "explanation": "注意 agricultural、commodities、adaptation、labels 拼写。",
     "tip": "写半句也有分；先写主干，最后查拼写。"
   },
   {
@@ -7432,16 +7462,16 @@ window.QUESTIONS = [
     "section": "listening",
     "level": 3,
     "time": 120,
-    "title": "听写 ×3（选择）",
+    "title": "听写 ×3（野生动物）",
     "lesson": "L7",
     "instruction": "点播放，每句只播一遍。整句听完再打字，写完检查单复数。",
-    "audio": "Too many choices can lead to indecision rather than satisfaction.||Retailers use default options to simplify complex decisions.||However, defaults can also influence consumers in subtle ways.",
+    "audio": "Habitat fragmentation isolates animal populations and reduces genetic diversity.||Wildlife corridors allow animals to move between patches of habitat.||Corridors are most effective as part of a wider land-use strategy.",
     "answers": [
-      "Too many choices can lead to indecision rather than satisfaction.",
-      "Retailers use default options to simplify complex decisions.",
-      "However, defaults can also influence consumers in subtle ways."
+      "Habitat fragmentation isolates animal populations and reduces genetic diversity.",
+      "Wildlife corridors allow animals to move between patches of habitat.",
+      "Corridors are most effective as part of a wider land-use strategy."
     ],
-    "explanation": "注意 indecision、satisfaction、subtle 拼写。",
+    "explanation": "注意 fragmentation、genetic diversity、corridors、strategy 拼写。",
     "tip": "写半句也有分；先写主干，最后查拼写。"
   },
   {
@@ -7450,16 +7480,16 @@ window.QUESTIONS = [
     "section": "listening",
     "level": 3,
     "time": 120,
-    "title": "听写 ×3（校园）",
+    "title": "听写 ×3（音乐）",
     "lesson": "L7",
     "instruction": "点播放，每句只播一遍。整句听完再打字，写完检查单复数。",
-    "audio": "The lecture will examine the relationship between sleep and memory.||Participants were asked to complete a questionnaire before the study.||The results were published in a medical journal last month.",
+    "audio": "Music activates brain regions involved in memory, emotion and movement.||Familiar music can help people with dementia recall personal memories.||Music therapy should be part of a broader care plan.",
     "answers": [
-      "The lecture will examine the relationship between sleep and memory.",
-      "Participants were asked to complete a questionnaire before the study.",
-      "The results were published in a medical journal last month."
+      "Music activates brain regions involved in memory, emotion and movement.",
+      "Familiar music can help people with dementia recall personal memories.",
+      "Music therapy should be part of a broader care plan."
     ],
-    "explanation": "注意 questionnaire、published、journal 拼写。",
+    "explanation": "注意 activates、dementia、therapy、broader 拼写。",
     "tip": "写半句也有分；先写主干，最后查拼写。"
   }
 ];
