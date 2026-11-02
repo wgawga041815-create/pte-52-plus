@@ -1,5 +1,5 @@
-/* PTE 52 Lab Plus — 272 questions
- * Lesson 7 listening bank (24 new items).
+/* PTE 52 Lab Plus — 307 questions
+ * 35 harder listening questions added.
  */
 window.QUESTIONS = [
   {
@@ -6724,6 +6724,742 @@ window.QUESTIONS = [
       "The project will be reviewed after one year."
     ],
     "explanation": "WFD 每词 1 分；注意 council、install、reviewed 拼写。",
+    "tip": "写半句也有分；先写主干，最后查拼写。"
+  },
+  {
+    "id": "sst-10",
+    "type": "sst",
+    "section": "listening",
+    "level": 4,
+    "time": 650,
+    "title": "注意力经济（高难）",
+    "lesson": "L7",
+    "instruction": "听讲座，10 分钟内写 50–70 词摘要。",
+    "audio": "Today I want to discuss the attention economy. Digital platforms earn money by keeping users engaged, so they design features such as infinite scroll and autoplay. These features can extend time online, but they may also increase anxiety and reduce sleep. Some governments are now considering limits on persuasive design. The speaker argues that regulation should protect users without removing the benefits of digital services.",
+    "model": "The lecture discusses the attention economy. Platforms earn money by keeping users engaged, using features such as infinite scroll and autoplay. These features can increase anxiety and reduce sleep. In conclusion, the speaker argues that regulation should protect users without removing the benefits of digital services.",
+    "checklist": [
+      "字数 50–70",
+      "主题 + 两个要点",
+      "有结论",
+      "没有整句照抄"
+    ],
+    "explanation": "SST 评分：内容 2、形式 2（50–70 词；少于 40 或多于 100 直接 0）、语法/词汇/拼写各 2。",
+    "tip": "主题 + 机制 + 问题 + 建议；不要写个人观点。"
+  },
+  {
+    "id": "sst-11",
+    "type": "sst",
+    "section": "listening",
+    "level": 4,
+    "time": 650,
+    "title": "抗生素耐药性（高难）",
+    "lesson": "L7",
+    "instruction": "听讲座，10 分钟内写 50–70 词摘要。",
+    "audio": "Antibiotic resistance is a growing threat to public health. Overuse in medicine and agriculture accelerates the evolution of resistant bacteria. When infections become untreatable, routine surgery and chemotherapy become riskier. Hospitals are introducing stewardship programmes, but the pipeline for new antibiotics remains weak. The speaker argues that governments must fund research and regulate agricultural use.",
+    "model": "The lecture discusses antibiotic resistance. Overuse in medicine and agriculture accelerates the evolution of resistant bacteria, which makes routine surgery and chemotherapy riskier. Hospitals are introducing stewardship programmes, but the pipeline for new antibiotics remains weak. In conclusion, governments should fund research and regulate agricultural use.",
+    "checklist": [
+      "字数 50–70",
+      "主题 + 两个要点",
+      "有结论",
+      "没有整句照抄"
+    ],
+    "explanation": "SST 评分：内容 2、形式 2（50–70 词；少于 40 或多于 100 直接 0）、语法/词汇/拼写各 2。",
+    "tip": "问题—后果—对策；stewardship / pipeline 是关键词。"
+  },
+  {
+    "id": "sst-12",
+    "type": "sst",
+    "section": "listening",
+    "level": 4,
+    "time": 650,
+    "title": "可重复性危机（高难）",
+    "lesson": "L7",
+    "instruction": "听讲座，10 分钟内写 50–70 词摘要。",
+    "audio": "Many published findings cannot be replicated. Journals have traditionally preferred positive results, which creates publication bias. Some now require data sharing and pre-registration. However, transparency alone cannot fix poor study design. The speaker argues that researchers need better training and incentives for rigorous work.",
+    "model": "The lecture discusses the reproducibility crisis. Many published findings cannot be replicated, partly because journals have preferred positive results, creating publication bias. Some journals now require data sharing and pre-registration. However, transparency alone cannot fix poor study design. In conclusion, researchers need better training and incentives.",
+    "checklist": [
+      "字数 50–70",
+      "主题 + 两个要点",
+      "有结论",
+      "没有整句照抄"
+    ],
+    "explanation": "SST 评分：内容 2、形式 2（50–70 词；少于 40 或多于 100 直接 0）、语法/词汇/拼写各 2。",
+    "tip": "定义问题—原因—措施—结论；不要漏 publication bias。"
+  },
+  {
+    "id": "sst-13",
+    "type": "sst",
+    "section": "listening",
+    "level": 4,
+    "time": 650,
+    "title": "算法问责（高难）",
+    "lesson": "L7",
+    "instruction": "听讲座，10 分钟内写 50–70 词摘要。",
+    "audio": "Algorithms increasingly decide who receives a loan, a job or a rental flat. Their rules are often opaque, so affected people may not know why they were rejected. Regulators are calling for independent audits and a right of appeal. However, technical complexity makes oversight difficult. The speaker argues that accountability must be built into the design of these systems.",
+    "model": "The lecture discusses algorithmic accountability. Algorithms decide who receives loans, jobs or flats, but their rules are often opaque, so people may not know why they were rejected. Regulators want independent audits and a right of appeal. However, complexity makes oversight difficult. In conclusion, accountability must be built into system design.",
+    "checklist": [
+      "字数 50–70",
+      "主题 + 两个要点",
+      "有结论",
+      "没有整句照抄"
+    ],
+    "explanation": "SST 评分：内容 2、形式 2（50–70 词；少于 40 或多于 100 直接 0）、语法/词汇/拼写各 2。",
+    "tip": "问题—权利—困难—结论；opaque / audits / appeal。"
+  },
+  {
+    "id": "sst-14",
+    "type": "sst",
+    "section": "listening",
+    "level": 4,
+    "time": 650,
+    "title": "选择的悖论（高难）",
+    "lesson": "L7",
+    "instruction": "听讲座，10 分钟内写 50–70 词摘要。",
+    "audio": "Choice is often treated as a good, but too many options can lead to paralysis. Consumers may delay decisions or avoid choosing altogether. Retailers can reduce this effect by organising products and offering defaults. However, defaults can also manipulate consumers. The speaker argues that choice architecture should be transparent and designed to support informed decisions.",
+    "model": "The lecture discusses the paradox of choice. Too many options can lead to paralysis, so consumers delay or avoid decisions. Retailers can reduce this by organising products and offering defaults, but defaults can also manipulate consumers. In conclusion, choice architecture should be transparent and support informed decisions.",
+    "checklist": [
+      "字数 50–70",
+      "主题 + 两个要点",
+      "有结论",
+      "没有整句照抄"
+    ],
+    "explanation": "SST 评分：内容 2、形式 2（50–70 词；少于 40 或多于 100 直接 0）、语法/词汇/拼写各 2。",
+    "tip": "paradox of choice；defaults 双刃剑。"
+  },
+  {
+    "id": "mcq-l-11",
+    "type": "mcq-l",
+    "section": "listening",
+    "level": 4,
+    "time": 110,
+    "title": "认知负荷（高难）",
+    "lesson": "L7",
+    "instruction": "听录音，选正确答案。音频只放一遍。",
+    "audio": "Today's lecture is about cognitive load. Working memory can hold only a few items at once. When too many elements compete for attention, learning slows and errors increase. Teachers can reduce load by chunking material and providing worked examples. However, too much support can prevent students from developing independent problem-solving skills.",
+    "question": "What is the speaker's attitude to worked examples?",
+    "options": [
+      "Useful but should be faded over time",
+      "Always harmful",
+      "Only useful for exams",
+      "They replace independent practice"
+    ],
+    "answer": 0,
+    "multi": false,
+    "explanation": "文章说 worked examples 能降低负荷，但 too much support 会妨碍独立解题，所以是“有用但要逐渐减少”，选 A。",
+    "tip": "态度题：先找 however 后的保留。"
+  },
+  {
+    "id": "mcq-l-12",
+    "type": "mcq-l",
+    "section": "listening",
+    "level": 4,
+    "time": 110,
+    "title": "研究伦理（高难）",
+    "lesson": "L7",
+    "instruction": "听录音，选正确答案。音频只放一遍。 多选：对 +1，错 −1。",
+    "audio": "Students who plan to interview human participants must obtain ethics approval before collecting data. Applications should include the interview questions and a consent form. Studies that involve children require additional safeguards. The committee meets on the first Monday of each month, and late applications are considered only in exceptional cases.",
+    "question": "Which two statements are true?",
+    "options": [
+      "Ethics approval is needed before data collection.",
+      "Children require additional safeguards.",
+      "Late applications are always accepted.",
+      "Consent forms are optional."
+    ],
+    "answer": [
+      0,
+      1
+    ],
+    "multi": true,
+    "explanation": "A 对应 before collecting data；B 对应 children require additional safeguards。C 与 only in exceptional cases 相反；D 与 should include a consent form 相反。",
+    "tip": "多选：only/always 先排除。"
+  },
+  {
+    "id": "mcq-l-13",
+    "type": "mcq-l",
+    "section": "listening",
+    "level": 4,
+    "time": 110,
+    "title": "气候适应（高难）",
+    "lesson": "L7",
+    "instruction": "听录音，选正确答案。音频只放一遍。",
+    "audio": "Adaptation is essential as extreme weather becomes more frequent. However, poorly designed responses can be maladaptive. For example, sea walls may protect one district while displacing flooding elsewhere. Planners therefore need to assess long-term consequences, not just immediate protection.",
+    "question": "What is the main point about adaptation?",
+    "options": [
+      "It can have unintended negative effects.",
+      "It always reduces flooding.",
+      "It is unnecessary.",
+      "It only concerns sea walls."
+    ],
+    "answer": 0,
+    "multi": false,
+    "explanation": "maladaptive / displacing flooding elsewhere / long-term consequences 对应 A；B、C 太绝对；D 只是例子。",
+    "tip": "主旨题选概括“问题+例子”的选项。"
+  },
+  {
+    "id": "mcq-l-14",
+    "type": "mcq-l",
+    "section": "listening",
+    "level": 4,
+    "time": 110,
+    "title": "博物馆经费（高难）",
+    "lesson": "L7",
+    "instruction": "听录音，选正确答案。音频只放一遍。 多选：对 +1，错 −1。",
+    "audio": "Museums increasingly rely on special exhibitions and donations because public funding has fallen. Free entry can increase visitor numbers, but it does not cover conservation costs. Some museums now charge for special exhibitions while keeping permanent collections free. Critics argue that this creates a two-tier system.",
+    "question": "Which two statements are true?",
+    "options": [
+      "Free entry does not cover conservation costs.",
+      "Some museums charge for special exhibitions.",
+      "Public funding has increased.",
+      "Critics say there is no two-tier system."
+    ],
+    "answer": [
+      0,
+      1
+    ],
+    "multi": true,
+    "explanation": "A 对应 does not cover conservation costs；B 对应 charge for special exhibitions。C 与 funding has fallen 相反；D 与 creates a two-tier system 相反。",
+    "tip": "多选：数字/经费变化先记清。"
+  },
+  {
+    "id": "mcq-l-15",
+    "type": "mcq-l",
+    "section": "listening",
+    "level": 4,
+    "time": 110,
+    "title": "语言流失（高难）",
+    "lesson": "L7",
+    "instruction": "听录音，选正确答案。音频只放一遍。",
+    "audio": "Language attrition occurs when speakers lose proficiency in a language they once used regularly. It is common among migrants whose first language is no longer dominant. Intergenerational transmission is crucial: if parents stop using the language at home, children may never acquire it fully. Community programmes can help preserve it.",
+    "question": "What is the main idea?",
+    "options": [
+      "Home use is crucial for passing on a language.",
+      "Migrants always lose their first language.",
+      "Community programmes are useless.",
+      "Children cannot learn languages."
+    ],
+    "answer": 0,
+    "multi": false,
+    "explanation": "Intergenerational transmission is crucial / parents stop using at home 对应 A；B、C、D 太绝对或与原文相反。",
+    "tip": "主旨题：注意 crucial 后的解释。"
+  },
+  {
+    "id": "fib-l-10",
+    "type": "fib-l",
+    "section": "listening",
+    "level": 4,
+    "time": 120,
+    "title": "注意力经济（高难）",
+    "lesson": "L7",
+    "instruction": "听讲座，补全 3 个空。拼写必须正确。",
+    "audio": "Platforms earn money by keeping users engaged. Features such as infinite scroll are designed to increase engagement. Some governments are considering regulation on persuasive design.",
+    "content": "Platforms earn money by keeping users [[1]]. Features such as infinite scroll are designed to increase [[2]]. Some governments are considering [[3]] on persuasive design.",
+    "answers": [
+      [
+        "engaged"
+      ],
+      [
+        "engagement"
+      ],
+      [
+        "regulation"
+      ]
+    ],
+    "explanation": "engaged（过去分词）、engagement（名词）、regulation（名词）；注意拼写。",
+    "tip": "keep users + 形容词/分词；increase + 名词；considering + 名词。"
+  },
+  {
+    "id": "fib-l-11",
+    "type": "fib-l",
+    "section": "listening",
+    "level": 4,
+    "time": 120,
+    "title": "抗生素耐药性（高难）",
+    "lesson": "L7",
+    "instruction": "听讲座，补全 3 个空。拼写必须正确。",
+    "audio": "Antibiotic resistance is a growing threat. Overuse in agriculture accelerates the evolution of resistant bacteria. Hospitals are introducing stewardship programmes.",
+    "content": "Antibiotic [[1]] is a growing threat. Overuse in agriculture [[2]] the evolution of resistant bacteria. Hospitals are introducing [[3]] programmes.",
+    "answers": [
+      [
+        "resistance"
+      ],
+      [
+        "accelerates"
+      ],
+      [
+        "stewardship"
+      ]
+    ],
+    "explanation": "resistance（名词）、accelerates（单三）、stewardship（名词）。",
+    "tip": "主语 Overuse 单数 → accelerates；stewardship 拼写。"
+  },
+  {
+    "id": "fib-l-12",
+    "type": "fib-l",
+    "section": "listening",
+    "level": 4,
+    "time": 120,
+    "title": "可重复性（高难）",
+    "lesson": "L7",
+    "instruction": "听讲座，补全 3 个空。拼写必须正确。",
+    "audio": "Many published findings cannot be replicated. Journals now require data sharing and pre-registration. However, transparency alone cannot fix poor study design.",
+    "content": "Many published findings cannot be [[1]]. Journals now require data sharing and [[2]]. However, transparency alone cannot fix poor study [[3]].",
+    "answers": [
+      [
+        "replicated"
+      ],
+      [
+        "pre-registration"
+      ],
+      [
+        "design"
+      ]
+    ],
+    "explanation": "replicated（过去分词）、pre-registration（名词）、design（名词）。",
+    "tip": "be replicated 被动；pre-registration 连字符。"
+  },
+  {
+    "id": "fib-l-13",
+    "type": "fib-l",
+    "section": "listening",
+    "level": 4,
+    "time": 120,
+    "title": "算法问责（高难）",
+    "lesson": "L7",
+    "instruction": "听讲座，补全 3 个空。拼写必须正确。",
+    "audio": "Algorithms decide who receives a loan or a job. Their rules are often opaque. Regulators want independent audits and a right of appeal.",
+    "content": "Algorithms decide who receives a loan or a job. Their rules are often [[1]]. Regulators want independent [[2]] and a right of [[3]].",
+    "answers": [
+      [
+        "opaque"
+      ],
+      [
+        "audits"
+      ],
+      [
+        "appeal"
+      ]
+    ],
+    "explanation": "opaque（形容词）、audits（复数）、appeal（名词）。",
+    "tip": "are often + 形容词；independent + 复数；right of appeal。"
+  },
+  {
+    "id": "fib-l-14",
+    "type": "fib-l",
+    "section": "listening",
+    "level": 4,
+    "time": 120,
+    "title": "选择的悖论（高难）",
+    "lesson": "L7",
+    "instruction": "听讲座，补全 3 个空。拼写必须正确。",
+    "audio": "Too many options can lead to paralysis. Retailers use defaults to simplify decisions. However, these can also manipulate consumers.",
+    "content": "Too many options can lead to [[1]]. Retailers use [[2]] to simplify decisions. However, these can also [[3]] consumers.",
+    "answers": [
+      [
+        "paralysis"
+      ],
+      [
+        "defaults"
+      ],
+      [
+        "manipulate"
+      ]
+    ],
+    "explanation": "paralysis（名词）、defaults（复数）、manipulate（动词原形）。",
+    "tip": "lead to + 名词；use + 复数；can also + 动词原形。"
+  },
+  {
+    "id": "hcs-07",
+    "type": "hcs",
+    "section": "listening",
+    "level": 4,
+    "time": 110,
+    "title": "注意力经济（高难）",
+    "lesson": "L7",
+    "instruction": "听讲座，选出最准确的摘要。",
+    "audio": "Digital platforms earn money by keeping users engaged. Features such as infinite scroll and autoplay extend time online, but they may increase anxiety and reduce sleep. Some governments are considering limits on persuasive design, while the speaker argues that regulation should protect users without removing the benefits of digital services.",
+    "question": "Which summary is correct?",
+    "options": [
+      "Platforms profit from engagement, but persuasive design can harm users, so regulation is needed.",
+      "Platforms do not profit from engagement.",
+      "Infinite scroll has no effect on users.",
+      "Regulation should ban all digital services."
+    ],
+    "answer": 0,
+    "explanation": "A 覆盖盈利机制、问题、监管；B、C、D 与原文相反或过于绝对。",
+    "tip": "摘要题选“机制+问题+建议”的平衡项。"
+  },
+  {
+    "id": "hcs-08",
+    "type": "hcs",
+    "section": "listening",
+    "level": 4,
+    "time": 110,
+    "title": "抗生素耐药性（高难）",
+    "lesson": "L7",
+    "instruction": "听讲座，选出最准确的摘要。",
+    "audio": "Antibiotic resistance is a growing threat. Overuse in medicine and agriculture accelerates the evolution of resistant bacteria. When infections become untreatable, routine surgery and chemotherapy become riskier. Hospitals are introducing stewardship programmes, but the pipeline for new antibiotics remains weak. The speaker argues that governments must fund research and regulate agricultural use.",
+    "question": "Which summary is correct?",
+    "options": [
+      "Resistance is driven by overuse, and governments must fund research and regulate agriculture.",
+      "Antibiotics are becoming more effective.",
+      "Surgery is no longer risky.",
+      "The pipeline for new antibiotics is strong."
+    ],
+    "answer": 0,
+    "explanation": "A 覆盖原因+对策；B、C、D 与原文相反。",
+    "tip": "注意 but 后的 pipeline weak，是问题不是结论。"
+  },
+  {
+    "id": "hcs-09",
+    "type": "hcs",
+    "section": "listening",
+    "level": 4,
+    "time": 110,
+    "title": "可重复性危机（高难）",
+    "lesson": "L7",
+    "instruction": "听讲座，选出最准确的摘要。",
+    "audio": "Many published findings cannot be replicated. Journals have traditionally preferred positive results, which creates publication bias. Some now require data sharing and pre-registration. However, transparency alone cannot fix poor study design. The speaker argues that researchers need better training and incentives for rigorous work.",
+    "question": "Which summary is correct?",
+    "options": [
+      "Publication bias and poor design drive the crisis; transparency alone is not enough.",
+      "All published findings can be replicated.",
+      "Data sharing solves every problem.",
+      "Journals prefer negative results."
+    ],
+    "answer": 0,
+    "explanation": "A 覆盖 publication bias + poor design + transparency not enough；B、C、D 与原文相反。",
+    "tip": "HCS 选“两个原因 + 一个限制”的选项。"
+  },
+  {
+    "id": "hcs-10",
+    "type": "hcs",
+    "section": "listening",
+    "level": 4,
+    "time": 110,
+    "title": "算法问责（高难）",
+    "lesson": "L7",
+    "instruction": "听讲座，选出最准确的摘要。",
+    "audio": "Algorithms increasingly decide who receives a loan, a job or a rental flat. Their rules are often opaque, so affected people may not know why they were rejected. Regulators are calling for independent audits and a right of appeal. However, technical complexity makes oversight difficult. The speaker argues that accountability must be built into the design of these systems.",
+    "question": "Which summary is correct?",
+    "options": [
+      "Opaque algorithms need audits and appeal rights, but complexity makes oversight hard.",
+      "Algorithms are always transparent.",
+      "Affected people always know why they were rejected.",
+      "Oversight is easy."
+    ],
+    "answer": 0,
+    "explanation": "A 覆盖 opaque/audits/appeal/complexity；B、C、D 与原文相反。",
+    "tip": "摘要题保留 however 后的限制。"
+  },
+  {
+    "id": "hcs-11",
+    "type": "hcs",
+    "section": "listening",
+    "level": 4,
+    "time": 110,
+    "title": "选择的悖论（高难）",
+    "lesson": "L7",
+    "instruction": "听讲座，选出最准确的摘要。",
+    "audio": "Choice is often treated as a good, but too many options can lead to paralysis. Consumers may delay decisions or avoid choosing altogether. Retailers can reduce this effect by organising products and offering defaults. However, defaults can also manipulate consumers. The speaker argues that choice architecture should be transparent and designed to support informed decisions.",
+    "question": "Which summary is correct?",
+    "options": [
+      "Too much choice can paralyse consumers; defaults can help but must be transparent.",
+      "More choice always improves decisions.",
+      "Defaults never influence consumers.",
+      "Retailers should remove all defaults."
+    ],
+    "answer": 0,
+    "explanation": "A 覆盖 paralysis + defaults 双刃剑 + transparency；B、C、D 太绝对。",
+    "tip": "注意 however 后 defaults 也可能操纵。"
+  },
+  {
+    "id": "smw-07",
+    "type": "smw",
+    "section": "listening",
+    "level": 4,
+    "time": 90,
+    "title": "注意力经济（高难）",
+    "lesson": "L7",
+    "instruction": "听录音，选出最后缺失的词或短语。",
+    "audio": "The lecture explains the attention economy. Platforms earn money by keeping users ...",
+    "question": "Which word completes the recording?",
+    "options": [
+      "engaged",
+      "isolated",
+      "educated",
+      "exhausted"
+    ],
+    "answer": 0,
+    "explanation": "keep users engaged 是固定搭配。",
+    "tip": "keep + 宾语 + 形容词/分词。"
+  },
+  {
+    "id": "smw-08",
+    "type": "smw",
+    "section": "listening",
+    "level": 4,
+    "time": 90,
+    "title": "抗生素耐药性（高难）",
+    "lesson": "L7",
+    "instruction": "听录音，选出最后缺失的词或短语。",
+    "audio": "The main cause of antibiotic resistance is the overuse of ...",
+    "question": "Which word completes the recording?",
+    "options": [
+      "antibiotics",
+      "pesticides",
+      "fertilisers",
+      "vaccines"
+    ],
+    "answer": 0,
+    "explanation": "抗生素滥用是耐药性的主要原因。",
+    "tip": "the overuse of + 名词。"
+  },
+  {
+    "id": "smw-09",
+    "type": "smw",
+    "section": "listening",
+    "level": 4,
+    "time": 90,
+    "title": "可重复性（高难）",
+    "lesson": "L7",
+    "instruction": "听录音，选出最后缺失的词或短语。",
+    "audio": "The reproducibility crisis refers to the difficulty of ...",
+    "question": "Which word completes the recording?",
+    "options": [
+      "replicating published findings",
+      "teaching statistics",
+      "funding laboratories",
+      "publishing books"
+    ],
+    "answer": 0,
+    "explanation": "reproducibility = 可重复性；crisis 指很多研究无法复现。",
+    "tip": "replicate findings 固定搭配。"
+  },
+  {
+    "id": "smw-10",
+    "type": "smw",
+    "section": "listening",
+    "level": 4,
+    "time": 90,
+    "title": "算法问责（高难）",
+    "lesson": "L7",
+    "instruction": "听录音，选出最后缺失的词或短语。",
+    "audio": "When algorithms are opaque, affected people may lack ...",
+    "question": "Which word completes the recording?",
+    "options": [
+      "information about decisions",
+      "access to computers",
+      "job interviews",
+      "loan applications"
+    ],
+    "answer": 0,
+    "explanation": "opaque 不透明 → 缺少决策信息。",
+    "tip": "lack + 名词；information 不可数。"
+  },
+  {
+    "id": "smw-11",
+    "type": "smw",
+    "section": "listening",
+    "level": 4,
+    "time": 90,
+    "title": "选择的悖论（高难）",
+    "lesson": "L7",
+    "instruction": "听录音，选出最后缺失的词或短语。",
+    "audio": "The paradox of choice suggests that too many options can cause ...",
+    "question": "Which word completes the recording?",
+    "options": [
+      "paralysis",
+      "satisfaction",
+      "confidence",
+      "wealth"
+    ],
+    "answer": 0,
+    "explanation": "选择过多导致 paralysis（瘫痪/无法决定）。",
+    "tip": "paradox of choice 的结论是 paralysis。"
+  },
+  {
+    "id": "hiw-10",
+    "type": "hiw",
+    "section": "listening",
+    "level": 4,
+    "time": 100,
+    "title": "注意力经济（点错词）",
+    "lesson": "L7",
+    "instruction": "听音频，点出文中与音频不一致的词。错点倒扣。",
+    "audio": "Platforms design features to keep users engaged. Infinite scroll and autoplay increase time online. Regulators are now considering limits on persuasive design.",
+    "content": "Platforms design features to keep users addicted Infinite scroll and autoplay increase reduce online. Regulators are now considering subsidies on persuasive design.",
+    "wrong": [
+      6,
+      12,
+      18
+    ],
+    "explanation": "音频与文本有替换；只点确定的差异，错点 −1。",
+    "tip": "数字/形容词/连接词最常被替换。"
+  },
+  {
+    "id": "hiw-11",
+    "type": "hiw",
+    "section": "listening",
+    "level": 4,
+    "time": 100,
+    "title": "抗生素耐药性（点错词）",
+    "lesson": "L7",
+    "instruction": "听音频，点出文中与音频不一致的词。错点倒扣。",
+    "audio": "Antibiotic resistance is a growing threat. Overuse in agriculture and medicine accelerates it. New antibiotics are urgently needed.",
+    "content": "Antibiotic resistance is a minor threat. education in agriculture and medicine accelerates it. New antibiotics rarely urgently needed.",
+    "wrong": [
+      4,
+      6,
+      15
+    ],
+    "explanation": "音频与文本有替换；只点确定的差异，错点 −1。",
+    "tip": "数字/形容词/连接词最常被替换。"
+  },
+  {
+    "id": "hiw-12",
+    "type": "hiw",
+    "section": "listening",
+    "level": 4,
+    "time": 100,
+    "title": "可重复性（点错词）",
+    "lesson": "L7",
+    "instruction": "听音频，点出文中与音频不一致的词。错点倒扣。",
+    "audio": "Many published findings cannot be replicated. Journals now require data sharing. However, transparency alone cannot fix poor design.",
+    "content": "Few published findings cannot be replicated. Journals refuse require data sharing. However, transparency always cannot fix poor design.",
+    "wrong": [
+      0,
+      7,
+      13
+    ],
+    "explanation": "音频与文本有替换；只点确定的差异，错点 −1。",
+    "tip": "数字/形容词/连接词最常被替换。"
+  },
+  {
+    "id": "hiw-13",
+    "type": "hiw",
+    "section": "listening",
+    "level": 4,
+    "time": 100,
+    "title": "算法问责（点错词）",
+    "lesson": "L7",
+    "instruction": "听音频，点出文中与音频不一致的词。错点倒扣。",
+    "audio": "Algorithms decide who gets a loan or a job. Their rules are often opaque. Regulators want independent audits and a right of appeal.",
+    "content": "Algorithms decide who gets a house or a job. Their obvious are often opaque. Regulators internal independent audits and a right of appeal.",
+    "wrong": [
+      5,
+      10,
+      15
+    ],
+    "explanation": "音频与文本有替换；只点确定的差异，错点 −1。",
+    "tip": "数字/形容词/连接词最常被替换。"
+  },
+  {
+    "id": "hiw-14",
+    "type": "hiw",
+    "section": "listening",
+    "level": 4,
+    "time": 100,
+    "title": "选择的悖论（点错词）",
+    "lesson": "L7",
+    "instruction": "听音频，点出文中与音频不一致的词。错点倒扣。",
+    "audio": "Too many options can lead to paralysis. Retailers use defaults to simplify decisions. However, defaults can also manipulate consumers.",
+    "content": "Too many options can lead to confidence Retailers use defaults to complicate decisions. However, defaults can also protect consumers.",
+    "wrong": [
+      6,
+      11,
+      17
+    ],
+    "explanation": "音频与文本有替换；只点确定的差异，错点 −1。",
+    "tip": "数字/形容词/连接词最常被替换。"
+  },
+  {
+    "id": "wfd-11",
+    "type": "wfd",
+    "section": "listening",
+    "level": 3,
+    "time": 120,
+    "title": "听写 ×3（可重复性）",
+    "lesson": "L7",
+    "instruction": "点播放，每句只播一遍。整句听完再打字，写完检查单复数。",
+    "audio": "The reproducibility of published research has become a major concern.||Journals now require authors to share their data.||Transparency alone cannot guarantee that a study is well designed.",
+    "answers": [
+      "The reproducibility of published research has become a major concern.",
+      "Journals now require authors to share their data.",
+      "Transparency alone cannot guarantee that a study is well designed."
+    ],
+    "explanation": "注意 reproducibility、guarantee、designed 拼写。",
+    "tip": "写半句也有分；先写主干，最后查拼写。"
+  },
+  {
+    "id": "wfd-12",
+    "type": "wfd",
+    "section": "listening",
+    "level": 3,
+    "time": 120,
+    "title": "听写 ×3（抗生素）",
+    "lesson": "L7",
+    "instruction": "点播放，每句只播一遍。整句听完再打字，写完检查单复数。",
+    "audio": "Antibiotic resistance is accelerated by the overuse of drugs in agriculture.||New treatments are urgently needed to protect public health.||Governments should invest in surveillance and stewardship.",
+    "answers": [
+      "Antibiotic resistance is accelerated by the overuse of drugs in agriculture.",
+      "New treatments are urgently needed to protect public health.",
+      "Governments should invest in surveillance and stewardship."
+    ],
+    "explanation": "注意 resistance、accelerated、surveillance、stewardship 拼写。",
+    "tip": "写半句也有分；先写主干，最后查拼写。"
+  },
+  {
+    "id": "wfd-13",
+    "type": "wfd",
+    "section": "listening",
+    "level": 3,
+    "time": 120,
+    "title": "听写 ×3（算法）",
+    "lesson": "L7",
+    "instruction": "点播放，每句只播一遍。整句听完再打字，写完检查单复数。",
+    "audio": "Algorithms are increasingly used to allocate loans and jobs.||Their decision rules are often opaque to the people affected.||Independent audits can help ensure that the systems are fair.",
+    "answers": [
+      "Algorithms are increasingly used to allocate loans and jobs.",
+      "Their decision rules are often opaque to the people affected.",
+      "Independent audits can help ensure that the systems are fair."
+    ],
+    "explanation": "注意 algorithms、allocate、opaque、independent 拼写。",
+    "tip": "写半句也有分；先写主干，最后查拼写。"
+  },
+  {
+    "id": "wfd-14",
+    "type": "wfd",
+    "section": "listening",
+    "level": 3,
+    "time": 120,
+    "title": "听写 ×3（选择）",
+    "lesson": "L7",
+    "instruction": "点播放，每句只播一遍。整句听完再打字，写完检查单复数。",
+    "audio": "Too many choices can lead to indecision rather than satisfaction.||Retailers use default options to simplify complex decisions.||However, defaults can also influence consumers in subtle ways.",
+    "answers": [
+      "Too many choices can lead to indecision rather than satisfaction.",
+      "Retailers use default options to simplify complex decisions.",
+      "However, defaults can also influence consumers in subtle ways."
+    ],
+    "explanation": "注意 indecision、satisfaction、subtle 拼写。",
+    "tip": "写半句也有分；先写主干，最后查拼写。"
+  },
+  {
+    "id": "wfd-15",
+    "type": "wfd",
+    "section": "listening",
+    "level": 3,
+    "time": 120,
+    "title": "听写 ×3（校园）",
+    "lesson": "L7",
+    "instruction": "点播放，每句只播一遍。整句听完再打字，写完检查单复数。",
+    "audio": "The lecture will examine the relationship between sleep and memory.||Participants were asked to complete a questionnaire before the study.||The results were published in a medical journal last month.",
+    "answers": [
+      "The lecture will examine the relationship between sleep and memory.",
+      "Participants were asked to complete a questionnaire before the study.",
+      "The results were published in a medical journal last month."
+    ],
+    "explanation": "注意 questionnaire、published、journal 拼写。",
     "tip": "写半句也有分；先写主干，最后查拼写。"
   }
 ];
