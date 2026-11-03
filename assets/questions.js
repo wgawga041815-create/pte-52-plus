@@ -1,5 +1,5 @@
-/* PTE 52 Lab Plus — 367 questions
- * 10 new Retell Lecture items.
+/* PTE 52 Lab Plus — 375 questions
+ * 8 medium Re-order Paragraphs added.
  */
 window.QUESTIONS = [
   {
@@ -8881,5 +8881,213 @@ window.QUESTIONS = [
     ],
     "explanation": "RL 评分看 Content（关键要点、关系、结论）、Oral fluency、Pronunciation；不要逐句背原文。",
     "tip": "好处 + 伦理问题 + 治理；三个关键词 consent/safety/equity。"
+  },
+  {
+    "id": "ro-24",
+    "type": "ro",
+    "section": "reading",
+    "level": 2,
+    "time": 140,
+    "title": "早餐（中等）",
+    "lesson": "ROPLUS",
+    "instruction": "按正确顺序点击句子。按相邻对给分，先连确定的。",
+    "sentences": [
+      "As a result, they may feel tired or find it hard to concentrate.",
+      "Breakfast is often called the most important meal of the day.",
+      "However, not everyone feels hungry in the morning.",
+      "People who skip it may go without food for many hours.",
+      "A light meal with protein and fruit can be enough."
+    ],
+    "answer": [
+      1,
+      3,
+      0,
+      2,
+      4
+    ],
+    "explanation": "首句 B 讲早餐重要；D 的 it 指 breakfast，讲跳过→空腹；A 的 As a result 接结果；C 的 However 转折；E 给建议。",
+    "tip": "先找首句；As a result 前一定是原因，However 后是转折。"
+  },
+  {
+    "id": "ro-25",
+    "type": "ro",
+    "section": "reading",
+    "level": 2,
+    "time": 140,
+    "title": "雨伞的历史（中等）",
+    "lesson": "ROPLUS",
+    "instruction": "按正确顺序点击句子。按相邻对给分，先连确定的。",
+    "sentences": [
+      "Today, umbrellas are made from lightweight materials and are used mainly for rain.",
+      "The first umbrellas were used to protect people from the sun.",
+      "They spread to Europe in the seventeenth century.",
+      "At first, they were carried mainly by women.",
+      "Later, men began to use them as well."
+    ],
+    "answer": [
+      1,
+      2,
+      3,
+      4,
+      0
+    ],
+    "explanation": "首句 B 讲最早用于遮阳；C 的 They 指 umbrellas，讲传入欧洲；D 讲最初女性使用；E 的 Later 讲男性也用；A 的 Today 收尾。",
+    "tip": "They 指代 umbrellas；Today 通常收尾。"
+  },
+  {
+    "id": "ro-26",
+    "type": "ro",
+    "section": "reading",
+    "level": 2,
+    "time": 140,
+    "title": "蜜蜂如何沟通（中等）",
+    "lesson": "ROPLUS",
+    "instruction": "按正确顺序点击句子。按相邻对给分，先连确定的。",
+    "sentences": [
+      "When a scout finds food, it returns to the hive and performs a dance.",
+      "Honeybees live in large colonies with a strict division of labour.",
+      "The direction and duration of the dance tell other bees where the food is.",
+      "This allows the colony to collect food efficiently.",
+      "Other workers then follow the directions and fly to the source."
+    ],
+    "answer": [
+      1,
+      0,
+      2,
+      4,
+      3
+    ],
+    "explanation": "首句 B 讲蜂群分工；A 的 a scout 接“发现食物跳舞”；C 解释舞蹈方向/时长；E 的 Other workers 接“跟去”；D 的 This allows 总结效率。",
+    "tip": "先找总述句；A 的 a scout 是第一个具体角色。"
+  },
+  {
+    "id": "ro-27",
+    "type": "ro",
+    "section": "reading",
+    "level": 2,
+    "time": 140,
+    "title": "步行会议（中等）",
+    "lesson": "ROPLUS",
+    "instruction": "按正确顺序点击句子。按相邻对给分，先连确定的。",
+    "sentences": [
+      "However, they are not suitable for every discussion.",
+      "Used carefully, they can make a team more active and creative.",
+      "Walking meetings replace some seated discussions with a walk outdoors.",
+      "Tasks that need a screen or confidential information may be better in a room.",
+      "They can increase energy and reduce the feeling of sitting all day."
+    ],
+    "answer": [
+      2,
+      4,
+      0,
+      3,
+      1
+    ],
+    "explanation": "首句 C 定义 walking meetings；E 的 They 指会议，讲好处；A 的 However 转折；D 解释哪些不适合；B 的 Used carefully 总结。",
+    "tip": "先定义再评价；However 后是限制。"
+  },
+  {
+    "id": "ro-28",
+    "type": "ro",
+    "section": "reading",
+    "level": 2,
+    "time": 140,
+    "title": "快时尚（中等）",
+    "lesson": "ROPLUS",
+    "instruction": "按正确顺序点击句子。按相邻对给分，先连确定的。",
+    "sentences": [
+      "Some companies now offer repair and resale schemes.",
+      "As a result, large amounts of clothing end up in landfill.",
+      "Fast fashion brands produce new styles quickly and sell them cheaply.",
+      "However, these schemes cannot solve the problem without reducing production.",
+      "This encourages shoppers to buy more clothes than they need."
+    ],
+    "answer": [
+      2,
+      4,
+      1,
+      0,
+      3
+    ],
+    "explanation": "首句 C 定义快时尚；E 的 This 指低价多款，讲买更多；B 的 As a result 接填埋；A 讲企业措施；D 的 However 转折到限制。",
+    "tip": "This 指前面“便宜+新款多”；However 后是评价。"
+  },
+  {
+    "id": "ro-29",
+    "type": "ro",
+    "section": "reading",
+    "level": 2,
+    "time": 140,
+    "title": "防晒霜（中等）",
+    "lesson": "ROPLUS",
+    "instruction": "按正确顺序点击句子。按相邻对给分，先连确定的。",
+    "sentences": [
+      "Shade, clothing and hats therefore remain important.",
+      "Used together, these measures reduce the risk of skin damage.",
+      "Sunscreen protects the skin by absorbing or reflecting ultraviolet light.",
+      "However, no sunscreen blocks all UV radiation.",
+      "It should be applied generously and reapplied after swimming."
+    ],
+    "answer": [
+      2,
+      4,
+      3,
+      0,
+      1
+    ],
+    "explanation": "首句 C 讲防晒原理；E 的 It 指 sunscreen，讲用法；D 的 However 讲不能全挡；A 的 therefore 讲还要遮阳；B 的 these measures 总结。",
+    "tip": "It 指 sunscreen；therefore 引出补充措施。"
+  },
+  {
+    "id": "ro-30",
+    "type": "ro",
+    "section": "reading",
+    "level": 2,
+    "time": 140,
+    "title": "外卖平台（中等）",
+    "lesson": "ROPLUS",
+    "instruction": "按正确顺序点击句子。按相邻对给分，先连确定的。",
+    "sentences": [
+      "Some cities are now introducing rules on waste and worker pay.",
+      "The apps remain popular, but their long-term impact is still debated.",
+      "Food delivery apps have made it easier to order meals from many restaurants.",
+      "However, delivery fees and packaging can add to the cost.",
+      "They are convenient for people who are busy or cannot leave home."
+    ],
+    "answer": [
+      2,
+      4,
+      3,
+      0,
+      1
+    ],
+    "explanation": "首句 C 讲外卖平台便利；E 的 They 指平台，讲适合人群；D 的 However 讲成本；A 讲城市监管；B 的 remain popular 总结。",
+    "tip": "They 指 apps；However 后是问题。"
+  },
+  {
+    "id": "ro-31",
+    "type": "ro",
+    "section": "reading",
+    "level": 2,
+    "time": 140,
+    "title": "奥运会的历史（中等）",
+    "lesson": "ROPLUS",
+    "instruction": "按正确顺序点击句子。按相邻对给分，先连确定的。",
+    "sentences": [
+      "Since then, the Games have grown into a global event.",
+      "The modern Olympic Games began in Athens in 1896.",
+      "Cities now weigh the benefits against the costs before bidding.",
+      "They were inspired by the ancient Greek games.",
+      "However, hosting them has become increasingly expensive."
+    ],
+    "answer": [
+      3,
+      1,
+      0,
+      4,
+      2
+    ],
+    "explanation": "首句 D 的 They 需要前文？这里 D 是“受古希腊启发”，应为首句；B 的 The modern Games 接 1896；A 的 Since then 接 1896；E 的 However 讲昂贵；C 的 now 讲申办权衡。",
+    "tip": "首句 D 没有指代；B 的 1896 是时间锚点；Since then 必须接 1896。"
   }
 ];
