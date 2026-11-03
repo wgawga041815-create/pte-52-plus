@@ -1,5 +1,5 @@
-/* PTE 52 Lab Plus — 375 questions
- * 8 medium Re-order Paragraphs added.
+/* PTE 52 Lab Plus — 377 questions
+ * 2 DI map items added.
  */
 window.QUESTIONS = [
   {
@@ -9089,5 +9089,55 @@ window.QUESTIONS = [
     ],
     "explanation": "首句 D 的 They 需要前文？这里 D 是“受古希腊启发”，应为首句；B 的 The modern Games 接 1896；A 的 Since then 接 1896；E 的 However 讲昂贵；C 的 now 讲申办权衡。",
     "tip": "首句 D 没有指代；B 的 1896 是时间锚点；Since then 必须接 1896。"
+  },
+  {
+    "id": "di-17",
+    "type": "di",
+    "section": "speaking",
+    "level": 3,
+    "time": 65,
+    "title": "校园运动设施（地图）",
+    "lesson": "DIPLUS",
+    "instruction": "25 秒准备，40 秒作答。用“开头—方位—路线—结论”；至少说 3 个地点。",
+    "chart": {
+      "type": "image",
+      "src": "assets/di/di-campus-sport.png",
+      "title": "Campus sports facilities"
+    },
+    "model": "The map shows the sports facilities on a university campus. The stadium is in the north-west, opposite the swimming pool in the north-east. The gym is in the south-west, next to the changing rooms, while the tennis courts and car park are in the south-east. A path connects the bus stop to the changing rooms and the tennis courts. Overall, the sports buildings are spread across the campus but linked by a central path.",
+    "checklist": [
+      "开头说清是地图",
+      "至少 3 个地点 + 方位",
+      "提到路线/连接",
+      "有一句 Overall",
+      "说满 35–40 秒"
+    ],
+    "explanation": "DI 地图看方位词和路线：north-west / opposite / next to / connected by。不要编地图上没有的地点。",
+    "tip": "先说 2–3 个最明显的地点，再说一条路线，最后一句总结。"
+  },
+  {
+    "id": "di-18",
+    "type": "di",
+    "section": "speaking",
+    "level": 3,
+    "time": 65,
+    "title": "城镇中心（地图）",
+    "lesson": "DIPLUS",
+    "instruction": "25 秒准备，40 秒作答。用“开头—方位—河流/桥—结论”；至少说 3 个地点。",
+    "chart": {
+      "type": "image",
+      "src": "assets/di/di-town-centre.png",
+      "title": "Town centre"
+    },
+    "model": "The map shows the centre of a town. The train station is in the west, with the library to its east and the market in the north-east. A river runs across the south of the map, with a bridge connecting the two sides. The town hall is south of the library, and the park and car park are in the south-east and south-west. Overall, the main facilities are close together and connected by a central road network.",
+    "checklist": [
+      "开头说清是地图",
+      "至少 3 个地点 + 方位",
+      "提到 river/bridge",
+      "有一句 Overall",
+      "说满 35–40 秒"
+    ],
+    "explanation": "DI 地图用方位词（west / east / north-east / south of）和连接词（runs across / connected by）。",
+    "tip": "先找河流/桥这种明显参照物，再描述建筑位置。"
   }
 ];
