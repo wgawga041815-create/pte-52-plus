@@ -1,5 +1,5 @@
-/* PTE 52 Lab Plus — 307 questions
- * All listening hard topics rotated.
+/* PTE 52 Lab Plus — 357 questions
+ * 50 new items: RS/RTS/SWT/SST/FIB-L.
  */
 window.QUESTIONS = [
   {
@@ -7491,5 +7491,1125 @@ window.QUESTIONS = [
     ],
     "explanation": "注意 activates、dementia、therapy、broader 拼写。",
     "tip": "写半句也有分；先写主干，最后查拼写。"
+  },
+  {
+    "id": "rs-10",
+    "type": "rs",
+    "section": "speaking",
+    "level": 3,
+    "time": 55,
+    "title": "RS 单句 · The city plans to turn unuse…",
+    "lesson": "PLUS",
+    "instruction": "听一句，立刻复述。只播一遍。",
+    "audio": "The city plans to turn unused rooftops into community gardens.",
+    "model": "按意群记：The city / plans to turn / unused rooftops / into community gardens.",
+    "checklist": [
+      "至少复述一半",
+      "没有改口/um",
+      "长句只保前半"
+    ],
+    "explanation": "RS 内容分：整句 3 分，一半以上 2 分，不到一半 1 分。",
+    "tip": "先写首字母，再按块还原；不要背整句。"
+  },
+  {
+    "id": "rs-11",
+    "type": "rs",
+    "section": "speaking",
+    "level": 3,
+    "time": 55,
+    "title": "RS 单句 · Researchers found that short…",
+    "lesson": "PLUS",
+    "instruction": "听一句，立刻复述。只播一遍。",
+    "audio": "Researchers found that short walks can improve creative thinking.",
+    "model": "按意群记：Researchers found / that short walks / can improve / creative thinking.",
+    "checklist": [
+      "至少复述一半",
+      "没有改口/um",
+      "长句只保前半"
+    ],
+    "explanation": "RS 内容分：整句 3 分，一半以上 2 分，不到一半 1 分。",
+    "tip": "先写首字母，再按块还原；不要背整句。"
+  },
+  {
+    "id": "rs-12",
+    "type": "rs",
+    "section": "speaking",
+    "level": 3,
+    "time": 55,
+    "title": "RS 单句 · The museum will display its …",
+    "lesson": "PLUS",
+    "instruction": "听一句，立刻复述。只播一遍。",
+    "audio": "The museum will display its new collection from next month.",
+    "model": "按意群记：The museum / will display / its new collection / from next month.",
+    "checklist": [
+      "至少复述一半",
+      "没有改口/um",
+      "长句只保前半"
+    ],
+    "explanation": "RS 内容分：整句 3 分，一半以上 2 分，不到一半 1 分。",
+    "tip": "先写首字母，再按块还原；不要背整句。"
+  },
+  {
+    "id": "rs-13",
+    "type": "rs",
+    "section": "speaking",
+    "level": 3,
+    "time": 55,
+    "title": "RS 单句 · Students should check the up…",
+    "lesson": "PLUS",
+    "instruction": "听一句，立刻复述。只播一遍。",
+    "audio": "Students should check the updated timetable before Monday.",
+    "model": "按意群记：Students should check / the updated timetable / before Monday.",
+    "checklist": [
+      "至少复述一半",
+      "没有改口/um",
+      "长句只保前半"
+    ],
+    "explanation": "RS 内容分：整句 3 分，一半以上 2 分，不到一半 1 分。",
+    "tip": "先写首字母，再按块还原；不要背整句。"
+  },
+  {
+    "id": "rs-14",
+    "type": "rs",
+    "section": "speaking",
+    "level": 3,
+    "time": 55,
+    "title": "RS 单句 · The company aims to reduce p…",
+    "lesson": "PLUS",
+    "instruction": "听一句，立刻复述。只播一遍。",
+    "audio": "The company aims to reduce packaging waste by half.",
+    "model": "按意群记：The company aims / to reduce packaging waste / by half.",
+    "checklist": [
+      "至少复述一半",
+      "没有改口/um",
+      "长句只保前半"
+    ],
+    "explanation": "RS 内容分：整句 3 分，一半以上 2 分，不到一半 1 分。",
+    "tip": "先写首字母，再按块还原；不要背整句。"
+  },
+  {
+    "id": "rs-15",
+    "type": "rs",
+    "section": "speaking",
+    "level": 3,
+    "time": 55,
+    "title": "RS 单句 · Many residents rely on the r…",
+    "lesson": "PLUS",
+    "instruction": "听一句，立刻复述。只播一遍。",
+    "audio": "Many residents rely on the river for drinking water.",
+    "model": "按意群记：Many residents / rely on the river / for drinking water.",
+    "checklist": [
+      "至少复述一半",
+      "没有改口/um",
+      "长句只保前半"
+    ],
+    "explanation": "RS 内容分：整句 3 分，一半以上 2 分，不到一半 1 分。",
+    "tip": "先写首字母，再按块还原；不要背整句。"
+  },
+  {
+    "id": "rs-16",
+    "type": "rs",
+    "section": "speaking",
+    "level": 3,
+    "time": 55,
+    "title": "RS 单句 · The lecture explains how sle…",
+    "lesson": "PLUS",
+    "instruction": "听一句，立刻复述。只播一遍。",
+    "audio": "The lecture explains how sleep affects long-term memory.",
+    "model": "按意群记：The lecture explains / how sleep affects / long-term memory.",
+    "checklist": [
+      "至少复述一半",
+      "没有改口/um",
+      "长句只保前半"
+    ],
+    "explanation": "RS 内容分：整句 3 分，一半以上 2 分，不到一半 1 分。",
+    "tip": "先写首字母，再按块还原；不要背整句。"
+  },
+  {
+    "id": "rs-17",
+    "type": "rs",
+    "section": "speaking",
+    "level": 3,
+    "time": 55,
+    "title": "RS 单句 · Applications must be submitt…",
+    "lesson": "PLUS",
+    "instruction": "听一句，立刻复述。只播一遍。",
+    "audio": "Applications must be submitted online before the end of May.",
+    "model": "按意群记：Applications must be submitted / online / before the end of May.",
+    "checklist": [
+      "至少复述一半",
+      "没有改口/um",
+      "长句只保前半"
+    ],
+    "explanation": "RS 内容分：整句 3 分，一半以上 2 分，不到一半 1 分。",
+    "tip": "先写首字母，再按块还原；不要背整句。"
+  },
+  {
+    "id": "rs-18",
+    "type": "rs",
+    "section": "speaking",
+    "level": 3,
+    "time": 55,
+    "title": "RS 单句 · The new policy gives employe…",
+    "lesson": "PLUS",
+    "instruction": "听一句，立刻复述。只播一遍。",
+    "audio": "The new policy gives employees more flexible working hours.",
+    "model": "按意群记：The new policy gives employees / more flexible / working hours.",
+    "checklist": [
+      "至少复述一半",
+      "没有改口/um",
+      "长句只保前半"
+    ],
+    "explanation": "RS 内容分：整句 3 分，一半以上 2 分，不到一半 1 分。",
+    "tip": "先写首字母，再按块还原；不要背整句。"
+  },
+  {
+    "id": "rs-19",
+    "type": "rs",
+    "section": "speaking",
+    "level": 3,
+    "time": 55,
+    "title": "RS 单句 · Scientists are testing a vac…",
+    "lesson": "PLUS",
+    "instruction": "听一句，立刻复述。只播一遍。",
+    "audio": "Scientists are testing a vaccine against the new virus.",
+    "model": "按意群记：Scientists are testing / a vaccine / against the new virus.",
+    "checklist": [
+      "至少复述一半",
+      "没有改口/um",
+      "长句只保前半"
+    ],
+    "explanation": "RS 内容分：整句 3 分，一半以上 2 分，不到一半 1 分。",
+    "tip": "先写首字母，再按块还原；不要背整句。"
+  },
+  {
+    "id": "rts-17",
+    "type": "rts",
+    "section": "speaking",
+    "level": 3,
+    "time": 55,
+    "title": "请教授延长小组作业",
+    "lesson": "PLUS",
+    "instruction": "读情景，10 秒准备，40 秒作答。用“回应—说明—理由/安排—收尾”。",
+    "content": "Your group needs two more days to finish a project because one member was ill. Ask your professor for an extension.",
+    "model": "Hello Professor Lee, our group needs two more days to finish the project because one member was ill. Could we submit on Friday instead of Wednesday? We have completed most of the work and only need time to check the data. I can send you a short progress report today.",
+    "checklist": [
+      "先回应对方",
+      "具体建议/安排",
+      "细节准确"
+    ],
+    "explanation": "RTS 只给口语供分，Content 0–6；不要总结情景。",
+    "tip": "先叫人，再说目的；时间、地点、名字不能改。"
+  },
+  {
+    "id": "rts-18",
+    "type": "rts",
+    "section": "speaking",
+    "level": 3,
+    "time": 55,
+    "title": "房租上涨询问",
+    "lesson": "PLUS",
+    "instruction": "读情景，10 秒准备，40 秒作答。用“回应—说明—理由/安排—收尾”。",
+    "content": "Your landlord has informed you that the rent will increase next month. Ask for clarification and discuss your options.",
+    "model": "Hello, thank you for letting me know about the rent increase. Could you explain how much it will rise and when it takes effect? I would also like to discuss whether a longer lease could keep the current rate. I am happy to meet and talk it through.",
+    "checklist": [
+      "先回应对方",
+      "具体建议/安排",
+      "细节准确"
+    ],
+    "explanation": "RTS 只给口语供分，Content 0–6；不要总结情景。",
+    "tip": "先叫人，再说目的；时间、地点、名字不能改。"
+  },
+  {
+    "id": "rts-19",
+    "type": "rts",
+    "section": "speaking",
+    "level": 3,
+    "time": 55,
+    "title": "图书馆噪音",
+    "lesson": "PLUS",
+    "instruction": "读情景，10 秒准备，40 秒作答。用“回应—说明—理由/安排—收尾”。",
+    "content": "Someone is talking loudly in the library quiet zone. Ask them politely to be quieter.",
+    "model": "Excuse me, I'm sorry to interrupt, but this is the quiet study area. Would you mind taking your call outside or speaking more quietly? I have an exam tomorrow and I'm finding it hard to concentrate. Thank you for understanding.",
+    "checklist": [
+      "先回应对方",
+      "具体建议/安排",
+      "细节准确"
+    ],
+    "explanation": "RTS 只给口语供分，Content 0–6；不要总结情景。",
+    "tip": "先叫人，再说目的；时间、地点、名字不能改。"
+  },
+  {
+    "id": "rts-20",
+    "type": "rts",
+    "section": "speaking",
+    "level": 3,
+    "time": 55,
+    "title": "朋友借自行车",
+    "lesson": "PLUS",
+    "instruction": "读情景，10 秒准备，40 秒作答。用“回应—说明—理由/安排—收尾”。",
+    "content": "Your friend asks to borrow your bicycle for the weekend. Respond to your friend.",
+    "model": "Sure, you can borrow my bike this weekend. I'm not using it on Saturday or Sunday. Just check the brakes before you go, and please lock it when you leave it outside. Could you return it on Sunday evening? I need it for class on Monday.",
+    "checklist": [
+      "先回应对方",
+      "具体建议/安排",
+      "细节准确"
+    ],
+    "explanation": "RTS 只给口语供分，Content 0–6；不要总结情景。",
+    "tip": "先叫人，再说目的；时间、地点、名字不能改。"
+  },
+  {
+    "id": "rts-21",
+    "type": "rts",
+    "section": "speaking",
+    "level": 3,
+    "time": 55,
+    "title": "同学请你看演讲稿",
+    "lesson": "PLUS",
+    "instruction": "读情景，10 秒准备，40 秒作答。用“回应—说明—理由/安排—收尾”。",
+    "content": "Your classmate asks you to review their presentation slides before tomorrow. Respond to your classmate.",
+    "model": "Of course, I can look at your slides tonight. Send them to me by seven and I'll check the structure and the data. I can give you comments by nine. If you want, we can also practise the opening together tomorrow morning.",
+    "checklist": [
+      "先回应对方",
+      "具体建议/安排",
+      "细节准确"
+    ],
+    "explanation": "RTS 只给口语供分，Content 0–6；不要总结情景。",
+    "tip": "先叫人，再说目的；时间、地点、名字不能改。"
+  },
+  {
+    "id": "rts-22",
+    "type": "rts",
+    "section": "speaking",
+    "level": 3,
+    "time": 55,
+    "title": "和经理换班",
+    "lesson": "PLUS",
+    "instruction": "读情景，10 秒准备，40 秒作答。用“回应—说明—理由/安排—收尾”。",
+    "content": "You need to change your shift next week because of a medical appointment. Ask your manager.",
+    "model": "Hello, I'd like to ask about my shift next Tuesday. I have a medical appointment in the morning and can't start at eight. Could I swap to the afternoon shift or take a half day? I can cover someone else's evening shift later in the week.",
+    "checklist": [
+      "先回应对方",
+      "具体建议/安排",
+      "细节准确"
+    ],
+    "explanation": "RTS 只给口语供分，Content 0–6；不要总结情景。",
+    "tip": "先叫人，再说目的；时间、地点、名字不能改。"
+  },
+  {
+    "id": "rts-23",
+    "type": "rts",
+    "section": "speaking",
+    "level": 3,
+    "time": 55,
+    "title": "请老师写推荐信",
+    "lesson": "PLUS",
+    "instruction": "读情景，10 秒准备，40 秒作答。用“回应—说明—理由/安排—收尾”。",
+    "content": "You are applying for a master's programme and need a reference letter. Ask a professor who taught you last semester.",
+    "model": "Dear Professor Chen, I am applying for a master's programme in public policy and would be grateful if you could write me a reference letter. The deadline is 15 December. I have attached my CV and personal statement. Please let me know if you need any other information.",
+    "checklist": [
+      "先回应对方",
+      "具体建议/安排",
+      "细节准确"
+    ],
+    "explanation": "RTS 只给口语供分，Content 0–6；不要总结情景。",
+    "tip": "先叫人，再说目的；时间、地点、名字不能改。"
+  },
+  {
+    "id": "rts-24",
+    "type": "rts",
+    "section": "speaking",
+    "level": 3,
+    "time": 55,
+    "title": "邻居停车",
+    "lesson": "PLUS",
+    "instruction": "读情景，10 秒准备，40 秒作答。用“回应—说明—理由/安排—收尾”。",
+    "content": "Your neighbour's car is blocking your driveway. Ask them to move it.",
+    "model": "Hi, I'm sorry to bother you, but your car is blocking my driveway and I need to leave for work. Could you move it when you have a moment? If you're parking here regularly, maybe we can agree on a space that works for both of us.",
+    "checklist": [
+      "先回应对方",
+      "具体建议/安排",
+      "细节准确"
+    ],
+    "explanation": "RTS 只给口语供分，Content 0–6；不要总结情景。",
+    "tip": "先叫人，再说目的；时间、地点、名字不能改。"
+  },
+  {
+    "id": "rts-25",
+    "type": "rts",
+    "section": "speaking",
+    "level": 3,
+    "time": 55,
+    "title": "改预约时间",
+    "lesson": "PLUS",
+    "instruction": "读情景，10 秒准备，40 秒作答。用“回应—说明—理由/安排—收尾”。",
+    "content": "You have a doctor's appointment tomorrow but need to reschedule because of a work commitment. Call the clinic.",
+    "model": "Good morning, I have an appointment with Dr Patel tomorrow at ten, but I need to reschedule because of a work commitment. Could I move it to Friday morning or early next week? My name is Alex Chen and my date of birth is 12 March 1998.",
+    "checklist": [
+      "先回应对方",
+      "具体建议/安排",
+      "细节准确"
+    ],
+    "explanation": "RTS 只给口语供分，Content 0–6；不要总结情景。",
+    "tip": "先叫人，再说目的；时间、地点、名字不能改。"
+  },
+  {
+    "id": "rts-26",
+    "type": "rts",
+    "section": "speaking",
+    "level": 3,
+    "time": 55,
+    "title": "邀请参加社团",
+    "lesson": "PLUS",
+    "instruction": "读情景，10 秒准备，40 秒作答。用“回应—说明—理由/安排—收尾”。",
+    "content": "You are in a photography club and want to invite a classmate to the next meeting. Talk to your classmate.",
+    "model": "Hi Sam, our photography club is meeting on Thursday at six in the student centre. We're reviewing portraits this week, and you could bring any photos you like. Would you like to come? I can introduce you to the group and show you the equipment.",
+    "checklist": [
+      "先回应对方",
+      "具体建议/安排",
+      "细节准确"
+    ],
+    "explanation": "RTS 只给口语供分，Content 0–6；不要总结情景。",
+    "tip": "先叫人，再说目的；时间、地点、名字不能改。"
+  },
+  {
+    "id": "swt-09",
+    "type": "swt",
+    "section": "writing",
+    "level": 4,
+    "time": 600,
+    "title": "城市屋顶农场",
+    "lesson": "PLUS",
+    "instruction": "10 分钟内用一句话概括（5–75 词），只能有一个句号。",
+    "content": "Urban rooftop farms are appearing in many cities. They use unused roof space to grow vegetables, reduce stormwater runoff and cool buildings. Supporters argue that local food production cuts transport emissions and gives residents access to fresh produce. However, rooftop farms face high start-up costs, structural limits and a short growing season in colder climates. Some projects rely on volunteers, which makes them vulnerable when interest declines. Critics also question whether the environmental benefits outweigh the energy needed for irrigation, lighting and lifts. Most planners agree that rooftop farms work best as part of a wider food strategy, not as a replacement for rural agriculture.",
+    "model": "Although rooftop farms can reduce transport emissions and cool buildings, they face high costs and seasonal limits, so they work best as part of a wider food strategy.",
+    "checklist": [
+      "只有一个句号",
+      "35–55 词",
+      "主旨 + 转折",
+      "没有抄整句"
+    ],
+    "explanation": "SWT 评分：Content 2、Form 1、Grammar 2、Vocabulary 2；两个句号 = Form 0。",
+    "tip": "Although A, B because C；先保一句，再改词。"
+  },
+  {
+    "id": "swt-10",
+    "type": "swt",
+    "section": "writing",
+    "level": 4,
+    "time": 600,
+    "title": "深海采矿",
+    "lesson": "PLUS",
+    "instruction": "10 分钟内用一句话概括（5–75 词），只能有一个句号。",
+    "content": "Deep-sea mining aims to extract metals such as nickel and cobalt from the ocean floor. These metals are needed for batteries and renewable energy technologies. Supporters argue that mining the seabed is less damaging than expanding land-based mines, which can destroy forests and displace communities. However, scientists warn that deep-sea ecosystems are poorly understood and recover very slowly. Mining could create sediment plumes that smother filter-feeding animals and disturb carbon storage. Several countries and companies have called for a moratorium until stronger environmental rules are in place. The debate illustrates a wider tension between the demand for green technology and the need to protect fragile ecosystems.",
+    "model": "Although deep-sea mining could supply metals for green technology, scientists warn that it may damage poorly understood ecosystems, so stronger rules are needed before it expands.",
+    "checklist": [
+      "只有一个句号",
+      "35–55 词",
+      "主旨 + 转折",
+      "没有抄整句"
+    ],
+    "explanation": "SWT 评分：Content 2、Form 1、Grammar 2、Vocabulary 2；两个句号 = Form 0。",
+    "tip": "Although A, B because C；先保一句，再改词。"
+  },
+  {
+    "id": "swt-11",
+    "type": "swt",
+    "section": "writing",
+    "level": 4,
+    "time": 600,
+    "title": "光污染",
+    "lesson": "PLUS",
+    "instruction": "10 分钟内用一句话概括（5–75 词），只能有一个句号。",
+    "content": "Artificial light at night is increasing rapidly in many regions. Streetlights, advertising and brightly lit buildings make cities safer and more attractive, but they also disrupt wildlife. Migratory birds can become disoriented, sea turtles fail to find the ocean, and insects are drawn to lamps where they are easily eaten. Light pollution also affects human sleep and wastes energy. Some cities have introduced shields, motion sensors and warmer LED colours to reduce the problem. However, regulation is difficult because lighting is controlled by many different landowners. Researchers argue that better design, rather than turning off all lights, can protect both safety and biodiversity.",
+    "model": "Although artificial light makes cities safer, it disrupts wildlife and human sleep, so better lighting design rather than darkness is needed.",
+    "checklist": [
+      "只有一个句号",
+      "35–55 词",
+      "主旨 + 转折",
+      "没有抄整句"
+    ],
+    "explanation": "SWT 评分：Content 2、Form 1、Grammar 2、Vocabulary 2；两个句号 = Form 0。",
+    "tip": "Although A, B because C；先保一句，再改词。"
+  },
+  {
+    "id": "swt-12",
+    "type": "swt",
+    "section": "writing",
+    "level": 4,
+    "time": 600,
+    "title": "维修文化",
+    "lesson": "PLUS",
+    "instruction": "10 分钟内用一句话概括（5–75 词），只能有一个句号。",
+    "content": "The repair economy encourages people to fix products instead of replacing them. Repair cafés, online tutorials and second-hand shops have made it easier to extend the life of clothes, electronics and furniture. Supporters argue that repair reduces waste and saves money, and it can also build community skills. However, many products are designed to be difficult to repair, and spare parts are often expensive or unavailable. Manufacturers argue that sealed devices are safer and more reliable. Some governments are now introducing 'right to repair' laws that require companies to share manuals and parts. The debate is not only about waste but also about who controls the knowledge needed to keep products working.",
+    "model": "Although repair reduces waste and saves money, many products are hard to fix, so right-to-repair laws are needed to give consumers access to parts and manuals.",
+    "checklist": [
+      "只有一个句号",
+      "35–55 词",
+      "主旨 + 转折",
+      "没有抄整句"
+    ],
+    "explanation": "SWT 评分：Content 2、Form 1、Grammar 2、Vocabulary 2；两个句号 = Form 0。",
+    "tip": "Although A, B because C；先保一句，再改词。"
+  },
+  {
+    "id": "swt-13",
+    "type": "swt",
+    "section": "writing",
+    "level": 4,
+    "time": 600,
+    "title": "数字档案",
+    "lesson": "PLUS",
+    "instruction": "10 分钟内用一句话概括（5–75 词），只能有一个句号。",
+    "content": "Libraries and museums are digitising their collections at a rapid pace. Digital archives allow people to view rare manuscripts, photographs and recordings from anywhere, and they reduce the need to handle fragile objects. However, digitisation is expensive, and digital files can be lost through format changes, hardware failure or budget cuts. Copyright also limits what can be made public. Some institutions now work together to share storage and standards, but smaller organisations often lack the resources to join. Archivists argue that digitisation should be seen as a long-term commitment, not a one-off project, because preserving digital material requires constant maintenance.",
+    "model": "Although digitisation makes collections more accessible, it is expensive and requires constant maintenance, so institutions need long-term funding and shared standards.",
+    "checklist": [
+      "只有一个句号",
+      "35–55 词",
+      "主旨 + 转折",
+      "没有抄整句"
+    ],
+    "explanation": "SWT 评分：Content 2、Form 1、Grammar 2、Vocabulary 2；两个句号 = Form 0。",
+    "tip": "Although A, B because C；先保一句，再改词。"
+  },
+  {
+    "id": "swt-14",
+    "type": "swt",
+    "section": "writing",
+    "level": 4,
+    "time": 600,
+    "title": "可持续时尚",
+    "lesson": "PLUS",
+    "instruction": "10 分钟内用一句话概括（5–75 词），只能有一个句号。",
+    "content": "The fashion industry is under pressure to reduce its environmental impact. Clothing production uses large amounts of water and energy, and many garments are worn only a few times before being discarded. Some brands now offer recycling schemes, repair services and clothes made from recycled fibres. However, critics argue that these initiatives do not address the core problem of overproduction. They point out that new 'sustainable' collections can encourage consumers to buy more, and that recycling often downgrades materials. Researchers suggest that durability, resale and changes in consumer habits matter more than labels. The challenge is to reduce consumption without damaging the livelihoods of workers in producing countries.",
+    "model": "Although brands promote recycling and sustainable fibres, critics argue that overproduction and consumption must be reduced, not just reshaped through new labels.",
+    "checklist": [
+      "只有一个句号",
+      "35–55 词",
+      "主旨 + 转折",
+      "没有抄整句"
+    ],
+    "explanation": "SWT 评分：Content 2、Form 1、Grammar 2、Vocabulary 2；两个句号 = Form 0。",
+    "tip": "Although A, B because C；先保一句，再改词。"
+  },
+  {
+    "id": "swt-15",
+    "type": "swt",
+    "section": "writing",
+    "level": 4,
+    "time": 600,
+    "title": "校园食物浪费",
+    "lesson": "PLUS",
+    "instruction": "10 分钟内用一句话概括（5–75 词），只能有一个句号。",
+    "content": "Universities often produce large amounts of food waste in canteens and halls of residence. Buffet-style service and fixed meal plans encourage students to take more than they eat. Some campuses have introduced smaller plates, food-sharing shelves and apps that alert students to surplus meals. These measures can reduce waste and save money, but they depend on student participation and careful planning. Composting is another option, although it requires space and staff. Researchers argue that the most effective approach combines prevention, redistribution and composting, rather than relying on a single solution. They also suggest that food waste should be measured regularly so that progress can be tracked.",
+    "model": "Although smaller plates, sharing apps and composting can reduce campus food waste, the most effective approach combines prevention, redistribution and regular measurement.",
+    "checklist": [
+      "只有一个句号",
+      "35–55 词",
+      "主旨 + 转折",
+      "没有抄整句"
+    ],
+    "explanation": "SWT 评分：Content 2、Form 1、Grammar 2、Vocabulary 2；两个句号 = Form 0。",
+    "tip": "Although A, B because C；先保一句，再改词。"
+  },
+  {
+    "id": "swt-16",
+    "type": "swt",
+    "section": "writing",
+    "level": 4,
+    "time": 600,
+    "title": "太空碎片",
+    "lesson": "PLUS",
+    "instruction": "10 分钟内用一句话概括（5–75 词），只能有一个句号。",
+    "content": "The amount of debris in orbit around the Earth is growing. Old satellites, rocket stages and fragments from collisions travel at high speed and can damage working spacecraft. A single collision can create thousands of new pieces, increasing the risk of further accidents. Some companies are testing ways to remove large pieces of debris, while others are developing rules to prevent new collisions. However, removal missions are expensive, and no country has clear responsibility for cleaning up orbit. Scientists warn that without action, some orbits could become unusable for weather, communication and navigation satellites. The problem is global, but the solutions remain fragmented.",
+    "model": "Although debris removal and collision rules could protect satellites, the problem is global and expensive, so international coordination is needed before some orbits become unusable.",
+    "checklist": [
+      "只有一个句号",
+      "35–55 词",
+      "主旨 + 转折",
+      "没有抄整句"
+    ],
+    "explanation": "SWT 评分：Content 2、Form 1、Grammar 2、Vocabulary 2；两个句号 = Form 0。",
+    "tip": "Although A, B because C；先保一句，再改词。"
+  },
+  {
+    "id": "swt-17",
+    "type": "swt",
+    "section": "writing",
+    "level": 4,
+    "time": 600,
+    "title": "传统医学",
+    "lesson": "PLUS",
+    "instruction": "10 分钟内用一句话概括（5–75 词），只能有一个句号。",
+    "content": "Traditional medicine remains an important source of care in many countries. Herbal remedies and acupuncture are used alongside modern medicine, sometimes because they are affordable and culturally familiar. Supporters argue that traditional systems can offer effective treatments and preserve local knowledge. However, critics warn that some remedies are unregulated, may interact with prescription drugs, or contain harmful substances. Scientific evidence is uneven, and many treatments have not been tested in large trials. Some governments are now introducing licensing and safety standards, while universities are studying selected remedies. The challenge is to protect cultural heritage without lowering safety standards.",
+    "model": "Although traditional medicine is affordable and culturally important, uneven evidence and safety risks mean that regulation and scientific testing are needed alongside cultural protection.",
+    "checklist": [
+      "只有一个句号",
+      "35–55 词",
+      "主旨 + 转折",
+      "没有抄整句"
+    ],
+    "explanation": "SWT 评分：Content 2、Form 1、Grammar 2、Vocabulary 2；两个句号 = Form 0。",
+    "tip": "Although A, B because C；先保一句，再改词。"
+  },
+  {
+    "id": "swt-18",
+    "type": "swt",
+    "section": "writing",
+    "level": 4,
+    "time": 600,
+    "title": "城市孤独",
+    "lesson": "PLUS",
+    "instruction": "10 分钟内用一句话概括（5–75 词），只能有一个句号。",
+    "content": "Urban loneliness is increasingly recognised as a public health issue. Large cities offer anonymity and freedom, but they can also weaken the social ties that people rely on. Long commutes, high housing costs and frequent moves make it harder to maintain friendships. Loneliness has been linked to depression, heart disease and shorter life expectancy. Some cities are responding with community centres, public benches and programmes that bring neighbours together. However, critics argue that these measures are small compared with the structural causes of isolation. Researchers suggest that transport, housing and work policies all shape social connection, and that loneliness cannot be solved by social events alone.",
+    "model": "Although community programmes can reduce urban loneliness, transport, housing and work policies also shape social connection, so loneliness cannot be solved by social events alone.",
+    "checklist": [
+      "只有一个句号",
+      "35–55 词",
+      "主旨 + 转折",
+      "没有抄整句"
+    ],
+    "explanation": "SWT 评分：Content 2、Form 1、Grammar 2、Vocabulary 2；两个句号 = Form 0。",
+    "tip": "Although A, B because C；先保一句，再改词。"
+  },
+  {
+    "id": "sst-15",
+    "type": "sst",
+    "section": "listening",
+    "level": 4,
+    "time": 600,
+    "title": "珊瑚修复（讲座）",
+    "lesson": "PLUS",
+    "instruction": "听讲座，10 分钟内写 50–70 词摘要。",
+    "audio": "Today I want to discuss coral restoration. Coral reefs support a quarter of marine species, but rising temperatures cause bleaching. Scientists are now growing coral in nurseries and transplanting it onto damaged reefs. Some projects also breed heat-tolerant corals. However, restoration is expensive and can only cover small areas. The speaker argues that restoration must be combined with cutting emissions, because reefs cannot survive if the ocean keeps warming.",
+    "model": "The lecture discusses coral restoration. Coral reefs support marine species but are damaged by warming, so scientists grow coral in nurseries and transplant it. Restoration is expensive and covers small areas. In conclusion, it must be combined with cutting emissions.",
+    "checklist": [
+      "50–70 词",
+      "主题 + 两个要点",
+      "有结论",
+      "没有整句照抄"
+    ],
+    "explanation": "SST 评分：内容 2、形式 2、语法/词汇/拼写各 2；少于 40 或多于 100 词 = 0。",
+    "tip": "主题 + 两个要点 + 结论；不要写个人观点。"
+  },
+  {
+    "id": "sst-16",
+    "type": "sst",
+    "section": "listening",
+    "level": 4,
+    "time": 600,
+    "title": "移民与城市（讲座）",
+    "lesson": "PLUS",
+    "instruction": "听讲座，10 分钟内写 50–70 词摘要。",
+    "audio": "This lecture examines how migration changes cities. Migrants often settle in neighbourhoods with affordable housing and existing social networks. These areas can become vibrant cultural and economic centres. However, rapid arrivals can also put pressure on housing and public services. The speaker argues that cities need to plan for population change, rather than treating migration as a temporary problem.",
+    "model": "The lecture examines how migration changes cities. Migrants often settle in affordable neighbourhoods with social networks, creating cultural and economic centres, but rapid arrivals can pressure housing and services. In conclusion, cities must plan for population change.",
+    "checklist": [
+      "50–70 词",
+      "主题 + 两个要点",
+      "有结论",
+      "没有整句照抄"
+    ],
+    "explanation": "SST 评分：内容 2、形式 2、语法/词汇/拼写各 2；少于 40 或多于 100 词 = 0。",
+    "tip": "主题 + 两个要点 + 结论；不要写个人观点。"
+  },
+  {
+    "id": "sst-17",
+    "type": "sst",
+    "section": "listening",
+    "level": 4,
+    "time": 600,
+    "title": "疼痛科学（讲座）",
+    "lesson": "PLUS",
+    "instruction": "听讲座，10 分钟内写 50–70 词摘要。",
+    "audio": "Today's lecture is about the science of pain. Pain is not simply a signal from damaged tissue; the brain interprets sensory information together with context and emotion. This explains why two people with similar injuries can experience different levels of pain. The speaker argues that treatment should address both physical and psychological factors, and that opioids are not always the best solution.",
+    "model": "The lecture discusses the science of pain. Pain is not just a tissue signal; the brain interprets it with context and emotion, so people with similar injuries may feel different levels. In conclusion, treatment should address physical and psychological factors.",
+    "checklist": [
+      "50–70 词",
+      "主题 + 两个要点",
+      "有结论",
+      "没有整句照抄"
+    ],
+    "explanation": "SST 评分：内容 2、形式 2、语法/词汇/拼写各 2；少于 40 或多于 100 词 = 0。",
+    "tip": "主题 + 两个要点 + 结论；不要写个人观点。"
+  },
+  {
+    "id": "sst-18",
+    "type": "sst",
+    "section": "listening",
+    "level": 4,
+    "time": 600,
+    "title": "投票制度（讲座）",
+    "lesson": "PLUS",
+    "instruction": "听讲座，10 分钟内写 50–70 词摘要。",
+    "audio": "This lecture compares voting systems. In first-past-the-post elections, the candidate with the most votes wins, even without a majority. Proportional representation aims to match seats to the share of votes. Each system has trade-offs: majoritarian systems tend to produce stable governments, while proportional systems may represent more views but require coalitions. The speaker argues that no system is neutral; the choice shapes how parties campaign and govern.",
+    "model": "The lecture compares voting systems. First-past-the-post produces stable governments but can ignore minority views, while proportional representation matches seats to votes but often requires coalitions. In conclusion, no system is neutral; the choice shapes politics.",
+    "checklist": [
+      "50–70 词",
+      "主题 + 两个要点",
+      "有结论",
+      "没有整句照抄"
+    ],
+    "explanation": "SST 评分：内容 2、形式 2、语法/词汇/拼写各 2；少于 40 或多于 100 词 = 0。",
+    "tip": "主题 + 两个要点 + 结论；不要写个人观点。"
+  },
+  {
+    "id": "sst-19",
+    "type": "sst",
+    "section": "listening",
+    "level": 4,
+    "time": 600,
+    "title": "博物馆声学（讲座）",
+    "lesson": "PLUS",
+    "instruction": "听讲座，10 分钟内写 50–70 词摘要。",
+    "audio": "Today's topic is the acoustics of museums. Hard surfaces and open spaces can make galleries noisy, which increases visitor fatigue. Designers now use sound-absorbing panels, carpets and strategic layouts to reduce echoes. However, silence is not always the goal: some museums use sound to create atmosphere and guide visitors. The speaker argues that acoustic design should support both concentration and engagement.",
+    "model": "The lecture discusses museum acoustics. Hard surfaces make galleries noisy and tire visitors, so designers use absorbing materials and layouts. However, sound can also create atmosphere. In conclusion, acoustic design should support both concentration and engagement.",
+    "checklist": [
+      "50–70 词",
+      "主题 + 两个要点",
+      "有结论",
+      "没有整句照抄"
+    ],
+    "explanation": "SST 评分：内容 2、形式 2、语法/词汇/拼写各 2；少于 40 或多于 100 词 = 0。",
+    "tip": "主题 + 两个要点 + 结论；不要写个人观点。"
+  },
+  {
+    "id": "sst-20",
+    "type": "sst",
+    "section": "listening",
+    "level": 4,
+    "time": 600,
+    "title": "食物保存（讲座）",
+    "lesson": "PLUS",
+    "instruction": "听讲座，10 分钟内写 50–70 词摘要。",
+    "audio": "This lecture is about food preservation. Drying, salting and fermenting allowed people to store food long before refrigeration. Modern techniques such as freeze-drying and modified atmosphere packaging extend shelf life further. However, preservation can affect taste, texture and nutritional value. The speaker argues that the best method depends on the food, the climate and the resources available.",
+    "model": "The lecture discusses food preservation. Drying, salting and fermenting were used before refrigeration, and modern methods extend shelf life further. However, preservation can change taste and nutrition. In conclusion, the best method depends on food, climate and resources.",
+    "checklist": [
+      "50–70 词",
+      "主题 + 两个要点",
+      "有结论",
+      "没有整句照抄"
+    ],
+    "explanation": "SST 评分：内容 2、形式 2、语法/词汇/拼写各 2；少于 40 或多于 100 词 = 0。",
+    "tip": "主题 + 两个要点 + 结论；不要写个人观点。"
+  },
+  {
+    "id": "sst-21",
+    "type": "sst",
+    "section": "listening",
+    "level": 4,
+    "time": 600,
+    "title": "野火管理（讲座）",
+    "lesson": "PLUS",
+    "instruction": "听讲座，10 分钟内写 50–70 词摘要。",
+    "audio": "This lecture examines wildfire management. For decades, many agencies suppressed all fires, which allowed fuel to build up. When fires eventually started, they were more severe. Some regions now use controlled burns to reduce fuel and restore ecosystems. However, controlled burns require careful planning and can affect air quality. The speaker argues that fire management must balance safety, ecology and public health.",
+    "model": "The lecture examines wildfire management. Suppressing all fires allowed fuel to build up, making later fires more severe. Some regions now use controlled burns, but these require planning and affect air quality. In conclusion, fire management must balance safety, ecology and health.",
+    "checklist": [
+      "50–70 词",
+      "主题 + 两个要点",
+      "有结论",
+      "没有整句照抄"
+    ],
+    "explanation": "SST 评分：内容 2、形式 2、语法/词汇/拼写各 2；少于 40 或多于 100 词 = 0。",
+    "tip": "主题 + 两个要点 + 结论；不要写个人观点。"
+  },
+  {
+    "id": "sst-22",
+    "type": "sst",
+    "section": "listening",
+    "level": 4,
+    "time": 600,
+    "title": "数字隐私（讲座）",
+    "lesson": "PLUS",
+    "instruction": "听讲座，10 分钟内写 50–70 词摘要。",
+    "audio": "Today's lecture is about digital privacy. Every online interaction creates data that can be collected, analysed and sold. Many users accept terms and conditions without reading them. Regulations such as the GDPR aim to give people more control over their data. However, enforcement is difficult, and companies often operate across borders. The speaker argues that privacy education and technical design are as important as legislation.",
+    "model": "The lecture discusses digital privacy. Online interactions create data that is collected and sold, and users often accept terms without reading them. Regulations aim to give control, but enforcement is difficult. In conclusion, privacy education and design matter as much as legislation.",
+    "checklist": [
+      "50–70 词",
+      "主题 + 两个要点",
+      "有结论",
+      "没有整句照抄"
+    ],
+    "explanation": "SST 评分：内容 2、形式 2、语法/词汇/拼写各 2；少于 40 或多于 100 词 = 0。",
+    "tip": "主题 + 两个要点 + 结论；不要写个人观点。"
+  },
+  {
+    "id": "sst-23",
+    "type": "sst",
+    "section": "listening",
+    "level": 4,
+    "time": 600,
+    "title": "洋流（讲座）",
+    "lesson": "PLUS",
+    "instruction": "听讲座，10 分钟内写 50–70 词摘要。",
+    "audio": "This lecture explains ocean currents. Wind and differences in temperature and salinity drive the movement of water around the planet. Currents transport heat, which affects the climate of coastal regions. Melting ice may change salinity and slow the circulation. The speaker argues that monitoring ocean currents is essential for predicting future climate change.",
+    "model": "The lecture explains ocean currents. Wind, temperature and salinity drive water movement, and currents transport heat that affects coastal climates. Melting ice may change salinity and slow circulation. In conclusion, monitoring currents is essential for predicting climate change.",
+    "checklist": [
+      "50–70 词",
+      "主题 + 两个要点",
+      "有结论",
+      "没有整句照抄"
+    ],
+    "explanation": "SST 评分：内容 2、形式 2、语法/词汇/拼写各 2；少于 40 或多于 100 词 = 0。",
+    "tip": "主题 + 两个要点 + 结论；不要写个人观点。"
+  },
+  {
+    "id": "sst-24",
+    "type": "sst",
+    "section": "listening",
+    "level": 4,
+    "time": 600,
+    "title": "志愿服务（讲座）",
+    "lesson": "PLUS",
+    "instruction": "听讲座，10 分钟内写 50–70 词摘要。",
+    "audio": "Today's topic is volunteering. Volunteers contribute to schools, hospitals, environmental projects and community groups. Research suggests that volunteering can improve wellbeing and build skills, but it can also be demanding. Organisations need to provide training, clear roles and support. The speaker argues that good volunteer management is essential if both volunteers and communities are to benefit.",
+    "model": "The lecture discusses volunteering. Volunteers support schools, hospitals and community groups, and research links volunteering to wellbeing and skills, but it can be demanding. In conclusion, organisations need training and support so that volunteers and communities benefit.",
+    "checklist": [
+      "50–70 词",
+      "主题 + 两个要点",
+      "有结论",
+      "没有整句照抄"
+    ],
+    "explanation": "SST 评分：内容 2、形式 2、语法/词汇/拼写各 2；少于 40 或多于 100 词 = 0。",
+    "tip": "主题 + 两个要点 + 结论；不要写个人观点。"
+  },
+  {
+    "id": "fib-l-15",
+    "type": "fib-l",
+    "section": "listening",
+    "level": 4,
+    "time": 120,
+    "title": "屋顶农场（高难）",
+    "lesson": "PLUS",
+    "instruction": "听讲座，补全空格。拼写必须正确。",
+    "audio": "Urban rooftop farms use unused space to grow vegetables. They can reduce stormwater runoff and cool buildings. However, high start-up costs and structural limits make some projects difficult to sustain.",
+    "content": "Urban rooftop farms use unused [[1]] to grow vegetables. They can reduce stormwater [[2]] and cool buildings. However, high start-up costs and structural [[3]] make some projects difficult to [[4]].",
+    "answers": [
+      [
+        [
+          "space"
+        ]
+      ],
+      [
+        [
+          "runoff"
+        ]
+      ],
+      [
+        [
+          "limits"
+        ]
+      ],
+      [
+        [
+          "sustain"
+        ]
+      ]
+    ],
+    "explanation": "FIB-L 每空 1 分；拼写错误算 0。",
+    "tip": "先判词性，再听；最后查单复数/拼写。"
+  },
+  {
+    "id": "fib-l-16",
+    "type": "fib-l",
+    "section": "listening",
+    "level": 4,
+    "time": 120,
+    "title": "深海采矿（高难）",
+    "lesson": "PLUS",
+    "instruction": "听讲座，补全空格。拼写必须正确。",
+    "audio": "Deep-sea mining aims to extract metals from the ocean floor. These metals are needed for batteries. Scientists warn that deep-sea ecosystems recover very slowly. Several countries have called for a moratorium.",
+    "content": "Deep-sea mining aims to extract [[1]] from the ocean floor. These metals are needed for [[2]]. Scientists warn that deep-sea ecosystems recover very [[3]]. Several countries have called for a [[4]].",
+    "answers": [
+      [
+        [
+          "metals"
+        ]
+      ],
+      [
+        [
+          "batteries"
+        ]
+      ],
+      [
+        [
+          "slowly"
+        ]
+      ],
+      [
+        [
+          "moratorium"
+        ]
+      ]
+    ],
+    "explanation": "FIB-L 每空 1 分；拼写错误算 0。",
+    "tip": "先判词性，再听；最后查单复数/拼写。"
+  },
+  {
+    "id": "fib-l-17",
+    "type": "fib-l",
+    "section": "listening",
+    "level": 4,
+    "time": 120,
+    "title": "光污染（高难）",
+    "lesson": "PLUS",
+    "instruction": "听讲座，补全空格。拼写必须正确。",
+    "audio": "Artificial light at night disrupts wildlife. Migratory birds can become disoriented, and insects are drawn to lamps. Some cities use shields and warmer LED colours to reduce the problem.",
+    "content": "Artificial light at night disrupts [[1]]. Migratory birds can become [[2]], and insects are drawn to lamps. Some cities use shields and warmer LED colours to [[3]] the problem.",
+    "answers": [
+      [
+        [
+          "wildlife"
+        ]
+      ],
+      [
+        [
+          "disoriented"
+        ]
+      ],
+      [
+        [
+          "reduce"
+        ]
+      ]
+    ],
+    "explanation": "FIB-L 每空 1 分；拼写错误算 0。",
+    "tip": "先判词性，再听；最后查单复数/拼写。"
+  },
+  {
+    "id": "fib-l-18",
+    "type": "fib-l",
+    "section": "listening",
+    "level": 4,
+    "time": 120,
+    "title": "维修文化（高难）",
+    "lesson": "PLUS",
+    "instruction": "听讲座，补全空格。拼写必须正确。",
+    "audio": "The repair economy encourages people to fix products instead of replacing them. However, many products are difficult to repair, and spare parts are often expensive. Right-to-repair laws aim to change this.",
+    "content": "The repair economy encourages people to [[1]] products instead of replacing them. However, many products are difficult to [[2]], and spare parts are often expensive. Right-to-repair laws aim to [[3]] this.",
+    "answers": [
+      [
+        [
+          "fix"
+        ]
+      ],
+      [
+        [
+          "repair"
+        ]
+      ],
+      [
+        [
+          "change"
+        ]
+      ]
+    ],
+    "explanation": "FIB-L 每空 1 分；拼写错误算 0。",
+    "tip": "先判词性，再听；最后查单复数/拼写。"
+  },
+  {
+    "id": "fib-l-19",
+    "type": "fib-l",
+    "section": "listening",
+    "level": 4,
+    "time": 120,
+    "title": "数字档案（高难）",
+    "lesson": "PLUS",
+    "instruction": "听讲座，补全空格。拼写必须正确。",
+    "audio": "Libraries are digitising their collections. Digital archives improve access, but they are expensive to maintain. Files can be lost through format changes or hardware failure. Archivists call for long-term funding.",
+    "content": "Libraries are [[1]] their collections. Digital archives improve [[2]], but they are expensive to maintain. Files can be lost through format changes or hardware [[3]]. Archivists call for long-term [[4]].",
+    "answers": [
+      [
+        [
+          "digitising"
+        ]
+      ],
+      [
+        [
+          "access"
+        ]
+      ],
+      [
+        [
+          "failure"
+        ]
+      ],
+      [
+        [
+          "funding"
+        ]
+      ]
+    ],
+    "explanation": "FIB-L 每空 1 分；拼写错误算 0。",
+    "tip": "先判词性，再听；最后查单复数/拼写。"
+  },
+  {
+    "id": "fib-l-20",
+    "type": "fib-l",
+    "section": "listening",
+    "level": 4,
+    "time": 120,
+    "title": "可持续时尚（高难）",
+    "lesson": "PLUS",
+    "instruction": "听讲座，补全空格。拼写必须正确。",
+    "audio": "The fashion industry uses large amounts of water and energy. Some brands offer recycling and repair services. Critics argue that overproduction is the core problem, and that new collections encourage more consumption.",
+    "content": "The fashion industry uses large amounts of [[1]] and energy. Some brands offer recycling and [[2]] services. Critics argue that [[3]] is the core problem, and that new collections encourage more [[4]].",
+    "answers": [
+      [
+        [
+          "water"
+        ]
+      ],
+      [
+        [
+          "repair"
+        ]
+      ],
+      [
+        [
+          "overproduction"
+        ]
+      ],
+      [
+        [
+          "consumption"
+        ]
+      ]
+    ],
+    "explanation": "FIB-L 每空 1 分；拼写错误算 0。",
+    "tip": "先判词性，再听；最后查单复数/拼写。"
+  },
+  {
+    "id": "fib-l-21",
+    "type": "fib-l",
+    "section": "listening",
+    "level": 4,
+    "time": 120,
+    "title": "校园食物浪费（高难）",
+    "lesson": "PLUS",
+    "instruction": "听讲座，补全空格。拼写必须正确。",
+    "audio": "Universities produce large amounts of food waste in canteens. Smaller plates and food-sharing apps can reduce waste. Composting is another option, but it requires space and staff. Regular measurement helps track progress.",
+    "content": "Universities produce large amounts of food [[1]] in canteens. Smaller plates and food-sharing apps can [[2]] waste. Composting is another option, but it requires space and [[3]]. Regular measurement helps [[4]] progress.",
+    "answers": [
+      [
+        [
+          "waste"
+        ]
+      ],
+      [
+        [
+          "reduce"
+        ]
+      ],
+      [
+        [
+          "staff"
+        ]
+      ],
+      [
+        [
+          "track"
+        ]
+      ]
+    ],
+    "explanation": "FIB-L 每空 1 分；拼写错误算 0。",
+    "tip": "先判词性，再听；最后查单复数/拼写。"
+  },
+  {
+    "id": "fib-l-22",
+    "type": "fib-l",
+    "section": "listening",
+    "level": 4,
+    "time": 120,
+    "title": "太空碎片（高难）",
+    "lesson": "PLUS",
+    "instruction": "听讲座，补全空格。拼写必须正确。",
+    "audio": "Debris in orbit travels at high speed and can damage working spacecraft. A single collision can create thousands of new pieces. Removal missions are expensive, and no country has clear responsibility for cleanup.",
+    "content": "Debris in orbit travels at high [[1]] and can damage working spacecraft. A single [[2]] can create thousands of new pieces. Removal missions are [[3]], and no country has clear responsibility for [[4]].",
+    "answers": [
+      [
+        [
+          "speed"
+        ]
+      ],
+      [
+        [
+          "collision"
+        ]
+      ],
+      [
+        [
+          "expensive"
+        ]
+      ],
+      [
+        [
+          "cleanup"
+        ]
+      ]
+    ],
+    "explanation": "FIB-L 每空 1 分；拼写错误算 0。",
+    "tip": "先判词性，再听；最后查单复数/拼写。"
+  },
+  {
+    "id": "fib-l-23",
+    "type": "fib-l",
+    "section": "listening",
+    "level": 4,
+    "time": 120,
+    "title": "传统医学（高难）",
+    "lesson": "PLUS",
+    "instruction": "听讲座，补全空格。拼写必须正确。",
+    "audio": "Traditional medicine is used alongside modern care in many countries. Some remedies are effective, but others are unregulated or may interact with prescription drugs. Governments are introducing licensing and safety standards.",
+    "content": "Traditional medicine is used [[1]] modern care in many countries. Some remedies are effective, but others are unregulated or may [[2]] with prescription drugs. Governments are introducing [[3]] and safety standards.",
+    "answers": [
+      [
+        [
+          "alongside"
+        ]
+      ],
+      [
+        [
+          "interact"
+        ]
+      ],
+      [
+        [
+          "licensing"
+        ]
+      ]
+    ],
+    "explanation": "FIB-L 每空 1 分；拼写错误算 0。",
+    "tip": "先判词性，再听；最后查单复数/拼写。"
+  },
+  {
+    "id": "fib-l-24",
+    "type": "fib-l",
+    "section": "listening",
+    "level": 4,
+    "time": 120,
+    "title": "城市孤独（高难）",
+    "lesson": "PLUS",
+    "instruction": "听讲座，补全空格。拼写必须正确。",
+    "audio": "Urban loneliness is recognised as a public health issue. Long commutes and high housing costs make it harder to maintain friendships. Some cities are funding community centres, but researchers say transport and housing policies also matter.",
+    "content": "Urban loneliness is recognised as a public [[1]] issue. Long commutes and high housing costs make it harder to maintain [[2]]. Some cities are funding community centres, but researchers say transport and housing [[3]] also matter.",
+    "answers": [
+      [
+        [
+          "health"
+        ]
+      ],
+      [
+        [
+          "friendships"
+        ]
+      ],
+      [
+        [
+          "policies"
+        ]
+      ]
+    ],
+    "explanation": "FIB-L 每空 1 分；拼写错误算 0。",
+    "tip": "先判词性，再听；最后查单复数/拼写。"
   }
 ];
