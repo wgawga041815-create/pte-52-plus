@@ -19,6 +19,7 @@
   const L7_IDS = QS.filter(q => q.lesson === "L7").map(q => q.id);
   const PLUS_IDS = QS.filter(q => q.lesson === "PLUS").map(q => q.id);
   const RLPLUS_IDS = QS.filter(q => q.lesson === "RLPLUS").map(q => q.id);
+  const ROPLUS_IDS = QS.filter(q => q.lesson === "ROPLUS").map(q => q.id);
 
   const TYPE = {
     ra:      { name: "Read Aloud",              sec: "speaking",  label: "朗读" },
@@ -386,6 +387,7 @@
         '<div class="lesson-strip"><div><b>第 7 课 · 听力五大题型</b><span>SST、MCQ、FIB-L、HCS、SMW、HIW、WFD，59 道新题，一键练这一组。</span></div><button class="btn btn-primary" id="startL7">做这一组 →</button></div>' +
         '<div class="lesson-strip"><div><b>新增强化 · RS / RTS / SWT / SST / FIB-L</b><span>50 道新题，全部新话题，按 PTE 长度和计时编写。</span></div><button class="btn btn-primary" id="startPlus">做这一组 →</button></div>' +
         '<div class="lesson-strip"><div><b>Retell Lecture 强化 · 10 篇新讲座</b><span>10 篇新话题，60–90 秒讲座 + 40 秒复述示范。</span></div><button class="btn btn-primary" id="startRLPlus">做这一组 →</button></div>' +
+        '<div class="lesson-strip"><div><b>阅读 RO 中等难度 · 8 篇</b><span>Re-order Paragraphs 中等难度，先找首句再顺指代。</span></div><button class="btn btn-primary" id="startROPlus">做这一组 →</button></div>' +
 
         '<div class="section-title"><h2>8 天路线</h2><span>每天 4 题，约 15 分钟；其余自由加练</span></div>' +
         '<div class="plan">' + planHTML + "</div>" +
@@ -415,6 +417,7 @@
     $("#startL7").onclick = () => startQueue(L7_IDS, "l7");
     $("#startPlus").onclick = () => startQueue(PLUS_IDS, "plus");
     $("#startRLPlus").onclick = () => startQueue(RLPLUS_IDS, "rlplus");
+    $("#startROPlus").onclick = () => startQueue(ROPLUS_IDS, "roplus");
     document.querySelectorAll(".day").forEach(el => {
       el.onclick = () => {
         const d = PLAN.find(x => x.day === Number(el.dataset.day));
