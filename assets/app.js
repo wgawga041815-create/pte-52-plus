@@ -17,6 +17,7 @@
   const L5_IDS = QS.filter(q => q.type === "swt" || q.type === "we").map(q => q.id);
   const L6_IDS = QS.filter(q => q.lesson === "L6").map(q => q.id);
   const L7_IDS = QS.filter(q => q.lesson === "L7").map(q => q.id);
+  const PLUS_IDS = QS.filter(q => q.lesson === "PLUS").map(q => q.id);
 
   const TYPE = {
     ra:      { name: "Read Aloud",              sec: "speaking",  label: "朗读" },
@@ -382,6 +383,7 @@
         '<div class="lesson-strip"><div><b>第 5 课 · SWT + WE</b><span>8 篇一句话概括 + 6 个作文题，10 分钟/20 分钟计时，一键练这一组。</span></div><button class="btn btn-primary" id="startL5">做这一组 →</button></div>' +
         '<div class="lesson-strip"><div><b>第 6 课 · 阅读五大题型</b><span>FIB-RW、FIB-R、RO、MCQ 单选/多选，65 道新题，一键练这一组。</span></div><button class="btn btn-primary" id="startL6">做这一组 →</button></div>' +
         '<div class="lesson-strip"><div><b>第 7 课 · 听力五大题型</b><span>SST、MCQ、FIB-L、HCS、SMW、HIW、WFD，59 道新题，一键练这一组。</span></div><button class="btn btn-primary" id="startL7">做这一组 →</button></div>' +
+        '<div class="lesson-strip"><div><b>新增强化 · RS / RTS / SWT / SST / FIB-L</b><span>50 道新题，全部新话题，按 PTE 长度和计时编写。</span></div><button class="btn btn-primary" id="startPlus">做这一组 →</button></div>' +
 
         '<div class="section-title"><h2>8 天路线</h2><span>每天 4 题，约 15 分钟；其余自由加练</span></div>' +
         '<div class="plan">' + planHTML + "</div>" +
@@ -409,6 +411,7 @@
     $("#startL5").onclick = () => startQueue(L5_IDS, "l5");
     $("#startL6").onclick = () => startQueue(L6_IDS, "l6");
     $("#startL7").onclick = () => startQueue(L7_IDS, "l7");
+    $("#startPlus").onclick = () => startQueue(PLUS_IDS, "plus");
     document.querySelectorAll(".day").forEach(el => {
       el.onclick = () => {
         const d = PLAN.find(x => x.day === Number(el.dataset.day));
@@ -720,7 +723,7 @@
       }
       case "rs": {
         return '<div class="audio-box"><div class="wave"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>' +
-          '<button class="btn btn-primary" data-play>▶ 播放 5 句</button><span class="label">每句听完立刻复述</span></div>' +
+          '<button class="btn btn-primary" data-play>▶ 播放 ' + q.audio.split("||").length + ' 句</button><span class="label">每句听完立刻复述</span></div>' +
           '<div class="actions"><button class="btn btn-ghost" id="recBtn">● 开始录音</button></div><div id="rec-holder" style="margin-top:12px"></div>' +
           '<p class="note">复述完再看示范：先按记忆说，再看漏了哪块。</p>';
       }
