@@ -1,5 +1,5 @@
-/* PTE 52 Lab Plus — 357 questions
- * 50 new items: RS/RTS/SWT/SST/FIB-L.
+/* PTE 52 Lab Plus — 367 questions
+ * 10 new Retell Lecture items.
  */
 window.QUESTIONS = [
   {
@@ -8611,5 +8611,275 @@ window.QUESTIONS = [
     ],
     "explanation": "FIB-L 每空 1 分；拼写错误算 0。",
     "tip": "先判词性，再听；最后查单复数/拼写。"
+  },
+  {
+    "id": "rl-06",
+    "type": "rl",
+    "section": "speaking",
+    "level": 3,
+    "time": 110,
+    "title": "习惯的形成（讲座）",
+    "lesson": "RLPLUS",
+    "instruction": "听讲座，10 秒准备，40 秒复述。记 4 个关键词，用自己的话。",
+    "audio": "Today I want to discuss how habits form. A habit begins with a cue that triggers a routine, and the routine is followed by a reward. Over time, the cue and the routine become linked, so the behaviour feels automatic. This is why changing a habit is easier when you change the environment rather than relying on willpower. If you remove the cue, the old routine becomes less automatic. The speaker suggests replacing an unwanted habit with a new routine that provides a similar reward.",
+    "keypoints": [
+      "Cue → routine → reward",
+      "Repetition makes behaviour automatic",
+      "Change environment, not just willpower",
+      "Replace with a routine that gives similar reward"
+    ],
+    "model": "The lecture explains how habits form through a cue, a routine and a reward. Repetition makes the behaviour automatic, so changing the environment is more effective than relying on willpower. If the cue is removed, the old routine weakens. In conclusion, replacing an unwanted habit with a new routine that provides a similar reward is more effective.",
+    "checklist": [
+      "第一句有主题",
+      "2 个要点",
+      "1 个例子/数字",
+      "有 In conclusion",
+      "40 秒内说完"
+    ],
+    "explanation": "RL 评分看 Content（关键要点、关系、结论）、Oral fluency、Pronunciation；不要逐句背原文。",
+    "tip": "习惯回路 + 环境 + 替代；不要只说“靠意志力”。"
+  },
+  {
+    "id": "rl-07",
+    "type": "rl",
+    "section": "speaking",
+    "level": 3,
+    "time": 110,
+    "title": "拖延心理（讲座）",
+    "lesson": "RLPLUS",
+    "instruction": "听讲座，10 秒准备，40 秒复述。记 4 个关键词，用自己的话。",
+    "audio": "Procrastination is often mistaken for laziness, but it is usually a way of managing negative emotions. When a task feels boring, difficult or threatening, people delay it to avoid discomfort. This brings short-term relief but increases stress later. Research suggests that breaking tasks into smaller steps and forgiving past delays can help. The speaker argues that self-compassion is more effective than self-criticism.",
+    "keypoints": [
+      "Not laziness; managing emotions",
+      "Delay avoids discomfort",
+      "Short-term relief, later stress",
+      "Small steps + self-compassion"
+    ],
+    "model": "The lecture discusses procrastination. It is not simply laziness but a way of managing negative emotions: when a task feels difficult or threatening, people delay it to avoid discomfort. This brings short-term relief but increases stress later. In conclusion, breaking tasks into small steps and using self-compassion are more effective than self-criticism.",
+    "checklist": [
+      "第一句有主题",
+      "2 个要点",
+      "1 个例子/数字",
+      "有 In conclusion",
+      "40 秒内说完"
+    ],
+    "explanation": "RL 评分看 Content（关键要点、关系、结论）、Oral fluency、Pronunciation；不要逐句背原文。",
+    "tip": "情绪调节 + 短期/长期 + 两个对策。"
+  },
+  {
+    "id": "rl-08",
+    "type": "rl",
+    "section": "speaking",
+    "level": 3,
+    "time": 110,
+    "title": "垂直农业（讲座）",
+    "lesson": "RLPLUS",
+    "instruction": "听讲座，10 秒准备，40 秒复述。记 4 个关键词，用自己的话。",
+    "audio": "Vertical farms grow crops in stacked layers indoors. They use less land and water than conventional farms and can operate near cities, reducing transport. However, they consume large amounts of electricity for lighting and cooling. Leafy greens work well, but staple crops such as wheat are difficult to grow profitably. The speaker argues that vertical farms will play a role in specific markets, not replace traditional agriculture.",
+    "keypoints": [
+      "Stacked layers indoors",
+      "Less land/water; near cities",
+      "High electricity use",
+      "Leafy greens yes; staples difficult; niche role"
+    ],
+    "model": "The lecture discusses vertical farming. Crops are grown in stacked layers indoors, using less land and water and reducing transport. However, vertical farms use large amounts of electricity, and staple crops such as wheat are difficult to grow profitably. In conclusion, they will play a role in specific markets rather than replace traditional agriculture.",
+    "checklist": [
+      "第一句有主题",
+      "2 个要点",
+      "1 个例子/数字",
+      "有 In conclusion",
+      "40 秒内说完"
+    ],
+    "explanation": "RL 评分看 Content（关键要点、关系、结论）、Oral fluency、Pronunciation；不要逐句背原文。",
+    "tip": "好处 + 限制 + 结论：niche, not replacement。"
+  },
+  {
+    "id": "rl-09",
+    "type": "rl",
+    "section": "speaking",
+    "level": 3,
+    "time": 110,
+    "title": "传粉昆虫减少（讲座）",
+    "lesson": "RLPLUS",
+    "instruction": "听讲座，10 秒准备，40 秒复述。记 4 个关键词，用自己的话。",
+    "audio": "Pollinators such as bees and butterflies are essential for many crops. Their populations are threatened by pesticides, disease and the loss of flowering habitats. Farmers who depend on pollination may face lower yields and higher costs. Planting wildflower strips and reducing pesticide use can help, but bees do not respect farm boundaries, so neighbouring farms need to coordinate. The speaker argues that pollinator protection requires landscape-level planning, not just individual action.",
+    "keypoints": [
+      "Pollinators essential for crops",
+      "Pesticides, disease, habitat loss",
+      "Lower yields/higher costs",
+      "Landscape-level coordination"
+    ],
+    "model": "The lecture discusses the decline of pollinators. Bees and butterflies are essential for many crops, but pesticides, disease and habitat loss threaten them. Farmers may face lower yields and higher costs. Planting wildflowers and reducing pesticides can help, but bees cross farm boundaries. In conclusion, protection requires landscape-level planning, not just individual action.",
+    "checklist": [
+      "第一句有主题",
+      "2 个要点",
+      "1 个例子/数字",
+      "有 In conclusion",
+      "40 秒内说完"
+    ],
+    "explanation": "RL 评分看 Content（关键要点、关系、结论）、Oral fluency、Pronunciation；不要逐句背原文。",
+    "tip": "问题 + 后果 + 措施 + 结论；landscape-level 是关键词。"
+  },
+  {
+    "id": "rl-10",
+    "type": "rl",
+    "section": "speaking",
+    "level": 3,
+    "time": 110,
+    "title": "共享经济（讲座）",
+    "lesson": "RLPLUS",
+    "instruction": "听讲座，10 秒准备，40 秒复述。记 4 个关键词，用自己的话。",
+    "audio": "The sharing economy allows people to rent out rooms, cars and tools through digital platforms. It can reduce costs and make better use of underused assets. However, workers who provide services may lack insurance and stable income, and regulations have struggled to keep up. The speaker argues that platforms should be treated as employers in some cases, and that rules should protect both consumers and workers without destroying flexibility.",
+    "keypoints": [
+      "Rent rooms/cars/tools via platforms",
+      "Lower costs; better use of assets",
+      "Workers lack insurance/stable income",
+      "Rules protect workers/consumers; keep flexibility"
+    ],
+    "model": "The lecture discusses the sharing economy. Platforms allow people to rent out rooms, cars and tools, reducing costs and using underused assets. However, workers may lack insurance and stable income, and regulations have struggled to keep up. In conclusion, rules should protect consumers and workers without destroying flexibility.",
+    "checklist": [
+      "第一句有主题",
+      "2 个要点",
+      "1 个例子/数字",
+      "有 In conclusion",
+      "40 秒内说完"
+    ],
+    "explanation": "RL 评分看 Content（关键要点、关系、结论）、Oral fluency、Pronunciation；不要逐句背原文。",
+    "tip": "好处 + 问题 + 监管平衡；不要一边倒。"
+  },
+  {
+    "id": "rl-11",
+    "type": "rl",
+    "section": "speaking",
+    "level": 3,
+    "time": 110,
+    "title": "茶的历史（讲座）",
+    "lesson": "RLPLUS",
+    "instruction": "听讲座，10 秒准备，40 秒复述。记 4 个关键词，用自己的话。",
+    "audio": "Tea was first drunk in China thousands of years ago. It spread to Japan and later to Europe, where it became popular in the eighteenth century. Traders shipped it in large quantities, which made it cheaper. Today it is one of the most widely consumed drinks in the world. The speaker argues that tea's history shows how trade, taste and empire shaped everyday life.",
+    "keypoints": [
+      "First drunk in China",
+      "Spread to Japan/Europe",
+      "Trade made it cheaper",
+      "Trade, taste and empire shaped daily life"
+    ],
+    "model": "The lecture discusses the history of tea. Tea was first drunk in China, spread to Japan and later Europe, and became popular in the eighteenth century. Traders shipped it in large quantities, making it cheaper. In conclusion, tea's history shows how trade, taste and empire shaped everyday life.",
+    "checklist": [
+      "第一句有主题",
+      "2 个要点",
+      "1 个例子/数字",
+      "有 In conclusion",
+      "40 秒内说完"
+    ],
+    "explanation": "RL 评分看 Content（关键要点、关系、结论）、Oral fluency、Pronunciation；不要逐句背原文。",
+    "tip": "时间线 + 贸易 + 结论；不要漏 empire。"
+  },
+  {
+    "id": "rl-12",
+    "type": "rl",
+    "section": "speaking",
+    "level": 3,
+    "time": 110,
+    "title": "海洋酸化（讲座）",
+    "lesson": "RLPLUS",
+    "instruction": "听讲座，10 秒准备，40 秒复述。记 4 个关键词，用自己的话。",
+    "audio": "The ocean absorbs about a quarter of the carbon dioxide released by human activity. This changes the chemistry of seawater, making it more acidic. Acidification can damage coral reefs and shellfish, which struggle to build shells and skeletons. The effects are uneven, and some species may adapt. The speaker argues that reducing emissions is the only long-term solution, because local cleanup cannot reverse the change.",
+    "keypoints": [
+      "Ocean absorbs CO2",
+      "Seawater more acidic",
+      "Coral/shellfish struggle",
+      "Cut emissions; local cleanup insufficient"
+    ],
+    "model": "The lecture discusses ocean acidification. The ocean absorbs about a quarter of human carbon dioxide, which makes seawater more acidic. This can damage coral reefs and shellfish, which struggle to build shells. The effects are uneven, and some species may adapt. In conclusion, reducing emissions is the only long-term solution.",
+    "checklist": [
+      "第一句有主题",
+      "2 个要点",
+      "1 个例子/数字",
+      "有 In conclusion",
+      "40 秒内说完"
+    ],
+    "explanation": "RL 评分看 Content（关键要点、关系、结论）、Oral fluency、Pronunciation；不要逐句背原文。",
+    "tip": "机制 + 影响 + 结论；不要夸大“所有物种都会死”。"
+  },
+  {
+    "id": "rl-13",
+    "type": "rl",
+    "section": "speaking",
+    "level": 3,
+    "time": 110,
+    "title": "流媒体经济（讲座）",
+    "lesson": "RLPLUS",
+    "instruction": "听讲座，10 秒准备，40 秒复述。记 4 个关键词，用自己的话。",
+    "audio": "Streaming has changed how music and films are produced and consumed. Platforms pay artists per stream, which often means small payments for individual musicians. Algorithms influence what listeners discover, and producers increasingly design content to fit those algorithms. The speaker argues that streaming has increased access but concentrated power in a few platforms, and that regulation may be needed to protect cultural diversity.",
+    "keypoints": [
+      "Streaming changed production/consumption",
+      "Per-stream payments often small",
+      "Algorithms shape discovery",
+      "Access increased; power concentrated; regulation"
+    ],
+    "model": "The lecture discusses the economics of streaming. Streaming has changed how music and films are produced and consumed, but per-stream payments are often small for individual artists. Algorithms shape what listeners discover, and producers design content to fit them. In conclusion, streaming has increased access but concentrated power, so regulation may be needed to protect cultural diversity.",
+    "checklist": [
+      "第一句有主题",
+      "2 个要点",
+      "1 个例子/数字",
+      "有 In conclusion",
+      "40 秒内说完"
+    ],
+    "explanation": "RL 评分看 Content（关键要点、关系、结论）、Oral fluency、Pronunciation；不要逐句背原文。",
+    "tip": "好处 + 问题 + 监管；algorithm 是关键词。"
+  },
+  {
+    "id": "rl-14",
+    "type": "rl",
+    "section": "speaking",
+    "level": 3,
+    "time": 110,
+    "title": "城市热岛（讲座）",
+    "lesson": "RLPLUS",
+    "instruction": "听讲座，10 秒准备，40 秒复述。记 4 个关键词，用自己的话。",
+    "audio": "Cities are often hotter than surrounding countryside because concrete and asphalt absorb heat. Trees can cool streets through shade and evaporation, but not all neighbourhoods have equal access to green space. Low-income areas often have fewer trees and more heat-related health problems. The speaker argues that planting programmes should target these areas and include long-term maintenance, not just one-off planting events.",
+    "keypoints": [
+      "Concrete/asphalt absorb heat",
+      "Trees cool via shade/evaporation",
+      "Unequal green space; low-income hotter",
+      "Target areas + long-term maintenance"
+    ],
+    "model": "The lecture discusses urban heat islands. Cities are hotter because concrete and asphalt absorb heat. Trees can cool streets through shade and evaporation, but not all neighbourhoods have equal access to green space, and low-income areas often have fewer trees. In conclusion, planting programmes should target these areas and include long-term maintenance.",
+    "checklist": [
+      "第一句有主题",
+      "2 个要点",
+      "1 个例子/数字",
+      "有 In conclusion",
+      "40 秒内说完"
+    ],
+    "explanation": "RL 评分看 Content（关键要点、关系、结论）、Oral fluency、Pronunciation；不要逐句背原文。",
+    "tip": "问题 + 不平等 + 建议；maintenance 是关键词。"
+  },
+  {
+    "id": "rl-15",
+    "type": "rl",
+    "section": "speaking",
+    "level": 3,
+    "time": 110,
+    "title": "基因编辑伦理（讲座）",
+    "lesson": "RLPLUS",
+    "instruction": "听讲座，10 秒准备，40 秒复述。记 4 个关键词，用自己的话。",
+    "audio": "Gene editing allows scientists to change DNA with great precision. It could help treat inherited diseases, but changes to embryos can be passed to future generations. This raises questions about consent, safety and equity. The speaker argues that regulation should be international, because research can move across borders, and that public dialogue is essential before these technologies become widespread.",
+    "keypoints": [
+      "Precise DNA changes",
+      "Could treat inherited disease",
+      "Embryo changes heritable; consent/safety/equity",
+      "International regulation + public dialogue"
+    ],
+    "model": "The lecture discusses the ethics of gene editing. Gene editing can change DNA precisely and could treat inherited diseases, but changes to embryos can be passed to future generations. This raises questions about consent, safety and equity. In conclusion, regulation should be international and public dialogue is essential.",
+    "checklist": [
+      "第一句有主题",
+      "2 个要点",
+      "1 个例子/数字",
+      "有 In conclusion",
+      "40 秒内说完"
+    ],
+    "explanation": "RL 评分看 Content（关键要点、关系、结论）、Oral fluency、Pronunciation；不要逐句背原文。",
+    "tip": "好处 + 伦理问题 + 治理；三个关键词 consent/safety/equity。"
   }
 ];
