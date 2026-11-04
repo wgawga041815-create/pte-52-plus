@@ -1159,11 +1159,12 @@
     const cards = mocks.map(m => {
       const qn = m.sections.reduce((n, x) => n + x.qids.length, 0);
       const mins = Math.round(m.sections.reduce((n, x) => n + x.time, 0) / 60);
+      const partLabel = m.sections.length > 2 ? "四部分" : "阅读 + 听力";
       return '<div class="exam-card" data-ex="' + m.id + '">' +
         '<div class="exam-tag">' + esc(m.tag) + "</div>" +
         "<h3>" + esc(m.name) + "</h3>" +
         '<p>' + esc(m.desc) + "</p>" +
-        '<div class="exam-meta"><span>' + qn + " 题</span><span>" + mins + " 分钟</span><span>阅读 + 听力</span></div>" +
+        '<div class="exam-meta"><span>' + qn + " 题</span><span>" + mins + " 分钟</span><span>" + partLabel + "</span></div>" +
         '<span class="exam-go">开始模考 →</span></div>';
     }).join("");
 
@@ -1176,17 +1177,17 @@
 
     app.innerHTML = '<div class="container">' +
       '<section class="exam-hero"><div class="eyebrow">MOCK TEST</div>' +
-      "<h1>全真模考：阅读 + 听力</h1>" +
-      "<p>完整版按真实题量组卷：阅读 14 题 / 29 分钟，听力 17 题 / 35 分钟，不可回看；交卷后给估分和逐题解析。</p>" +
-      '<div class="exam-hero-tags"><span>4 套题</span><span>31 题完整版</span><span>自动评分 + 解析</span></div></section>' +
-      '<div class="section-title"><h2>选择一套</h2><span>完整版考前 2 周做；迷你卷用于日常</span></div>' +
+      "<h1>全真模考：四部分 / 阅读 + 听力</h1>" +
+      "<p>全科卷含口语、写作、阅读、听力；口语与写作不自动评分，交卷后对照示范自评；阅读/听力自动估分。</p>" +
+      '<div class="exam-hero-tags"><span>' + mocks.length + ' 套题</span><span>全科 / 迷你</span><span>自动评分 + 自评</span></div></section>' +
+      '<div class="section-title"><h2>选择一套</h2><span>全科卷练完整流程；迷你卷用于日常</span></div>' +
       '<div class="exam-grid">' + cards + "</div>" +
       '<div class="section-title"><h2>考试规则</h2></div>' +
       '<div class="exam-rules">' +
         '<div><b>1</b><p>每节独立计时，时间到自动交卷。</p></div>' +
         '<div><b>2</b><p>不可回看：点了“下一题”就不能改。</p></div>' +
         '<div><b>3</b><p>听力音频只放一遍，可以点播放。</p></div>' +
-        '<div><b>4</b><p>交卷后给估分与逐题解析，不提供即时对错。</p></div>' +
+        '<div><b>4</b><p>交卷后给估分与逐题解析；口语/写作对照示范自评。</p></div>' +
       "</div>" +
       '<div class="section-title"><h2>历史记录</h2></div><div class="mock-history">' + histHTML + "</div>" +
       '<p class="note">估分公式：10 + 正确率 × 80，仅用于练习定位，不是官方 PTE 成绩。</p>' +
@@ -1214,7 +1215,9 @@
       '<div class="exam-intro-list">' +
         "<p>· 计时开始后不暂停；时间到自动交卷。</p>" +
         "<p>· 每题只能提交一次，点了“下一题”不能返回。</p>" +
-        "<p>· 听力题可以点播放，但建议只放一遍。</p>" +
+        (sec.key === "speaking" || sec.key === "writing"
+          ? "<p>· 本节不自动评分；交卷后对照示范和 checklist 自评。</p>"
+          : "<p>· 听力题可以点播放，但建议只放一遍。</p>") +
         "<p>· 交卷前不显示对错。</p>" +
       "</div>" +
       '<button class="btn btn-primary" id="exStart">开始' + esc(sec.name) + " →</button>" +
@@ -1431,7 +1434,7 @@
           '<div><span>阅读 R</span><b>' + (rec.reading ? rec.reading.scaled : "—") + '</b><small>' + (rec.reading ? Math.round(rec.reading.pct * 100) + "%" : "") + '</small></div>' +
           '<div><span>听力 L</span><b>' + (rec.listening ? rec.listening.scaled : "—") + '</b><small>' + (rec.listening ? Math.round(rec.listening.pct * 100) + "%" : "") + '</small></div>' +
         "</div></div>" +
-      '<p class="note">估分 = 10 + 正确率 × 80，只反映本次阅读/听力的练习水平，不是官方成绩。</p>' +
+      '<p class="note">' + (sections.length > 2 ? "口语、写作不自动评分；请点开逐题解析，对照示范和 checklist 自评。" : "估分 = 10 + 正确率 × 80，只反映本次阅读/听力的练习水平，不是官方成绩。") + '</p>' +
       '<div class="section-title"><h2>逐题解析</h2><span>点开看你的答案、正确答案和原因</span></div>' +
       '<div class="review-list">' + rows.join("") + "</div>" +
       '<div class="actions" style="justify-content:center;margin-top:28px">' +
