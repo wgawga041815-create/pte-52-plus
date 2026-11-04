@@ -1,5 +1,5 @@
-/* PTE 52 Lab Plus — 377 questions
- * 2 DI map items added.
+/* PTE 52 Lab Plus — 378 questions
+ * Added one listening multi for the advanced mock.
  */
 window.QUESTIONS = [
   {
@@ -9139,5 +9139,29 @@ window.QUESTIONS = [
     ],
     "explanation": "DI 地图用方位词（west / east / north-east / south of）和连接词（runs across / connected by）。",
     "tip": "先找河流/桥这种明显参照物，再描述建筑位置。"
+  },
+  {
+    "id": "mcq-l-16",
+    "type": "mcq-l",
+    "section": "listening",
+    "level": 3,
+    "time": 100,
+    "title": "校园共享单车（多选）",
+    "instruction": "听录音，选 2 个正确选项。音频只放一遍。",
+    "audio": "The university will launch a bike-sharing scheme next month. Students can borrow a bike for up to four hours with their student card. The first thirty minutes are free, and helmets are provided. However, bikes must be returned to a designated station, and users are responsible for any damage.",
+    "question": "Which two statements are true?",
+    "options": [
+      "Students can borrow a bike for up to four hours.",
+      "Helmets are provided.",
+      "The scheme starts next year.",
+      "Users are not responsible for damage."
+    ],
+    "answer": [
+      0,
+      1
+    ],
+    "multi": true,
+    "explanation": "A 对应 up to four hours；B 对应 helmets are provided。C 与 next month 相反；D 与 responsible for any damage 相反。",
+    "tip": "多选只选有原文依据的；注意 next month ≠ next year。"
   }
 ];
