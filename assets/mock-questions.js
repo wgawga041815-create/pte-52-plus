@@ -380,6 +380,16 @@ window.MOCKS = [
     ]
   },
   {
+    id: "R2",
+    name: "阅读 + 听力模拟卷 · 进阶",
+    tag: "进阶",
+    desc: "阅读 14 + 听力 15，正式题量；高难题，卷内不重复",
+    sections: [
+      { key: "reading", name: "阅读", time: 1800, qids: ["fib-rw-15", "fib-rw-16", "fib-rw-17", "fib-rw-18", "fib-rw-19", "mcq-m-03", "mcq-m-04", "ro-12", "ro-13", "fib-r-09", "fib-r-10", "fib-r-11", "fib-r-12", "mcq-s-03"] },
+      { key: "listening", name: "听力", time: 2100, qids: ["sst-10", "mcq-l-14", "mcq-l-16", "fib-l-15", "fib-l-16", "hcs-07", "hcs-08", "mcq-l-13", "mcq-l-15", "smw-07", "hiw-10", "hiw-11", "wfd-11", "wfd-12", "wfd-13"] }
+    ]
+  },
+  {
     id: "F", name: "全真模考（完整版）", tag: "完整版", desc: "阅读 14 + 听力 17，按真实题量与节奏",
     sections: [
       { key: "reading", name: "阅读", time: 1740, qids: ["fib-rw-01", "fib-rw-02", "fib-rw-03", "ma-fib1", "mb-fib1", "fr-01", "fr-02", "fr-03", "fr-04", "ro-01", "ro-02", "ma-ro1", "mcq-m-01", "mcq-s-01"] },
