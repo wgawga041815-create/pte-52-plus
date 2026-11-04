@@ -371,12 +371,12 @@ window.MOCKS = [
     id: "FULL1",
     name: "全科模拟卷 · 四部分（适中）",
     tag: "全科",
-    desc: "口语 6 + 写作 2 + 阅读 4 + 听力 6；口语/作文自评",
+    desc: "口语 25 + 写作 3 + 阅读 14 + 听力 15；按正式题量，口语/作文自评",
     sections: [
-      { key: "speaking", name: "口语", time: 600, qids: ["ra-01", "rs-01", "di-01", "rl-01", "rts-01", "asq-01"] },
-      { key: "writing", name: "写作", time: 1800, qids: ["swt-01", "we-01"] },
-      { key: "reading", name: "阅读", time: 1200, qids: ["fib-rw-01", "ro-01", "mcq-s-01", "mcq-m-01"] },
-      { key: "listening", name: "听力", time: 1200, qids: ["sst-01", "fib-l-01", "hcs-01", "mcq-l-01", "hiw-01", "wfd-01"] }
+      { key: "speaking", name: "口语", time: 1500, qids: ["ra-01", "ra-02", "ra-03", "ra-04", "ra-05", "ra-06", "rs-10", "rs-11", "rs-12", "rs-13", "rs-14", "rs-15", "rs-16", "rs-17", "rs-18", "rs-19", "di-01", "di-02", "di-17", "rl-06", "asq-01", "asq-02", "asq-03", "asq-04", "asq-05"] },
+      { key: "writing", name: "写作", time: 2400, qids: ["swt-01", "swt-02", "we-01"] },
+      { key: "reading", name: "阅读", time: 1800, qids: ["fib-rw-01", "fib-rw-02", "fib-rw-03", "fib-rw-04", "fib-rw-05", "mcq-m-01", "mcq-m-02", "ro-01", "ro-02", "fib-r-01", "fib-r-02", "fib-r-03", "fib-r-04", "mcq-s-02"] },
+      { key: "listening", name: "听力", time: 2100, qids: ["sst-01", "mcq-l-07", "mcq-l-12", "fib-l-01", "fib-l-02", "hcs-01", "hcs-02", "mcq-l-01", "mcq-l-02", "smw-01", "hiw-01", "hiw-02", "wfd-01", "wfd-02", "wfd-03"] }
     ]
   },
   {
