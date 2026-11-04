@@ -368,6 +368,18 @@ window.MOCK_QUESTIONS = [
 
 window.MOCKS = [
   {
+    id: "FULL1",
+    name: "全科模拟卷 · 四部分（适中）",
+    tag: "全科",
+    desc: "口语 6 + 写作 2 + 阅读 4 + 听力 6；口语/作文自评",
+    sections: [
+      { key: "speaking", name: "口语", time: 600, qids: ["ra-01", "rs-01", "di-01", "rl-01", "rts-01", "asq-01"] },
+      { key: "writing", name: "写作", time: 1800, qids: ["swt-01", "we-01"] },
+      { key: "reading", name: "阅读", time: 1200, qids: ["fib-rw-01", "ro-01", "mcq-s-01", "mcq-m-01"] },
+      { key: "listening", name: "听力", time: 1200, qids: ["sst-01", "fib-l-01", "hcs-01", "mcq-l-01", "hiw-01", "wfd-01"] }
+    ]
+  },
+  {
     id: "F", name: "全真模考（完整版）", tag: "完整版", desc: "阅读 14 + 听力 17，按真实题量与节奏",
     sections: [
       { key: "reading", name: "阅读", time: 1740, qids: ["fib-rw-01", "fib-rw-02", "fib-rw-03", "ma-fib1", "mb-fib1", "fr-01", "fr-02", "fr-03", "fr-04", "ro-01", "ro-02", "ma-ro1", "mcq-m-01", "mcq-s-01"] },
