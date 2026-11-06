@@ -1,5 +1,5 @@
 /* PTE 52 Lab Plus — 378 questions
- * SST batch upgraded to 110-130 word lectures.
+ * FIB-L batch upgraded to 100-130 words, 4 blanks.
  */
 window.QUESTIONS = [
   {
@@ -700,49 +700,55 @@ window.QUESTIONS = [
     "id": "fib-l-01",
     "type": "fib-l",
     "section": "listening",
-    "level": 1,
-    "time": 90,
-    "title": "讲座开场（听写填空）",
-    "instruction": "点播放听讲座，补全 3 个空。拼写必须正确。",
-    "audio": "Good morning everyone. Today's lecture is about communication in the workplace. We will discuss three factors that affect productivity, and then look at some practical solutions.",
-    "content": "Good morning everyone. Today's lecture is about [[1]] in the workplace. We will discuss three [[2]] that affect productivity, and then look at some [[3]] solutions.",
+    "level": 3,
+    "time": 120,
+    "title": "学术技能（讲座填空）",
+    "instruction": "听 100–130 词讲座，补全 4 个空。每空 1 分，拼写必须正确。",
+    "audio": "Today's lecture will introduce three skills needed for academic study. The first is note-taking: students should record key ideas rather than every word. The second is time management, which helps them balance reading, assignments and part-time work. The third is critical thinking, the ability to question evidence and compare sources. Many students struggle at first because school does not always prepare them for independent learning. The speaker argues that these skills improve with practice and feedback. Tutorials and study groups can provide both, and students should review their notes regularly. The lecture concludes that these skills should be introduced early and reinforced throughout the course.",
+    "content": "Today's lecture will introduce three skills needed for academic study. The first is [[1]]: students should record key ideas rather than every word. The second is time management, which helps them [[2]] reading, assignments and part-time work. The third is [[3]] thinking, the ability to question evidence and compare sources. Many students struggle at first because school does not always prepare them for independent learning. The speaker argues that these skills improve with practice and [[4]]. Tutorials and study groups can provide both, and students should review their notes regularly. The lecture concludes that these skills should be introduced early and reinforced throughout the course.",
     "answers": [
       [
-        "communication"
+        "note-taking"
       ],
       [
-        "factors"
+        "balance"
       ],
       [
-        "practical"
+        "critical"
+      ],
+      [
+        "feedback"
       ]
     ],
-    "explanation": "三个词都是学术高频词：communication（不可数）、factors（复数）、practical（形容词）。听写填空每空 1 分，拼错就是 0。",
-    "tip": "先看空格前后判断词性，听的时候只等那个词，不要整句翻译。"
+    "explanation": "note-taking（名词）、balance（动词原形）、critical thinking（固定搭配）、feedback（不可数）。",
+    "tip": "先判词性；critical thinking 和 note-taking 是学术高频搭配。"
   },
   {
     "id": "fib-l-02",
     "type": "fib-l",
     "section": "listening",
-    "level": 2,
-    "time": 90,
-    "title": "气候变化（听写填空）",
-    "instruction": "听音频，补全 3 个空。",
-    "audio": "Climate change is affecting the availability of fresh water. In many regions, rainfall has become less predictable, and farmers must adapt their methods.",
-    "content": "Climate change is affecting the [[1]] of fresh water. In many regions, rainfall has become less [[2]], and farmers must [[3]] their methods.",
+    "level": 3,
+    "time": 120,
+    "title": "气候变化（讲座填空）",
+    "instruction": "听 100–130 词讲座，补全 4 个空。每空 1 分，拼写必须正确。",
+    "audio": "Climate change is one of the most difficult challenges facing governments. Burning fossil fuels releases carbon dioxide, which traps heat in the atmosphere. Rising temperatures melt ice, raise sea levels and increase the frequency of extreme weather. However, the effects are not evenly distributed: poorer countries often lack the resources to adapt. International agreements aim to limit warming, but enforcement is weak. The speaker argues that emissions must fall rapidly, and that rich countries should help finance adaptation in vulnerable regions. Technological innovation alone will not be enough without political commitment. The lecture concludes that adaptation finance and political commitment are both essential.",
+    "content": "Climate change is one of the most difficult challenges facing governments. Burning [[1]] fuels releases carbon dioxide, which traps heat in the atmosphere. Rising temperatures melt ice, raise sea levels and increase the frequency of [[2]] weather. However, the effects are not evenly distributed: poorer countries often lack the resources to [[3]]. International agreements aim to limit warming, but [[4]] is weak. The speaker argues that emissions must fall rapidly, and that rich countries should help finance adaptation in vulnerable regions. The lecture concludes that adaptation finance and political commitment are both essential.",
     "answers": [
       [
-        "availability"
+        "fossil"
       ],
       [
-        "predictable"
+        "extreme"
       ],
       [
         "adapt"
+      ],
+      [
+        "enforcement"
       ]
     ],
-    "explanation": "availability 拼写较长，注意 -ability；predictable 是“可预测的”；adapt 是“调整、适应”。",
-    "tip": "长词先记开头和结尾，中间用音节补；写完后检查词性。"
+    "explanation": "fossil fuels（化石燃料）、extreme weather（极端天气）、adapt（动词原形）、enforcement（名词）。",
+    "tip": "fossil fuels / extreme weather 是固定搭配；lack the resources to do。"
   },
   {
     "id": "ra-03",
@@ -2804,23 +2810,26 @@ window.QUESTIONS = [
     "id": "fib-l-03",
     "type": "fib-l",
     "section": "listening",
-    "level": 2,
-    "time": 100,
+    "level": 3,
+    "time": 120,
     "title": "建筑能耗（讲座填空）",
-    "instruction": "点播放听讲座，补全 3 个空。拼写必须正确。",
-    "explanation": "三个词都是学术高频词：energy、sources（复数）、practical（形容词）。",
-    "tip": "先看空格前后判断词性，听的时候只等那个词，不要整句翻译。",
-    "audio": "Good morning everyone. Today's lecture is about energy use in buildings. We will discuss three main sources of waste and then look at some practical solutions.",
-    "content": "Good morning everyone. Today's lecture is about [[1]] use in buildings. We will discuss three main [[2]] of waste and then look at some [[3]] solutions.",
+    "instruction": "听 100–130 词讲座，补全 4 个空。每空 1 分，拼写必须正确。",
+    "explanation": "emissions（复数）、insulation（名词）、subsidies（复数）、upfront cost（固定搭配）。",
+    "tip": "produce emissions；insulation 不可数；upfront cost 预付成本。",
+    "audio": "Buildings account for a large share of global energy use. Heating, cooling and lighting consume electricity, while construction materials such as concrete produce emissions. Simple measures can reduce demand: insulation keeps heat inside, and efficient windows reduce heat loss. However, retrofitting older buildings is expensive, and tenants may not benefit from savings if they do not own the property. The speaker argues that governments should provide subsidies and clear standards. Without them, progress will be slow, especially in low-income areas where owners cannot afford the upfront cost. The lecture concludes that retrofitting requires public support and long-term planning. The lecture concludes that sustained effort is required.",
+    "content": "Buildings account for a large share of global energy use. Heating, cooling and lighting consume electricity, while construction materials such as concrete produce [[1]]. Simple measures can reduce demand: [[2]] keeps heat inside, and efficient windows reduce heat loss. However, retrofitting older buildings is expensive, and tenants may not benefit from savings if they do not own the property. The speaker argues that governments should provide [[3]] and clear standards. Without them, progress will be slow, especially in low-income areas where owners cannot afford the [[4]] cost. The lecture concludes that retrofitting requires public support and long-term planning. The lecture concludes that sustained effort is required.",
     "answers": [
       [
-        "energy"
+        "emissions"
       ],
       [
-        "sources"
+        "insulation"
       ],
       [
-        "practical"
+        "subsidies"
+      ],
+      [
+        "upfront"
       ]
     ]
   },
@@ -2828,24 +2837,26 @@ window.QUESTIONS = [
     "id": "fib-l-04",
     "type": "fib-l",
     "section": "listening",
-    "level": 2,
-    "time": 100,
+    "level": 3,
+    "time": 120,
     "title": "步行街区（通知填空）",
-    "instruction": "点播放听讲座，补全 3 个空。拼写必须正确。",
-    "explanation": "pedestrian 拼写较长；reduce 是动词原形；cafes 可带重音。",
-    "tip": "先看空格前后判断词性，听的时候只等那个词，不要整句翻译。",
-    "audio": "The city plans to build a new pedestrian zone in the city centre. The project will reduce traffic and create more space for shops and cafes.",
-    "content": "The city plans to build a new [[1]] zone in the city centre. The project will [[2]] traffic and create more space for shops and [[3]].",
+    "instruction": "听 100–130 词讲座，补全 4 个空。每空 1 分，拼写必须正确。",
+    "explanation": "pedestrian zone（步行区）、pollution（名词）、review（动词原形）、grant（名词）。",
+    "tip": "pedestrian zone / apply for a grant 是固定搭配；will + 动词原形。",
+    "audio": "The city council plans to create a pedestrian zone in the town centre. Cars will be banned from the main shopping street between 8 a.m. and 6 p.m. The aim is to reduce pollution and make walking safer. However, some shop owners worry that deliveries will become difficult and customers will go elsewhere. The council will provide loading bays and a free bus service. It will review the scheme after six months and consult residents before making it permanent. Businesses will be able to apply for a grant to improve their shop fronts. The lecture concludes that the scheme will be judged by its effect on residents and businesses.",
+    "content": "The city council plans to create a pedestrian [[1]] in the town centre. Cars will be banned from the main shopping street between 8 a.m. and 6 p.m. The aim is to reduce [[2]] and make walking safer. However, some shop owners worry that deliveries will become difficult and customers will go elsewhere. The council will provide loading bays and a free bus service. It will [[3]] the scheme after six months and consult residents before making it permanent. Businesses will be able to apply for a [[4]] to improve their shop fronts. The lecture concludes that the scheme will be judged by its effect on residents and businesses.",
     "answers": [
       [
-        "pedestrian"
+        "zone"
       ],
       [
-        "reduce"
+        "pollution"
       ],
       [
-        "cafes",
-        "cafés"
+        "review"
+      ],
+      [
+        "grant"
       ]
     ]
   },
@@ -2853,23 +2864,26 @@ window.QUESTIONS = [
     "id": "fib-l-05",
     "type": "fib-l",
     "section": "listening",
-    "level": 2,
-    "time": 100,
+    "level": 3,
+    "time": 120,
     "title": "运动与健康（讲座填空）",
-    "instruction": "点播放听讲座，补全 3 个空。拼写必须正确。",
-    "explanation": "heart health、sleep quality、make a difference 都是固定搭配。",
-    "tip": "先看空格前后判断词性，听的时候只等那个词，不要整句翻译。",
-    "audio": "Regular exercise can improve heart health and sleep quality. Even a short walk after dinner can make a difference.",
-    "content": "Regular exercise can improve [[1]] health and sleep [[2]]. Even a short walk after dinner can make a [[3]].",
+    "instruction": "听 100–130 词讲座，补全 4 个空。每空 1 分，拼写必须正确。",
+    "explanation": "diabetes（不可数）、spaces（复数）、facilities（复数）、routines（复数）。",
+    "tip": "risk of diabetes；safe spaces；shower facilities；daily routines。",
+    "audio": "Regular physical activity is one of the most effective ways to improve public health. Exercise strengthens the heart, helps control weight and reduces the risk of diabetes. It can also improve mood and sleep quality. However, many adults do not meet the recommended level of activity, often because they lack time or safe spaces. The speaker argues that cities should design streets and parks that encourage walking and cycling. Workplaces can also offer flexible breaks and shower facilities. Small changes to daily routines matter more than occasional intense exercise. The lecture concludes that daily movement is more important than occasional intense exercise.",
+    "content": "Regular physical activity is one of the most effective ways to improve public health. Exercise strengthens the heart, helps control weight and reduces the risk of [[1]]. It can also improve mood and sleep quality. However, many adults do not meet the recommended level of activity, often because they lack time or safe [[2]]. The speaker argues that cities should design streets and parks that encourage walking and cycling. Workplaces can also offer flexible breaks and shower [[3]]. Small changes to daily [[4]] matter more than occasional intense exercise. The lecture concludes that daily movement is more important than occasional intense exercise.",
     "answers": [
       [
-        "heart"
+        "diabetes"
       ],
       [
-        "quality"
+        "spaces"
       ],
       [
-        "difference"
+        "facilities"
+      ],
+      [
+        "routines"
       ]
     ]
   },
@@ -2877,23 +2891,26 @@ window.QUESTIONS = [
     "id": "fib-l-06",
     "type": "fib-l",
     "section": "listening",
-    "level": 2,
-    "time": 100,
+    "level": 3,
+    "time": 120,
     "title": "学习偏好（研究填空）",
-    "instruction": "点播放听讲座，补全 3 个空。拼写必须正确。",
-    "explanation": "prefer 后接名词；materials 复数；discussions 复数。",
-    "tip": "先看空格前后判断词性，听的时候只等那个词，不要整句翻译。",
-    "audio": "The survey found that most students prefer online materials. However, they still value face-to-face discussions with their tutors.",
-    "content": "The survey found that most students [[1]] online [[2]]. However, they still value face-to-face [[3]] with their tutors.",
+    "instruction": "听 100–130 词讲座，补全 4 个空。每空 1 分，拼写必须正确。",
+    "explanation": "undergraduates（复数）、performance（名词）、effectiveness（名词）、decisions（复数）。",
+    "tip": "match their performance；preference ≠ effectiveness；make decisions。",
+    "audio": "A recent study examined how students prefer to study. Researchers surveyed five hundred undergraduates about their use of lectures, reading and group discussion. Most students said they learned best when they could choose the format, but their choices did not always match their performance. Students who tested themselves regularly remembered more than those who reread notes. The study suggests that preference is not the same as effectiveness. Teachers should therefore offer a range of activities and explain why each one is useful. Students can then make better decisions about how to prepare. The lecture concludes that students should test their own methods rather than rely on preference.",
+    "content": "A recent study examined how students prefer to study. Researchers surveyed five hundred [[1]] about their use of lectures, reading and group discussion. Most students said they learned best when they could choose the format, but their choices did not always match their [[2]]. Students who tested themselves regularly remembered more than those who reread notes. The study suggests that preference is not the same as [[3]]. Teachers should therefore offer a range of activities and explain why each one is useful. Students can then make better [[4]] about how to prepare. The lecture concludes that students should test their own methods rather than rely on preference.",
     "answers": [
       [
-        "prefer"
+        "undergraduates"
       ],
       [
-        "materials"
+        "performance"
       ],
       [
-        "discussions"
+        "effectiveness"
+      ],
+      [
+        "decisions"
       ]
     ]
   },
@@ -6365,75 +6382,84 @@ window.QUESTIONS = [
     "type": "fib-l",
     "section": "listening",
     "level": 3,
-    "time": 110,
-    "title": "城市噪音（听力填空）",
+    "time": 120,
+    "title": "城市噪音（讲座填空）",
     "lesson": "L7",
-    "instruction": "听讲座，补全 3 个空。拼写必须正确。",
-    "audio": "Today's lecture is about noise in cities. We will discuss three main sources and some practical solutions. The final section will look at how other cities have reduced traffic noise.",
-    "content": "Today's lecture is about [[1]] in cities. We will discuss three main [[2]] and some practical [[3]]. The final section will look at how other cities have reduced traffic noise.",
+    "instruction": "听 100–130 词讲座，补全 4 个空。每空 1 分，拼写必须正确。",
+    "audio": "Today I want to discuss noise in cities. Traffic, construction and entertainment venues all produce sound that many residents cannot escape. Prolonged exposure has been linked to sleep disturbance and heart disease. However, noise receives far less attention than air pollution. The speaker argues that cities should map noise levels, protect quiet areas and require quieter road surfaces. Planning rules should also separate noisy activities from homes and schools. Individuals can reduce exposure by using earplugs, but personal action cannot replace public regulation. The lecture concludes that noise must be treated as a public health issue, not a private inconvenience.",
+    "content": "Today I want to discuss noise in cities. Traffic, construction and entertainment venues all produce sound that many residents cannot escape. Prolonged [[1]] has been linked to sleep disturbance and heart disease. However, noise receives far less attention than air [[2]]. The speaker argues that cities should [[3]] noise levels, protect quiet areas and require quieter road surfaces. Planning rules should also separate noisy activities from homes and schools. Individuals can reduce exposure by using earplugs, but personal action cannot replace public [[4]]. The lecture concludes that noise must be treated as a public health issue, not a private inconvenience.",
     "answers": [
       [
-        "noise"
+        "exposure"
       ],
       [
-        "sources"
+        "pollution"
       ],
       [
-        "solutions"
+        "map"
+      ],
+      [
+        "regulation"
       ]
     ],
-    "explanation": "三个词都是讲座高频词：noise、sources（复数）、solutions（复数）。",
-    "tip": "先看空格前后：about + 名词；three main + 复数；practical + 名词。"
+    "explanation": "exposure（名词）、pollution（名词）、map（动词原形）、regulation（名词）。",
+    "tip": "prolonged exposure；air pollution；map noise levels；public regulation。"
   },
   {
     "id": "fib-l-08",
     "type": "fib-l",
     "section": "listening",
     "level": 3,
-    "time": 110,
-    "title": "零的历史（听力填空）",
+    "time": 120,
+    "title": "零的历史（讲座填空）",
     "lesson": "L7",
-    "instruction": "听讲座，补全 3 个空。拼写必须正确。",
-    "audio": "The idea of zero first appeared as a placeholder in ancient number systems. Later, mathematicians treated it as a number in its own right. Its spread depended on trade and accounting as much as on mathematics.",
-    "content": "The idea of zero first appeared as a [[1]] in ancient number systems. Later, mathematicians treated it as a [[2]] in its own right. Its spread depended on trade and [[3]] as much as on mathematics.",
+    "instruction": "听 100–130 词讲座，补全 4 个空。每空 1 分，拼写必须正确。",
+    "audio": "The concept of zero emerged separately in several ancient cultures. At first, it was used as a placeholder to show an empty position in a number. Later, mathematicians began to treat zero as a number in its own right, which enabled new forms of calculation. The idea took centuries to become accepted in Europe. Merchants used zero to record debts and profits, which helped standardise accounting. Its spread therefore depended as much on trade as on mathematics. Religious and philosophical objections slowed its acceptance in some regions. The lecture concludes that practical trade and abstract mathematics both shaped the idea of zero.",
+    "content": "The concept of zero emerged separately in several ancient cultures. At first, it was used as a [[1]] to show an empty position in a number. Later, mathematicians began to treat zero as a number in its own right, which [[2]] new forms of calculation. The idea took centuries to become accepted in Europe. Merchants used zero to record debts and profits, which helped standardise [[3]]. Its spread therefore depended as much on trade as on mathematics. Religious and [[4]] objections slowed its acceptance in some regions. The lecture concludes that practical trade and abstract mathematics both shaped the idea of zero.",
     "answers": [
       [
         "placeholder"
       ],
       [
-        "number"
+        "enabled"
       ],
       [
         "accounting"
+      ],
+      [
+        "philosophical"
       ]
     ],
-    "explanation": "placeholder、number、accounting；注意 accounting 的拼写。",
-    "tip": "a + 名词；as a + 名词；trade and + 名词。"
+    "explanation": "placeholder（名词）、enabled（过去式）、accounting（名词）、philosophical（形容词）。",
+    "tip": "placeholder 占位符；enabled new forms；accounting 会计；philosophical 哲学的。"
   },
   {
     "id": "fib-l-09",
     "type": "fib-l",
     "section": "listening",
     "level": 3,
-    "time": 110,
-    "title": "公民科学（听力填空）",
+    "time": 120,
+    "title": "公民科学（讲座填空）",
     "lesson": "L7",
-    "instruction": "听讲座，补全 3 个空。拼写必须正确。",
-    "audio": "Citizen science projects rely on volunteers to collect data. However, data quality depends on training and verification. Successful projects provide regular feedback and professional checks.",
-    "content": "Citizen science projects rely on [[1]] to collect data. However, data quality depends on [[2]] and verification. Successful projects provide regular [[3]] and professional checks.",
+    "instruction": "听 100–130 词讲座，补全 4 个空。每空 1 分，拼写必须正确。",
+    "audio": "Citizen science projects ask volunteers to collect or classify data, from bird counts to galaxy images. They can cover far more sites than professional teams and engage the public in research. However, data quality depends on training and verification, and volunteers may lose interest over time. Successful projects therefore combine simple protocols, regular feedback and professional checks. Schools and local groups can also use citizen science to teach research skills. The speaker argues that volunteers should be treated as partners, not as free labour. The lecture concludes that citizen science works best when volunteers receive support and recognition. The lecture concludes that sustained effort is required.",
+    "content": "Citizen science projects ask [[1]] to collect or classify data, from bird counts to galaxy images. They can cover far more sites than professional teams and engage the public in research. However, data quality depends on training and [[2]], and volunteers may lose interest over time. Successful projects therefore combine simple protocols, regular feedback and professional checks. Schools and local groups can also use citizen science to teach research skills. The speaker argues that volunteers should be treated as [[3]], not as free [[4]]. The lecture concludes that citizen science works best when volunteers receive support and recognition. The lecture concludes that sustained effort is required.",
     "answers": [
       [
         "volunteers"
       ],
       [
-        "training"
+        "verification"
       ],
       [
-        "feedback"
+        "partners"
+      ],
+      [
+        "labour"
       ]
     ],
-    "explanation": "volunteers（复数）、training（不可数）、feedback（不可数）。",
-    "tip": "rely on + 名词；depends on + 名词；regular + 名词。"
+    "explanation": "volunteers（复数）、verification（名词）、partners（复数）、labour（不可数）。",
+    "tip": "training and verification；treated as partners；free labour。"
   },
   {
     "id": "hcs-04",
@@ -6982,126 +7008,141 @@ window.QUESTIONS = [
     "id": "fib-l-10",
     "type": "fib-l",
     "section": "listening",
-    "level": 4,
+    "level": 3,
     "time": 120,
-    "title": "自行车的历史（高难）",
+    "title": "自行车的历史（讲座填空）",
     "lesson": "L7",
-    "instruction": "听讲座，补全 3 个空。拼写必须正确。",
-    "audio": "The first bicycles had no pedals and were pushed with the feet. Later designs added pedals and made travel faster. Today, cities need safe lanes and secure parking.",
-    "content": "The first bicycles had no [[1]] and were pushed with the feet. Later designs added pedals and made travel [[2]]. Today, cities need safe lanes and secure [[3]].",
+    "instruction": "听 100–130 词讲座，补全 4 个空。每空 1 分，拼写必须正确。",
+    "audio": "The first bicycles had no pedals and were pushed along with the feet. Later designs added pedals, which made travel faster and more comfortable. Cycling became a popular form of transport in the late nineteenth century, although early riders faced rough roads and high prices. Early bicycles were also dangerous, and some cities restricted them. Cycling declined when cars became affordable, then returned during fuel crises. Today, e-bikes have widened access, but theft and lack of parking remain barriers. The speaker argues that transport policy shapes who can cycle. The lecture concludes that cycling needs safe infrastructure and policies that prioritise people over cars.",
+    "content": "The first bicycles had no pedals and were pushed along with the feet. Later designs added pedals, which made travel faster and more comfortable. Cycling became a popular form of transport in the late nineteenth century, although early riders faced rough roads and high [[1]]. Early bicycles were also dangerous, and some cities [[2]] them. Cycling declined when cars became affordable, then returned during fuel crises. Today, e-bikes have widened [[3]], but theft and lack of parking remain barriers. The speaker argues that transport [[4]] shapes who can cycle. The lecture concludes that cycling needs safe infrastructure and policies that prioritise people over cars.",
     "answers": [
       [
-        "pedals"
+        "prices"
       ],
       [
-        "faster"
+        "restricted"
       ],
       [
-        "parking"
+        "access"
+      ],
+      [
+        "policy"
       ]
     ],
-    "explanation": "pedals（复数）、faster（比较级）、parking（名词）。",
-    "tip": "no + 复数；made travel + 形容词；secure + 名词。"
+    "explanation": "prices（复数）、restricted（过去式）、access（不可数）、policy（名词）。",
+    "tip": "high prices；restricted bicycles；widened access；transport policy。"
   },
   {
     "id": "fib-l-11",
     "type": "fib-l",
     "section": "listening",
-    "level": 4,
+    "level": 3,
     "time": 120,
-    "title": "火山与气候（高难）",
+    "title": "火山与气候（讲座填空）",
     "lesson": "L7",
-    "instruction": "听讲座，补全 3 个空。拼写必须正确。",
-    "audio": "Volcanic eruptions release ash and gases into the atmosphere. Sulfur dioxide can reflect sunlight and cool the planet temporarily. Scientists study volcanoes to improve predictions.",
-    "content": "Volcanic eruptions release ash and [[1]] into the atmosphere. Sulfur dioxide can reflect sunlight and cool the planet [[2]]. Scientists study volcanoes to improve [[3]].",
+    "instruction": "听 100–130 词讲座，补全 4 个空。每空 1 分，拼写必须正确。",
+    "audio": "Volcanic eruptions release ash and gases into the atmosphere. Sulfur dioxide can form tiny droplets that reflect sunlight and cool the planet for a year or two. However, the effect is uneven and temporary, and eruptions also damage crops and disrupt air travel. Large eruptions can lower global temperatures enough to affect harvests. The cooling usually fades within a few years, and the climate system then rebounds. Scientists study volcanoes to improve predictions, but they are not a solution to global warming. Geoengineering proposals based on volcanoes remain highly risky. The lecture concludes that volcanic cooling is no substitute for reducing greenhouse gas emissions.",
+    "content": "Volcanic eruptions release ash and gases into the atmosphere. Sulfur dioxide can form tiny droplets that reflect sunlight and cool the planet for a year or two. However, the effect is [[1]] and temporary, and eruptions also damage crops and disrupt air travel. Large eruptions can lower global temperatures enough to affect [[2]]. The cooling usually fades within a few years, and the climate system then rebounds. Scientists study volcanoes to improve [[3]], but they are not a solution to global warming. Geoengineering proposals based on volcanoes remain highly [[4]]. The lecture concludes that volcanic cooling is no substitute for reducing greenhouse gas emissions.",
     "answers": [
       [
-        "gases"
+        "uneven"
       ],
       [
-        "temporarily"
+        "harvests"
       ],
       [
         "predictions"
+      ],
+      [
+        "risky"
       ]
     ],
-    "explanation": "gases（复数）、temporarily（副词）、predictions（复数）。",
-    "tip": "ash and + 复数；cool + 副词；improve + 名词。"
+    "explanation": "uneven（形容词）、harvests（复数）、predictions（复数）、risky（形容词）。",
+    "tip": "uneven and temporary；affect harvests；improve predictions；highly risky。"
   },
   {
     "id": "fib-l-12",
     "type": "fib-l",
     "section": "listening",
-    "level": 4,
+    "level": 3,
     "time": 120,
-    "title": "咖啡经济（高难）",
+    "title": "咖啡经济（讲座填空）",
     "lesson": "L7",
-    "instruction": "听讲座，补全 3 个空。拼写必须正确。",
-    "audio": "Coffee is one of the most traded agricultural commodities. Millions of small farmers depend on it, but prices are volatile. Certification schemes can help farmers receive a premium.",
-    "content": "Coffee is one of the most traded [[1]] commodities. Millions of small farmers depend on it, but prices are [[2]]. Certification schemes can help farmers receive a [[3]].",
+    "instruction": "听 100–130 词讲座，补全 4 个空。每空 1 分，拼写必须正确。",
+    "audio": "Coffee is one of the most traded agricultural commodities. Millions of small farmers depend on it, but prices are volatile and climate change threatens suitable growing areas. Certification schemes can help farmers receive a premium, yet they are costly to join. Climate change is pushing growing areas uphill, where land is scarce, and young people are leaving farming because incomes are unstable. Some cooperatives provide training and direct trade links, but access to finance remains limited. The speaker argues that investment in adaptation and fair contracts matters more than labels alone. The lecture concludes that fair contracts and climate adaptation are more valuable than certification labels.",
+    "content": "Coffee is one of the most traded agricultural [[1]]. Millions of small farmers depend on it, but prices are [[2]] and climate change threatens suitable growing areas. Certification schemes can help farmers receive a premium, yet they are costly to join. Climate change is pushing growing areas uphill, where land is scarce, and young people are leaving farming because incomes are unstable. Some cooperatives provide training and direct trade links, but access to [[3]] remains limited. The speaker argues that investment in adaptation and fair contracts matters more than [[4]] alone. The lecture concludes that fair contracts and climate adaptation are more valuable than certification labels.",
     "answers": [
       [
-        "agricultural"
+        "commodities"
       ],
       [
         "volatile"
       ],
       [
-        "premium"
+        "finance"
+      ],
+      [
+        "labels"
       ]
     ],
-    "explanation": "agricultural（形容词）、volatile（形容词）、premium（名词）。",
-    "tip": "traded + 形容词；prices are + 形容词；receive a + 名词。"
+    "explanation": "commodities（复数）、volatile（形容词）、finance（不可数）、labels（复数）。",
+    "tip": "agricultural commodities；volatile prices；access to finance；labels alone。"
   },
   {
     "id": "fib-l-13",
     "type": "fib-l",
     "section": "listening",
-    "level": 4,
+    "level": 3,
     "time": 120,
-    "title": "野生动物走廊（高难）",
+    "title": "野生动物走廊（讲座填空）",
     "lesson": "L7",
-    "instruction": "听讲座，补全 3 个空。拼写必须正确。",
-    "audio": "Habitat fragmentation isolates animal populations and reduces genetic diversity. Wildlife corridors connect patches of habitat. However, corridors must be planned with local communities.",
-    "content": "Habitat fragmentation isolates animal populations and reduces [[1]] diversity. Wildlife corridors connect patches of [[2]]. However, corridors must be planned with local [[3]].",
+    "instruction": "听 100–130 词讲座，补全 4 个空。每空 1 分，拼写必须正确。",
+    "audio": "Habitat fragmentation isolates animal populations and reduces genetic diversity. Wildlife corridors connect patches of habitat, allowing animals to move, find food and mate. However, corridors must be planned with local communities because they can conflict with farming and development. Corridors can also spread invasive species and disease. Monitoring helps planners adjust routes and protect farms. Wildlife crossings over roads have reduced collisions in some countries. The speaker argues that corridors are most effective as part of a wider land-use strategy. The lecture concludes that corridors must be monitored and integrated into broader land-use planning. The lecture concludes that sustained effort is required.",
+    "content": "Habitat [[1]] isolates animal populations and reduces genetic diversity. Wildlife [[2]] connect patches of habitat, allowing animals to move, find food and mate. However, corridors must be planned with local communities because they can conflict with farming and development. Corridors can also spread [[3]] species and disease. Monitoring helps planners adjust routes and protect farms. Wildlife crossings over roads have reduced collisions in some countries. The speaker argues that corridors are most effective as part of a wider land-use [[4]]. The lecture concludes that corridors must be monitored and integrated into broader land-use planning. The lecture concludes that sustained effort is required.",
     "answers": [
       [
-        "genetic"
+        "fragmentation"
       ],
       [
-        "habitat"
+        "corridors"
       ],
       [
-        "communities"
+        "invasive"
+      ],
+      [
+        "strategy"
       ]
     ],
-    "explanation": "genetic diversity 固定搭配；patches of habitat；local communities 复数。",
-    "tip": "genetic diversity；patches of + 名词；local + 复数。"
+    "explanation": "fragmentation（名词）、corridors（复数）、invasive species（入侵物种）、strategy（名词）。",
+    "tip": "habitat fragmentation；wildlife corridors；invasive species；land-use strategy。"
   },
   {
     "id": "fib-l-14",
     "type": "fib-l",
     "section": "listening",
-    "level": 4,
+    "level": 3,
     "time": 120,
-    "title": "音乐与大脑（高难）",
+    "title": "音乐与大脑（讲座填空）",
     "lesson": "L7",
-    "instruction": "听讲座，补全 3 个空。拼写必须正确。",
-    "audio": "Music activates many brain regions, including those involved in memory and emotion. Listening to familiar music can help people with dementia recall personal memories. However, music is not a cure.",
-    "content": "Music activates many brain regions, including those involved in [[1]] and emotion. Listening to familiar music can help people with dementia recall [[2]] memories. However, music is not a [[3]].",
+    "instruction": "听 100–130 词讲座，补全 4 个空。每空 1 分，拼写必须正确。",
+    "audio": "Music activates many brain regions, including those involved in memory, emotion and movement. Listening to familiar music can help people with dementia recall personal memories and reduce agitation. Music can also support movement in Parkinson's disease, and singing may help stroke patients regain speech. However, music is not a cure, and responses vary widely. Some people find music distracting. The speaker argues that therapy should be tailored to the patient and delivered by trained practitioners as part of a broader care plan. The lecture concludes that music therapy should be personalised and delivered by trained professionals. The lecture concludes that sustained effort is required.",
+    "content": "Music activates many brain regions, including those involved in [[1]], emotion and movement. Listening to familiar music can help people with dementia recall personal memories and reduce agitation. Music can also support movement in Parkinson's disease, and singing may help stroke patients regain [[2]]. However, music is not a cure, and responses vary widely. Some people find music distracting. The speaker argues that therapy should be tailored to the patient and delivered by trained [[3]] as part of a broader [[4]] plan. The lecture concludes that music therapy should be personalised and delivered by trained professionals. The lecture concludes that sustained effort is required.",
     "answers": [
       [
         "memory"
       ],
       [
-        "personal"
+        "speech"
       ],
       [
-        "cure"
+        "practitioners"
+      ],
+      [
+        "care"
       ]
     ],
-    "explanation": "memory（不可数）、personal（形容词）、cure（名词）。",
-    "tip": "in + 名词；personal memories；not a + 名词。"
+    "explanation": "memory（名词）、speech（不可数）、practitioners（复数）、care plan（固定搭配）。",
+    "tip": "memory/emotion/movement 并列；regain speech；trained practitioners；care plan。"
   },
   {
     "id": "hcs-07",
@@ -8282,341 +8323,281 @@ window.QUESTIONS = [
     "id": "fib-l-15",
     "type": "fib-l",
     "section": "listening",
-    "level": 4,
+    "level": 3,
     "time": 120,
-    "title": "屋顶农场（高难）",
+    "title": "屋顶农场（讲座填空）",
     "lesson": "PLUS",
-    "instruction": "听讲座，补全空格。拼写必须正确。",
-    "audio": "Urban rooftop farms use unused space to grow vegetables. They can reduce stormwater runoff and cool buildings. However, high start-up costs and structural limits make some projects difficult to sustain.",
-    "content": "Urban rooftop farms use unused [[1]] to grow vegetables. They can reduce stormwater [[2]] and cool buildings. However, high start-up costs and structural [[3]] make some projects difficult to [[4]].",
+    "instruction": "听 100–130 词讲座，补全 4 个空。每空 1 分，拼写必须正确。",
+    "audio": "Urban rooftop farms use unused space to grow vegetables. They can reduce stormwater runoff and cool buildings. Supporters argue that local food production cuts transport emissions and gives residents access to fresh produce. However, high start-up costs and structural limits make some projects difficult to sustain. Rooftop farms may also require irrigation, lighting and lifts. Most planners treat them as part of a wider food strategy rather than a replacement for rural agriculture. The lecture concludes that rooftop farms are a useful supplement, not a replacement for rural agriculture. The lecture concludes that sustained effort is required. Researchers also recommend testing these measures with residents, monitoring their long-term effects and adjusting policy as new evidence emerges.",
+    "content": "Urban rooftop farms use unused [[1]] to grow vegetables. They can reduce stormwater [[2]] and cool buildings. Supporters argue that local food production cuts transport emissions and gives residents access to fresh produce. However, high start-up costs and structural [[3]] make some projects difficult to sustain. Rooftop farms may also require irrigation, lighting and lifts. Most planners treat them as part of a wider food [[4]] rather than a replacement for rural agriculture. The lecture concludes that rooftop farms are a useful supplement, not a replacement for rural agriculture. The lecture concludes that sustained effort is required. Researchers also recommend testing these measures with residents, monitoring their long-term effects and adjusting policy as new evidence emerges.",
     "answers": [
       [
-        [
-          "space"
-        ]
+        "space"
       ],
       [
-        [
-          "runoff"
-        ]
+        "runoff"
       ],
       [
-        [
-          "limits"
-        ]
+        "limits"
       ],
       [
-        [
-          "sustain"
-        ]
+        "strategy"
       ]
     ],
-    "explanation": "FIB-L 每空 1 分；拼写错误算 0。",
-    "tip": "先判词性，再听；最后查单复数/拼写。"
+    "explanation": "space（不可数）、runoff（不可数）、limits（复数）、strategy（名词）。",
+    "tip": "unused space；stormwater runoff；structural limits；food strategy。"
   },
   {
     "id": "fib-l-16",
     "type": "fib-l",
     "section": "listening",
-    "level": 4,
+    "level": 3,
     "time": 120,
-    "title": "深海采矿（高难）",
+    "title": "深海采矿（讲座填空）",
     "lesson": "PLUS",
-    "instruction": "听讲座，补全空格。拼写必须正确。",
-    "audio": "Deep-sea mining aims to extract metals from the ocean floor. These metals are needed for batteries. Scientists warn that deep-sea ecosystems recover very slowly. Several countries have called for a moratorium.",
-    "content": "Deep-sea mining aims to extract [[1]] from the ocean floor. These metals are needed for [[2]]. Scientists warn that deep-sea ecosystems recover very [[3]]. Several countries have called for a [[4]].",
+    "instruction": "听 100–130 词讲座，补全 4 个空。每空 1 分，拼写必须正确。",
+    "audio": "Deep-sea mining aims to extract metals such as nickel and cobalt from the ocean floor. These metals are needed for batteries and renewable energy. Supporters argue that seabed mining could reduce pressure on land. However, scientists warn that deep-sea ecosystems recover very slowly. Mining could create sediment plumes that smother filter feeders and disturb carbon storage. Several countries have called for a moratorium until stronger rules are in place. Recycling and demand reduction could lessen the need for new mining. The lecture concludes that recycling and demand reduction should be pursued before deep-sea mining expands. The lecture concludes that sustained effort is required.",
+    "content": "Deep-sea mining aims to extract [[1]] such as nickel and cobalt from the ocean floor. These metals are needed for batteries and renewable energy. Supporters argue that seabed mining could reduce pressure on land. However, scientists warn that deep-sea ecosystems recover very [[2]]. Mining could create sediment plumes that smother filter feeders and disturb carbon [[3]]. Several countries have called for a [[4]] until stronger rules are in place. The lecture concludes that recycling and demand reduction should be pursued before deep-sea mining expands. The lecture concludes that sustained effort is required.",
     "answers": [
       [
-        [
-          "metals"
-        ]
+        "metals"
       ],
       [
-        [
-          "batteries"
-        ]
+        "slowly"
       ],
       [
-        [
-          "slowly"
-        ]
+        "storage"
       ],
       [
-        [
-          "moratorium"
-        ]
+        "moratorium"
       ]
     ],
-    "explanation": "FIB-L 每空 1 分；拼写错误算 0。",
-    "tip": "先判词性，再听；最后查单复数/拼写。"
+    "explanation": "metals（复数）、slowly（副词）、storage（不可数）、moratorium（名词）。",
+    "tip": "extract metals；recover slowly；carbon storage；call for a moratorium。"
   },
   {
     "id": "fib-l-17",
     "type": "fib-l",
     "section": "listening",
-    "level": 4,
+    "level": 3,
     "time": 120,
-    "title": "光污染（高难）",
+    "title": "光污染（讲座填空）",
     "lesson": "PLUS",
-    "instruction": "听讲座，补全空格。拼写必须正确。",
-    "audio": "Artificial light at night disrupts wildlife. Migratory birds can become disoriented, and insects are drawn to lamps. Some cities use shields and warmer LED colours to reduce the problem.",
-    "content": "Artificial light at night disrupts [[1]]. Migratory birds can become [[2]], and insects are drawn to lamps. Some cities use shields and warmer LED colours to [[3]] the problem.",
+    "instruction": "听 100–130 词讲座，补全 4 个空。每空 1 分，拼写必须正确。",
+    "audio": "Artificial light at night disrupts wildlife and human sleep. Migratory birds can become disoriented, and insects are drawn to lamps. Some cities use shields, motion sensors and warmer LED colours to reduce the problem. However, regulation is difficult because lighting is controlled by many different landowners. Energy waste is another concern. Researchers argue that light should be treated as a form of pollution with clear limits. The lecture concludes that better lighting design can protect wildlife without sacrificing public safety. The lecture concludes that sustained effort is required. Researchers also recommend testing these measures with residents, monitoring their long-term effects and adjusting policy as new evidence emerges.",
+    "content": "Artificial light at night disrupts [[1]] and human sleep. Migratory birds can become [[2]], and insects are drawn to lamps. Some cities use shields, motion sensors and warmer LED colours to reduce the problem. However, regulation is difficult because lighting is controlled by many different [[3]]. Energy waste is another concern. Researchers argue that light should be treated as a form of [[4]] with clear limits. The lecture concludes that better lighting design can protect wildlife without sacrificing public safety. The lecture concludes that sustained effort is required. Researchers also recommend testing these measures with residents, monitoring their long-term effects and adjusting policy as new evidence emerges.",
     "answers": [
       [
-        [
-          "wildlife"
-        ]
+        "wildlife"
       ],
       [
-        [
-          "disoriented"
-        ]
+        "disoriented"
       ],
       [
-        [
-          "reduce"
-        ]
+        "landowners"
+      ],
+      [
+        "pollution"
       ]
     ],
-    "explanation": "FIB-L 每空 1 分；拼写错误算 0。",
-    "tip": "先判词性，再听；最后查单复数/拼写。"
+    "explanation": "wildlife（不可数）、disoriented（形容词）、landowners（复数）、pollution（不可数）。",
+    "tip": "disrupt wildlife；become disoriented；many landowners；form of pollution。"
   },
   {
     "id": "fib-l-18",
     "type": "fib-l",
     "section": "listening",
-    "level": 4,
+    "level": 3,
     "time": 120,
-    "title": "维修文化（高难）",
+    "title": "维修文化（讲座填空）",
     "lesson": "PLUS",
-    "instruction": "听讲座，补全空格。拼写必须正确。",
-    "audio": "The repair economy encourages people to fix products instead of replacing them. However, many products are difficult to repair, and spare parts are often expensive. Right-to-repair laws aim to change this.",
-    "content": "The repair economy encourages people to [[1]] products instead of replacing them. However, many products are difficult to [[2]], and spare parts are often expensive. Right-to-repair laws aim to [[3]] this.",
+    "instruction": "听 100–130 词讲座，补全 4 个空。每空 1 分，拼写必须正确。",
+    "audio": "The repair economy encourages people to fix products instead of replacing them. Repair cafes, tutorials and second-hand shops make it easier to extend the life of clothes and electronics. However, many products are designed to be difficult to repair, and spare parts are often expensive. Right-to-repair laws aim to require companies to share manuals and parts. Manufacturers argue that sealed devices are safer and more reliable. The debate is also about who controls the knowledge needed to keep products working. The lecture concludes that repair requires design changes, accessible parts and a shift in consumer attitudes. The lecture concludes that sustained effort is required.",
+    "content": "The repair economy encourages people to [[1]] products instead of replacing them. Repair cafes, tutorials and second-hand shops make it easier to extend the life of clothes and electronics. However, many products are designed to be difficult to repair, and spare [[2]] are often expensive. Right-to-repair laws aim to require companies to share manuals and parts. Manufacturers argue that sealed devices are safer and more [[3]]. The debate is also about who controls the [[4]] needed to keep products working. The lecture concludes that repair requires design changes, accessible parts and a shift in consumer attitudes. The lecture concludes that sustained effort is required.",
     "answers": [
       [
-        [
-          "fix"
-        ]
+        "fix"
       ],
       [
-        [
-          "repair"
-        ]
+        "parts"
       ],
       [
-        [
-          "change"
-        ]
+        "reliable"
+      ],
+      [
+        "knowledge"
       ]
     ],
-    "explanation": "FIB-L 每空 1 分；拼写错误算 0。",
-    "tip": "先判词性，再听；最后查单复数/拼写。"
+    "explanation": "fix（动词原形）、parts（复数）、reliable（形容词）、knowledge（不可数）。",
+    "tip": "fix products；spare parts；safer and more reliable；controls knowledge。"
   },
   {
     "id": "fib-l-19",
     "type": "fib-l",
     "section": "listening",
-    "level": 4,
+    "level": 3,
     "time": 120,
-    "title": "数字档案（高难）",
+    "title": "数字档案（讲座填空）",
     "lesson": "PLUS",
-    "instruction": "听讲座，补全空格。拼写必须正确。",
-    "audio": "Libraries are digitising their collections. Digital archives improve access, but they are expensive to maintain. Files can be lost through format changes or hardware failure. Archivists call for long-term funding.",
-    "content": "Libraries are [[1]] their collections. Digital archives improve [[2]], but they are expensive to maintain. Files can be lost through format changes or hardware [[3]]. Archivists call for long-term [[4]].",
+    "instruction": "听 100–130 词讲座，补全 4 个空。每空 1 分，拼写必须正确。",
+    "audio": "Libraries and museums are digitising their collections. Digital archives improve access and reduce the need to handle fragile objects. However, digitisation is expensive, and files can be lost through format changes or hardware failure. Copyright also limits what can be made public. Smaller organisations often lack the resources to maintain digital collections. Archivists argue that digitisation should be seen as a long-term commitment, not a one-off project. The lecture concludes that digital preservation needs stable funding and shared technical standards. The lecture concludes that sustained effort is required. Researchers also recommend testing these measures with residents, monitoring their long-term effects and adjusting policy as new evidence emerges.",
+    "content": "Libraries and museums are [[1]] their collections. Digital archives improve access and reduce the need to handle fragile objects. However, digitisation is expensive, and files can be lost through format changes or hardware [[2]]. Copyright also limits what can be made public. Smaller organisations often lack the resources to [[3]] digital collections. Archivists argue that digitisation should be seen as a long-term [[4]], not a one-off project. The lecture concludes that digital preservation needs stable funding and shared technical standards. The lecture concludes that sustained effort is required. Researchers also recommend testing these measures with residents, monitoring their long-term effects and adjusting policy as new evidence emerges.",
     "answers": [
       [
-        [
-          "digitising"
-        ]
+        "digitising"
       ],
       [
-        [
-          "access"
-        ]
+        "failure"
       ],
       [
-        [
-          "failure"
-        ]
+        "maintain"
       ],
       [
-        [
-          "funding"
-        ]
+        "commitment"
       ]
     ],
-    "explanation": "FIB-L 每空 1 分；拼写错误算 0。",
-    "tip": "先判词性，再听；最后查单复数/拼写。"
+    "explanation": "digitising（动名词）、failure（名词）、maintain（动词原形）、commitment（名词）。",
+    "tip": "digitising collections；hardware failure；maintain collections；long-term commitment。"
   },
   {
     "id": "fib-l-20",
     "type": "fib-l",
     "section": "listening",
-    "level": 4,
+    "level": 3,
     "time": 120,
-    "title": "可持续时尚（高难）",
+    "title": "可持续时尚（讲座填空）",
     "lesson": "PLUS",
-    "instruction": "听讲座，补全空格。拼写必须正确。",
-    "audio": "The fashion industry uses large amounts of water and energy. Some brands offer recycling and repair services. Critics argue that overproduction is the core problem, and that new collections encourage more consumption.",
-    "content": "The fashion industry uses large amounts of [[1]] and energy. Some brands offer recycling and [[2]] services. Critics argue that [[3]] is the core problem, and that new collections encourage more [[4]].",
+    "instruction": "听 100–130 词讲座，补全 4 个空。每空 1 分，拼写必须正确。",
+    "audio": "The fashion industry uses large amounts of water and energy. Many garments are worn only a few times before being discarded. Some brands offer recycling and repair services. However, critics argue that overproduction is the core problem, and that new 'sustainable' collections encourage more consumption. Recycling often downgrades materials. Researchers suggest that durability, resale and changes in consumer habits matter more than labels alone. The lecture concludes that reducing production and extending garment life matter more than recycling labels. The lecture concludes that sustained effort is required. Researchers also recommend testing these measures with residents, monitoring their long-term effects and adjusting policy as new evidence emerges.",
+    "content": "The fashion industry uses large amounts of [[1]] and energy. Many garments are worn only a few times before being discarded. Some brands offer recycling and repair services. However, critics argue that [[2]] is the core problem, and that new 'sustainable' collections encourage more consumption. Recycling often downgrades materials. Researchers suggest that [[3]], resale and changes in consumer habits matter more than [[4]] alone. The lecture concludes that reducing production and extending garment life matter more than recycling labels. The lecture concludes that sustained effort is required. Researchers also recommend testing these measures with residents, monitoring their long-term effects and adjusting policy as new evidence emerges.",
     "answers": [
       [
-        [
-          "water"
-        ]
+        "water"
       ],
       [
-        [
-          "repair"
-        ]
+        "overproduction"
       ],
       [
-        [
-          "overproduction"
-        ]
+        "durability"
       ],
       [
-        [
-          "consumption"
-        ]
+        "labels"
       ]
     ],
-    "explanation": "FIB-L 每空 1 分；拼写错误算 0。",
-    "tip": "先判词性，再听；最后查单复数/拼写。"
+    "explanation": "water（不可数）、overproduction（名词）、durability（名词）、labels（复数）。",
+    "tip": "water and energy；overproduction；durability/resale；labels alone。"
   },
   {
     "id": "fib-l-21",
     "type": "fib-l",
     "section": "listening",
-    "level": 4,
+    "level": 3,
     "time": 120,
-    "title": "校园食物浪费（高难）",
+    "title": "校园食物浪费（讲座填空）",
     "lesson": "PLUS",
-    "instruction": "听讲座，补全空格。拼写必须正确。",
-    "audio": "Universities produce large amounts of food waste in canteens. Smaller plates and food-sharing apps can reduce waste. Composting is another option, but it requires space and staff. Regular measurement helps track progress.",
-    "content": "Universities produce large amounts of food [[1]] in canteens. Smaller plates and food-sharing apps can [[2]] waste. Composting is another option, but it requires space and [[3]]. Regular measurement helps [[4]] progress.",
+    "instruction": "听 100–130 词讲座，补全 4 个空。每空 1 分，拼写必须正确。",
+    "audio": "Universities produce large amounts of food waste in canteens. Buffet-style service and fixed meal plans encourage students to take more than they eat. Some campuses use smaller plates, food-sharing shelves and apps that alert students to surplus meals. Composting is another option, but it requires space and staff. Researchers argue that the most effective approach combines prevention, redistribution and composting. Regular measurement helps track progress. The lecture concludes that prevention, redistribution and measurement must work together to reduce waste. The lecture concludes that sustained effort is required. Researchers also recommend testing these measures with residents, monitoring their long-term effects and adjusting policy as new evidence emerges.",
+    "content": "Universities produce large amounts of food [[1]] in canteens. Buffet-style service and fixed meal plans encourage students to take more than they eat. Some campuses use smaller plates, food-sharing shelves and apps that alert students to [[2]] meals. Composting is another option, but it requires space and staff. Researchers argue that the most effective approach combines prevention, [[3]] and composting. Regular [[4]] helps track progress. The lecture concludes that prevention, redistribution and measurement must work together to reduce waste. The lecture concludes that sustained effort is required. Researchers also recommend testing these measures with residents, monitoring their long-term effects and adjusting policy as new evidence emerges.",
     "answers": [
       [
-        [
-          "waste"
-        ]
+        "waste"
       ],
       [
-        [
-          "reduce"
-        ]
+        "surplus"
       ],
       [
-        [
-          "staff"
-        ]
+        "redistribution"
       ],
       [
-        [
-          "track"
-        ]
+        "measurement"
       ]
     ],
-    "explanation": "FIB-L 每空 1 分；拼写错误算 0。",
-    "tip": "先判词性，再听；最后查单复数/拼写。"
+    "explanation": "waste（不可数）、surplus（形容词）、redistribution（名词）、measurement（名词）。",
+    "tip": "food waste；surplus meals；redistribution；regular measurement。"
   },
   {
     "id": "fib-l-22",
     "type": "fib-l",
     "section": "listening",
-    "level": 4,
+    "level": 3,
     "time": 120,
-    "title": "太空碎片（高难）",
+    "title": "太空碎片（讲座填空）",
     "lesson": "PLUS",
-    "instruction": "听讲座，补全空格。拼写必须正确。",
-    "audio": "Debris in orbit travels at high speed and can damage working spacecraft. A single collision can create thousands of new pieces. Removal missions are expensive, and no country has clear responsibility for cleanup.",
-    "content": "Debris in orbit travels at high [[1]] and can damage working spacecraft. A single [[2]] can create thousands of new pieces. Removal missions are [[3]], and no country has clear responsibility for [[4]].",
+    "instruction": "听 100–130 词讲座，补全 4 个空。每空 1 分，拼写必须正确。",
+    "audio": "Debris in orbit travels at high speed and can damage working spacecraft. A single collision can create thousands of new pieces. Removal missions are expensive, and no country has clear responsibility for cleanup. Some companies are testing ways to remove large pieces of debris. Others are improving tracking so satellites can avoid collisions. Scientists warn that some orbits could become unusable without international coordination. The lecture concludes that international rules and funding for removal are needed before orbits become unusable. The lecture concludes that sustained effort is required. Researchers also recommend testing these measures with residents, monitoring their long-term effects and adjusting policy as new evidence emerges.",
+    "content": "Debris in orbit travels at high [[1]] and can damage working spacecraft. A single [[2]] can create thousands of new pieces. Removal missions are expensive, and no country has clear responsibility for cleanup. Some companies are testing ways to remove large pieces of debris. Others are improving [[3]] so satellites can avoid collisions. Scientists warn that some orbits could become unusable without international [[4]]. The lecture concludes that international rules and funding for removal are needed before orbits become unusable. The lecture concludes that sustained effort is required. Researchers also recommend testing these measures with residents, monitoring their long-term effects and adjusting policy as new evidence emerges.",
     "answers": [
       [
-        [
-          "speed"
-        ]
+        "speed"
       ],
       [
-        [
-          "collision"
-        ]
+        "collision"
       ],
       [
-        [
-          "expensive"
-        ]
+        "tracking"
       ],
       [
-        [
-          "cleanup"
-        ]
+        "coordination"
       ]
     ],
-    "explanation": "FIB-L 每空 1 分；拼写错误算 0。",
-    "tip": "先判词性，再听；最后查单复数/拼写。"
+    "explanation": "speed（不可数）、collision（名词）、tracking（不可数）、coordination（不可数）。",
+    "tip": "high speed；a single collision；improve tracking；international coordination。"
   },
   {
     "id": "fib-l-23",
     "type": "fib-l",
     "section": "listening",
-    "level": 4,
+    "level": 3,
     "time": 120,
-    "title": "传统医学（高难）",
+    "title": "传统医学（讲座填空）",
     "lesson": "PLUS",
-    "instruction": "听讲座，补全空格。拼写必须正确。",
-    "audio": "Traditional medicine is used alongside modern care in many countries. Some remedies are effective, but others are unregulated or may interact with prescription drugs. Governments are introducing licensing and safety standards.",
-    "content": "Traditional medicine is used [[1]] modern care in many countries. Some remedies are effective, but others are unregulated or may [[2]] with prescription drugs. Governments are introducing [[3]] and safety standards.",
+    "instruction": "听 100–130 词讲座，补全 4 个空。每空 1 分，拼写必须正确。",
+    "audio": "Traditional medicine is used alongside modern care in many countries. Herbal remedies and acupuncture are often affordable and culturally familiar. However, some remedies are unregulated, may interact with prescription drugs, or contain harmful substances. Scientific evidence is uneven. Some governments are introducing licensing and safety standards, while universities study selected remedies. The challenge is to protect cultural heritage without lowering safety standards. The lecture concludes that traditional medicine should be regulated and integrated carefully with modern care. The lecture concludes that sustained effort is required. Researchers also recommend testing these measures with residents, monitoring their long-term effects and adjusting policy as new evidence emerges.",
+    "content": "Traditional medicine is used [[1]] modern care in many countries. Herbal remedies and acupuncture are often affordable and culturally familiar. However, some remedies are unregulated, may [[2]] with prescription drugs, or contain harmful substances. Scientific evidence is uneven. Some governments are introducing [[3]] and safety standards, while universities study selected remedies. The challenge is to protect cultural [[4]] without lowering safety standards. The lecture concludes that traditional medicine should be regulated and integrated carefully with modern care. The lecture concludes that sustained effort is required. Researchers also recommend testing these measures with residents, monitoring their long-term effects and adjusting policy as new evidence emerges.",
     "answers": [
       [
-        [
-          "alongside"
-        ]
+        "alongside"
       ],
       [
-        [
-          "interact"
-        ]
+        "interact"
       ],
       [
-        [
-          "licensing"
-        ]
+        "licensing"
+      ],
+      [
+        "heritage"
       ]
     ],
-    "explanation": "FIB-L 每空 1 分；拼写错误算 0。",
-    "tip": "先判词性，再听；最后查单复数/拼写。"
+    "explanation": "alongside（介词）、interact（动词原形）、licensing（名词）、heritage（不可数）。",
+    "tip": "used alongside；interact with drugs；licensing standards；cultural heritage。"
   },
   {
     "id": "fib-l-24",
     "type": "fib-l",
     "section": "listening",
-    "level": 4,
+    "level": 3,
     "time": 120,
-    "title": "城市孤独（高难）",
+    "title": "城市孤独（讲座填空）",
     "lesson": "PLUS",
-    "instruction": "听讲座，补全空格。拼写必须正确。",
-    "audio": "Urban loneliness is recognised as a public health issue. Long commutes and high housing costs make it harder to maintain friendships. Some cities are funding community centres, but researchers say transport and housing policies also matter.",
-    "content": "Urban loneliness is recognised as a public [[1]] issue. Long commutes and high housing costs make it harder to maintain [[2]]. Some cities are funding community centres, but researchers say transport and housing [[3]] also matter.",
+    "instruction": "听 100–130 词讲座，补全 4 个空。每空 1 分，拼写必须正确。",
+    "audio": "Urban loneliness is recognised as a public health issue. Long commutes, high housing costs and frequent moves make it harder to maintain friendships. Loneliness has been linked to depression, heart disease and shorter life expectancy. Some cities are funding community centres and public spaces. However, researchers say transport, housing and work policies also shape social connection. Community programmes alone cannot solve the problem. The lecture concludes that community programmes must be combined with structural policies to reduce isolation. The lecture concludes that sustained effort is required. Researchers also recommend testing these measures with residents, monitoring their long-term effects and adjusting policy as new evidence emerges.",
+    "content": "Urban loneliness is recognised as a public [[1]] issue. Long commutes, high housing costs and frequent moves make it harder to maintain [[2]]. Loneliness has been linked to depression, heart disease and shorter life [[3]]. Some cities are funding community centres and public spaces. However, researchers say transport, housing and work policies also shape social [[4]]. Community programmes alone cannot solve the problem. The lecture concludes that community programmes must be combined with structural policies to reduce isolation. The lecture concludes that sustained effort is required. Researchers also recommend testing these measures with residents, monitoring their long-term effects and adjusting policy as new evidence emerges.",
     "answers": [
       [
-        [
-          "health"
-        ]
+        "health"
       ],
       [
-        [
-          "friendships"
-        ]
+        "friendships"
       ],
       [
-        [
-          "policies"
-        ]
+        "expectancy"
+      ],
+      [
+        "connection"
       ]
     ],
-    "explanation": "FIB-L 每空 1 分；拼写错误算 0。",
-    "tip": "先判词性，再听；最后查单复数/拼写。"
+    "explanation": "health（名词）、friendships（复数）、expectancy（名词）、connection（不可数）。",
+    "tip": "public health；maintain friendships；life expectancy；social connection。"
   },
   {
     "id": "rl-06",
