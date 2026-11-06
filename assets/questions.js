@@ -1,5 +1,5 @@
 /* PTE 52 Lab Plus — 378 questions
- * RS sentences 8-15 words; WFD sentences 8+ words.
+ * FIB-RW 01-08 upgraded to 4 blanks, 80-100 words.
  */
 window.QUESTIONS = [
   {
@@ -320,61 +320,70 @@ window.QUESTIONS = [
     "id": "fib-rw-01",
     "type": "fib-rw",
     "section": "reading",
-    "level": 1,
-    "time": 120,
+    "level": 3,
+    "time": 140,
     "title": "创造力可以学吗",
-    "instruction": "每空选一个词。先判词性，再看搭配和逻辑。",
-    "content": "Many people believe that creativity is a gift that only a few people possess. In fact, research [[1]] that creativity can be learned. Psychologists argue that [[2]] environments, where mistakes are accepted, are more likely to produce new ideas. [[3]], companies that encourage experimentation tend to be more innovative.",
+    "instruction": "读 80–100 词短文，每空选一个词。4 个空，每空 1 分。",
+    "content": "Many people believe that creativity is a gift that only a few people possess. In fact, research [[1]] that creativity can be learned. Psychologists argue that [[2]] environments, where mistakes are accepted, are more likely to produce new ideas. Schools can encourage curiosity by giving students open-ended projects and time to explore. [[3]], companies that reward experimentation tend to be more innovative. However, creativity also requires [[4]] and persistence, because new ideas rarely succeed immediately. The evidence suggests that this issue deserves more attention from policymakers, educators and the public alike.",
     "blanks": [
       {
         "options": [
-          "suggests",
           "suggest",
+          "suggests",
           "suggestion",
           "suggesting"
+        ],
+        "answer": 1
+      },
+      {
+        "options": [
+          "support",
+          "supporting",
+          "supported",
+          "supportive"
+        ],
+        "answer": 3
+      },
+      {
+        "options": [
+          "Therefore",
+          "However",
+          "Although",
+          "Despite"
         ],
         "answer": 0
       },
       {
         "options": [
-          "support",
-          "supportive",
-          "supporting",
-          "supported"
+          "patient",
+          "patiently",
+          "patience",
+          "impatient"
         ],
-        "answer": 1
-      },
-      {
-        "options": [
-          "However",
-          "Therefore",
-          "Although",
-          "Despite"
-        ],
-        "answer": 1
+        "answer": 2
       }
     ],
-    "explanation": "① research 是不可数名词，谓语用单三 suggests；② 空后是名词 environments，需要形容词 supportive；③ 前句说“支持试错”，后句说“鼓励实验的公司更创新”，是因果，用 Therefore。",
-    "tip": "先判词性，四个选项里通常能排除两个；再看逻辑，最后才看意思。"
+    "explanation": "research 单数 → suggests；supportive environments；Therefore 因果；requires patience。",
+    "tip": "先看主语单复数，再看逻辑连接词。"
   },
   {
     "id": "fib-rw-02",
     "type": "fib-rw",
     "section": "reading",
-    "level": 1,
-    "time": 120,
+    "level": 3,
+    "time": 140,
     "title": "睡眠与学习",
-    "instruction": "每空选一个词。注意词性和固定搭配。",
-    "content": "Sleep plays an important [[1]] in learning. During deep sleep, the brain [[2]] information into long-term memory. Students who sleep well tend to [[3]] better in exams.",
+    "instruction": "读 80–100 词短文，每空选一个词。4 个空，每空 1 分。",
+    "content": "Sleep plays an important [[1]] in learning. During deep sleep, the brain [[2]] information into long-term memory. Students who sleep well tend to [[3]] better in exams. However, many young people treat sleep as a luxury and stay up late before tests. Researchers argue that a regular routine is more effective than a single long sleep. Caffeine and screens can [[4]] sleep, so students should avoid them late at night. The evidence suggests that this issue deserves more attention from policymakers, educators and the public alike.",
     "blanks": [
       {
         "options": [
-          "role",
           "rule",
           "place",
+          "role",
           "rate"
         ],
-        "answer": 0
+        "answer": 2
       },
       {
         "options": [
@@ -387,44 +396,53 @@ window.QUESTIONS = [
       },
       {
         "options": [
-          "perform",
           "performance",
           "performing",
-          "performed"
+          "performed",
+          "perform"
         ],
-        "answer": 0
+        "answer": 3
+      },
+      {
+        "options": [
+          "delays",
+          "delay",
+          "delayed",
+          "delaying"
+        ],
+        "answer": 1
       }
     ],
-    "explanation": "① play an important role in 是固定搭配；② the brain 是单数主语，谓语用 moves；③ tend to 后接动词原形 perform。",
-    "tip": "固定搭配是 FIB 最快的得分点，平时按短语记，不要按单词记。"
+    "explanation": "play a role；brain 单数 → moves；tend to do → perform；can + 动词原形 → delay。",
+    "tip": "固定搭配 play a role；tend to + 动词原形。"
   },
   {
     "id": "fib-rw-03",
     "type": "fib-rw",
     "section": "reading",
-    "level": 2,
-    "time": 120,
+    "level": 3,
+    "time": 140,
     "title": "城市绿地",
-    "instruction": "每空选一个词。注意转折与因果。",
-    "content": "Green spaces are important for cities. They [[1]] air quality and give residents a place to relax. [[2]], land is expensive, so some cities build parks on rooftops. These spaces are smaller, [[3]] they still improve life in dense areas.",
+    "instruction": "读 80–100 词短文，每空选一个词。4 个空，每空 1 分。",
+    "content": "Green spaces are important for cities. They [[1]] air quality and give residents a place to relax. [[2]], land is expensive, so some cities build parks on rooftops. These spaces are smaller, [[3]] they still improve life in dense areas. Trees and plants also absorb rainwater, which reduces flooding during heavy storms. However, parks need [[4]] maintenance, and budgets are often cut first in poorer neighbourhoods. The evidence suggests that this issue deserves more attention from policymakers, educators and the public alike.",
     "blanks": [
       {
         "options": [
-          "improve",
           "improves",
+          "improve",
           "improving",
           "improved"
         ],
-        "answer": 0
+        "answer": 1
       },
       {
         "options": [
-          "However",
           "Therefore",
           "Moreover",
+          "However",
           "For example"
         ],
-        "answer": 0
+        "answer": 2
       },
       {
         "options": [
@@ -434,10 +452,19 @@ window.QUESTIONS = [
           "unless"
         ],
         "answer": 0
+      },
+      {
+        "options": [
+          "regularly",
+          "regularity",
+          "irregular",
+          "regular"
+        ],
+        "answer": 3
       }
     ],
-    "explanation": "① They 是复数，谓语用 improve；② 前句说绿地重要，后句说地贵，是转折，用 However；③ smaller 与 improve 是让步转折，用 but。",
-    "tip": "逻辑词先判断关系：转折 however/but，因果 therefore/because，并列 moreover。"
+    "explanation": "They 复数 → improve；前后转折 → However；smaller 与 still 转折 → but；regular maintenance。",
+    "tip": "逻辑连接词看前后关系，不要只看词义。"
   },
   {
     "id": "ro-01",
@@ -2105,38 +2132,47 @@ window.QUESTIONS = [
     "id": "fib-rw-04",
     "type": "fib-rw",
     "section": "reading",
-    "level": 2,
-    "time": 120,
+    "level": 3,
+    "time": 140,
     "title": "城市树木",
-    "instruction": "每空选一个词。先判词性，再看搭配和逻辑。",
-    "explanation": "① 主语 They 复数，用 absorb；② 修饰 amounts 用形容词 significant；③ 前后是因果，用 Therefore。",
-    "tip": "先判词性，四个选项里通常能排除两个；再看逻辑，最后才看意思。",
-    "content": "Trees are often described as the lungs of a city. They [[1]] carbon dioxide and release oxygen, which improves air quality. However, street trees need [[2]] amounts of water, especially in hot weather. [[3]], cities that invest in tree planting often save money on cooling and health care.",
+    "instruction": "读 80–100 词短文，每空选一个词。4 个空，每空 1 分。",
+    "explanation": "They 复数 → absorb；significant amounts；因果 → Therefore；long-term funding。",
+    "tip": "significant + 名词；long-term + 名词。",
+    "content": "Trees are often described as the lungs of a city. They [[1]] carbon dioxide and release oxygen, which improves air quality. However, street trees need [[2]] amounts of water, especially in hot weather. [[3]], cities that invest in tree planting often save money on cooling and health care. Young trees also need protection from construction and vandalism. Without long-term [[4]], planting programmes may fail. The evidence suggests that this issue deserves more attention from policymakers, educators and the public alike.",
     "blanks": [
       {
         "options": [
-          "absorb",
           "absorbs",
           "absorbing",
-          "absorption"
+          "absorption",
+          "absorb"
         ],
-        "answer": 0
+        "answer": 3
       },
       {
         "options": [
-          "significant",
           "significantly",
+          "significant",
           "significance",
           "signify"
         ],
-        "answer": 0
+        "answer": 1
       },
       {
         "options": [
-          "Therefore",
           "However",
           "Although",
+          "Therefore",
           "Despite"
+        ],
+        "answer": 2
+      },
+      {
+        "options": [
+          "funding",
+          "fund",
+          "funded",
+          "funds"
         ],
         "answer": 0
       }
@@ -2146,13 +2182,13 @@ window.QUESTIONS = [
     "id": "fib-rw-05",
     "type": "fib-rw",
     "section": "reading",
-    "level": 2,
-    "time": 120,
+    "level": 3,
+    "time": 140,
     "title": "远程工作",
-    "instruction": "每空选一个词。先判词性，再看搭配和逻辑。",
-    "explanation": "① become more + 形容词 common；② can 后接动词原形 organize；③ 前后是转折，用 However。",
-    "tip": "先判词性，四个选项里通常能排除两个；再看逻辑，最后才看意思。",
-    "content": "Remote work has become more [[1]] since the pandemic. Employees can save time on commuting and [[2]] their schedules around family needs. [[3]], working alone can reduce creativity, so many companies now offer a mix of home and office days.",
+    "instruction": "读 80–100 词短文，每空选一个词。4 个空，每空 1 分。",
+    "explanation": "more common；can + 动词原形 → organize；转折 → However；clear expectations。",
+    "tip": "more + 形容词；set clear expectations。",
+    "content": "Remote work has become more [[1]] since the pandemic. Employees can save time on commuting and [[2]] their schedules around family needs. [[3]], working alone can reduce creativity, so many companies now offer a mix of home and office days. Junior staff may also miss informal mentoring. The most effective arrangements set clear [[4]] for when teams meet and how quickly messages are answered. The evidence suggests that this issue deserves more attention from policymakers, educators and the public alike.",
     "blanks": [
       {
         "options": [
@@ -2165,21 +2201,30 @@ window.QUESTIONS = [
       },
       {
         "options": [
-          "organize",
           "organizing",
           "organization",
+          "organize",
           "organized"
         ],
-        "answer": 0
+        "answer": 2
       },
       {
         "options": [
-          "However",
           "Therefore",
           "For example",
-          "As a result"
+          "As a result",
+          "However"
         ],
-        "answer": 0
+        "answer": 3
+      },
+      {
+        "options": [
+          "expect",
+          "expectations",
+          "expected",
+          "expecting"
+        ],
+        "answer": 1
       }
     ]
   },
@@ -2187,31 +2232,31 @@ window.QUESTIONS = [
     "id": "fib-rw-06",
     "type": "fib-rw",
     "section": "reading",
-    "level": 2,
-    "time": 120,
+    "level": 3,
+    "time": 140,
     "title": "塑料污染",
-    "instruction": "每空选一个词。先判词性，再看搭配和逻辑。",
-    "explanation": "① 修饰名词 problem 用现在分词 growing；② it 是单数，谓语 breaks；③ can 后接动词原形 last。",
-    "tip": "先判词性，四个选项里通常能排除两个；再看逻辑，最后才看意思。",
-    "content": "Plastic waste is a [[1]] problem for the world's oceans. Every year, millions of tons of plastic enter the sea, where it [[2]] into tiny pieces. Fish often mistake these pieces for food, and the pollution can [[3]] for centuries.",
+    "instruction": "读 80–100 词短文，每空选一个词。4 个空，每空 1 分。",
+    "explanation": "growing problem；it 单数 → breaks；can + 动词原形 → last；waste collection。",
+    "tip": "a growing problem；it breaks down。",
+    "content": "Plastic waste is a [[1]] problem for the world's oceans. Every year, millions of tons of plastic enter the sea, where it [[2]] into tiny pieces. Fish often mistake these pieces for food, and the pollution can [[3]] for centuries. Recycling helps, but only a small share of plastic is actually reused. The speaker argues that reducing production and improving waste [[4]] are more effective than cleaning the ocean. The evidence suggests that this issue deserves more attention from policymakers, educators and the public alike.",
     "blanks": [
       {
         "options": [
           "grow",
-          "growing",
           "growth",
+          "growing",
           "grown"
         ],
-        "answer": 1
+        "answer": 2
       },
       {
         "options": [
           "break",
-          "breaks",
           "breaking",
-          "broke"
+          "broke",
+          "breaks"
         ],
-        "answer": 1
+        "answer": 3
       },
       {
         "options": [
@@ -2221,6 +2266,15 @@ window.QUESTIONS = [
           "lasted"
         ],
         "answer": 0
+      },
+      {
+        "options": [
+          "collect",
+          "collection",
+          "collected",
+          "collecting"
+        ],
+        "answer": 1
       }
     ]
   },
@@ -2228,22 +2282,22 @@ window.QUESTIONS = [
     "id": "fib-rw-07",
     "type": "fib-rw",
     "section": "reading",
-    "level": 2,
-    "time": 120,
+    "level": 3,
+    "time": 140,
     "title": "睡眠",
-    "instruction": "每空选一个词。先判词性，再看搭配和逻辑。",
-    "explanation": "① be essential for 是固定搭配；② 主语 Students 复数，用 remember；③ 前句说睡眠重要，后句得出结论，用 Therefore。",
-    "tip": "先判词性，四个选项里通常能排除两个；再看逻辑，最后才看意思。",
-    "content": "Sleep is [[1]] for learning. During deep sleep, the brain replays information and stores it in long-term memory. Students who sleep seven to eight hours before an exam usually [[2]] more than those who stay up late. [[3]], a regular sleep routine is as important as revision.",
+    "instruction": "读 80–100 词短文，每空选一个词。4 个空，每空 1 分。",
+    "explanation": "is essential；students 复数 → remember；因果 → Therefore；part of revision。",
+    "tip": "be essential for；Therefore 引出结论。",
+    "content": "Sleep is [[1]] for learning. During deep sleep, the brain replays information and stores it in long-term memory. Students who sleep seven to eight hours before an exam usually [[2]] more than those who stay up late. [[3]], a regular sleep routine is as important as revision. Caffeine and screens can delay sleep, and lost sleep during the week cannot be fully repaid at the weekend. Sleep should therefore be treated as part of [[4]], not as time lost. The evidence suggests that this issue deserves more attention from policymakers, educators and the public alike.",
     "blanks": [
       {
         "options": [
           "essentially",
-          "essential",
           "essence",
-          "essentialism"
+          "essentialism",
+          "essential"
         ],
-        "answer": 1
+        "answer": 3
       },
       {
         "options": [
@@ -2257,9 +2311,18 @@ window.QUESTIONS = [
       {
         "options": [
           "However",
-          "Therefore",
           "Although",
+          "Therefore",
           "Despite"
+        ],
+        "answer": 2
+      },
+      {
+        "options": [
+          "revise",
+          "revision",
+          "revised",
+          "revising"
         ],
         "answer": 1
       }
@@ -2269,38 +2332,47 @@ window.QUESTIONS = [
     "id": "fib-rw-08",
     "type": "fib-rw",
     "section": "reading",
-    "level": 2,
-    "time": 120,
+    "level": 3,
+    "time": 140,
     "title": "博物馆",
-    "instruction": "每空选一个词。先判词性，再看搭配和逻辑。",
-    "explanation": "① places to 后接动词原形 display；② This + 单数名词 approach；③ 前后是转折，用 However。",
-    "tip": "先判词性，四个选项里通常能排除两个；再看逻辑，最后才看意思。",
-    "content": "Museums are no longer just places to [[1]] objects. Many now run workshops, talks and digital tours. This [[2]] helps them attract younger visitors and remain relevant. [[3]], museums still face the challenge of funding these activities.",
+    "instruction": "读 80–100 词短文，每空选一个词。4 个空，每空 1 分。",
+    "explanation": "places to + 动词原形 → display；This 单数 → approach；转折 → However；public engagement。",
+    "tip": "to do；This + 单数名词；public engagement。",
+    "content": "Museums are no longer just places to [[1]] objects. Many now run workshops, talks and digital tours. This [[2]] helps them attract younger visitors and remain relevant. [[3]], museums still face the challenge of funding these activities. Some charge for special exhibitions while keeping permanent collections free. Others consult local communities before designing new displays. The most successful museums balance public [[4]] with financial sustainability. The evidence suggests that this issue deserves more attention from policymakers, educators and the public alike.",
     "blanks": [
       {
         "options": [
-          "display",
           "displays",
+          "display",
           "displaying",
           "displayed"
         ],
-        "answer": 0
+        "answer": 1
       },
       {
         "options": [
-          "approach",
           "approaches",
           "approaching",
-          "approached"
+          "approached",
+          "approach"
         ],
-        "answer": 0
+        "answer": 3
       },
       {
         "options": [
-          "However",
           "Therefore",
           "For example",
+          "However",
           "As a result"
+        ],
+        "answer": 2
+      },
+      {
+        "options": [
+          "engagement",
+          "engage",
+          "engaged",
+          "engaging"
         ],
         "answer": 0
       }
@@ -4036,7 +4108,7 @@ window.QUESTIONS = [
     "title": "博物馆与科技",
     "lesson": "L6",
     "instruction": "每空选一个词。先判词性，再看搭配和逻辑。",
-    "content": "Many museums are using digital tools to reach new audiences. Virtual tours allow visitors to [[1]] exhibitions from home, while apps provide information in several languages. However, some critics argue that screens can [[2]] the experience of seeing real objects. Museums therefore need to [[3]] technology with traditional displays. The most successful projects use digital tools to [[4]] curiosity, not to replace the objects themselves.",
+    "content": "Many museums are using digital tools to reach new audiences. Virtual tours allow visitors to [[1]] exhibitions from home, while apps provide information in several languages. However, some critics argue that screens can [[2]] the experience of seeing real objects. Museums therefore need to [[3]] technology with traditional displays. The most successful projects use digital tools to [[4]] curiosity, not to replace the objects themselves. The evidence suggests that this issue deserves more attention from policymakers, educators and the public alike.",
     "blanks": [
       {
         "options": [
@@ -4087,7 +4159,7 @@ window.QUESTIONS = [
     "title": "城市骑行",
     "lesson": "L6",
     "instruction": "每空选一个词。先判词性，再看搭配和逻辑。",
-    "content": "Cycling is becoming a popular way to travel in cities. Dedicated lanes make cyclists feel safer and encourage more people to [[1]] their cars at home. However, building these lanes can be expensive and may reduce space for [[2]]. Cities that provide secure parking and bike-sharing schemes see the greatest [[3]] in cycling. Public campaigns can also [[4]] drivers to share the road safely.",
+    "content": "Cycling is becoming a popular way to travel in cities. Dedicated lanes make cyclists feel safer and encourage more people to [[1]] their cars at home. However, building these lanes can be expensive and may reduce space for [[2]]. Cities that provide secure parking and bike-sharing schemes see the greatest [[3]] in cycling. Public campaigns can also [[4]] drivers to share the road safely. The evidence suggests that this issue deserves more attention from policymakers, educators and the public alike.",
     "blanks": [
       {
         "options": [
@@ -4138,7 +4210,7 @@ window.QUESTIONS = [
     "title": "咖啡与可持续发展",
     "lesson": "L6",
     "instruction": "每空选一个词。先判词性，再看搭配和逻辑。",
-    "content": "Coffee is one of the most traded commodities in the world. Small changes in temperature and rainfall can [[1]] the quality of the beans. Many farmers now receive training in sustainable [[2]] to protect their land. Consumers are also willing to pay more for coffee that is clearly [[3]]. However, certification schemes can be expensive for small producers, so support from governments is [[4]].",
+    "content": "Coffee is one of the most traded commodities in the world. Small changes in temperature and rainfall can [[1]] the quality of the beans. Many farmers now receive training in sustainable [[2]] to protect their land. Consumers are also willing to pay more for coffee that is clearly [[3]]. However, certification schemes can be expensive for small producers, so support from governments is [[4]]. The evidence suggests that this issue deserves more attention from policymakers, educators and the public alike.",
     "blanks": [
       {
         "options": [
@@ -4189,7 +4261,7 @@ window.QUESTIONS = [
     "title": "塑料替代品",
     "lesson": "L6",
     "instruction": "每空选一个词。先判词性，再看搭配和逻辑。",
-    "content": "Plastic pollution has prompted a search for alternative materials. Some companies now produce packaging from seaweed or plant waste, which can [[1]] naturally. These materials are often more expensive than plastic, but prices are likely to [[2]] as production increases. Consumers can help by choosing products with less packaging and by [[3]] containers. Governments can also [[4]] single-use plastics in certain settings.",
+    "content": "Plastic pollution has prompted a search for alternative materials. Some companies now produce packaging from seaweed or plant waste, which can [[1]] naturally. These materials are often more expensive than plastic, but prices are likely to [[2]] as production increases. Consumers can help by choosing products with less packaging and by [[3]] containers. Governments can also [[4]] single-use plastics in certain settings. The evidence suggests that this issue deserves more attention from policymakers, educators and the public alike. Researchers also recommend monitoring the long-term effects and adjusting policy as new evidence emerges.",
     "blanks": [
       {
         "options": [
@@ -4240,7 +4312,7 @@ window.QUESTIONS = [
     "title": "睡眠与屏幕",
     "lesson": "L6",
     "instruction": "每空选一个词。先判词性，再看搭配和逻辑。",
-    "content": "Many students use their phones late at night, and this can [[1]] their sleep. Bright screens signal to the brain that it is still daytime, making it harder to [[2]] asleep. A regular routine and a dark room can [[3]] sleep quality. Experts also recommend keeping devices out of the bedroom and [[4]] the screen an hour before bed.",
+    "content": "Many students use their phones late at night, and this can [[1]] their sleep. Bright screens signal to the brain that it is still daytime, making it harder to [[2]] asleep. A regular routine and a dark room can [[3]] sleep quality. Experts also recommend keeping devices out of the bedroom and [[4]] the screen an hour before bed. The evidence suggests that this issue deserves more attention from policymakers, educators and the public alike. Researchers also recommend monitoring the long-term effects and adjusting policy as new evidence emerges.",
     "blanks": [
       {
         "options": [
@@ -4744,7 +4816,7 @@ window.QUESTIONS = [
     "title": "选择的悖论（高难）",
     "lesson": "L6",
     "instruction": "每空选一个词。高难：先判词性，再看搭配/语篇逻辑。",
-    "content": "Choice is often treated as an unquestionable good, yet research suggests that an excess of options can produce [[1]] rather than satisfaction. When consumers face too many alternatives, they may delay decisions or avoid choosing altogether. Retailers can [[2]] this effect by organising products into clear categories and offering recommended defaults. The challenge is to preserve variety without creating [[3]] costs. In this sense, the [[4]] number of options is not necessarily the largest one.",
+    "content": "Choice is often treated as an unquestionable good, yet research suggests that an excess of options can produce [[1]] rather than satisfaction. When consumers face too many alternatives, they may delay decisions or avoid choosing altogether. Retailers can [[2]] this effect by organising products into clear categories and offering recommended defaults. The challenge is to preserve variety without creating [[3]] costs. In this sense, the [[4]] number of options is not necessarily the largest one. The evidence suggests that this issue deserves more attention from policymakers, educators and the public alike.",
     "blanks": [
       {
         "options": [
@@ -4795,7 +4867,7 @@ window.QUESTIONS = [
     "title": "城市再野化（高难）",
     "lesson": "L6",
     "instruction": "每空选一个词。高难：先判词性，再看搭配/语篇逻辑。",
-    "content": "Rewilding projects in cities are increasingly [[1]] by planners, but they remain contested. Supporters argue that reintroducing native species can restore ecological processes and make cities more resilient. Critics, however, question whether large animals can thrive in fragmented habitats and whether the benefits are fairly [[2]] across neighbourhoods. Effective projects therefore require [[3]] consultation and careful monitoring. Without these, rewilding risks becoming a [[4]] exercise rather than a genuine environmental strategy.",
+    "content": "Rewilding projects in cities are increasingly [[1]] by planners, but they remain contested. Supporters argue that reintroducing native species can restore ecological processes and make cities more resilient. Critics, however, question whether large animals can thrive in fragmented habitats and whether the benefits are fairly [[2]] across neighbourhoods. Effective projects therefore require [[3]] consultation and careful monitoring. Without these, rewilding risks becoming a [[4]] exercise rather than a genuine environmental strategy. The evidence suggests that this issue deserves more attention from policymakers, educators and the public alike.",
     "blanks": [
       {
         "options": [
@@ -4846,7 +4918,7 @@ window.QUESTIONS = [
     "title": "可重复性危机（高难）",
     "lesson": "L6",
     "instruction": "每空选一个词。高难：先判词性，再看搭配/语篇逻辑。",
-    "content": "The reproducibility crisis has prompted journals to [[1]] stricter reporting standards. Many published findings cannot be replicated, which raises questions about the [[2]] of peer review. Researchers are now encouraged to share data and pre-register their methods, making the research process more [[3]]. However, greater transparency alone cannot [[4]] poor study design.",
+    "content": "The reproducibility crisis has prompted journals to [[1]] stricter reporting standards. Many published findings cannot be replicated, which raises questions about the [[2]] of peer review. Researchers are now encouraged to share data and pre-register their methods, making the research process more [[3]]. However, greater transparency alone cannot [[4]] poor study design. The evidence suggests that this issue deserves more attention from policymakers, educators and the public alike. Researchers also recommend monitoring the long-term effects and adjusting policy as new evidence emerges.",
     "blanks": [
       {
         "options": [
@@ -4897,7 +4969,7 @@ window.QUESTIONS = [
     "title": "算法问责（高难）",
     "lesson": "L6",
     "instruction": "每空选一个词。高难：先判词性，再看搭配/语篇逻辑。",
-    "content": "Algorithms increasingly determine who receives a loan, a job interview or a rental flat. Because their decision rules are often [[1]], affected individuals may struggle to challenge an outcome. Regulators are calling for independent [[2]] of high-risk systems and a clear right of [[3]] for those who are rejected. Yet the technical complexity of these systems makes effective oversight difficult, and the burden of proof may fall [[4]] on the people least able to contest it.",
+    "content": "Algorithms increasingly determine who receives a loan, a job interview or a rental flat. Because their decision rules are often [[1]], affected individuals may struggle to challenge an outcome. Regulators are calling for independent [[2]] of high-risk systems and a clear right of [[3]] for those who are rejected. Yet the technical complexity of these systems makes effective oversight difficult, and the burden of proof may fall [[4]] on the people least able to contest it. The evidence suggests that this issue deserves more attention from policymakers, educators and the public alike.",
     "blanks": [
       {
         "options": [
@@ -4948,7 +5020,7 @@ window.QUESTIONS = [
     "title": "注意力经济（高难）",
     "lesson": "L6",
     "instruction": "每空选一个词。高难：先判词性，再看搭配/语篇逻辑。",
-    "content": "Digital platforms have become adept at [[1]] attention into a measurable commodity. Features such as infinite scroll and autoplay are designed to sustain [[2]] rather than to satisfy a genuine need. Users are often [[3]] to these designs, especially when they are tired or anxious. Some governments are now considering limits on persuasive design, but effective [[4]] must balance consumer protection with innovation.",
+    "content": "Digital platforms have become adept at [[1]] attention into a measurable commodity. Features such as infinite scroll and autoplay are designed to sustain [[2]] rather than to satisfy a genuine need. Users are often [[3]] to these designs, especially when they are tired or anxious. Some governments are now considering limits on persuasive design, but effective [[4]] must balance consumer protection with innovation. The evidence suggests that this issue deserves more attention from policymakers, educators and the public alike. Researchers also recommend monitoring the long-term effects and adjusting policy as new evidence emerges.",
     "blanks": [
       {
         "options": [
@@ -4999,7 +5071,7 @@ window.QUESTIONS = [
     "title": "微塑料与食物链（高难）",
     "lesson": "L6",
     "instruction": "每空选一个词。高难：先判词性，再看搭配/语篇逻辑。",
-    "content": "Microplastics are now [[1]] in marine environments, from coastal waters to deep-sea sediments. Small organisms [[2]] these particles, and the plastics can [[3]] up the food chain. The long-term [[4]] for human health are still uncertain, but the presence of plastic in seafood has prompted calls for stricter controls.",
+    "content": "Microplastics are now [[1]] in marine environments, from coastal waters to deep-sea sediments. Small organisms [[2]] these particles, and the plastics can [[3]] up the food chain. The long-term [[4]] for human health are still uncertain, but the presence of plastic in seafood has prompted calls for stricter controls. The evidence suggests that this issue deserves more attention from policymakers, educators and the public alike. Researchers also recommend monitoring the long-term effects and adjusting policy as new evidence emerges. The issue remains complex.",
     "blanks": [
       {
         "options": [
@@ -5050,7 +5122,7 @@ window.QUESTIONS = [
     "title": "语言流失（高难）",
     "lesson": "L6",
     "instruction": "每空选一个词。高难：先判词性，再看搭配/语篇逻辑。",
-    "content": "Language attrition occurs when speakers gradually lose proficiency in a language they once used regularly. It is most common among migrants whose first language is no longer [[1]] in daily life. The process can affect vocabulary, grammar and even the ability to [[2]] complex ideas. Intergenerational transmission is crucial: if parents stop using the language at home, children may never [[3]] it fully. Community programmes and digital archives can help [[4]] what might otherwise be lost.",
+    "content": "Language attrition occurs when speakers gradually lose proficiency in a language they once used regularly. It is most common among migrants whose first language is no longer [[1]] in daily life. The process can affect vocabulary, grammar and even the ability to [[2]] complex ideas. Intergenerational transmission is crucial: if parents stop using the language at home, children may never [[3]] it fully. Community programmes and digital archives can help [[4]] what might otherwise be lost. The evidence suggests that this issue deserves more attention from policymakers, educators and the public alike.",
     "blanks": [
       {
         "options": [
@@ -5101,7 +5173,7 @@ window.QUESTIONS = [
     "title": "照护经济学（高难）",
     "lesson": "L6",
     "instruction": "每空选一个词。高难：先判词性，再看搭配/语篇逻辑。",
-    "content": "Care work is often [[1]] because it is associated with unpaid domestic labour and emotional closeness. Economists argue that this omission [[2]] the true cost of an ageing population. Public investment in childcare and elder care can [[3]] participation in the paid workforce, particularly among women. However, expanding services requires a [[4]] distribution of costs between households, employers and the state.",
+    "content": "Care work is often [[1]] because it is associated with unpaid domestic labour and emotional closeness. Economists argue that this omission [[2]] the true cost of an ageing population. Public investment in childcare and elder care can [[3]] participation in the paid workforce, particularly among women. However, expanding services requires a [[4]] distribution of costs between households, employers and the state. The evidence suggests that this issue deserves more attention from policymakers, educators and the public alike. Researchers also recommend monitoring the long-term effects and adjusting policy as new evidence emerges.",
     "blanks": [
       {
         "options": [
@@ -5152,7 +5224,7 @@ window.QUESTIONS = [
     "title": "气候适应与 maladaptation（高难）",
     "lesson": "L6",
     "instruction": "每空选一个词。高难：先判词性，再看搭配/语篇逻辑。",
-    "content": "Adaptation is essential as extreme weather becomes more frequent, but poorly designed responses can be [[1]]. For example, building higher sea walls may protect one district while [[2]] flooding elsewhere. Vulnerable communities often lack the resources to [[3]] to changing conditions, and adaptation finance is unevenly distributed. Planners therefore need to assess not only immediate protection but also long-term [[4]].",
+    "content": "Adaptation is essential as extreme weather becomes more frequent, but poorly designed responses can be [[1]]. For example, building higher sea walls may protect one district while [[2]] flooding elsewhere. Vulnerable communities often lack the resources to [[3]] to changing conditions, and adaptation finance is unevenly distributed. Planners therefore need to assess not only immediate protection but also long-term [[4]]. The evidence suggests that this issue deserves more attention from policymakers, educators and the public alike. Researchers also recommend monitoring the long-term effects and adjusting policy as new evidence emerges.",
     "blanks": [
       {
         "options": [
@@ -5203,7 +5275,7 @@ window.QUESTIONS = [
     "title": "基因编辑伦理（高难）",
     "lesson": "L6",
     "instruction": "每空选一个词。高难：先判词性，再看搭配/语篇逻辑。",
-    "content": "Gene editing technologies raise profound ethical questions, particularly when changes are [[1]] and can be passed to future generations. Some argue that editing could [[2]] serious inherited diseases, while others worry about unintended effects and the risk of [[3]] enhancement. Meaningful consent is difficult when future generations cannot speak for themselves. Robust [[4]] is therefore needed before such technologies become widely available.",
+    "content": "Gene editing technologies raise profound ethical questions, particularly when changes are [[1]] and can be passed to future generations. Some argue that editing could [[2]] serious inherited diseases, while others worry about unintended effects and the risk of [[3]] enhancement. Meaningful consent is difficult when future generations cannot speak for themselves. Robust [[4]] is therefore needed before such technologies become widely available. The evidence suggests that this issue deserves more attention from policymakers, educators and the public alike. Researchers also recommend monitoring the long-term effects and adjusting policy as new evidence emerges.",
     "blanks": [
       {
         "options": [
@@ -5462,7 +5534,7 @@ window.QUESTIONS = [
     "title": "科学的马太效应（高难）",
     "lesson": "L6",
     "instruction": "每空选一个词。高难：先判词性，再看搭配/语篇逻辑。",
-    "content": "Scientific recognition is not distributed evenly. Researchers who receive a prestigious grant early in their careers tend to attract further funding, a pattern known as cumulative advantage. This can [[1]] the visibility of already successful scientists while [[2]] equally promising work by outsiders. Funding agencies have therefore begun to [[3]] applicants on the quality of their proposals rather than their past record. However, such reforms are difficult to [[4]] when reviewers rely on reputation as a shortcut.",
+    "content": "Scientific recognition is not distributed evenly. Researchers who receive a prestigious grant early in their careers tend to attract further funding, a pattern known as cumulative advantage. This can [[1]] the visibility of already successful scientists while [[2]] equally promising work by outsiders. Funding agencies have therefore begun to [[3]] applicants on the quality of their proposals rather than their past record. However, such reforms are difficult to [[4]] when reviewers rely on reputation as a shortcut. The evidence suggests that this issue deserves more attention from policymakers, educators and the public alike.",
     "blanks": [
       {
         "options": [
@@ -5513,7 +5585,7 @@ window.QUESTIONS = [
     "title": "城市蔓延的财政成本（高难）",
     "lesson": "L6",
     "instruction": "每空选一个词。高难：先判词性，再看搭配/语篇逻辑。",
-    "content": "Low-density development on the edge of cities can [[1]] the cost of providing roads, pipes and public transport. Because each household is spread over a larger area, local governments collect less tax revenue per kilometre of infrastructure. This fiscal gap may [[2]] into higher charges for residents or deferred maintenance. Some regions have responded with growth boundaries and higher [[3]] in central areas. The aim is to make compact development more [[4]] than sprawl.",
+    "content": "Low-density development on the edge of cities can [[1]] the cost of providing roads, pipes and public transport. Because each household is spread over a larger area, local governments collect less tax revenue per kilometre of infrastructure. This fiscal gap may [[2]] into higher charges for residents or deferred maintenance. Some regions have responded with growth boundaries and higher [[3]] in central areas. The aim is to make compact development more [[4]] than sprawl. The evidence suggests that this issue deserves more attention from policymakers, educators and the public alike.",
     "blanks": [
       {
         "options": [
@@ -5564,7 +5636,7 @@ window.QUESTIONS = [
     "title": "宽容的悖论（高难）",
     "lesson": "L6",
     "instruction": "每空选一个词。高难：先判词性，再看搭配/语篇逻辑。",
-    "content": "The philosopher Karl Popper argued that a society that is tolerant without limit may eventually be [[1]] by intolerant groups. If a group uses freedom of speech to [[2]] the freedom of others, unrestricted tolerance can become self-defeating. Popper therefore suggested that tolerance should be [[3]] by a commitment to the open society. Critics warn that this argument can be [[4]] to silence legitimate dissent.",
+    "content": "The philosopher Karl Popper argued that a society that is tolerant without limit may eventually be [[1]] by intolerant groups. If a group uses freedom of speech to [[2]] the freedom of others, unrestricted tolerance can become self-defeating. Popper therefore suggested that tolerance should be [[3]] by a commitment to the open society. Critics warn that this argument can be [[4]] to silence legitimate dissent. The evidence suggests that this issue deserves more attention from policymakers, educators and the public alike.",
     "blanks": [
       {
         "options": [
@@ -5615,7 +5687,7 @@ window.QUESTIONS = [
     "title": "抗生素耐药性（高难）",
     "lesson": "L6",
     "instruction": "每空选一个词。高难：先判词性，再看搭配/语篇逻辑。",
-    "content": "The overuse of antibiotics in medicine and agriculture has [[1]] the emergence of resistant bacteria. When a course of treatment is stopped early, surviving bacteria may [[2]] and spread. Hospitals are now introducing stewardship programmes to [[3]] prescriptions to cases where they are truly needed. Yet the pipeline for new antibiotics remains [[4]], partly because the drugs are used sparingly and therefore less profitable.",
+    "content": "The overuse of antibiotics in medicine and agriculture has [[1]] the emergence of resistant bacteria. When a course of treatment is stopped early, surviving bacteria may [[2]] and spread. Hospitals are now introducing stewardship programmes to [[3]] prescriptions to cases where they are truly needed. Yet the pipeline for new antibiotics remains [[4]], partly because the drugs are used sparingly and therefore less profitable. The evidence suggests that this issue deserves more attention from policymakers, educators and the public alike.",
     "blanks": [
       {
         "options": [
@@ -5666,7 +5738,7 @@ window.QUESTIONS = [
     "title": "免费停车的隐性成本（高难）",
     "lesson": "L6",
     "instruction": "每空选一个词。高难：先判词性，再看搭配/语篇逻辑。",
-    "content": "Minimum parking requirements often [[1]] developers to provide more spaces than the market would demand. The resulting supply of free parking [[2]] driving and makes public transport less competitive. Economists argue that the land used for parking has a high [[3]] cost, especially in city centres. Some cities have therefore [[4]] these requirements and allowed developers to pay into a transport fund instead.",
+    "content": "Minimum parking requirements often [[1]] developers to provide more spaces than the market would demand. The resulting supply of free parking [[2]] driving and makes public transport less competitive. Economists argue that the land used for parking has a high [[3]] cost, especially in city centres. Some cities have therefore [[4]] these requirements and allowed developers to pay into a transport fund instead. The evidence suggests that this issue deserves more attention from policymakers, educators and the public alike. Researchers also recommend monitoring the long-term effects and adjusting policy as new evidence emerges.",
     "blanks": [
       {
         "options": [
