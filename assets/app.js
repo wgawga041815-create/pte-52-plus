@@ -21,6 +21,7 @@
   const RLPLUS_IDS = QS.filter(q => q.lesson === "RLPLUS").map(q => q.id);
   const ROPLUS_IDS = QS.filter(q => q.lesson === "ROPLUS").map(q => q.id);
   const DIPLUS_IDS = QS.filter(q => q.lesson === "DIPLUS").map(q => q.id);
+  const SWT_IDS = QS.filter(q => q.type === "swt").map(q => q.id);
 
   const TYPE = {
     ra:      { name: "Read Aloud",              sec: "speaking",  label: "朗读" },
@@ -390,6 +391,7 @@
         '<div class="lesson-strip"><div><b>Retell Lecture 强化 · 10 篇新讲座</b><span>10 篇新话题，60–90 秒讲座 + 40 秒复述示范。</span></div><button class="btn btn-primary" id="startRLPlus">做这一组 →</button></div>' +
         '<div class="lesson-strip"><div><b>阅读 RO 中等难度 · 8 篇</b><span>Re-order Paragraphs 中等难度，先找首句再顺指代。</span></div><button class="btn btn-primary" id="startROPlus">做这一组 →</button></div>' +
         '<div class="lesson-strip"><div><b>DI 地图加练 · 2 张</b><span>校园运动设施 / 城镇中心，25 秒准备 + 40 秒作答。</span></div><button class="btn btn-primary" id="startDIPlus">做这一组 →</button></div>' +
+        '<div class="lesson-strip"><div><b>SWT 长文实战 · 18 篇</b><span>全部 200–300 词长文，练“一句话概括”，不是一句话文章。</span></div><button class="btn btn-primary" id="startSWT">做这一组 →</button></div>' +
 
         '<div class="section-title"><h2>8 天路线</h2><span>每天 4 题，约 15 分钟；其余自由加练</span></div>' +
         '<div class="plan">' + planHTML + "</div>" +
@@ -421,6 +423,7 @@
     $("#startRLPlus").onclick = () => startQueue(RLPLUS_IDS, "rlplus");
     $("#startROPlus").onclick = () => startQueue(ROPLUS_IDS, "roplus");
     $("#startDIPlus").onclick = () => startQueue(DIPLUS_IDS, "diplus");
+    $("#startSWT").onclick = () => startQueue(SWT_IDS, "swt");
     document.querySelectorAll(".day").forEach(el => {
       el.onclick = () => {
         const d = PLAN.find(x => x.day === Number(el.dataset.day));
