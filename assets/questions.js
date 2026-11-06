@@ -1,5 +1,5 @@
 /* PTE 52 Lab Plus — 378 questions
- * RTS prompts 30-44 words; RA lengths aligned.
+ * RS sentences 8-15 words; WFD sentences 8+ words.
  */
 window.QUESTIONS = [
   {
@@ -43,10 +43,10 @@ window.QUESTIONS = [
     "type": "rs",
     "section": "speaking",
     "level": 1,
-    "time": 90,
+    "time": 70,
     "title": "校园句子 ×5",
-    "instruction": "点“播放”，每句只播一遍。听完立刻复述，然后展开原文自评。",
-    "audio": "The library will extend its opening hours during exams.||Students must submit their assignments before the end of the week.||The lecture will focus on the causes of climate change.||Please collect your results from the student office.||The museum is closed on public holidays.",
+    "instruction": "听一句，立刻复述。只播一遍，共 5 句。",
+    "audio": "The library will extend its opening hours during exams.||Students must submit their assignments before the end of the week.||The lecture will focus on the causes of climate change.||Please collect your results from the student office.||The museum is closed on all public holidays.",
     "model": "按意群记：The library / will extend / its opening hours / during exams.",
     "checklist": [
       "每句至少复述出一半",
@@ -61,10 +61,10 @@ window.QUESTIONS = [
     "type": "rs",
     "section": "speaking",
     "level": 2,
-    "time": 90,
+    "time": 70,
     "title": "校园句子 ×5（更快）",
-    "instruction": "语速略快。每句听完立刻复述，不要等。",
-    "audio": "The new café opens next to the library on Monday.||Most students prefer to study in the morning.||The professor asked us to read two chapters.||Applications close at five o'clock on Friday.||The campus bus runs every fifteen minutes.",
+    "instruction": "听一句，立刻复述。只播一遍，共 5 句。",
+    "audio": "The new café opens next to the library on Monday.||Most students prefer to study in the morning.||The professor asked us to read two chapters.||Applications close at five o'clock on Friday afternoon.||The campus bus runs every fifteen minutes during term.",
     "model": "The new café / opens next to the library / on Monday.",
     "checklist": [
       "5 句里至少 3 句复述出一半",
@@ -614,12 +614,12 @@ window.QUESTIONS = [
     "type": "wfd",
     "section": "listening",
     "level": 1,
-    "time": 90,
+    "time": 120,
     "title": "听写 ×3（校园通知）",
-    "instruction": "先听完整句，再打字。",
-    "audio": "The campus bus runs every fifteen minutes.||Please turn off your phone during the exam.||The student centre is open until nine o'clock.",
+    "instruction": "点播放，每句只播一遍。整句听完再打字，写完检查单复数。",
+    "audio": "The campus bus runs every fifteen minutes during term time.||Please turn off your phone during the exam.||The student centre is open until nine o'clock.",
     "answers": [
-      "The campus bus runs every fifteen minutes.",
+      "The campus bus runs every fifteen minutes during term time.",
       "Please turn off your phone during the exam.",
       "The student centre is open until nine o'clock."
     ],
@@ -863,12 +863,12 @@ window.QUESTIONS = [
     "type": "rs",
     "section": "speaking",
     "level": 1,
-    "time": 100,
+    "time": 70,
     "title": "数字与长句 ×5",
-    "instruction": "点“播放”，每句只播一遍。听完立刻复述，然后展开原文自评。",
+    "instruction": "听一句，立刻复述。只播一遍，共 5 句。",
     "explanation": "RS 内容分：整句 3 分，复述一半以上 2 分，不到一半 1 分。说一半也有分。",
     "tip": "先保前半；数字读清楚，长句只保 2–3 块。",
-    "audio": "The survey was conducted in 2019 and involved more than 1,200 participants.||Although the city has invested heavily in public transport, many residents still prefer to drive to work.||The university will open a new research centre next year.||The government plans to reduce carbon emissions by 2030.||The report recommends improving public transport in rural areas.",
+    "audio": "The survey was conducted in 2019 and involved more than 1,200 participants.||Although the city has invested in public transport, many residents still drive to work.||The university will open a new research centre next year.||The government plans to reduce carbon emissions by 2030.||The report recommends improving public transport in rural areas.",
     "model": "按意群记：先保块，再保词；长句只保前半。",
     "checklist": [
       "每句至少复述出一半",
@@ -882,12 +882,12 @@ window.QUESTIONS = [
     "type": "rs",
     "section": "speaking",
     "level": 1,
-    "time": 100,
-    "title": "短句热身 ×5（A）",
-    "instruction": "点“播放”，每句只播一遍。听完立刻复述，然后展开原文自评。",
+    "time": 70,
+    "title": "校园句子 ×5（A）",
+    "instruction": "听一句，立刻复述。只播一遍，共 5 句。",
     "explanation": "RS 内容分：整句 3 分，复述一半以上 2 分，不到一半 1 分。说一半也有分。",
     "tip": "3–5 词只求开口；听完立刻说，不许想 3 秒以上。",
-    "audio": "The train leaves at nine.||Please close the window.||Students need more practice.||The library opens early.||She bought a new laptop.",
+    "audio": "The train to the city centre leaves at nine.||Please close the window before you leave the room.||Students need more practice before the final exam.||The library opens early during the examination period.||She bought a new laptop for her online course.",
     "model": "按意群记：先保块，再保词；长句只保前半。",
     "checklist": [
       "每句至少复述出一半",
@@ -901,12 +901,12 @@ window.QUESTIONS = [
     "type": "rs",
     "section": "speaking",
     "level": 1,
-    "time": 100,
-    "title": "短句热身 ×5（B）",
-    "instruction": "点“播放”，每句只播一遍。听完立刻复述，然后展开原文自评。",
+    "time": 70,
+    "title": "校园句子 ×5（B）",
+    "instruction": "听一句，立刻复述。只播一遍，共 5 句。",
     "explanation": "RS 内容分：整句 3 分，复述一半以上 2 分，不到一半 1 分。说一半也有分。",
     "tip": "短句也要按块说；不要一个词一个词蹦。",
-    "audio": "The meeting starts soon.||Keep the receipt safe.||The lecture was cancelled.||Turn off the lights.||We finished the project.",
+    "audio": "The meeting starts soon, so please take your seat.||Keep the receipt safe in case you need a refund.||The lecture was cancelled because the speaker was ill.||Turn off the lights when you leave the building.||We finished the project two days before the deadline.",
     "model": "按意群记：先保块，再保词；长句只保前半。",
     "checklist": [
       "每句至少复述出一半",
@@ -920,12 +920,12 @@ window.QUESTIONS = [
     "type": "rs",
     "section": "speaking",
     "level": 1,
-    "time": 100,
+    "time": 70,
     "title": "校园句子 ×5（A）",
-    "instruction": "点“播放”，每句只播一遍。听完立刻复述，然后展开原文自评。",
+    "instruction": "听一句，立刻复述。只播一遍，共 5 句。",
     "explanation": "RS 内容分：整句 3 分，复述一半以上 2 分，不到一半 1 分。说一半也有分。",
     "tip": "每句切 3 块；说出 2 块就过，不重来。",
-    "audio": "The library closes at six today.||Students must bring their student cards.||The train was delayed by heavy rain.||Please submit the form by Friday.||The museum attracts many foreign visitors.",
+    "audio": "The library closes at six today because of staff training.||Students must bring their student cards to the examination hall.||The train was delayed by heavy rain and strong winds.||Please submit the form by Friday if you want to attend.||The museum attracts many foreign visitors during the summer.",
     "model": "按意群记：先保块，再保词；长句只保前半。",
     "checklist": [
       "每句至少复述出一半",
@@ -939,12 +939,12 @@ window.QUESTIONS = [
     "type": "rs",
     "section": "speaking",
     "level": 1,
-    "time": 100,
+    "time": 70,
     "title": "校园句子 ×5（B）",
-    "instruction": "点“播放”，每句只播一遍。听完立刻复述，然后展开原文自评。",
+    "instruction": "听一句，立刻复述。只播一遍，共 5 句。",
     "explanation": "RS 内容分：整句 3 分，复述一半以上 2 分，不到一半 1 分。说一半也有分。",
     "tip": "6–8 词最容易拿 2 分；注意单复数和介词。",
-    "audio": "Our tutor explained the task again.||The research focuses on urban housing.||Most participants completed the survey online.||The café serves breakfast until eleven.||The city plans to build more parks.",
+    "audio": "Our tutor explained the task again before the deadline.||The research focuses on housing costs in large cities.||Most participants completed the survey online within one week.||The café serves breakfast until eleven on weekdays.||The city plans to build more parks near the river.",
     "model": "按意群记：先保块，再保词；长句只保前半。",
     "checklist": [
       "每句至少复述出一半",
@@ -2675,15 +2675,15 @@ window.QUESTIONS = [
     "type": "wfd",
     "section": "listening",
     "level": 2,
-    "time": 100,
+    "time": 120,
     "title": "听写 ×3（校园服务）",
     "instruction": "点播放，每句只播一遍。整句听完再打字，写完检查单复数。",
     "explanation": "WFD 每个正确单词 1 分（拼写错误算错）。常见失分：vacation、renew、student card。",
     "tip": "写半句也有分；不会的词先占位，把句子结构打出来。",
-    "audio": "The library will be closed during the summer vacation.||Students can renew their books online.||Please bring your student card to the front desk.",
+    "audio": "The library will be closed during the summer vacation.||Students can renew their books online before the due date.||Please bring your student card to the front desk.",
     "answers": [
       "The library will be closed during the summer vacation.",
-      "Students can renew their books online.",
+      "Students can renew their books online before the due date.",
       "Please bring your student card to the front desk."
     ]
   },
@@ -2709,15 +2709,15 @@ window.QUESTIONS = [
     "type": "wfd",
     "section": "listening",
     "level": 2,
-    "time": 100,
+    "time": 120,
     "title": "听写 ×3（通知）",
     "instruction": "点播放，每句只播一遍。整句听完再打字，写完检查单复数。",
     "explanation": "WFD 每个正确单词 1 分。注意被动 will be held、at least、switched off。",
     "tip": "写半句也有分；不会的词先占位，把句子结构打出来。",
-    "audio": "The examination will be held in the main hall.||Please arrive at least fifteen minutes early.||Mobile phones must be switched off during the test.",
+    "audio": "The examination will be held in the main hall.||Please arrive at least fifteen minutes before the examination begins.||Mobile phones must be switched off during the test.",
     "answers": [
       "The examination will be held in the main hall.",
-      "Please arrive at least fifteen minutes early.",
+      "Please arrive at least fifteen minutes before the examination begins.",
       "Mobile phones must be switched off during the test."
     ]
   },
@@ -2726,16 +2726,16 @@ window.QUESTIONS = [
     "type": "wfd",
     "section": "listening",
     "level": 2,
-    "time": 100,
+    "time": 120,
     "title": "听写 ×3（环境）",
     "instruction": "点播放，每句只播一遍。整句听完再打字，写完检查单复数。",
     "explanation": "WFD 每个正确单词 1 分。注意 reduce、planted、encouraged 的拼写。",
     "tip": "写半句也有分；不会的词先占位，把句子结构打出来。",
-    "audio": "The city plans to reduce traffic in the city centre.||More trees will be planted along the river.||Residents are encouraged to use public transport.",
+    "audio": "The city plans to reduce traffic in the city centre.||More trees will be planted along the river.||Residents are encouraged to use public transport for short journeys.",
     "answers": [
       "The city plans to reduce traffic in the city centre.",
       "More trees will be planted along the river.",
-      "Residents are encouraged to use public transport."
+      "Residents are encouraged to use public transport for short journeys."
     ]
   },
   {
@@ -6709,15 +6709,15 @@ window.QUESTIONS = [
     "type": "wfd",
     "section": "listening",
     "level": 2,
-    "time": 110,
+    "time": 120,
     "title": "听写 ×3（校园）",
     "lesson": "L7",
     "instruction": "点播放，每句只播一遍。整句听完再打字，写完检查单复数。",
-    "audio": "The student centre is open until eight on weekdays.||You can collect your timetable from the front desk.||Late applications will not be accepted.",
+    "audio": "The student centre is open until eight on weekdays.||You can collect your timetable from the front desk.||Late applications will not be accepted after the closing date.",
     "answers": [
       "The student centre is open until eight on weekdays.",
       "You can collect your timetable from the front desk.",
-      "Late applications will not be accepted."
+      "Late applications will not be accepted after the closing date."
     ],
     "explanation": "WFD 每词 1 分；注意 weekdays、timetable、applications 的拼写。",
     "tip": "写半句也有分；先写主干，最后查拼写。"
@@ -6745,14 +6745,14 @@ window.QUESTIONS = [
     "type": "wfd",
     "section": "listening",
     "level": 2,
-    "time": 110,
+    "time": 120,
     "title": "听写 ×3（环境）",
     "lesson": "L7",
     "instruction": "点播放，每句只播一遍。整句听完再打字，写完检查单复数。",
-    "audio": "The council plans to install solar panels on public buildings.||Residents are encouraged to recycle food waste.||The project will be reviewed after one year.",
+    "audio": "The council plans to install solar panels on public buildings.||Residents are encouraged to recycle food waste at home.||The project will be reviewed after one year.",
     "answers": [
       "The council plans to install solar panels on public buildings.",
-      "Residents are encouraged to recycle food waste.",
+      "Residents are encouraged to recycle food waste at home.",
       "The project will be reviewed after one year."
     ],
     "explanation": "WFD 每词 1 分；注意 council、install、reviewed 拼写。",
