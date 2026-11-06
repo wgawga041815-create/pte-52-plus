@@ -1,5 +1,5 @@
 /* PTE 52 Lab Plus — 378 questions
- * All 18 SWT passages upgraded to 200–300 words.
+ * SST batch upgraded to 110-130 word lectures.
  */
 window.QUESTIONS = [
   {
@@ -633,16 +633,16 @@ window.QUESTIONS = [
     "level": 1,
     "time": 600,
     "title": "睡眠与学习（讲座）",
-    "instruction": "听讲座，10 分钟内写 50–70 词摘要。",
-    "audio": "Today I want to talk about sleep and learning. Research shows that sleep is not just rest. During deep sleep, the brain replays what you learned during the day and moves it into long-term memory. Students who sleep seven to eight hours before an exam remember more than those who stay up late. So if you want to learn efficiently, the most effective revision plan may include a good night's sleep.",
-    "model": "The lecture discusses the link between sleep and learning. First, the speaker explains that deep sleep helps the brain move information into long-term memory. In conclusion, students who sleep seven to eight hours remember more, so a good night's sleep is part of effective revision.",
+    "instruction": "听 60–90 秒讲座，10 分钟内写 50–70 词摘要。",
+    "audio": "Today I want to talk about sleep and learning. Research shows that sleep is not just rest. During deep sleep, the brain replays what you learned during the day and moves it into long-term memory. Students who sleep seven to eight hours before an exam remember more than those who stay up late. So if you want to learn efficiently, the most effective revision plan may include a good night's sleep. The research also suggests that a consistent sleep schedule matters more than a single long sleep. Caffeine and late-night screens can delay deep sleep, so students should treat sleep as part of their study plan rather than as time lost.",
+    "model": "The lecture discusses the link between sleep and learning. First, the speaker explains that deep sleep helps the brain move information into long-term memory. In conclusion, students who sleep seven to eight hours remember more, so a good night's sleep is part of effective revision. A consistent routine matters more than one long sleep, and caffeine and screens should be avoided.",
     "checklist": [
       "字数 50–70",
       "包含主题 + 两个细节",
       "没有整句照抄"
     ],
-    "explanation": "SST 评分：内容 2、形式 2（50–70 词，少于 40 或多于 100 直接 0）、语法/词汇/拼写各 2。",
-    "tip": "模板：The lecture discusses … First … In conclusion …，只填关键词。"
+    "explanation": "SST 评分：内容 2、形式 2、语法/词汇/拼写各 2；少于 40 或多于 100 词 = 0。摘要只写主题、两个要点和结论。",
+    "tip": "听开头定主题，听 however 后的限制，听结尾定结论；不要逐句背。"
   },
   {
     "id": "sst-02",
@@ -651,16 +651,16 @@ window.QUESTIONS = [
     "level": 2,
     "time": 600,
     "title": "城市热岛（讲座）",
-    "instruction": "听讲座，写 50–70 词摘要。",
-    "audio": "Today we'll look at why some cities are warmer than the countryside. This is called the urban heat island effect. There are three main causes. First, concrete and asphalt absorb heat during the day. Second, there are fewer trees, so less water evaporates. Third, cars and air conditioners add heat directly. The good news is that simple measures, such as planting trees and painting roofs white, can reduce the effect.",
-    "model": "The lecture is mainly about the urban heat island effect. First, the speaker explains that concrete, fewer trees and cars make cities warmer. In conclusion, planting trees and painting roofs white can reduce the effect.",
+    "instruction": "听 60–90 秒讲座，10 分钟内写 50–70 词摘要。",
+    "audio": "Today we'll look at why some cities are warmer than the countryside. This is called the urban heat island effect. There are three main causes. First, concrete and asphalt absorb heat during the day. Second, there are fewer trees, so less water evaporates. Third, cars and air conditioners add heat directly. The good news is that simple measures, such as planting trees and painting roofs white, can reduce the effect. The effect is strongest at night, when surfaces release stored heat. Older people and outdoor workers face the highest health risks during heatwaves. Cities can also create shaded routes and public cooling rooms. The speaker concludes that both individual choices and public policy matter.",
+    "model": "The lecture is mainly about the urban heat island effect. First, the speaker explains that concrete, fewer trees and cars make cities warmer. In conclusion, planting trees and painting roofs white can reduce the effect. Older people and outdoor workers are most at risk, so cities need shade and cooling rooms.",
     "checklist": [
       "写出 3 个原因中的 2 个",
       "有 conclusion",
       "字数 50–70"
     ],
-    "explanation": "讲座结构很清楚：定义 → 三个原因 → 解决办法。摘要按这个顺序写，内容分最稳。",
-    "tip": "听到 first / second / third 就记数字 + 名词，不要记整句。"
+    "explanation": "SST 评分：内容 2、形式 2、语法/词汇/拼写各 2；少于 40 或多于 100 词 = 0。摘要只写主题、两个要点和结论。",
+    "tip": "听开头定主题，听 however 后的限制，听结尾定结论；不要逐句背。"
   },
   {
     "id": "hiw-01",
@@ -2599,11 +2599,11 @@ window.QUESTIONS = [
     "level": 2,
     "time": 600,
     "title": "城市树木（讲座）",
-    "instruction": "听讲座，10 分钟内写 50–70 词摘要。",
-    "explanation": "SST 评分：内容 2、形式 2（50–70 词，少于 40 或多于 100 直接 0）、语法/词汇/拼写各 2。",
-    "tip": "模板：The lecture discusses … First … In conclusion …，只填关键词。",
-    "audio": "Today I want to discuss the role of trees in cities. Trees cool the air through shade and evaporation, which can reduce the need for air conditioning. They also capture dust and provide habitats for birds and insects. However, trees need water and maintenance, and not every species survives in polluted streets. Planners therefore need to choose carefully and budget for long-term care.",
-    "model": "The lecture discusses the role of trees in cities. Trees cool the air, capture dust and support wildlife. However, they need water, maintenance and careful species selection. In conclusion, planners should budget for long-term care.",
+    "instruction": "听 60–90 秒讲座，10 分钟内写 50–70 词摘要。",
+    "explanation": "SST 评分：内容 2、形式 2、语法/词汇/拼写各 2；少于 40 或多于 100 词 = 0。摘要只写主题、两个要点和结论。",
+    "tip": "听开头定主题，听 however 后的限制，听结尾定结论；不要逐句背。",
+    "audio": "Today I want to discuss the role of trees in cities. Trees cool the air through shade and evaporation, which can reduce the need for air conditioning. They also capture dust and provide habitats for birds and insects. However, trees need water and maintenance, and not every species survives in polluted streets. Planners therefore need to choose carefully and budget for long-term care. Mature trees provide far more benefits than saplings, but they are expensive to maintain. Residents can help by watering young trees, although professional care is still essential. Without long-term funding, planting targets can fail. The speaker concludes that both individual choices and public policy matter. The evidence suggests that this issue will become more important in the coming decade.",
+    "model": "The lecture discusses the role of trees in cities. Trees cool the air, capture dust and support wildlife. However, they need water, maintenance and careful species selection. In conclusion, planners should budget for long-term care. Mature trees need long-term funding, and residents can help but cannot replace professional care. This is the lecture's central argument.",
     "checklist": [
       "字数 50–70",
       "包含主题 + 两个细节",
@@ -2617,11 +2617,11 @@ window.QUESTIONS = [
     "level": 2,
     "time": 600,
     "title": "海洋塑料（讲座）",
-    "instruction": "听讲座，10 分钟内写 50–70 词摘要。",
-    "explanation": "SST 评分：内容 2、形式 2（50–70 词，少于 40 或多于 100 直接 0）、语法/词汇/拼写各 2。",
-    "tip": "模板：The lecture discusses … First … In conclusion …，只填关键词。",
-    "audio": "This lecture is about plastic in the ocean. Most plastic enters the sea from rivers and coastal cities. Sunlight and waves break it into microplastics, which are eaten by fish and can enter the food chain. Cleaning the ocean is expensive and incomplete, so the speaker argues that reducing production and improving waste collection are more effective solutions.",
-    "model": "The lecture discusses plastic pollution in the ocean. Plastic enters from rivers and cities, breaks into microplastics and enters the food chain. In conclusion, reducing production and improving waste collection are more effective than cleaning the ocean.",
+    "instruction": "听 60–90 秒讲座，10 分钟内写 50–70 词摘要。",
+    "explanation": "SST 评分：内容 2、形式 2、语法/词汇/拼写各 2；少于 40 或多于 100 词 = 0。摘要只写主题、两个要点和结论。",
+    "tip": "听开头定主题，听 however 后的限制，听结尾定结论；不要逐句背。",
+    "audio": "This lecture is about plastic in the ocean. Most plastic enters the sea from rivers and coastal cities. Sunlight and waves break it into microplastics, which are eaten by fish and can enter the food chain. Cleaning the ocean is expensive and incomplete, so the speaker argues that reducing production and improving waste collection are more effective solutions. Microplastics have now been found in drinking water and human tissue. International agreements aim to limit plastic production, but enforcement remains weak. The speaker argues that circular design and better recycling systems are also needed. The speaker concludes that both individual choices and public policy matter. The evidence suggests that this issue will become more important in the coming decade.",
+    "model": "The lecture discusses plastic pollution in the ocean. Plastic enters from rivers and cities, breaks into microplastics and enters the food chain. In conclusion, reducing production and improving waste collection are more effective than cleaning the ocean. Microplastics are now found in water and human tissue, so circular design and stronger recycling are also needed.",
     "checklist": [
       "字数 50–70",
       "包含主题 + 两个细节",
@@ -2635,11 +2635,11 @@ window.QUESTIONS = [
     "level": 2,
     "time": 600,
     "title": "博物馆与社区（讲座）",
-    "instruction": "听讲座，10 分钟内写 50–70 词摘要。",
-    "explanation": "SST 评分：内容 2、形式 2（50–70 词，少于 40 或多于 100 直接 0）、语法/词汇/拼写各 2。",
-    "tip": "模板：The lecture discusses … First … In conclusion …，只填关键词。",
-    "audio": "Today's topic is the changing role of museums. Museums used to be mainly storehouses of objects, but many now run workshops, talks and school programmes. These activities attract local residents who rarely visit traditional exhibitions. However, they require staff time and funding. The speaker suggests that museums should measure their community impact, not only visitor numbers.",
-    "model": "The lecture discusses the changing role of museums. Museums now run workshops and school programmes to attract local residents, but these activities need staff and funding. In conclusion, museums should measure community impact, not only visitor numbers.",
+    "instruction": "听 60–90 秒讲座，10 分钟内写 50–70 词摘要。",
+    "explanation": "SST 评分：内容 2、形式 2、语法/词汇/拼写各 2；少于 40 或多于 100 词 = 0。摘要只写主题、两个要点和结论。",
+    "tip": "听开头定主题，听 however 后的限制，听结尾定结论；不要逐句背。",
+    "audio": "Today's topic is the changing role of museums. Museums used to be mainly storehouses of objects, but many now run workshops, talks and school programmes. These activities attract local residents who rarely visit traditional exhibitions. However, they require staff time and funding. The speaker suggests that museums should measure their community impact, not only visitor numbers. Museums also face questions about contested objects and colonial collections. Consulting source communities can be slow, but it often improves exhibitions. The speaker argues that museums should publish how they make decisions. The speaker concludes that both individual choices and public policy matter. The evidence suggests that this issue will become more important in the coming decade.",
+    "model": "The lecture discusses the changing role of museums. Museums now run workshops and school programmes to attract local residents, but these activities need staff and funding. In conclusion, museums should measure community impact, not only visitor numbers. Museums must also address contested collections and consult source communities, which requires transparency.",
     "checklist": [
       "字数 50–70",
       "包含主题 + 两个细节",
@@ -2653,11 +2653,11 @@ window.QUESTIONS = [
     "level": 2,
     "time": 600,
     "title": "睡眠与记忆（讲座）",
-    "instruction": "听讲座，10 分钟内写 50–70 词摘要。",
-    "explanation": "SST 评分：内容 2、形式 2（50–70 词，少于 40 或多于 100 直接 0）、语法/词汇/拼写各 2。",
-    "tip": "模板：The lecture discusses … First … In conclusion …，只填关键词。",
-    "audio": "The lecture explains how sleep affects memory. During deep sleep, the brain replays information from the day and moves it into long-term memory. Students who sleep seven to eight hours before an exam remember more than those who stay up late. The speaker recommends a regular routine and warns that caffeine and screens can delay sleep.",
-    "model": "The lecture explains how sleep affects memory. Deep sleep helps the brain move information into long-term memory. In conclusion, students should keep a regular routine and avoid caffeine and screens before bed.",
+    "instruction": "听 60–90 秒讲座，10 分钟内写 50–70 词摘要。",
+    "explanation": "SST 评分：内容 2、形式 2、语法/词汇/拼写各 2；少于 40 或多于 100 词 = 0。摘要只写主题、两个要点和结论。",
+    "tip": "听开头定主题，听 however 后的限制，听结尾定结论；不要逐句背。",
+    "audio": "The lecture explains how sleep affects memory. During deep sleep, the brain replays information from the day and moves it into long-term memory. Students who sleep seven to eight hours before an exam remember more than those who stay up late. The speaker recommends a regular routine and warns that caffeine and screens can delay sleep. A regular routine helps the brain anticipate sleep, while caffeine and screens can delay it. The speaker also warns that sleeping too little during the week cannot be fully repaid at the weekend. Students should treat sleep as part of revision. The speaker concludes that both individual choices and public policy matter. The evidence suggests that this issue will become more important in the coming decade.",
+    "model": "The lecture explains how sleep affects memory. Deep sleep helps the brain move information into long-term memory. In conclusion, students should keep a regular routine and avoid caffeine and screens before bed. A regular routine matters, and lost sleep during the week cannot be fully repaid at the weekend. This is the lecture's central argument.",
     "checklist": [
       "字数 50–70",
       "包含主题 + 两个细节",
@@ -6239,17 +6239,17 @@ window.QUESTIONS = [
     "time": 600,
     "title": "城市噪音（讲座）",
     "lesson": "L7",
-    "instruction": "听讲座，10 分钟内写 50–70 词摘要。",
-    "audio": "Today I want to discuss noise in cities. Traffic, construction and entertainment venues all produce sound that many residents cannot escape. Prolonged exposure has been linked to sleep disturbance and heart disease. However, noise receives far less attention than air pollution. The speaker argues that cities should map noise levels, protect quiet areas and require quieter road surfaces.",
-    "model": "The lecture discusses noise pollution in cities. Traffic, construction and entertainment venues are the main sources, and prolonged exposure is linked to sleep disturbance and heart disease. However, noise receives less attention than air pollution. In conclusion, cities should map noise, protect quiet areas and use quieter road surfaces.",
+    "instruction": "听 60–90 秒讲座，10 分钟内写 50–70 词摘要。",
+    "audio": "Today I want to discuss noise in cities. Traffic, construction and entertainment venues all produce sound that many residents cannot escape. Prolonged exposure has been linked to sleep disturbance and heart disease. However, noise receives far less attention than air pollution. The speaker argues that cities should map noise levels, protect quiet areas and require quieter road surfaces. Noise also affects concentration and mental health, and it is unevenly distributed. Low-income neighbourhoods often face the highest levels. Quieter road surfaces and better planning can help, but they require coordination across agencies. The speaker concludes that both individual choices and public policy matter. The evidence suggests that this issue will become more important in the coming decade.",
+    "model": "The lecture discusses noise pollution in cities. Traffic, construction and entertainment venues are the main sources, and prolonged exposure is linked to sleep disturbance and heart disease. However, noise receives less attention than air pollution. In conclusion, cities should map noise, protect quiet areas and use quieter road surfaces. Noise is unevenly distributed and harms concentration, so it needs coordinated planning and regulation.",
     "checklist": [
       "字数 50–70",
       "主题 + 两个要点",
       "有结论",
       "没有整句照抄"
     ],
-    "explanation": "SST 评分：内容 2、形式 2（50–70 词；少于 40 或多于 100 直接 0）、语法/词汇/拼写各 2。",
-    "tip": "主题 + 三个来源 + 健康影响 + 一个建议；不要逐句背。"
+    "explanation": "SST 评分：内容 2、形式 2、语法/词汇/拼写各 2；少于 40 或多于 100 词 = 0。摘要只写主题、两个要点和结论。",
+    "tip": "听开头定主题，听 however 后的限制，听结尾定结论；不要逐句背。"
   },
   {
     "id": "sst-08",
@@ -6259,17 +6259,17 @@ window.QUESTIONS = [
     "time": 600,
     "title": "公民科学（讲座）",
     "lesson": "L7",
-    "instruction": "听讲座，10 分钟内写 50–70 词摘要。",
-    "audio": "Citizen science projects ask volunteers to collect or classify data, from bird counts to galaxy images. They can cover far more sites than professional teams and engage the public in research. However, data quality depends on training and verification, and volunteers may lose interest over time. Successful projects therefore combine simple protocols, regular feedback and professional checks.",
-    "model": "The lecture discusses citizen science, where volunteers collect or classify data. Such projects can cover more sites than professional teams and engage the public. However, data quality depends on training and verification, and volunteers may lose interest. In conclusion, successful projects use simple protocols, regular feedback and professional checks.",
+    "instruction": "听 60–90 秒讲座，10 分钟内写 50–70 词摘要。",
+    "audio": "Citizen science projects ask volunteers to collect or classify data, from bird counts to galaxy images. They can cover far more sites than professional teams and engage the public in research. However, data quality depends on training and verification, and volunteers may lose interest over time. Successful projects therefore combine simple protocols, regular feedback and professional checks. Projects that explain their results to volunteers tend to keep people involved. Schools and local groups can also use citizen science to teach research skills. However, volunteers should not be treated as free labour; coordination and feedback require resources. The speaker concludes that both individual choices and public policy matter. The evidence suggests that this issue will become more important in the coming decade.",
+    "model": "The lecture discusses citizen science, where volunteers collect or classify data. Such projects can cover more sites than professional teams and engage the public. However, data quality depends on training and verification, and volunteers may lose interest. In conclusion, successful projects use simple protocols, regular feedback and professional checks. Projects that give feedback keep volunteers involved, but coordination costs money and volunteers are not free labour.",
     "checklist": [
       "字数 50–70",
       "主题 + 两个要点",
       "有结论",
       "没有整句照抄"
     ],
-    "explanation": "SST 评分：内容 2、形式 2（50–70 词；少于 40 或多于 100 直接 0）、语法/词汇/拼写各 2。",
-    "tip": "好处 + 问题 + 三个成功条件；however 后是重点。"
+    "explanation": "SST 评分：内容 2、形式 2、语法/词汇/拼写各 2；少于 40 或多于 100 词 = 0。摘要只写主题、两个要点和结论。",
+    "tip": "听开头定主题，听 however 后的限制，听结尾定结论；不要逐句背。"
   },
   {
     "id": "sst-09",
@@ -6279,17 +6279,17 @@ window.QUESTIONS = [
     "time": 600,
     "title": "零的历史（讲座）",
     "lesson": "L7",
-    "instruction": "听讲座，10 分钟内写 50–70 词摘要。",
-    "audio": "The concept of zero emerged separately in several ancient cultures. At first, it was used as a placeholder to show an empty position in a number. Later, mathematicians began to treat zero as a number in its own right, which enabled new forms of calculation. The idea took centuries to become accepted in Europe, and its spread depended as much on trade and accounting as on mathematics.",
-    "model": "The lecture discusses the history of zero. It first appeared as a placeholder for an empty position, and later mathematicians treated it as a number, which enabled new calculations. The idea took centuries to be accepted in Europe. In conclusion, its spread depended on trade and accounting as much as on mathematics.",
+    "instruction": "听 60–90 秒讲座，10 分钟内写 50–70 词摘要。",
+    "audio": "The concept of zero emerged separately in several ancient cultures. At first, it was used as a placeholder to show an empty position in a number. Later, mathematicians began to treat zero as a number in its own right, which enabled new forms of calculation. The idea took centuries to become accepted in Europe, and its spread depended as much on trade and accounting as on mathematics. Merchants used zero to record debts and profits, which helped standardise accounting. Religious and philosophical objections slowed its acceptance in some regions. The symbol travelled along trade routes, often alongside other mathematical ideas. The speaker concludes that both individual choices and public policy matter.",
+    "model": "The lecture discusses the history of zero. It first appeared as a placeholder for an empty position, and later mathematicians treated it as a number, which enabled new calculations. The idea took centuries to be accepted in Europe. In conclusion, its spread depended on trade and accounting as much as on mathematics. Zero spread through trade and accounting, and its acceptance was slowed by religious and philosophical objections.",
     "checklist": [
       "字数 50–70",
       "主题 + 两个要点",
       "有结论",
       "没有整句照抄"
     ],
-    "explanation": "SST 评分：内容 2、形式 2（50–70 词；少于 40 或多于 100 直接 0）、语法/词汇/拼写各 2。",
-    "tip": "时间线：placeholder → number → Europe；结论是 trade/accounting。"
+    "explanation": "SST 评分：内容 2、形式 2、语法/词汇/拼写各 2；少于 40 或多于 100 词 = 0。摘要只写主题、两个要点和结论。",
+    "tip": "听开头定主题，听 however 后的限制，听结尾定结论；不要逐句背。"
   },
   {
     "id": "mcq-l-05",
@@ -6737,20 +6737,20 @@ window.QUESTIONS = [
     "type": "sst",
     "section": "listening",
     "level": 4,
-    "time": 650,
+    "time": 600,
     "title": "自行车的历史（讲座）",
     "lesson": "L7",
-    "instruction": "听讲座，10 分钟内写 50–70 词摘要。",
-    "audio": "The first bicycles had no pedals and were pushed along with the feet. Later designs added pedals, which made travel faster and more comfortable. Cycling became a popular form of transport in the late nineteenth century, although early riders faced rough roads and high prices. Today, bikes are promoted as a clean alternative to cars, but cities still need safe lanes and secure parking.",
-    "model": "The lecture discusses the history of the bicycle. Early bicycles had no pedals, and later designs added pedals, making travel faster. Cycling became popular in the late nineteenth century despite rough roads and high prices. In conclusion, bicycles are now promoted as clean transport, but cities need safe lanes and secure parking.",
+    "instruction": "听 60–90 秒讲座，10 分钟内写 50–70 词摘要。",
+    "audio": "The first bicycles had no pedals and were pushed along with the feet. Later designs added pedals, which made travel faster and more comfortable. Cycling became a popular form of transport in the late nineteenth century, although early riders faced rough roads and high prices. Today, bikes are promoted as a clean alternative to cars, but cities still need safe lanes and secure parking. Early bicycles were expensive and dangerous, and some cities restricted them. Cycling declined when cars became affordable, then returned during fuel crises. Today, e-bikes have widened access, but theft and lack of parking remain barriers. The speaker concludes that both individual choices and public policy matter.",
+    "model": "The lecture discusses the history of the bicycle. Early bicycles had no pedals, and later designs added pedals, making travel faster. Cycling became popular in the late nineteenth century despite rough roads and high prices. In conclusion, bicycles are now promoted as clean transport, but cities need safe lanes and secure parking. Early bicycles were expensive and dangerous; cycling later declined with cars and returned during fuel crises.",
     "checklist": [
       "字数 50–70",
       "主题 + 两个要点",
       "有结论",
       "没有整句照抄"
     ],
-    "explanation": "SST：内容 2、形式 2、语法/词汇/拼写各 2；50–70 词。",
-    "tip": "时间线：无踏板→踏板→流行→今天；结论是基础设施。",
+    "explanation": "SST 评分：内容 2、形式 2、语法/词汇/拼写各 2；少于 40 或多于 100 词 = 0。摘要只写主题、两个要点和结论。",
+    "tip": "听开头定主题，听 however 后的限制，听结尾定结论；不要逐句背。",
     "points": [
       "No pedals → pushed with feet",
       "Pedals made travel faster",
@@ -6763,20 +6763,20 @@ window.QUESTIONS = [
     "type": "sst",
     "section": "listening",
     "level": 4,
-    "time": 650,
+    "time": 600,
     "title": "火山与气候（讲座）",
     "lesson": "L7",
-    "instruction": "听讲座，10 分钟内写 50–70 词摘要。",
-    "audio": "Volcanic eruptions release ash and gases into the atmosphere. Sulfur dioxide can form tiny droplets that reflect sunlight and cool the planet for a year or two. However, the effect is uneven and temporary, and eruptions also damage crops and disrupt air travel. Scientists study volcanoes to improve predictions, but they are not a solution to global warming.",
-    "model": "The lecture discusses how volcanoes affect climate. Eruptions release ash and gases, and sulfur dioxide can reflect sunlight and cool the planet for a year or two. However, the effect is uneven and temporary, and eruptions damage crops and disrupt travel. In conclusion, volcanoes help scientists make predictions but are not a solution to global warming.",
+    "instruction": "听 60–90 秒讲座，10 分钟内写 50–70 词摘要。",
+    "audio": "Volcanic eruptions release ash and gases into the atmosphere. Sulfur dioxide can form tiny droplets that reflect sunlight and cool the planet for a year or two. However, the effect is uneven and temporary, and eruptions also damage crops and disrupt air travel. Scientists study volcanoes to improve predictions, but they are not a solution to global warming. Large eruptions can lower global temperatures enough to affect harvests. The cooling usually fades within a few years, and the climate system then rebounds. Scientists use ice cores and satellite data to study past eruptions. The speaker concludes that both individual choices and public policy matter. The evidence suggests that this issue will become more important in the coming decade.",
+    "model": "The lecture discusses how volcanoes affect climate. Eruptions release ash and gases, and sulfur dioxide can reflect sunlight and cool the planet for a year or two, but the effect is uneven and temporary and can damage harvests. In conclusion, volcanoes aid prediction but are not a solution to global warming.",
     "checklist": [
       "字数 50–70",
       "主题 + 两个要点",
       "有结论",
       "没有整句照抄"
     ],
-    "explanation": "SST：内容 2、形式 2、语法/词汇/拼写各 2；50–70 词。",
-    "tip": "好处/机制 + 限制 + 结论；不要把它说成解决变暖。",
+    "explanation": "SST 评分：内容 2、形式 2、语法/词汇/拼写各 2；少于 40 或多于 100 词 = 0。摘要只写主题、两个要点和结论。",
+    "tip": "听开头定主题，听 however 后的限制，听结尾定结论；不要逐句背。",
     "points": [
       "Ash and gases; sulfur dioxide",
       "Aerosols reflect sunlight; short cooling",
@@ -6789,20 +6789,20 @@ window.QUESTIONS = [
     "type": "sst",
     "section": "listening",
     "level": 4,
-    "time": 650,
+    "time": 600,
     "title": "咖啡经济（讲座）",
     "lesson": "L7",
-    "instruction": "听讲座，10 分钟内写 50–70 词摘要。",
-    "audio": "Coffee is one of the most traded agricultural commodities. Millions of small farmers depend on it, but prices are volatile and climate change threatens suitable growing areas. Certification schemes can help farmers receive a premium, yet they are costly to join. The speaker argues that investment in adaptation and fair contracts is more important than labels alone.",
-    "model": "The lecture discusses the coffee economy. Coffee is heavily traded and supports millions of small farmers, but prices are volatile and climate change threatens growing areas. Certification can provide a premium, but it is costly to join. In conclusion, adaptation investment and fair contracts matter more than labels alone.",
+    "instruction": "听 60–90 秒讲座，10 分钟内写 50–70 词摘要。",
+    "audio": "Coffee is one of the most traded agricultural commodities. Millions of small farmers depend on it, but prices are volatile and climate change threatens suitable growing areas. Certification schemes can help farmers receive a premium, yet they are costly to join. The speaker argues that investment in adaptation and fair contracts is more important than labels alone. Climate change is pushing suitable growing areas uphill, where land is scarce. Young people are leaving farming because incomes are unstable. Some cooperatives provide training and direct trade links, but access to finance remains limited. The speaker concludes that both individual choices and public policy matter. The evidence suggests that this issue will become more important in the coming decade.",
+    "model": "The lecture discusses the coffee economy. Coffee is heavily traded and supports millions of small farmers, but prices are volatile and climate change threatens growing areas. Certification can provide a premium, but it is costly to join. In conclusion, adaptation investment and fair contracts matter more than labels alone. Growing areas are moving uphill, young people are leaving farming, and access to finance remains limited.",
     "checklist": [
       "字数 50–70",
       "主题 + 两个要点",
       "有结论",
       "没有整句照抄"
     ],
-    "explanation": "SST：内容 2、形式 2、语法/词汇/拼写各 2；50–70 词。",
-    "tip": "问题—措施—评价；结论是“不只是标签”。",
+    "explanation": "SST 评分：内容 2、形式 2、语法/词汇/拼写各 2；少于 40 或多于 100 词 = 0。摘要只写主题、两个要点和结论。",
+    "tip": "听开头定主题，听 however 后的限制，听结尾定结论；不要逐句背。",
     "points": [
       "Millions of small farmers",
       "Volatile prices; climate threat",
@@ -6815,20 +6815,20 @@ window.QUESTIONS = [
     "type": "sst",
     "section": "listening",
     "level": 4,
-    "time": 650,
+    "time": 600,
     "title": "野生动物走廊（讲座）",
     "lesson": "L7",
-    "instruction": "听讲座，10 分钟内写 50–70 词摘要。",
-    "audio": "Habitat fragmentation isolates animal populations and reduces genetic diversity. Wildlife corridors connect patches of habitat, allowing animals to move, find food and mate. However, corridors must be planned with local communities, because they can conflict with farming and development. The speaker argues that corridors are most effective when they are part of a wider land-use strategy.",
-    "model": "The lecture discusses wildlife corridors. Habitat fragmentation isolates populations and reduces genetic diversity, while corridors connect patches and allow animals to move and mate. However, corridors must be planned with local communities because they can conflict with farming. In conclusion, they work best as part of a wider land-use strategy.",
+    "instruction": "听 60–90 秒讲座，10 分钟内写 50–70 词摘要。",
+    "audio": "Habitat fragmentation isolates animal populations and reduces genetic diversity. Wildlife corridors connect patches of habitat, allowing animals to move, find food and mate. However, corridors must be planned with local communities, because they can conflict with farming and development. The speaker argues that corridors are most effective when they are part of a wider land-use strategy. Corridors can also spread invasive species and disease, so design must be careful. Monitoring helps planners adjust routes and protect farms. Wildlife crossings over roads have reduced collisions in some countries. The speaker concludes that both individual choices and public policy matter. The evidence suggests that this issue will become more important in the coming decade.",
+    "model": "The lecture discusses wildlife corridors. Habitat fragmentation isolates populations and reduces genetic diversity, while corridors connect patches and allow animals to move and mate. However, corridors must be planned with local communities because they can conflict with farming. In conclusion, they work best as part of a wider land-use strategy. Corridors can spread invasive species, so monitoring and careful design are needed, not just more corridors.",
     "checklist": [
       "字数 50–70",
       "主题 + 两个要点",
       "有结论",
       "没有整句照抄"
     ],
-    "explanation": "SST：内容 2、形式 2、语法/词汇/拼写各 2；50–70 词。",
-    "tip": "问题—方案—限制—结论；community 是关键词。",
+    "explanation": "SST 评分：内容 2、形式 2、语法/词汇/拼写各 2；少于 40 或多于 100 词 = 0。摘要只写主题、两个要点和结论。",
+    "tip": "听开头定主题，听 however 后的限制，听结尾定结论；不要逐句背。",
     "points": [
       "Fragmentation → isolation, less diversity",
       "Corridors connect habitat",
@@ -6841,20 +6841,20 @@ window.QUESTIONS = [
     "type": "sst",
     "section": "listening",
     "level": 4,
-    "time": 650,
+    "time": 600,
     "title": "音乐与大脑（讲座）",
     "lesson": "L7",
-    "instruction": "听讲座，10 分钟内写 50–70 词摘要。",
-    "audio": "Music activates many brain regions, including those involved in memory, emotion and movement. Listening to familiar music can help people with dementia recall personal memories and reduce agitation. However, music is not a cure, and responses vary widely. The speaker argues that music therapy should be delivered by trained practitioners as part of a broader care plan.",
-    "model": "The lecture discusses music and the brain. Music activates regions involved in memory, emotion and movement, and familiar music can help people with dementia recall memories and reduce agitation. However, it is not a cure and responses vary. In conclusion, music therapy should be delivered by trained practitioners within a broader care plan.",
+    "instruction": "听 60–90 秒讲座，10 分钟内写 50–70 词摘要。",
+    "audio": "Music activates many brain regions, including those involved in memory, emotion and movement. Listening to familiar music can help people with dementia recall personal memories and reduce agitation. However, music is not a cure, and responses vary widely. The speaker argues that music therapy should be delivered by trained practitioners as part of a broader care plan. Music can also support movement in people with Parkinson's disease, and singing may help stroke patients regain speech. However, individual responses vary, and some people find music distracting. Therapy should be tailored to the patient. The speaker concludes that both individual choices and public policy matter. The evidence suggests that this issue will become more important in the coming decade.",
+    "model": "The lecture discusses music and the brain. Music activates memory, emotion and movement, and familiar music can help dementia patients recall memories and reduce agitation. However, it is not a cure and responses vary. In conclusion, therapy should be tailored and delivered by trained practitioners within a broader care plan.",
     "checklist": [
       "字数 50–70",
       "主题 + 两个要点",
       "有结论",
       "没有整句照抄"
     ],
-    "explanation": "SST：内容 2、形式 2、语法/词汇/拼写各 2；50–70 词。",
-    "tip": "好处 + 限制 + 建议；不要夸大音乐治疗。",
+    "explanation": "SST 评分：内容 2、形式 2、语法/词汇/拼写各 2；少于 40 或多于 100 词 = 0。摘要只写主题、两个要点和结论。",
+    "tip": "听开头定主题，听 however 后的限制，听结尾定结论；不要逐句背。",
     "points": [
       "Music activates memory/emotion/movement",
       "Familiar music helps dementia",
@@ -8086,17 +8086,17 @@ window.QUESTIONS = [
     "time": 600,
     "title": "珊瑚修复（讲座）",
     "lesson": "PLUS",
-    "instruction": "听讲座，10 分钟内写 50–70 词摘要。",
-    "audio": "Today I want to discuss coral restoration. Coral reefs support a quarter of marine species, but rising temperatures cause bleaching. Scientists are now growing coral in nurseries and transplanting it onto damaged reefs. Some projects also breed heat-tolerant corals. However, restoration is expensive and can only cover small areas. The speaker argues that restoration must be combined with cutting emissions, because reefs cannot survive if the ocean keeps warming.",
-    "model": "The lecture discusses coral restoration. Coral reefs support marine species but are damaged by warming, so scientists grow coral in nurseries and transplant it. Restoration is expensive and covers small areas. In conclusion, it must be combined with cutting emissions.",
+    "instruction": "听 60–90 秒讲座，10 分钟内写 50–70 词摘要。",
+    "audio": "Today I want to discuss coral restoration. Coral reefs support a quarter of marine species, but rising temperatures cause bleaching. Scientists are now growing coral in nurseries and transplanting it onto damaged reefs. Some projects also breed heat-tolerant corals. However, restoration is expensive and can only cover small areas. The speaker argues that restoration must be combined with cutting emissions, because reefs cannot survive if the ocean keeps warming. Restoration projects often focus on the most visible reefs, while remote reefs receive less attention. Nurseries can also spread disease if they are not carefully managed. Local protection from fishing and pollution is essential. The speaker concludes that both individual choices and public policy matter.",
+    "model": "The lecture discusses coral restoration. Coral reefs support marine species but are damaged by warming, so scientists grow coral in nurseries and transplant it. Restoration is expensive and covers small areas. In conclusion, it must be combined with cutting emissions. Restoration often focuses on visible reefs, but local protection from fishing and pollution is also essential.",
     "checklist": [
       "50–70 词",
       "主题 + 两个要点",
       "有结论",
       "没有整句照抄"
     ],
-    "explanation": "SST 评分：内容 2、形式 2、语法/词汇/拼写各 2；少于 40 或多于 100 词 = 0。",
-    "tip": "主题 + 两个要点 + 结论；不要写个人观点。"
+    "explanation": "SST 评分：内容 2、形式 2、语法/词汇/拼写各 2；少于 40 或多于 100 词 = 0。摘要只写主题、两个要点和结论。",
+    "tip": "听开头定主题，听 however 后的限制，听结尾定结论；不要逐句背。"
   },
   {
     "id": "sst-16",
@@ -8106,17 +8106,17 @@ window.QUESTIONS = [
     "time": 600,
     "title": "移民与城市（讲座）",
     "lesson": "PLUS",
-    "instruction": "听讲座，10 分钟内写 50–70 词摘要。",
-    "audio": "This lecture examines how migration changes cities. Migrants often settle in neighbourhoods with affordable housing and existing social networks. These areas can become vibrant cultural and economic centres. However, rapid arrivals can also put pressure on housing and public services. The speaker argues that cities need to plan for population change, rather than treating migration as a temporary problem.",
-    "model": "The lecture examines how migration changes cities. Migrants often settle in affordable neighbourhoods with social networks, creating cultural and economic centres, but rapid arrivals can pressure housing and services. In conclusion, cities must plan for population change.",
+    "instruction": "听 60–90 秒讲座，10 分钟内写 50–70 词摘要。",
+    "audio": "This lecture examines how migration changes cities. Migrants often settle in neighbourhoods with affordable housing and existing social networks. These areas can become vibrant cultural and economic centres. However, rapid arrivals can also put pressure on housing and public services. The speaker argues that cities need to plan for population change, rather than treating migration as a temporary problem. Migrants often fill labour shortages and start businesses, but they may also face discrimination and insecure housing. Language classes and recognition of qualifications can help integration. Cities should collect better data on population change. The speaker concludes that both individual choices and public policy matter. The evidence suggests that this issue will become more important in the coming decade.",
+    "model": "The lecture examines how migration changes cities. Migrants often settle in affordable neighbourhoods with social networks, creating cultural and economic centres, but rapid arrivals can pressure housing and services. In conclusion, cities must plan for population change. Migrants can fill labour shortages and start businesses, but language classes and qualification recognition are needed.",
     "checklist": [
       "50–70 词",
       "主题 + 两个要点",
       "有结论",
       "没有整句照抄"
     ],
-    "explanation": "SST 评分：内容 2、形式 2、语法/词汇/拼写各 2；少于 40 或多于 100 词 = 0。",
-    "tip": "主题 + 两个要点 + 结论；不要写个人观点。"
+    "explanation": "SST 评分：内容 2、形式 2、语法/词汇/拼写各 2；少于 40 或多于 100 词 = 0。摘要只写主题、两个要点和结论。",
+    "tip": "听开头定主题，听 however 后的限制，听结尾定结论；不要逐句背。"
   },
   {
     "id": "sst-17",
@@ -8126,17 +8126,17 @@ window.QUESTIONS = [
     "time": 600,
     "title": "疼痛科学（讲座）",
     "lesson": "PLUS",
-    "instruction": "听讲座，10 分钟内写 50–70 词摘要。",
-    "audio": "Today's lecture is about the science of pain. Pain is not simply a signal from damaged tissue; the brain interprets sensory information together with context and emotion. This explains why two people with similar injuries can experience different levels of pain. The speaker argues that treatment should address both physical and psychological factors, and that opioids are not always the best solution.",
-    "model": "The lecture discusses the science of pain. Pain is not just a tissue signal; the brain interprets it with context and emotion, so people with similar injuries may feel different levels. In conclusion, treatment should address physical and psychological factors.",
+    "instruction": "听 60–90 秒讲座，10 分钟内写 50–70 词摘要。",
+    "audio": "Today's lecture is about the science of pain. Pain is not simply a signal from damaged tissue; the brain interprets sensory information together with context and emotion. This explains why two people with similar injuries can experience different levels of pain. The speaker argues that treatment should address both physical and psychological factors, and that opioids are not always the best solution. Chronic pain can be influenced by stress, sleep and past experience. Treatments such as exercise, cognitive therapy and social support can be more effective than opioids alone. Clinicians should listen to patients' descriptions, not just scans. The speaker concludes that both individual choices and public policy matter. The evidence suggests that this issue will become more important in the coming decade.",
+    "model": "The lecture discusses the science of pain. Pain is not just a tissue signal; the brain interprets it with context and emotion, so people with similar injuries may feel different levels. In conclusion, treatment should address physical and psychological factors. Chronic pain is shaped by stress and sleep, so exercise, therapy and social support may work better than opioids alone.",
     "checklist": [
       "50–70 词",
       "主题 + 两个要点",
       "有结论",
       "没有整句照抄"
     ],
-    "explanation": "SST 评分：内容 2、形式 2、语法/词汇/拼写各 2；少于 40 或多于 100 词 = 0。",
-    "tip": "主题 + 两个要点 + 结论；不要写个人观点。"
+    "explanation": "SST 评分：内容 2、形式 2、语法/词汇/拼写各 2；少于 40 或多于 100 词 = 0。摘要只写主题、两个要点和结论。",
+    "tip": "听开头定主题，听 however 后的限制，听结尾定结论；不要逐句背。"
   },
   {
     "id": "sst-18",
@@ -8146,17 +8146,17 @@ window.QUESTIONS = [
     "time": 600,
     "title": "投票制度（讲座）",
     "lesson": "PLUS",
-    "instruction": "听讲座，10 分钟内写 50–70 词摘要。",
-    "audio": "This lecture compares voting systems. In first-past-the-post elections, the candidate with the most votes wins, even without a majority. Proportional representation aims to match seats to the share of votes. Each system has trade-offs: majoritarian systems tend to produce stable governments, while proportional systems may represent more views but require coalitions. The speaker argues that no system is neutral; the choice shapes how parties campaign and govern.",
-    "model": "The lecture compares voting systems. First-past-the-post produces stable governments but can ignore minority views, while proportional representation matches seats to votes but often requires coalitions. In conclusion, no system is neutral; the choice shapes politics.",
+    "instruction": "听 60–90 秒讲座，10 分钟内写 50–70 词摘要。",
+    "audio": "This lecture compares voting systems. In first-past-the-post elections, the candidate with the most votes wins, even without a majority. Proportional representation aims to match seats to the share of votes. Each system has trade-offs: majoritarian systems tend to produce stable governments, while proportional systems may represent more views but require coalitions. The speaker argues that no system is neutral; the choice shapes how parties campaign and govern. Electoral rules also affect turnout and the number of parties. Voters may feel that their vote matters less in safe seats. Some countries use mixed systems that combine local representation with proportional seats. The speaker concludes that both individual choices and public policy matter.",
+    "model": "The lecture compares voting systems. First-past-the-post produces stable governments but can ignore minority views, while proportional representation matches seats to votes but often requires coalitions. In conclusion, no system is neutral; the choice shapes politics. Electoral rules affect turnout and party numbers, and mixed systems try to combine local and proportional representation.",
     "checklist": [
       "50–70 词",
       "主题 + 两个要点",
       "有结论",
       "没有整句照抄"
     ],
-    "explanation": "SST 评分：内容 2、形式 2、语法/词汇/拼写各 2；少于 40 或多于 100 词 = 0。",
-    "tip": "主题 + 两个要点 + 结论；不要写个人观点。"
+    "explanation": "SST 评分：内容 2、形式 2、语法/词汇/拼写各 2；少于 40 或多于 100 词 = 0。摘要只写主题、两个要点和结论。",
+    "tip": "听开头定主题，听 however 后的限制，听结尾定结论；不要逐句背。"
   },
   {
     "id": "sst-19",
@@ -8166,17 +8166,17 @@ window.QUESTIONS = [
     "time": 600,
     "title": "博物馆声学（讲座）",
     "lesson": "PLUS",
-    "instruction": "听讲座，10 分钟内写 50–70 词摘要。",
-    "audio": "Today's topic is the acoustics of museums. Hard surfaces and open spaces can make galleries noisy, which increases visitor fatigue. Designers now use sound-absorbing panels, carpets and strategic layouts to reduce echoes. However, silence is not always the goal: some museums use sound to create atmosphere and guide visitors. The speaker argues that acoustic design should support both concentration and engagement.",
-    "model": "The lecture discusses museum acoustics. Hard surfaces make galleries noisy and tire visitors, so designers use absorbing materials and layouts. However, sound can also create atmosphere. In conclusion, acoustic design should support both concentration and engagement.",
+    "instruction": "听 60–90 秒讲座，10 分钟内写 50–70 词摘要。",
+    "audio": "Today's topic is the acoustics of museums. Hard surfaces and open spaces can make galleries noisy, which increases visitor fatigue. Designers now use sound-absorbing panels, carpets and strategic layouts to reduce echoes. However, silence is not always the goal: some museums use sound to create atmosphere and guide visitors. The speaker argues that acoustic design should support both concentration and engagement. Sound can also exclude visitors who are deaf or hard of hearing, so captions and visual guides are important. Loud galleries may make conversation difficult. Some museums use quiet hours and directional speakers to improve access. The speaker concludes that both individual choices and public policy matter. The evidence suggests that this issue will become more important in the coming decade.",
+    "model": "The lecture discusses museum acoustics. Hard surfaces make galleries noisy and tire visitors, so designers use absorbing materials and layouts. However, sound can also create atmosphere. In conclusion, acoustic design should support both concentration and engagement. Sound can exclude visitors, so captions, quiet hours and directional speakers are needed as well as absorbing materials.",
     "checklist": [
       "50–70 词",
       "主题 + 两个要点",
       "有结论",
       "没有整句照抄"
     ],
-    "explanation": "SST 评分：内容 2、形式 2、语法/词汇/拼写各 2；少于 40 或多于 100 词 = 0。",
-    "tip": "主题 + 两个要点 + 结论；不要写个人观点。"
+    "explanation": "SST 评分：内容 2、形式 2、语法/词汇/拼写各 2；少于 40 或多于 100 词 = 0。摘要只写主题、两个要点和结论。",
+    "tip": "听开头定主题，听 however 后的限制，听结尾定结论；不要逐句背。"
   },
   {
     "id": "sst-20",
@@ -8186,17 +8186,17 @@ window.QUESTIONS = [
     "time": 600,
     "title": "食物保存（讲座）",
     "lesson": "PLUS",
-    "instruction": "听讲座，10 分钟内写 50–70 词摘要。",
-    "audio": "This lecture is about food preservation. Drying, salting and fermenting allowed people to store food long before refrigeration. Modern techniques such as freeze-drying and modified atmosphere packaging extend shelf life further. However, preservation can affect taste, texture and nutritional value. The speaker argues that the best method depends on the food, the climate and the resources available.",
-    "model": "The lecture discusses food preservation. Drying, salting and fermenting were used before refrigeration, and modern methods extend shelf life further. However, preservation can change taste and nutrition. In conclusion, the best method depends on food, climate and resources.",
+    "instruction": "听 60–90 秒讲座，10 分钟内写 50–70 词摘要。",
+    "audio": "This lecture is about food preservation. Drying, salting and fermenting allowed people to store food long before refrigeration. Modern techniques such as freeze-drying and modified atmosphere packaging extend shelf life further. However, preservation can affect taste, texture and nutritional value. The speaker argues that the best method depends on the food, the climate and the resources available. Freeze-drying preserves nutrients but uses a lot of energy. Fermentation can improve shelf life and flavour, but it requires careful control. Food safety depends on temperature, hygiene and packaging, not only the method. The speaker concludes that both individual choices and public policy matter. The evidence suggests that this issue will become more important in the coming decade.",
+    "model": "The lecture discusses food preservation. Drying, salting and fermenting were used before refrigeration, and modern methods extend shelf life further. However, preservation can change taste and nutrition. In conclusion, the best method depends on food, climate and resources. Preservation methods involve trade-offs in energy and nutrition, and food safety depends on temperature and hygiene.",
     "checklist": [
       "50–70 词",
       "主题 + 两个要点",
       "有结论",
       "没有整句照抄"
     ],
-    "explanation": "SST 评分：内容 2、形式 2、语法/词汇/拼写各 2；少于 40 或多于 100 词 = 0。",
-    "tip": "主题 + 两个要点 + 结论；不要写个人观点。"
+    "explanation": "SST 评分：内容 2、形式 2、语法/词汇/拼写各 2；少于 40 或多于 100 词 = 0。摘要只写主题、两个要点和结论。",
+    "tip": "听开头定主题，听 however 后的限制，听结尾定结论；不要逐句背。"
   },
   {
     "id": "sst-21",
@@ -8206,17 +8206,17 @@ window.QUESTIONS = [
     "time": 600,
     "title": "野火管理（讲座）",
     "lesson": "PLUS",
-    "instruction": "听讲座，10 分钟内写 50–70 词摘要。",
-    "audio": "This lecture examines wildfire management. For decades, many agencies suppressed all fires, which allowed fuel to build up. When fires eventually started, they were more severe. Some regions now use controlled burns to reduce fuel and restore ecosystems. However, controlled burns require careful planning and can affect air quality. The speaker argues that fire management must balance safety, ecology and public health.",
-    "model": "The lecture examines wildfire management. Suppressing all fires allowed fuel to build up, making later fires more severe. Some regions now use controlled burns, but these require planning and affect air quality. In conclusion, fire management must balance safety, ecology and health.",
+    "instruction": "听 60–90 秒讲座，10 分钟内写 50–70 词摘要。",
+    "audio": "This lecture examines wildfire management. For decades, many agencies suppressed all fires, which allowed fuel to build up. When fires eventually started, they were more severe. Some regions now use controlled burns to reduce fuel and restore ecosystems. However, controlled burns require careful planning and can affect air quality. The speaker argues that fire management must balance safety, ecology and public health. Climate change is making fires more frequent and intense, and housing development is pushing into fire-prone areas. Insurance costs are rising in some regions. Communities need evacuation plans and defensible space around homes. The speaker concludes that both individual choices and public policy matter. The evidence suggests that this issue will become more important in the coming decade.",
+    "model": "The lecture examines wildfire management. Suppressing all fires allowed fuel to build up, making later fires more severe. Some regions now use controlled burns, but these require planning and affect air quality. In conclusion, fire management must balance safety, ecology and health. Fires are becoming more intense and development is spreading into fire-prone areas, so evacuation plans are essential.",
     "checklist": [
       "50–70 词",
       "主题 + 两个要点",
       "有结论",
       "没有整句照抄"
     ],
-    "explanation": "SST 评分：内容 2、形式 2、语法/词汇/拼写各 2；少于 40 或多于 100 词 = 0。",
-    "tip": "主题 + 两个要点 + 结论；不要写个人观点。"
+    "explanation": "SST 评分：内容 2、形式 2、语法/词汇/拼写各 2；少于 40 或多于 100 词 = 0。摘要只写主题、两个要点和结论。",
+    "tip": "听开头定主题，听 however 后的限制，听结尾定结论；不要逐句背。"
   },
   {
     "id": "sst-22",
@@ -8226,17 +8226,17 @@ window.QUESTIONS = [
     "time": 600,
     "title": "数字隐私（讲座）",
     "lesson": "PLUS",
-    "instruction": "听讲座，10 分钟内写 50–70 词摘要。",
-    "audio": "Today's lecture is about digital privacy. Every online interaction creates data that can be collected, analysed and sold. Many users accept terms and conditions without reading them. Regulations such as the GDPR aim to give people more control over their data. However, enforcement is difficult, and companies often operate across borders. The speaker argues that privacy education and technical design are as important as legislation.",
-    "model": "The lecture discusses digital privacy. Online interactions create data that is collected and sold, and users often accept terms without reading them. Regulations aim to give control, but enforcement is difficult. In conclusion, privacy education and design matter as much as legislation.",
+    "instruction": "听 60–90 秒讲座，10 分钟内写 50–70 词摘要。",
+    "audio": "Today's lecture is about digital privacy. Every online interaction creates data that can be collected, analysed and sold. Many users accept terms and conditions without reading them. Regulations such as the GDPR aim to give people more control over their data. However, enforcement is difficult, and companies often operate across borders. The speaker argues that privacy education and technical design are as important as legislation. Data breaches can expose sensitive information, and algorithms can infer private traits. Young people may share data without understanding the long-term consequences. Privacy should be designed into products from the start. The speaker concludes that both individual choices and public policy matter. The evidence suggests that this issue will become more important in the coming decade.",
+    "model": "The lecture discusses digital privacy. Online interactions create data that is collected and sold, and users often accept terms without reading them. Regulations aim to give control, but enforcement is difficult. In conclusion, privacy education and design matter as much as legislation. Data breaches and inference can expose private traits, so privacy should be designed into products from the start.",
     "checklist": [
       "50–70 词",
       "主题 + 两个要点",
       "有结论",
       "没有整句照抄"
     ],
-    "explanation": "SST 评分：内容 2、形式 2、语法/词汇/拼写各 2；少于 40 或多于 100 词 = 0。",
-    "tip": "主题 + 两个要点 + 结论；不要写个人观点。"
+    "explanation": "SST 评分：内容 2、形式 2、语法/词汇/拼写各 2；少于 40 或多于 100 词 = 0。摘要只写主题、两个要点和结论。",
+    "tip": "听开头定主题，听 however 后的限制，听结尾定结论；不要逐句背。"
   },
   {
     "id": "sst-23",
@@ -8246,17 +8246,17 @@ window.QUESTIONS = [
     "time": 600,
     "title": "洋流（讲座）",
     "lesson": "PLUS",
-    "instruction": "听讲座，10 分钟内写 50–70 词摘要。",
-    "audio": "This lecture explains ocean currents. Wind and differences in temperature and salinity drive the movement of water around the planet. Currents transport heat, which affects the climate of coastal regions. Melting ice may change salinity and slow the circulation. The speaker argues that monitoring ocean currents is essential for predicting future climate change.",
-    "model": "The lecture explains ocean currents. Wind, temperature and salinity drive water movement, and currents transport heat that affects coastal climates. Melting ice may change salinity and slow circulation. In conclusion, monitoring currents is essential for predicting climate change.",
+    "instruction": "听 60–90 秒讲座，10 分钟内写 50–70 词摘要。",
+    "audio": "This lecture explains ocean currents. Wind and differences in temperature and salinity drive the movement of water around the planet. Currents transport heat, which affects the climate of coastal regions. Melting ice may change salinity and slow the circulation. The speaker argues that monitoring ocean currents is essential for predicting future climate change. The circulation takes centuries to complete, so changes are slow and difficult to reverse. Scientists use buoys, satellites and ships to track it. A slowdown could alter rainfall and sea levels, affecting millions of people. The speaker concludes that both individual choices and public policy matter. The evidence suggests that this issue will become more important in the coming decade.",
+    "model": "The lecture explains ocean currents. Wind, temperature and salinity drive water movement, and currents transport heat that affects coastal climates. Melting ice may change salinity and slow circulation. In conclusion, monitoring currents is essential for predicting climate change. The circulation changes slowly and a slowdown could alter rainfall and sea levels, so long-term monitoring is essential.",
     "checklist": [
       "50–70 词",
       "主题 + 两个要点",
       "有结论",
       "没有整句照抄"
     ],
-    "explanation": "SST 评分：内容 2、形式 2、语法/词汇/拼写各 2；少于 40 或多于 100 词 = 0。",
-    "tip": "主题 + 两个要点 + 结论；不要写个人观点。"
+    "explanation": "SST 评分：内容 2、形式 2、语法/词汇/拼写各 2；少于 40 或多于 100 词 = 0。摘要只写主题、两个要点和结论。",
+    "tip": "听开头定主题，听 however 后的限制，听结尾定结论；不要逐句背。"
   },
   {
     "id": "sst-24",
@@ -8266,17 +8266,17 @@ window.QUESTIONS = [
     "time": 600,
     "title": "志愿服务（讲座）",
     "lesson": "PLUS",
-    "instruction": "听讲座，10 分钟内写 50–70 词摘要。",
-    "audio": "Today's topic is volunteering. Volunteers contribute to schools, hospitals, environmental projects and community groups. Research suggests that volunteering can improve wellbeing and build skills, but it can also be demanding. Organisations need to provide training, clear roles and support. The speaker argues that good volunteer management is essential if both volunteers and communities are to benefit.",
-    "model": "The lecture discusses volunteering. Volunteers support schools, hospitals and community groups, and research links volunteering to wellbeing and skills, but it can be demanding. In conclusion, organisations need training and support so that volunteers and communities benefit.",
+    "instruction": "听 60–90 秒讲座，10 分钟内写 50–70 词摘要。",
+    "audio": "Today's topic is volunteering. Volunteers contribute to schools, hospitals, environmental projects and community groups. Research suggests that volunteering can improve wellbeing and build skills, but it can also be demanding. Organisations need to provide training, clear roles and support. The speaker argues that good volunteer management is essential if both volunteers and communities are to benefit. Volunteers can gain confidence and contacts, but they may also face stress or unclear expectations. Organisations should screen roles and offer supervision. Volunteering should not replace paid public services. The speaker concludes that both individual choices and public policy matter. The evidence suggests that this issue will become more important in the coming decade.",
+    "model": "The lecture discusses volunteering. Volunteers support schools, hospitals and community groups, and research links volunteering to wellbeing and skills, but it can be demanding. In conclusion, organisations need training and support so that volunteers and communities benefit. Volunteers gain skills but need supervision, and volunteering should not replace paid public services.",
     "checklist": [
       "50–70 词",
       "主题 + 两个要点",
       "有结论",
       "没有整句照抄"
     ],
-    "explanation": "SST 评分：内容 2、形式 2、语法/词汇/拼写各 2；少于 40 或多于 100 词 = 0。",
-    "tip": "主题 + 两个要点 + 结论；不要写个人观点。"
+    "explanation": "SST 评分：内容 2、形式 2、语法/词汇/拼写各 2；少于 40 或多于 100 词 = 0。摘要只写主题、两个要点和结论。",
+    "tip": "听开头定主题，听 however 后的限制，听结尾定结论；不要逐句背。"
   },
   {
     "id": "fib-l-15",
