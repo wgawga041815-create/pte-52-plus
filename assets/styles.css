@@ -187,6 +187,7 @@ p { margin: 0; }
 .q-instruction { color: var(--muted); font-size: 13px; margin-bottom: 20px; }
 .passage {
   overflow-wrap: anywhere;
+  white-space: pre-wrap;
   background: var(--paper); border-radius: 12px; padding: 20px 22px;
   font-size: 16px; line-height: 1.85; font-family: Georgia, "Times New Roman", serif;
 }
