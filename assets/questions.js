@@ -1,5 +1,5 @@
 /* PTE 52 Lab Plus — 378 questions
- * FIB-R batch: 80-95 words, 5 blanks.
+ * HIW batch: 50-62 words, 4 errors each.
  */
 window.QUESTIONS = [
   {
@@ -693,15 +693,17 @@ window.QUESTIONS = [
     "id": "hiw-01",
     "type": "hiw",
     "section": "listening",
-    "level": 1,
-    "time": 70,
+    "level": 3,
+    "time": 100,
     "title": "博物馆通知（点错词）",
-    "instruction": "点播放听音频，然后点出文中与音频不一致的词。错点倒扣。",
-    "audio": "The museum is open every day except Monday. Visitors can buy tickets online or at the entrance. Guided tours start at ten in the morning.",
-    "content": "The museum is opens every day except Monday. Visitors can buy tickets online and at the entrance. Guided tours start at ten in the morning.",
+    "instruction": "听 50–65 词音频，点出文中与音频不一致的词。每篇 4–5 处，错点倒扣。",
+    "audio": "The museum is open every day except Monday. Visitors can buy tickets online or at the entrance. Guided tours start at ten in the morning. The café on the second floor serves hot drinks and light meals until five in the afternoon. Large bags must be left in the cloakroom before entering the galleries.",
+    "content": "The museum is opens every day except Monday. Visitors can buy tickets online and at the entrance. Guided tours start at ten in the morning. The café on the second floor serves hot drinks and light meals until four in the afternoon. Small bags must be left in the cloakroom before entering the galleries.",
     "wrong": [
       3,
-      13
+      13,
+      38,
+      42
     ],
     "explanation": "音频是 is open，文中是 is opens；音频是 or，文中是 and。只点这两处，其他词不要动。",
     "tip": "HIW 只点 100% 确定的；不确定的点下去，对了 +1，错了 −1。"
@@ -710,15 +712,17 @@ window.QUESTIONS = [
     "id": "hiw-02",
     "type": "hiw",
     "section": "listening",
-    "level": 1,
-    "time": 70,
+    "level": 3,
+    "time": 100,
     "title": "图书馆工作坊（点错词）",
-    "instruction": "听音频，点出被改掉的词。",
-    "audio": "The library offers free workshops on academic writing. Students can book a place online or ask at the front desk. The workshops run every Tuesday afternoon.",
-    "content": "The library offers free workshops on academic writing. Students can book a place online and ask at the front desk. The workshops run every Tuesday morning.",
+    "instruction": "听 50–65 词音频，点出文中与音频不一致的词。每篇 4–5 处，错点倒扣。",
+    "audio": "The library offers free workshops on academic writing. Students can book a place online or ask at the front desk. The workshops run every Tuesday afternoon. Participants should bring a notebook and a copy of their latest assignment. The tutor will offer individual feedback at the end of the session, and attendance certificates will be sent by email.",
+    "content": "The library offers free workshops on academic writing. Students can book a place online and ask at the front desk. The workshops run every Tuesday morning. Participants should bring a notebook and a copy of their first assignment. The tutor will offer group feedback at the end of the session, and attendance certificates will be sent by email.",
     "wrong": [
       14,
-      25
+      25,
+      36,
+      42
     ],
     "explanation": "音频是 or，文中是 and；音频是 afternoon，文中是 morning。",
     "tip": "先扫一遍文本，听的时候只盯“和原文不一样”的地方。"
@@ -2815,16 +2819,18 @@ window.QUESTIONS = [
     "type": "hiw",
     "section": "listening",
     "level": 3,
-    "time": 80,
+    "time": 100,
     "title": "校园参观（点错词）",
-    "instruction": "点播放听音频，然后点出文中与音频不一致的词。错点倒扣。",
+    "instruction": "听 50–65 词音频，点出文中与音频不一致的词。每篇 4–5 处，错点倒扣。",
     "explanation": "音频是 main gate / ninety minutes，文中被改成 north gate / sixty minutes。",
     "tip": "HIW 只点 100% 确定的；不确定的点下去，对了 +1，错了 −1。",
-    "audio": "The campus tour begins at the main gate at ten. Visitors should wear comfortable shoes and bring water. The tour lasts about ninety minutes.",
-    "content": "The campus tour north at the main gate at ten. Visitors should wear comfortable shoes and bring water. The tour sixty about ninety minutes.",
+    "audio": "The campus tour begins at the main gate at ten. Visitors should wear comfortable shoes and bring water. The tour lasts about ninety minutes. The guide will explain the history of the main buildings and answer questions. Visitors can take photographs in the courtyard, but they must stay with the group at all times.",
+    "content": "The campus tour north at the main gate at ten. Visitors should wear comfortable shoes and bring water. The tour sixty about ninety minutes. The guide will explain the history of the main buildings and answer questions. Visitors can take souvenirs in the courtyard, but they must stay with the guide at all times.",
     "wrong": [
       3,
-      20
+      20,
+      40,
+      50
     ]
   },
   {
@@ -2832,16 +2838,18 @@ window.QUESTIONS = [
     "type": "hiw",
     "section": "listening",
     "level": 3,
-    "time": 80,
+    "time": 100,
     "title": "图书馆通知（点错词）",
-    "instruction": "点播放听音频，然后点出文中与音频不一致的词。错点倒扣。",
+    "instruction": "听 50–65 词音频，点出文中与音频不一致的词。每篇 4–5 处，错点倒扣。",
     "explanation": "音频是 Friday / front desk，文中被改成 Monday / side desk。",
     "tip": "HIW 只点 100% 确定的；不确定的点下去，对了 +1，错了 −1。",
-    "audio": "The library will close early on Friday for staff training. Books can be returned at the front desk. Online services will remain available.",
-    "content": "The library will close early on Friday Monday staff training. Books can be returned at the front side Online services will remain available.",
+    "audio": "The library will close early on Friday for staff training. Books can be returned at the front desk. Online services will remain available. Students can renew books online or by phone. The book drop outside the main entrance remains open during the closure, and late fees will not be charged for items returned that day.",
+    "content": "The library will close early on Friday Monday staff training. Books can be returned at the front side Online services will remain available. Students can renew books offline or by phone. The book drop outside the main entrance remains open during the closure, and extra fees will not be charged for items returned that day.",
     "wrong": [
       7,
-      17
+      17,
+      27,
+      44
     ]
   },
   {
@@ -2849,16 +2857,18 @@ window.QUESTIONS = [
     "type": "hiw",
     "section": "listening",
     "level": 3,
-    "time": 80,
+    "time": 100,
     "title": "讲座开场（点错词）",
-    "instruction": "点播放听音频，然后点出文中与音频不一致的词。错点倒扣。",
+    "instruction": "听 50–65 词音频，点出文中与音频不一致的词。每篇 4–5 处，错点倒扣。",
     "explanation": "音频是 urban flooding / three cities，文中被改成 rural flooding / four cities。",
     "tip": "HIW 只点 100% 确定的；不确定的点下去，对了 +1，错了 −1。",
-    "audio": "Today's lecture examines the causes of urban flooding. We will compare three cities and discuss practical solutions. The final section reviews policy options.",
-    "content": "Today's lecture examines the causes of rural flooding. We will compare three cities and four practical solutions. The final section reviews policy options.",
+    "audio": "Today's lecture examines the causes of urban flooding. We will compare three cities and discuss practical solutions. The final section reviews policy options. The lecture will also examine how drainage systems and green roofs can reduce flood risk. Students should read the case study before the seminar and prepare two questions for discussion.",
+    "content": "Today's lecture examines the causes of rural flooding. We will compare three cities and four practical solutions. The final section reviews policy options. The lecture will also examine how drainage systems and green roofs can increase flood risk. Students should read the case study before the seminar and prepare three questions for discussion.",
     "wrong": [
       6,
-      14
+      14,
+      35,
+      49
     ]
   },
   {
@@ -2866,16 +2876,18 @@ window.QUESTIONS = [
     "type": "hiw",
     "section": "listening",
     "level": 3,
-    "time": 80,
+    "time": 100,
     "title": "健身房规则（点错词）",
-    "instruction": "点播放听音频，然后点出文中与音频不一致的词。错点倒扣。",
+    "instruction": "听 50–65 词音频，点出文中与音频不一致的词。每篇 4–5 处，错点倒扣。",
     "explanation": "音频是 six / entrance，文中被改成 seven / stairs。",
     "tip": "HIW 只点 100% 确定的；不确定的点下去，对了 +1，错了 −1。",
-    "audio": "The gym is open from six in the morning until ten at night. Students must bring their ID cards. Lockers are available near the entrance.",
-    "content": "The gym is open seven six in the morning until ten at night. Students must bring their ID cards. Lockers are available near the stairs",
+    "audio": "The gym is open from six in the morning until ten at night. Students must bring their ID cards. Lockers are available near the entrance. Personal trainers are available for free during the first week. Students should wipe down equipment after use and report any damaged machines to staff. Students should also bring a towel.",
+    "content": "The gym is open seven six in the morning until ten at night. Students must bring their ID cards. Lockers are available near the stairs Personal trainers are available for paid during the first week. Students should wipe down equipment after use and report any new machines to staff. Students should also bring a towel.",
     "wrong": [
       4,
-      24
+      24,
+      30,
+      45
     ]
   },
   {
@@ -6766,15 +6778,17 @@ window.QUESTIONS = [
     "type": "hiw",
     "section": "listening",
     "level": 3,
-    "time": 90,
+    "time": 100,
     "title": "图书馆通知（点错词）",
     "lesson": "L7",
-    "instruction": "听音频，点出文中与音频不一致的词。错点倒扣。",
-    "audio": "The library will open at nine on Saturday. Students can borrow up to eight books. Return them to the front desk.",
-    "content": "The library will open at ten on Saturday. Students can borrow up to six books. Return them to the front desk.",
+    "instruction": "听 50–65 词音频，点出文中与音频不一致的词。每篇 4–5 处，错点倒扣。",
+    "audio": "The library will open at nine on Saturday. Students can borrow up to eight books. Return them to the front desk. Group study rooms can be booked online for two hours at a time. The café closes at eight, but quiet study areas remain open until midnight during the exam period.",
+    "content": "The library will open at ten on Saturday. Students can borrow up to six books. Return them to the front desk. Group study rooms can be booked online for four hours at a time. The café closes at seven, but quiet study areas remain open until midnight during the exam period.",
     "wrong": [
       5,
-      13
+      13,
+      29,
+      38
     ],
     "explanation": "音频是 nine / eight，文中被改成 ten / six。",
     "tip": "数字是 HIW 最常改的地方；听到数字先记下。"
@@ -6784,15 +6798,17 @@ window.QUESTIONS = [
     "type": "hiw",
     "section": "listening",
     "level": 3,
-    "time": 90,
+    "time": 100,
     "title": "博物馆参观（点错词）",
     "lesson": "L7",
-    "instruction": "听音频，点出文中与音频不一致的词。错点倒扣。",
-    "audio": "The tour begins at the main entrance at two. Visitors should not touch the paintings. Photography is allowed without flash.",
-    "content": "The tour begins at the main entrance at three Visitors should not touch the paintings. Photography is forbidden without flash.",
+    "instruction": "听 50–65 词音频，点出文中与音频不一致的词。每篇 4–5 处，错点倒扣。",
+    "audio": "The tour begins at the main entrance at two. Visitors should not touch the paintings. Photography is allowed without flash. The museum shop sells books, postcards and gifts related to the collection. Visitors should leave large bags in the cloakroom and keep their tickets until the end of the tour. Photography is not allowed in special exhibitions.",
+    "content": "The tour begins at the main entrance at three Visitors should not touch the paintings. Photography is forbidden without flash. The museum café sells books, postcards and gifts related to the collection. Visitors should leave small bags in the cloakroom and keep their tickets until the end of the tour. Photography is not allowed in special exhibitions.",
     "wrong": [
       8,
-      17
+      17,
+      22,
+      35
     ],
     "explanation": "音频是 two / allowed，文中被改成 three / forbidden。",
     "tip": "时间、情态动词（allowed/forbidden）是高频替换点。"
@@ -6802,15 +6818,17 @@ window.QUESTIONS = [
     "type": "hiw",
     "section": "listening",
     "level": 3,
-    "time": 90,
+    "time": 100,
     "title": "讲座开场（点错词）",
     "lesson": "L7",
-    "instruction": "听音频，点出文中与音频不一致的词。错点倒扣。",
-    "audio": "Today's lecture examines urban transport. We will compare three cities and discuss policy options. The final section reviews funding.",
-    "content": "Today's lecture examines rural transport. We will compare four cities and discuss policy options. The final section reviews funding.",
+    "instruction": "听 50–65 词音频，点出文中与音频不一致的词。每篇 4–5 处，错点倒扣。",
+    "audio": "Today's lecture examines urban transport. We will compare three cities and discuss policy options. The final section reviews funding. The lecture will compare transport policies in three European cities and evaluate their costs. Students should prepare a short presentation on one policy for the next tutorial. The final section reviews funding options.",
+    "content": "Today's lecture examines rural transport. We will compare four cities and discuss policy options. The final section reviews funding. The lecture will compare transport policies in five European cities and evaluate their benefits. Students should prepare a short presentation on one policy for the next tutorial. The final section reviews funding options.",
     "wrong": [
       3,
-      8
+      8,
+      26,
+      32
     ],
     "explanation": "音频是 urban / three，文中被改成 rural / four。",
     "tip": "形容词和数字最容易被替换；先看名词前的形容词。"
@@ -7469,17 +7487,19 @@ window.QUESTIONS = [
     "id": "hiw-10",
     "type": "hiw",
     "section": "listening",
-    "level": 4,
+    "level": 3,
     "time": 100,
     "title": "自行车（点错词）",
     "lesson": "L7",
-    "instruction": "听音频，点出文中与音频不一致的词。错点倒扣。",
-    "audio": "The first bicycles had no pedals and were pushed with the feet. Later designs added pedals and made travel faster. Today, cities need safe lanes and secure parking for cyclists.",
-    "content": "The first bicycles had no wheels and were pushed with the feet. Later designs added pedals and made travel cheaper Today, cities need safe roads and secure parking for cyclists.",
+    "instruction": "听 50–65 词音频，点出文中与音频不一致的词。每篇 4–5 处，错点倒扣。",
+    "audio": "The first bicycles had no pedals and were pushed with the feet. Later designs added pedals and made travel faster. Today, cities need safe lanes and secure parking for cyclists. Many cities now provide bike-sharing schemes and dedicated lanes. However, theft and poor road maintenance remain barriers, so cyclists need secure parking and clear rules.",
+    "content": "The first bicycles had no wheels and were pushed with the feet. Later designs added pedals and made travel cheaper Today, cities need safe roads and secure parking for cyclists. Few cities now provide bike-sharing schemes and dedicated lanes. However, theft and poor road maintenance remain barriers, so cyclists need cheap parking and clear rules.",
     "wrong": [
       5,
       19,
-      24
+      24,
+      30,
+      50
     ],
     "explanation": "音频与文本有替换；只点确定的差异，错点 −1。",
     "tip": "数字/形容词/连接词最常被替换。"
@@ -7488,17 +7508,19 @@ window.QUESTIONS = [
     "id": "hiw-11",
     "type": "hiw",
     "section": "listening",
-    "level": 4,
+    "level": 3,
     "time": 100,
     "title": "火山（点错词）",
     "lesson": "L7",
-    "instruction": "听音频，点出文中与音频不一致的词。错点倒扣。",
-    "audio": "Volcanic eruptions release ash and gases into the atmosphere. Sulfur dioxide can reflect sunlight and cool the planet temporarily. Scientists study volcanoes to improve predictions, not to stop global warming.",
-    "content": "Volcanic eruptions release ash liquids gases into the atmosphere. Sulfur dioxide can reflect sunlight and warm the planet temporarily. Scientists study volcanoes to reduce predictions, not to stop global warming.",
+    "instruction": "听 50–65 词音频，点出文中与音频不一致的词。每篇 4–5 处，错点倒扣。",
+    "audio": "Volcanic eruptions release ash and gases into the atmosphere. Sulfur dioxide can reflect sunlight and cool the planet temporarily. Scientists study volcanoes to improve predictions, not to stop global warming. Large eruptions can affect harvests and air travel for months. Scientists use ice cores and satellite data to study past events, but they cannot predict the exact timing of the next eruption.",
+    "content": "Volcanic eruptions release ash liquids gases into the atmosphere. Sulfur dioxide can reflect sunlight and warm the planet temporarily. Scientists study volcanoes to reduce predictions, not to stop global warming. Large eruptions can affect harvests and air travel for weeks. Scientists use ice cores and satellite data to study past events, but they cannot predict the approximate timing of the next eruption.",
     "wrong": [
       4,
       15,
-      23
+      23,
+      39,
+      56
     ],
     "explanation": "音频与文本有替换；只点确定的差异，错点 −1。",
     "tip": "数字/形容词/连接词最常被替换。"
@@ -7507,17 +7529,19 @@ window.QUESTIONS = [
     "id": "hiw-12",
     "type": "hiw",
     "section": "listening",
-    "level": 4,
+    "level": 3,
     "time": 100,
     "title": "咖啡（点错词）",
     "lesson": "L7",
-    "instruction": "听音频，点出文中与音频不一致的词。错点倒扣。",
-    "audio": "Coffee is one of the most traded agricultural commodities. Millions of small farmers depend on it, but prices are volatile. Certification schemes can help farmers receive a premium.",
-    "content": "Coffee is one of the most grown agricultural commodities. Millions of small farmers depend on it, but prices are stable Certification schemes can help farmers receive a discount",
+    "instruction": "听 50–65 词音频，点出文中与音频不一致的词。每篇 4–5 处，错点倒扣。",
+    "audio": "Coffee is one of the most traded agricultural commodities. Millions of small farmers depend on it, but prices are volatile. Certification schemes can help farmers receive a premium. Climate change is pushing suitable growing areas uphill, where land is scarce. Young people are leaving farming because incomes are unstable, and access to finance remains limited for small producers.",
+    "content": "Coffee is one of the most grown agricultural commodities. Millions of small farmers depend on it, but prices are stable Certification schemes can help farmers receive a discount Climate change is pushing suitable growing areas downhill, where land is scarce. Young people are leaving farming because incomes are stable, and access to finance remains limited for small producers.",
     "wrong": [
       6,
       19,
-      27
+      27,
+      35,
+      48
     ],
     "explanation": "音频与文本有替换；只点确定的差异，错点 −1。",
     "tip": "数字/形容词/连接词最常被替换。"
@@ -7526,17 +7550,19 @@ window.QUESTIONS = [
     "id": "hiw-13",
     "type": "hiw",
     "section": "listening",
-    "level": 4,
+    "level": 3,
     "time": 100,
     "title": "野生动物（点错词）",
     "lesson": "L7",
-    "instruction": "听音频，点出文中与音频不一致的词。错点倒扣。",
-    "audio": "Habitat fragmentation isolates animal populations and reduces genetic diversity. Wildlife corridors connect patches of habitat, allowing animals to move, find food and mate. However, corridors must be planned with local communities, because they can conflict with farming and development.",
-    "content": "Habitat fragmentation isolates animal populations and increases genetic diversity. Wildlife corridors connect patches of habitat, allowing animals to move, lose food and mate. However, corridors must be planned with local governments because they can conflict with farming and development.",
+    "instruction": "听 50–65 词音频，点出文中与音频不一致的词。每篇 4–5 处，错点倒扣。",
+    "audio": "Habitat fragmentation isolates animal populations and reduces genetic diversity. Wildlife corridors connect patches of habitat, allowing animals to move, find food and mate. However, corridors must be planned with local communities, because they can conflict with farming and development. Monitoring helps planners adjust routes and protect farms. Wildlife crossings over roads have reduced collisions in some countries.",
+    "content": "Habitat fragmentation isolates animal populations and increases genetic diversity. Wildlife corridors connect patches of habitat, allowing animals to move, lose food and mate. However, corridors must be planned with local governments because they can conflict with farming and development. Monitoring helps planners adjust routes and protect farms. Wildlife crossings over roads have increased collisions in most countries.",
     "wrong": [
       6,
       19,
-      30
+      30,
+      52,
+      55
     ],
     "explanation": "音频与文本有替换；只点确定的差异，错点 −1。",
     "tip": "数字/形容词/连接词最常被替换。"
@@ -7545,17 +7571,19 @@ window.QUESTIONS = [
     "id": "hiw-14",
     "type": "hiw",
     "section": "listening",
-    "level": 4,
+    "level": 3,
     "time": 100,
     "title": "音乐（点错词）",
     "lesson": "L7",
-    "instruction": "听音频，点出文中与音频不一致的词。错点倒扣。",
-    "audio": "Music activates many brain regions, including those involved in memory, emotion and movement. Listening to familiar music can help people with dementia recall personal memories and reduce agitation. However, music is not a cure, and responses vary widely.",
-    "content": "Music damages many brain regions, including those involved in memory, emotion and movement. Listening to foreign music can help people with dementia recall personal memories and increase agitation. However, music is not a cure, and responses vary widely.",
+    "instruction": "听 50–65 词音频，点出文中与音频不一致的词。每篇 4–5 处，错点倒扣。",
+    "audio": "Music activates many brain regions, including those involved in memory, emotion and movement. Listening to familiar music can help people with dementia recall personal memories and reduce agitation. However, music is not a cure, and responses vary widely. Music can also support movement in Parkinson's disease, and singing may help stroke patients regain speech. However, individual responses vary widely.",
+    "content": "Music damages many brain regions, including those involved in memory, emotion and movement. Listening to foreign music can help people with dementia recall personal memories and increase agitation. However, music is not a cure, and responses vary widely. Music can also support movement in Parkinson's disease, and dancing may help stroke patients regain speech. However, individual responses vary rarely.",
     "wrong": [
       1,
       15,
-      26
+      26,
+      47,
+      58
     ],
     "explanation": "音频与文本有替换；只点确定的差异，错点 −1。",
     "tip": "数字/形容词/连接词最常被替换。"
