@@ -1,5 +1,5 @@
 /* PTE 52 Lab Plus — 378 questions
- * Added one listening multi for the advanced mock.
+ * All 18 SWT passages upgraded to 200–300 words.
  */
 window.QUESTIONS = [
   {
@@ -237,16 +237,17 @@ window.QUESTIONS = [
     "level": 1,
     "time": 600,
     "title": "空置办公室改公寓",
-    "instruction": "10 分钟内用一句话概括（5–75 词），只能有一个句号。",
-    "content": "Many cities are turning empty offices into apartments. Housing is scarce and remote work has left downtown buildings half empty. However, conversion is expensive and not every building can be adapted. Some developers argue that the costs are still lower than building new housing on the edge of the city.",
-    "model": "Although converting empty offices into apartments is expensive and not every building can be adapted, many cities are doing so because housing is scarce and remote work has left downtown buildings half empty.",
+    "instruction": "10 分钟，读 200–300 词长文，用一句话（5–75 词）概括。只能有一个句号。",
+    "content": "Many city centres are struggling with high office vacancy rates. Since the shift to hybrid work, large employers have reduced their floor space, leaving older buildings empty and reducing the footfall that supports nearby shops and cafes. Converting these buildings into apartments is often presented as an obvious solution: it reuses existing structures, brings residents back into the centre and reduces pressure to build on greenfield land.\n\nThe benefits, however, depend on the building. Deep floor plates, limited windows and outdated plumbing can make conversion technically difficult and expensive. Fire safety, lift access and energy performance may all need upgrading. In some cities, developers have found it cheaper to demolish and rebuild, which undermines the environmental case for conversion. Planning rules can also slow the process, particularly where offices are protected as employment land.\n\nThere is a social dimension as well. New apartments in central locations tend to be expensive, so conversion may increase supply without improving affordability. Some schemes include a proportion of below-market homes, but these requirements are often weakened during negotiations. Without them, the benefits flow mainly to developers and wealthier residents.\n\nMost planners therefore treat conversion as one tool rather than a complete housing policy. It works best when local authorities provide clear standards, fund safety upgrades and require a mix of incomes. Used carefully, empty offices can become useful homes; used simply as a deregulation slogan, the same policy may produce expensive flats and few affordability gains.",
+    "model": "Although converting empty offices can revive city centres and reduce pressure on land, high costs and weak affordability rules mean it must be combined with clear standards and mixed-income requirements rather than treated as a complete housing solution.",
     "checklist": [
       "只有一个句号",
-      "字数在 30–60 之间",
-      "覆盖了“原因 + 转折”两个要点"
+      "30–50 词",
+      "主旨 + 转折",
+      "没有抄整句"
     ],
-    "explanation": "SWT 评分：内容 2 分、形式 1 分、语法 2 分、词汇 2 分。写成两句，形式 0 分且内容大幅扣分，几乎必挂。",
-    "tip": "公式：Although + 让步, 主句 + because + 原因。"
+    "explanation": "长文结构：背景→好处→限制→结论。答案用 Although/while/because 把主旨和转折压进一句；只保留 3 个关键点，不抄细节。",
+    "tip": "先划主题句、however 后的限制、结论句；写完数词数，只留一个句号。"
   },
   {
     "id": "swt-02",
@@ -255,16 +256,17 @@ window.QUESTIONS = [
     "level": 1,
     "time": 600,
     "title": "远程办公",
-    "instruction": "用一句话概括，5–75 词，一个句号。",
-    "content": "Some companies allow employees to work from home. Studies show that productivity often rises, but teamwork can suffer. Many firms now use a hybrid model, with two or three days in the office.",
-    "model": "Although remote work can raise productivity, some companies worry that teamwork suffers, so many now use a hybrid model with two or three days in the office.",
+    "instruction": "10 分钟，读 200–300 词长文，用一句话（5–75 词）概括。只能有一个句号。",
+    "content": "Remote work was once a marginal arrangement, but the pandemic turned it into a mainstream experiment. Millions of employees discovered that commuting time could be redirected to sleep, family or work itself. Many employers found that productivity did not collapse and that they could recruit from a wider geographical area. As a result, hybrid arrangements have become normal in many professional industries.\n\nThe picture is less positive for everyone. Remote work often suits experienced staff with quiet homes and reliable internet, while younger employees may miss informal mentoring and the social contact that helps them learn. Collaboration can also suffer when teams are spread across time zones and rely on written messages that lack tone. Some studies find that innovation is harder to sustain when people rarely meet in person.\n\nCities and workers are affected unevenly. Office landlords face lower demand, while suburban and smaller towns may gain residents and local spending. Employees who can work remotely gain flexibility, but those in hospitality, transport and maintenance cannot. The result is a new divide between occupations that can be done anywhere and those that must be done in person.\n\nMost researchers now avoid asking whether remote work is simply good or bad. They ask which tasks, workers and stages of a career benefit from distance, and which need face-to-face contact. The most effective policies combine flexibility with deliberate time for training, social connection and creative collaboration.",
+    "model": "Remote work can raise productivity and widen recruitment, but its benefits are uneven, so organisations need hybrid policies that protect mentoring, collaboration and employees who cannot work remotely.",
     "checklist": [
-      "用 although 或 while 开头",
-      "包含 productivity 和 teamwork",
-      "结尾只有一个句号"
+      "只有一个句号",
+      "30–50 词",
+      "主旨 + 转折",
+      "没有抄整句"
     ],
-    "explanation": "三个信息点：远程办公、效率上升、团队受影响、混合模式。用 although + so 串起来最省事。",
-    "tip": "先写主干，再补 although 从句；不要一边想一边写。"
+    "explanation": "长文结构：背景→好处→限制→结论。答案用 Although/while/because 把主旨和转折压进一句；只保留 3 个关键点，不抄细节。",
+    "tip": "先划主题句、however 后的限制、结论句；写完数词数，只留一个句号。"
   },
   {
     "id": "we-01",
@@ -1952,15 +1954,16 @@ window.QUESTIONS = [
     "level": 2,
     "time": 600,
     "title": "城市种树",
-    "instruction": "10 分钟内用一句话概括（5–75 词），只能有一个句号。",
-    "explanation": "SWT 评分：内容 2 分、形式 1 分、语法 2 分、词汇 2 分。写成两句，形式 0 分且内容大幅扣分。",
-    "tip": "公式：Although + 让步, 主句 + because + 原因；全句只留一个句号。",
-    "content": "Many cities are planting trees to cool streets and improve air quality. Trees provide shade, absorb rainwater and make neighbourhoods more pleasant. However, they need water, space and regular maintenance, and some residents complain about leaves and roots. Despite these costs, most planners see trees as a long-term investment rather than a short-term expense.",
-    "model": "Although trees require water, space and maintenance, many cities are planting them because they cool streets, improve air quality and make neighbourhoods more pleasant.",
+    "instruction": "10 分钟，读 200–300 词长文，用一句话（5–75 词）概括。只能有一个句号。",
+    "explanation": "长文结构：背景→好处→限制→结论。答案用 Although/while/because 把主旨和转折压进一句；只保留 3 个关键点，不抄细节。",
+    "tip": "先划主题句、however 后的限制、结论句；写完数词数，只留一个句号。",
+    "content": "Urban trees are increasingly promoted as a solution to several city problems at once. They provide shade, lower street temperatures and improve air quality. They can reduce stormwater runoff, support biodiversity and make neighbourhoods more attractive. For planners facing hotter summers and denser development, trees appear to offer environmental, social and economic returns at relatively low cost.\n\nThe benefits depend on where trees are planted and how they are cared for. A young tree in a narrow pit with compacted soil may survive only a few years, while a mature canopy can cool an entire street. Species choice matters too: some trees cope well with drought and pollution, while others cause allergies or damage pipes. Planting targets that count saplings rather than surviving trees can create an impression of progress without lasting results.\n\nMaintenance is the weak point of many programmes. Trees need watering, pruning and protection from construction during their early years, and these costs fall on local authorities whose budgets are already stretched. When maintenance is cut, newly planted trees die and the promised benefits disappear. Wealthier neighbourhoods are often better able to organise and fund care, which can widen existing inequalities.\n\nThe most effective strategies therefore combine ambitious planting with long-term funding and community involvement. Residents can help water and monitor trees, but they cannot replace professional arboriculture. If cities treat trees as infrastructure rather than decoration, they are more likely to plan for the decades required for a canopy to mature.",
+    "model": "Urban trees can cool streets and improve health, but benefits depend on species, maintenance and equitable planting, so cities should fund trees as long-term infrastructure and prioritise poorer neighbourhoods.",
     "checklist": [
       "只有一个句号",
-      "字数在 30–60 之间",
-      "覆盖了“原因 + 转折”两个要点"
+      "30–50 词",
+      "主旨 + 转折",
+      "没有抄整句"
     ]
   },
   {
@@ -1970,15 +1973,16 @@ window.QUESTIONS = [
     "level": 2,
     "time": 600,
     "title": "混合式学习",
-    "instruction": "10 分钟内用一句话概括（5–75 词），只能有一个句号。",
-    "explanation": "SWT 评分：内容 2 分、形式 1 分、语法 2 分、词汇 2 分。写成两句，形式 0 分且内容大幅扣分。",
-    "tip": "公式：Although + 让步, 主句 + because + 原因；全句只留一个句号。",
-    "content": "Online courses give students flexibility and allow universities to reach people in remote areas. However, students who study alone often feel isolated and lose motivation. Some universities now combine online materials with weekly seminars and group projects. This blended model appears to improve completion rates while keeping the convenience of online study.",
-    "model": "Although online courses offer flexibility, universities are combining them with seminars and group projects because students who study alone often feel isolated and lose motivation.",
+    "instruction": "10 分钟，读 200–300 词长文，用一句话（5–75 词）概括。只能有一个句号。",
+    "explanation": "长文结构：背景→好处→限制→结论。答案用 Although/while/because 把主旨和转折压进一句；只保留 3 个关键点，不抄细节。",
+    "tip": "先划主题句、however 后的限制、结论句；写完数词数，只留一个句号。",
+    "content": "Blended learning combines face-to-face teaching with online activities. It became widespread during the pandemic, when schools and universities were forced to move classes online, but many institutions have kept elements of it since. Supporters argue that blended courses offer flexibility, allow students to review material at their own pace and free classroom time for discussion and practice.\n\nResearch suggests that the design of the blend matters more than the technology itself. Courses that use online material simply to transmit information, while keeping the same lectures in person, may add workload without improving learning. Better results appear when online tasks prepare students for active classroom work, and when teachers use quizzes or discussion boards to identify misunderstandings before class.\n\nThe approach also raises questions about access. Students without reliable internet, a quiet study space or a suitable device are disadvantaged when essential activities move online. Disability, caring responsibilities and time-zone differences can create further barriers. Institutions that assume all students are digitally equipped may unintentionally exclude the people who most need flexibility.\n\nBlended learning is therefore neither a cost-saving shortcut nor a universal improvement. It requires trained teachers, clear expectations and investment in both digital and physical resources. When these conditions are met, it can combine the convenience of online study with the social and intellectual benefits of face-to-face teaching. Without them, it risks becoming a label for poorly supported distance education.",
+    "model": "Blended learning can improve flexibility and engagement when online tasks prepare students for active classes, but it requires trained teachers, careful design and equitable access to devices and reliable internet.",
     "checklist": [
       "只有一个句号",
-      "字数在 30–60 之间",
-      "覆盖了“原因 + 转折”两个要点"
+      "30–50 词",
+      "主旨 + 转折",
+      "没有抄整句"
     ]
   },
   {
@@ -1988,15 +1992,16 @@ window.QUESTIONS = [
     "level": 2,
     "time": 600,
     "title": "食物浪费",
-    "instruction": "10 分钟内用一句话概括（5–75 词），只能有一个句号。",
-    "explanation": "SWT 评分：内容 2 分、形式 1 分、语法 2 分、词汇 2 分。写成两句，形式 0 分且内容大幅扣分。",
-    "tip": "公式：Although + 让步, 主句 + because + 原因；全句只留一个句号。",
-    "content": "Supermarkets often reject fruit and vegetables that look imperfect, even when they are safe to eat. Consumers also throw away food that has passed its best-before date. New apps connect shops with local buyers so that surplus food can be sold cheaply. However, reducing waste at the source is more effective than finding new uses for food that has already been produced.",
-    "model": "Although apps now connect shops with buyers to sell surplus food, reducing waste at the source is more effective than finding new uses for food that has already been produced.",
+    "instruction": "10 分钟，读 200–300 词长文，用一句话（5–75 词）概括。只能有一个句号。",
+    "explanation": "长文结构：背景→好处→限制→结论。答案用 Although/while/because 把主旨和转折压进一句；只保留 3 个关键点，不抄细节。",
+    "tip": "先划主题句、however 后的限制、结论句；写完数词数，只留一个句号。",
+    "content": "Food waste is a significant environmental and social problem. Roughly a third of food produced for human consumption is lost or wasted, according to estimates from international organisations. When food decomposes in landfill, it releases methane, a powerful greenhouse gas. Growing, processing and transporting food also consumes water, energy and land, so waste represents a loss of resources as well as money.\n\nThe causes vary along the supply chain. Farmers may leave crops unharvested when prices are low or when cosmetic standards reject imperfect produce. Retailers often overstock to avoid empty shelves, and consumers may buy more than they can use. Date labels can confuse shoppers: a 'best before' date is about quality, while a 'use by' date is about safety, yet many people treat both as disposal instructions.\n\nSolutions range from technical to behavioural. Better cold storage and forecasting can reduce losses in shops and warehouses. Food-sharing apps and community fridges can redistribute surplus meals. Smaller portions in canteens and clearer labels can help households waste less. Composting addresses food that cannot be eaten, but it does not recover the resources used to produce it.\n\nResearchers argue that prevention should come first, followed by redistribution for edible food and recycling for the rest. They also warn that consumer campaigns alone cannot solve a problem shaped by supply chains and business models. Meaningful progress requires measurement, clear targets and cooperation between producers, retailers, governments and households.",
+    "model": "Food waste harms the environment and wastes resources, so effective policy must prioritise prevention and redistribution, require cooperation across producers and retailers, and measure progress through clear targets.",
     "checklist": [
       "只有一个句号",
-      "字数在 30–60 之间",
-      "覆盖了“原因 + 转折”两个要点"
+      "30–50 词",
+      "主旨 + 转折",
+      "没有抄整句"
     ]
   },
   {
@@ -2006,15 +2011,16 @@ window.QUESTIONS = [
     "level": 2,
     "time": 600,
     "title": "电动汽车",
-    "instruction": "10 分钟内用一句话概括（5–75 词），只能有一个句号。",
-    "explanation": "SWT 评分：内容 2 分、形式 1 分、语法 2 分、词汇 2 分。写成两句，形式 0 分且内容大幅扣分。",
-    "tip": "公式：Although + 让步, 主句 + because + 原因；全句只留一个句号。",
-    "content": "Electric cars produce no exhaust fumes and are quieter than petrol cars. However, they remain expensive, and many cities still lack enough charging points. Governments offer subsidies to encourage buyers, while battery production creates emissions of its own. Most experts agree that electric vehicles will play a major role, but only if clean electricity and public transport develop at the same time.",
-    "model": "Although electric cars are quiet and produce no exhaust fumes, they remain expensive and depend on charging points, so experts say they will only help if clean electricity and public transport develop at the same time.",
+    "instruction": "10 分钟，读 200–300 词长文，用一句话（5–75 词）概括。只能有一个句号。",
+    "explanation": "长文结构：背景→好处→限制→结论。答案用 Although/while/because 把主旨和转折压进一句；只保留 3 个关键点，不抄细节。",
+    "tip": "先划主题句、however 后的限制、结论句；写完数词数，只留一个句号。",
+    "content": "Electric vehicles are central to many governments' plans to reduce transport emissions. They produce no exhaust pollution and can be powered by renewable electricity, which makes them attractive in cities where air quality is poor. Sales have grown rapidly as battery costs fall and more models become available. Some countries have announced dates for ending the sale of new petrol and diesel cars.\n\nThe environmental benefits are not automatic. An electric car charged from a coal-heavy grid will produce more emissions than one charged from wind or solar power. Manufacturing the battery requires lithium, cobalt and nickel, and mining these materials can damage landscapes and raise ethical concerns about labour. Battery disposal and recycling are also unresolved at scale.\n\nInfrastructure and equity present further challenges. Charging points are concentrated in wealthier areas, and households without off-street parking may find electric cars impractical. The upfront price of new vehicles remains high, even if running costs are lower. Policies that subsidise expensive cars can therefore benefit richer households while doing little for people who rely on public transport.\n\nMost analysts agree that electrification is necessary but not sufficient. Cities also need to reduce car use, improve buses and trains, and design neighbourhoods where walking and cycling are safe. Electric vehicles can reduce the damage caused by each journey, but they do not solve congestion or the demand for road space. A credible transport strategy combines cleaner vehicles with fewer trips.",
+    "model": "Electric vehicles can cut exhaust emissions, but their benefits depend on clean electricity, ethical battery supply chains and equitable charging, so electrification must be combined with measures that reduce car use.",
     "checklist": [
       "只有一个句号",
-      "字数在 30–60 之间",
-      "覆盖了“原因 + 转折”两个要点"
+      "30–50 词",
+      "主旨 + 转折",
+      "没有抄整句"
     ]
   },
   {
@@ -3659,17 +3665,17 @@ window.QUESTIONS = [
     "time": 600,
     "title": "旅游与过度拥挤",
     "lesson": "L5",
-    "instruction": "10 分钟内用一句话概括（5–75 词），只能有一个句号。",
-    "content": "Tourism brings income to local communities and supports hotels, restaurants and transport. However, popular destinations often suffer from overcrowding, rising rents and environmental damage. Some cities now limit visitor numbers or ban large cruise ships. Residents generally support these measures, although businesses worry about losing revenue.",
-    "model": "Although tourism brings income to local communities, some destinations are limiting visitor numbers because overcrowding, rising rents and environmental damage make daily life harder for residents.",
+    "instruction": "10 分钟，读 200–300 词长文，用一句话（5–75 词）概括。只能有一个句号。",
+    "content": "Tourism brings income to cities and regions, supporting hotels, restaurants, guides and transport. For many places, it is a major source of employment and foreign exchange. Yet the same success can create problems. Popular destinations may receive more visitors than their streets, housing and public services can absorb, especially during peak seasons.\n\nOvercrowding affects residents as well as visitors. Short-term holiday rentals can reduce the supply of long-term housing and push up rents. Noise, waste and congestion may make everyday life difficult. Historic centres can lose their character when shops catering to tourists replace local services. In some cities, residents have protested against the number of cruise ships or coach tours arriving at once.\n\nManaging tourism is difficult because the benefits and costs are distributed unevenly. Hotel owners and tour operators gain, while residents may bear the congestion and housing pressure. Local governments often lack the data and powers to limit visitor numbers effectively. Measures such as tourist taxes, timed entry and caps on rentals can help, but they may also reduce revenue and affect small businesses.\n\nSome destinations are now trying to attract visitors outside peak periods, promote less crowded areas and encourage longer stays. Others focus on residents' needs first, treating tourism as one part of the local economy rather than its dominant purpose. The common lesson is that volume alone is a poor measure of success; the quality of tourism and the wellbeing of host communities matter more.",
+    "model": "Tourism can support local economies, but overcrowding and housing pressure mean destinations must manage visitor numbers, use reliable data and prioritise residents' wellbeing rather than growth in arrivals.",
     "checklist": [
       "只有一个句号",
-      "字数 35–55",
-      "覆盖主旨 + 转折",
+      "30–50 词",
+      "主旨 + 转折",
       "没有抄整句"
     ],
-    "explanation": "SWT 评分：Content 2、Form 1、Grammar 2、Vocabulary 2；少于 5 或多于 75 词 = Content 0，两个句号 = Form 0。",
-    "tip": "公式：Although A, B because C。先保一句，再改高级词。"
+    "explanation": "长文结构：背景→好处→限制→结论。答案用 Although/while/because 把主旨和转折压进一句；只保留 3 个关键点，不抄细节。",
+    "tip": "先划主题句、however 后的限制、结论句；写完数词数，只留一个句号。"
   },
   {
     "id": "swt-08",
@@ -3679,17 +3685,17 @@ window.QUESTIONS = [
     "time": 600,
     "title": "博物馆与社区",
     "lesson": "L5",
-    "instruction": "10 分钟内用一句话概括（5–75 词），只能有一个句号。",
-    "content": "Museums used to be mainly storehouses of objects, but many now run workshops, talks and school programmes. These activities attract local residents who rarely visit traditional exhibitions. However, they require staff time and funding. Museums should therefore measure their community impact, not only visitor numbers.",
-    "model": "Although museums still need funding, many now run workshops and school programmes because these activities attract local residents and allow museums to measure community impact rather than visitor numbers alone.",
+    "instruction": "10 分钟，读 200–300 词长文，用一句话（5–75 词）概括。只能有一个句号。",
+    "content": "Museums are increasingly expected to serve their communities, not simply to preserve objects. Many now run outreach programmes, consult local groups and create exhibitions that reflect the histories of people who were once excluded from national narratives. Supporters argue that this makes museums more relevant and helps them justify public funding.\n\nThe shift is not always comfortable. Objects in collections may have been acquired during colonial rule, and calls for restitution have become louder. Some museums have returned items to their countries of origin; others have postponed decisions while they investigate provenance. These debates raise practical questions about legal ownership, conservation and the future of collections that were built over centuries.\n\nCommunity engagement can also create tensions with traditional curatorial expertise. Exhibitions developed through consultation may be less tidy but more honest, presenting multiple perspectives rather than a single authoritative voice. Critics worry that museums could become venues for political campaigning, while supporters reply that no exhibition is politically neutral.\n\nFunding pressures shape what is possible. Free entry can increase access, but it does not cover conservation or research. Sponsors may influence programming, and commercial events can take space away from galleries. Museums therefore have to balance public service, scholarly integrity and financial survival. How they do so reveals what they believe a museum is for.",
+    "model": "Museums are becoming more community-focused and willing to confront contested histories, but they must balance public engagement, curatorial integrity and financial pressures while researching provenance and deciding what their collections are for.",
     "checklist": [
       "只有一个句号",
-      "字数 35–55",
-      "覆盖主旨 + 转折",
+      "30–50 词",
+      "主旨 + 转折",
       "没有抄整句"
     ],
-    "explanation": "SWT 评分：Content 2、Form 1、Grammar 2、Vocabulary 2；少于 5 或多于 75 词 = Content 0，两个句号 = Form 0。",
-    "tip": "公式：Although A, B because C。先保一句，再改高级词。"
+    "explanation": "长文结构：背景→好处→限制→结论。答案用 Although/while/because 把主旨和转折压进一句；只保留 3 个关键点，不抄细节。",
+    "tip": "先划主题句、however 后的限制、结论句；写完数词数，只留一个句号。"
   },
   {
     "id": "we-06",
@@ -7880,17 +7886,17 @@ window.QUESTIONS = [
     "time": 600,
     "title": "城市屋顶农场",
     "lesson": "PLUS",
-    "instruction": "10 分钟内用一句话概括（5–75 词），只能有一个句号。",
-    "content": "Urban rooftop farms are appearing in many cities. They use unused roof space to grow vegetables, reduce stormwater runoff and cool buildings. Supporters argue that local food production cuts transport emissions and gives residents access to fresh produce. However, rooftop farms face high start-up costs, structural limits and a short growing season in colder climates. Some projects rely on volunteers, which makes them vulnerable when interest declines. Critics also question whether the environmental benefits outweigh the energy needed for irrigation, lighting and lifts. Most planners agree that rooftop farms work best as part of a wider food strategy, not as a replacement for rural agriculture.",
-    "model": "Although rooftop farms can reduce transport emissions and cool buildings, they face high costs and seasonal limits, so they work best as part of a wider food strategy.",
+    "instruction": "10 分钟，读 200–300 词长文，用一句话（5–75 词）概括。只能有一个句号。",
+    "content": "Urban rooftop farms are appearing in many cities. They use unused roof space to grow vegetables, reduce stormwater runoff and cool buildings. Supporters argue that local food production cuts transport emissions and gives residents access to fresh produce. Schools and community groups sometimes use rooftop gardens as outdoor classrooms, and restaurants value the very short supply chain.\n\nThe environmental case is more complicated than it first appears. Rooftop farms can reduce the heat absorbed by buildings, but they may also require irrigation, lighting and lifts for workers and produce. In cold climates, greenhouses need heating, which can outweigh the benefits of local production. Structural surveys, waterproofing and safe access add to the cost of converting a roof.\n\nEconomic viability is another constraint. Urban land is expensive, and many rooftop farms depend on grants, volunteers or premium prices. When funding ends, some projects close. Critics argue that the same investment could protect farmland or improve public transport, achieving larger emissions reductions. Supporters respond that rooftop farms offer social and educational benefits that cannot be measured only in tonnes of vegetables.\n\nMost planners treat rooftop farming as part of a wider food strategy rather than a replacement for rural agriculture. It works best where buildings are strong, demand is local and community support is sustained. Its value lies in demonstrating alternatives and using space creatively, not in promising that cities can feed themselves from their roofs.",
+    "model": "Rooftop farms can reduce transport emissions and cool buildings, but high costs and limited yields mean they are best seen as part of a wider food strategy rather than a replacement for rural agriculture.",
     "checklist": [
       "只有一个句号",
-      "35–55 词",
+      "30–50 词",
       "主旨 + 转折",
       "没有抄整句"
     ],
-    "explanation": "SWT 评分：Content 2、Form 1、Grammar 2、Vocabulary 2；两个句号 = Form 0。",
-    "tip": "Although A, B because C；先保一句，再改词。"
+    "explanation": "长文结构：背景→好处→限制→结论。答案用 Although/while/because 把主旨和转折压进一句；只保留 3 个关键点，不抄细节。",
+    "tip": "先划主题句、however 后的限制、结论句；写完数词数，只留一个句号。"
   },
   {
     "id": "swt-10",
@@ -7900,17 +7906,17 @@ window.QUESTIONS = [
     "time": 600,
     "title": "深海采矿",
     "lesson": "PLUS",
-    "instruction": "10 分钟内用一句话概括（5–75 词），只能有一个句号。",
-    "content": "Deep-sea mining aims to extract metals such as nickel and cobalt from the ocean floor. These metals are needed for batteries and renewable energy technologies. Supporters argue that mining the seabed is less damaging than expanding land-based mines, which can destroy forests and displace communities. However, scientists warn that deep-sea ecosystems are poorly understood and recover very slowly. Mining could create sediment plumes that smother filter-feeding animals and disturb carbon storage. Several countries and companies have called for a moratorium until stronger environmental rules are in place. The debate illustrates a wider tension between the demand for green technology and the need to protect fragile ecosystems.",
-    "model": "Although deep-sea mining could supply metals for green technology, scientists warn that it may damage poorly understood ecosystems, so stronger rules are needed before it expands.",
+    "instruction": "10 分钟，读 200–300 词长文，用一句话（5–75 词）概括。只能有一个句号。",
+    "content": "Deep-sea mining aims to extract metals such as nickel, cobalt and manganese from the ocean floor. These metals are used in batteries, wind turbines and electronics, and demand is expected to rise as economies decarbonise. Supporters argue that seabed mining could reduce pressure on land, where mining can destroy forests, displace communities and pollute rivers.\n\nThe case against is substantial. Deep-sea ecosystems are poorly understood, and many species grow very slowly. Mining could remove the rocky nodules that provide habitat for corals, sponges and small creatures, and create sediment plumes that smother filter feeders far from the mine site. Recovery could take decades or centuries, if it happens at all. Scientists have warned that the loss of biodiversity may be irreversible.\n\nRegulation is still being developed. The International Seabed Authority has issued exploration contracts, but rules for commercial extraction remain incomplete. Some countries and companies have called for a moratorium until environmental safeguards are agreed. Others argue that delaying mining will simply push extraction to countries with weaker standards and slow the transition to clean energy.\n\nThe debate reflects a wider tension between urgent climate goals and long-term ecological protection. Recycling, battery chemistry and demand reduction could lessen the need for new mining, but they cannot eliminate it entirely. A responsible approach would require independent environmental assessment, transparent monitoring and liability rules before any large-scale extraction begins. Without those conditions, the risk is that a solution to one environmental problem creates another that is harder to reverse.",
+    "model": "Deep-sea mining could supply metals for clean energy, but poorly understood ecosystems and weak regulation mean extraction should not proceed without independent assessment, enforceable safeguards and prior investment in recycling.",
     "checklist": [
       "只有一个句号",
-      "35–55 词",
+      "30–50 词",
       "主旨 + 转折",
       "没有抄整句"
     ],
-    "explanation": "SWT 评分：Content 2、Form 1、Grammar 2、Vocabulary 2；两个句号 = Form 0。",
-    "tip": "Although A, B because C；先保一句，再改词。"
+    "explanation": "长文结构：背景→好处→限制→结论。答案用 Although/while/because 把主旨和转折压进一句；只保留 3 个关键点，不抄细节。",
+    "tip": "先划主题句、however 后的限制、结论句；写完数词数，只留一个句号。"
   },
   {
     "id": "swt-11",
@@ -7920,17 +7926,17 @@ window.QUESTIONS = [
     "time": 600,
     "title": "光污染",
     "lesson": "PLUS",
-    "instruction": "10 分钟内用一句话概括（5–75 词），只能有一个句号。",
-    "content": "Artificial light at night is increasing rapidly in many regions. Streetlights, advertising and brightly lit buildings make cities safer and more attractive, but they also disrupt wildlife. Migratory birds can become disoriented, sea turtles fail to find the ocean, and insects are drawn to lamps where they are easily eaten. Light pollution also affects human sleep and wastes energy. Some cities have introduced shields, motion sensors and warmer LED colours to reduce the problem. However, regulation is difficult because lighting is controlled by many different landowners. Researchers argue that better design, rather than turning off all lights, can protect both safety and biodiversity.",
-    "model": "Although artificial light makes cities safer, it disrupts wildlife and human sleep, so better lighting design rather than darkness is needed.",
+    "instruction": "10 分钟，读 200–300 词长文，用一句话（5–75 词）概括。只能有一个句号。",
+    "content": "Artificial light at night is increasing rapidly in many regions. Streetlights, advertising, car parks and brightly lit buildings make cities safer and more attractive, but they also alter ecosystems. Migratory birds can become disoriented, sea turtles fail to find the ocean, and insects are drawn to lamps where they are easily eaten. Plants that depend on seasonal darkness may flower at the wrong time.\n\nThe effects on human health are less visible but increasingly studied. Exposure to light at night can disrupt sleep and the body's internal clock. Shift workers and people living near bright commercial districts may be particularly affected. Energy waste is another concern: much outdoor lighting is poorly aimed, illuminating the sky rather than the ground.\n\nSolutions do not require turning off all lights. Shielding lamps, using motion sensors, choosing warmer colours and reducing unnecessary illumination can cut light pollution while maintaining safety. Some cities have introduced lighting plans that distinguish between busy roads, residential streets and sensitive habitats. However, regulation is complicated because lighting is controlled by many different landowners and agencies.\n\nResearchers argue that light should be treated as a form of pollution with clear limits, not as a free good. Better design can protect wildlife and sleep without making streets feel unsafe. The challenge is to persuade governments and businesses that darkness has value, and that not every public space needs to be illuminated all night.",
+    "model": "Artificial light disrupts wildlife and human sleep, but better-designed lighting, rather than darkness, can reduce pollution while preserving safety, saving energy and setting clear limits for many light owners.",
     "checklist": [
       "只有一个句号",
-      "35–55 词",
+      "30–50 词",
       "主旨 + 转折",
       "没有抄整句"
     ],
-    "explanation": "SWT 评分：Content 2、Form 1、Grammar 2、Vocabulary 2；两个句号 = Form 0。",
-    "tip": "Although A, B because C；先保一句，再改词。"
+    "explanation": "长文结构：背景→好处→限制→结论。答案用 Although/while/because 把主旨和转折压进一句；只保留 3 个关键点，不抄细节。",
+    "tip": "先划主题句、however 后的限制、结论句；写完数词数，只留一个句号。"
   },
   {
     "id": "swt-12",
@@ -7940,17 +7946,17 @@ window.QUESTIONS = [
     "time": 600,
     "title": "维修文化",
     "lesson": "PLUS",
-    "instruction": "10 分钟内用一句话概括（5–75 词），只能有一个句号。",
-    "content": "The repair economy encourages people to fix products instead of replacing them. Repair cafés, online tutorials and second-hand shops have made it easier to extend the life of clothes, electronics and furniture. Supporters argue that repair reduces waste and saves money, and it can also build community skills. However, many products are designed to be difficult to repair, and spare parts are often expensive or unavailable. Manufacturers argue that sealed devices are safer and more reliable. Some governments are now introducing 'right to repair' laws that require companies to share manuals and parts. The debate is not only about waste but also about who controls the knowledge needed to keep products working.",
-    "model": "Although repair reduces waste and saves money, many products are hard to fix, so right-to-repair laws are needed to give consumers access to parts and manuals.",
+    "instruction": "10 分钟，读 200–300 词长文，用一句话（5–75 词）概括。只能有一个句号。",
+    "content": "The repair economy encourages people to fix products instead of replacing them. Repair cafes, online tutorials and second-hand shops have made it easier to extend the life of clothes, electronics and furniture. Supporters argue that repair reduces waste and saves money, and it can also build practical skills and community connections.\n\nMany products, however, are not designed to be repaired. Batteries are sealed, screens are glued in place and software updates may make older devices unusable. Spare parts can be expensive or unavailable, and manufacturers sometimes refuse to share manuals. As a result, a repair that should take minutes may require specialist tools or a trip to a distant workshop.\n\nThe right-to-repair movement aims to change this. Campaigners want companies to provide access to parts, tools and information, and to design products that last longer. Some governments have introduced legislation, while others rely on voluntary agreements. Manufacturers argue that sealed devices are safer, more reliable and better protected against water and dust.\n\nA repair culture also depends on consumer behaviour. People often replace goods because they want the latest model, not because the old one has failed. Advertising and fast fashion encourage this pattern. Repair is therefore not only a technical question but a cultural one. It requires products that can be fixed, services that are accessible and consumers who value longevity over novelty.",
+    "model": "Repair can reduce waste and save money, but sealed designs, limited parts and consumer habits mean right-to-repair laws, accessible services and a cultural shift toward durability are needed.",
     "checklist": [
       "只有一个句号",
-      "35–55 词",
+      "30–50 词",
       "主旨 + 转折",
       "没有抄整句"
     ],
-    "explanation": "SWT 评分：Content 2、Form 1、Grammar 2、Vocabulary 2；两个句号 = Form 0。",
-    "tip": "Although A, B because C；先保一句，再改词。"
+    "explanation": "长文结构：背景→好处→限制→结论。答案用 Although/while/because 把主旨和转折压进一句；只保留 3 个关键点，不抄细节。",
+    "tip": "先划主题句、however 后的限制、结论句；写完数词数，只留一个句号。"
   },
   {
     "id": "swt-13",
@@ -7960,17 +7966,17 @@ window.QUESTIONS = [
     "time": 600,
     "title": "数字档案",
     "lesson": "PLUS",
-    "instruction": "10 分钟内用一句话概括（5–75 词），只能有一个句号。",
-    "content": "Libraries and museums are digitising their collections at a rapid pace. Digital archives allow people to view rare manuscripts, photographs and recordings from anywhere, and they reduce the need to handle fragile objects. However, digitisation is expensive, and digital files can be lost through format changes, hardware failure or budget cuts. Copyright also limits what can be made public. Some institutions now work together to share storage and standards, but smaller organisations often lack the resources to join. Archivists argue that digitisation should be seen as a long-term commitment, not a one-off project, because preserving digital material requires constant maintenance.",
-    "model": "Although digitisation makes collections more accessible, it is expensive and requires constant maintenance, so institutions need long-term funding and shared standards.",
+    "instruction": "10 分钟，读 200–300 词长文，用一句话（5–75 词）概括。只能有一个句号。",
+    "content": "Libraries and museums are digitising their collections at a rapid pace. Digital archives allow people to view rare manuscripts, photographs and recordings from anywhere, and they reduce the need to handle fragile objects. Researchers can search across collections, compare versions and share discoveries with a global audience. For institutions in remote regions, digitisation can make their holdings visible for the first time.\n\nThe costs, however, are ongoing. Scanning is expensive, and digital files require storage, backup and migration as formats and software change. A collection that is online today may be unreadable in twenty years if no one maintains it. Smaller organisations often lack the staff and budget to keep pace, which risks creating a digital divide between well-funded institutions and the rest.\n\nCopyright presents another obstacle. Much twentieth-century material remains in copyright, and rights holders may be unknown or difficult to trace. Institutions must decide whether to risk publication, seek permission or restrict access. Privacy and cultural sensitivity also matter, particularly for colonial-era collections and recordings of vulnerable communities.\n\nArchivists argue that digitisation should be seen as a long-term commitment rather than a one-off project. It requires shared standards, sustainable funding and clear policies on access and preservation. Digital copies can widen access and protect fragile originals, but they are not a substitute for the physical collection or for the expertise that interprets it.",
+    "model": "Digitisation can widen access and protect fragile collections, but high costs, copyright and constant maintenance mean institutions need long-term funding, shared standards and careful policies on privacy.",
     "checklist": [
       "只有一个句号",
-      "35–55 词",
+      "30–50 词",
       "主旨 + 转折",
       "没有抄整句"
     ],
-    "explanation": "SWT 评分：Content 2、Form 1、Grammar 2、Vocabulary 2；两个句号 = Form 0。",
-    "tip": "Although A, B because C；先保一句，再改词。"
+    "explanation": "长文结构：背景→好处→限制→结论。答案用 Although/while/because 把主旨和转折压进一句；只保留 3 个关键点，不抄细节。",
+    "tip": "先划主题句、however 后的限制、结论句；写完数词数，只留一个句号。"
   },
   {
     "id": "swt-14",
@@ -7980,17 +7986,17 @@ window.QUESTIONS = [
     "time": 600,
     "title": "可持续时尚",
     "lesson": "PLUS",
-    "instruction": "10 分钟内用一句话概括（5–75 词），只能有一个句号。",
-    "content": "The fashion industry is under pressure to reduce its environmental impact. Clothing production uses large amounts of water and energy, and many garments are worn only a few times before being discarded. Some brands now offer recycling schemes, repair services and clothes made from recycled fibres. However, critics argue that these initiatives do not address the core problem of overproduction. They point out that new 'sustainable' collections can encourage consumers to buy more, and that recycling often downgrades materials. Researchers suggest that durability, resale and changes in consumer habits matter more than labels. The challenge is to reduce consumption without damaging the livelihoods of workers in producing countries.",
-    "model": "Although brands promote recycling and sustainable fibres, critics argue that overproduction and consumption must be reduced, not just reshaped through new labels.",
+    "instruction": "10 分钟，读 200–300 词长文，用一句话（5–75 词）概括。只能有一个句号。",
+    "content": "The fashion industry is under pressure to reduce its environmental impact. Clothing production uses large amounts of water and energy, and synthetic fabrics shed microplastics when washed. Many garments are worn only a few times before being discarded, often because they are cheap, poorly made or quickly out of style. The sector is also associated with low wages and unsafe working conditions in producing countries.\n\nSome brands now offer recycling schemes, repair services and clothes made from recycled fibres. These initiatives can reduce waste and raise awareness, but critics argue that they do not address overproduction. A new 'sustainable' collection may encourage consumers to buy more, and recycled fibres are often weaker than virgin materials. Only a small share of clothing is actually recycled into new garments.\n\nResearchers suggest that durability, resale and changes in consumer habits matter more than labels. If clothes last longer, fewer need to be produced. If resale becomes normal, garments stay in use after the first owner. However, these changes can affect the livelihoods of workers who depend on constant production, so transition support is needed.\n\nThe challenge is therefore not simply to make fashion greener but to reduce consumption without shifting the burden onto the poorest workers. Policy could include extended producer responsibility, clearer durability standards and investment in repair and recycling infrastructure. Consumers have a role, but they cannot solve a system shaped by advertising, fast turnover and global supply chains.",
+    "model": "Although brands promote recycling and sustainable fibres, reducing overproduction and extending garment life matter more, and policies must protect workers in producing countries while improving durability standards.",
     "checklist": [
       "只有一个句号",
-      "35–55 词",
+      "30–50 词",
       "主旨 + 转折",
       "没有抄整句"
     ],
-    "explanation": "SWT 评分：Content 2、Form 1、Grammar 2、Vocabulary 2；两个句号 = Form 0。",
-    "tip": "Although A, B because C；先保一句，再改词。"
+    "explanation": "长文结构：背景→好处→限制→结论。答案用 Although/while/because 把主旨和转折压进一句；只保留 3 个关键点，不抄细节。",
+    "tip": "先划主题句、however 后的限制、结论句；写完数词数，只留一个句号。"
   },
   {
     "id": "swt-15",
@@ -8000,17 +8006,17 @@ window.QUESTIONS = [
     "time": 600,
     "title": "校园食物浪费",
     "lesson": "PLUS",
-    "instruction": "10 分钟内用一句话概括（5–75 词），只能有一个句号。",
-    "content": "Universities often produce large amounts of food waste in canteens and halls of residence. Buffet-style service and fixed meal plans encourage students to take more than they eat. Some campuses have introduced smaller plates, food-sharing shelves and apps that alert students to surplus meals. These measures can reduce waste and save money, but they depend on student participation and careful planning. Composting is another option, although it requires space and staff. Researchers argue that the most effective approach combines prevention, redistribution and composting, rather than relying on a single solution. They also suggest that food waste should be measured regularly so that progress can be tracked.",
-    "model": "Although smaller plates, sharing apps and composting can reduce campus food waste, the most effective approach combines prevention, redistribution and regular measurement.",
+    "instruction": "10 分钟，读 200–300 词长文，用一句话（5–75 词）概括。只能有一个句号。",
+    "content": "Universities often produce large amounts of food waste in canteens and halls of residence. Buffet-style service and fixed meal plans encourage students to take more than they eat. Events and catered meetings add to the problem, and food that is still edible may be thrown away because of strict health and safety rules. The environmental cost includes the resources used to grow, transport and cook the food, as well as the methane released when it decomposes.\n\nSome campuses have introduced smaller plates, food-sharing shelves and apps that alert students to surplus meals. These measures can reduce waste and save money, but they depend on student participation and careful planning. Composting is another option, although it requires space, staff and a market for the compost. Recycling food waste is better than sending it to landfill, but it does not recover the resources used to produce the food in the first place.\n\nMeasurement is often the missing ingredient. Without regular audits, universities cannot tell which interventions work or how much waste is avoided. Some institutions now weigh food waste weekly and publish the results, which creates accountability and helps caterers adjust portions. Others have changed contracts so that catering companies share the cost of waste.\n\nResearchers argue that the most effective approach combines prevention, redistribution and composting, rather than relying on a single solution. Prevention means planning meals and portions more carefully; redistribution means getting edible surplus to people who need it; composting deals with what remains. Together, these measures can reduce both environmental impact and costs.",
+    "model": "Universities can reduce food waste through smaller portions, redistribution and composting, but regular measurement, student participation and catering contracts that share the cost of waste are needed to make these measures effective.",
     "checklist": [
       "只有一个句号",
-      "35–55 词",
+      "30–50 词",
       "主旨 + 转折",
       "没有抄整句"
     ],
-    "explanation": "SWT 评分：Content 2、Form 1、Grammar 2、Vocabulary 2；两个句号 = Form 0。",
-    "tip": "Although A, B because C；先保一句，再改词。"
+    "explanation": "长文结构：背景→好处→限制→结论。答案用 Although/while/because 把主旨和转折压进一句；只保留 3 个关键点，不抄细节。",
+    "tip": "先划主题句、however 后的限制、结论句；写完数词数，只留一个句号。"
   },
   {
     "id": "swt-16",
@@ -8020,17 +8026,17 @@ window.QUESTIONS = [
     "time": 600,
     "title": "太空碎片",
     "lesson": "PLUS",
-    "instruction": "10 分钟内用一句话概括（5–75 词），只能有一个句号。",
-    "content": "The amount of debris in orbit around the Earth is growing. Old satellites, rocket stages and fragments from collisions travel at high speed and can damage working spacecraft. A single collision can create thousands of new pieces, increasing the risk of further accidents. Some companies are testing ways to remove large pieces of debris, while others are developing rules to prevent new collisions. However, removal missions are expensive, and no country has clear responsibility for cleaning up orbit. Scientists warn that without action, some orbits could become unusable for weather, communication and navigation satellites. The problem is global, but the solutions remain fragmented.",
-    "model": "Although debris removal and collision rules could protect satellites, the problem is global and expensive, so international coordination is needed before some orbits become unusable.",
+    "instruction": "10 分钟，读 200–300 词长文，用一句话（5–75 词）概括。只能有一个句号。",
+    "content": "The amount of debris in orbit around the Earth is growing. Old satellites, rocket stages and fragments from collisions travel at high speed and can damage working spacecraft. A single collision can create thousands of new pieces, increasing the risk of further accidents. Even a small paint fleck can crack a window or disable a sensor.\n\nThe problem is difficult to manage because space is not owned by any single country. Satellites are launched by governments and companies, and responsibility for debris is often unclear. Some operators follow guidelines to remove satellites at the end of their lives, but others do not. Enforcement is weak, and the cost of compliance can be high.\n\nSeveral approaches are being tested. Some companies are developing ways to remove large pieces of debris, while others are improving tracking so that satellites can avoid collisions. Designing spacecraft that can be repaired or refuelled could extend their lives and reduce the number of launches. However, removal missions are expensive, and no country has clear responsibility for cleaning up orbit.\n\nScientists warn that without action, some orbits could become unusable for weather, communication and navigation satellites. The benefits of space are widely shared, but the costs of protecting it are not. International coordination, liability rules and funding for removal are therefore essential. The longer the problem is left, the more expensive and dangerous it becomes.",
+    "model": "Space debris threatens satellites and can trigger more collisions, but unclear responsibility and high removal costs mean international coordination, liability rules and funding for removal are essential before orbits become unusable.",
     "checklist": [
       "只有一个句号",
-      "35–55 词",
+      "30–50 词",
       "主旨 + 转折",
       "没有抄整句"
     ],
-    "explanation": "SWT 评分：Content 2、Form 1、Grammar 2、Vocabulary 2；两个句号 = Form 0。",
-    "tip": "Although A, B because C；先保一句，再改词。"
+    "explanation": "长文结构：背景→好处→限制→结论。答案用 Although/while/because 把主旨和转折压进一句；只保留 3 个关键点，不抄细节。",
+    "tip": "先划主题句、however 后的限制、结论句；写完数词数，只留一个句号。"
   },
   {
     "id": "swt-17",
@@ -8040,17 +8046,17 @@ window.QUESTIONS = [
     "time": 600,
     "title": "传统医学",
     "lesson": "PLUS",
-    "instruction": "10 分钟内用一句话概括（5–75 词），只能有一个句号。",
-    "content": "Traditional medicine remains an important source of care in many countries. Herbal remedies and acupuncture are used alongside modern medicine, sometimes because they are affordable and culturally familiar. Supporters argue that traditional systems can offer effective treatments and preserve local knowledge. However, critics warn that some remedies are unregulated, may interact with prescription drugs, or contain harmful substances. Scientific evidence is uneven, and many treatments have not been tested in large trials. Some governments are now introducing licensing and safety standards, while universities are studying selected remedies. The challenge is to protect cultural heritage without lowering safety standards.",
-    "model": "Although traditional medicine is affordable and culturally important, uneven evidence and safety risks mean that regulation and scientific testing are needed alongside cultural protection.",
+    "instruction": "10 分钟，读 200–300 词长文，用一句话（5–75 词）概括。只能有一个句号。",
+    "content": "Traditional medicine remains an important source of care in many countries. Herbal remedies and acupuncture are used alongside modern medicine, sometimes because they are affordable and culturally familiar. In places where hospitals are distant or expensive, traditional practitioners may be the first point of contact. Supporters argue that these systems preserve local knowledge and offer treatments that conventional medicine has overlooked.\n\nCritics warn that some remedies are unregulated, may interact with prescription drugs, or contain harmful substances. Scientific evidence is uneven: some treatments have been studied in large trials, while others rely on anecdote. Regulation is difficult because traditions vary widely, and practitioners may resist rules that they see as imposed by outsiders.\n\nSome governments are introducing licensing and safety standards, while universities are studying selected remedies. Integration can work when traditional practitioners are trained to recognise dangerous conditions and refer patients appropriately. It can fail when regulation is too weak or when traditional medicine is promoted as a substitute for proven treatment.\n\nThe challenge is to protect cultural heritage without lowering safety standards. Public education, pharmacovigilance and clear evidence requirements can help. Traditional medicine should neither be romanticised nor dismissed. A balanced approach recognises its cultural value while insisting that treatments are safe, effective and properly explained to patients.",
+    "model": "Traditional medicine is culturally important and affordable, but uneven evidence and safety risks mean it needs regulation, training and integration with modern care, while patients must be properly informed about evidence.",
     "checklist": [
       "只有一个句号",
-      "35–55 词",
+      "30–50 词",
       "主旨 + 转折",
       "没有抄整句"
     ],
-    "explanation": "SWT 评分：Content 2、Form 1、Grammar 2、Vocabulary 2；两个句号 = Form 0。",
-    "tip": "Although A, B because C；先保一句，再改词。"
+    "explanation": "长文结构：背景→好处→限制→结论。答案用 Although/while/because 把主旨和转折压进一句；只保留 3 个关键点，不抄细节。",
+    "tip": "先划主题句、however 后的限制、结论句；写完数词数，只留一个句号。"
   },
   {
     "id": "swt-18",
@@ -8060,17 +8066,17 @@ window.QUESTIONS = [
     "time": 600,
     "title": "城市孤独",
     "lesson": "PLUS",
-    "instruction": "10 分钟内用一句话概括（5–75 词），只能有一个句号。",
-    "content": "Urban loneliness is increasingly recognised as a public health issue. Large cities offer anonymity and freedom, but they can also weaken the social ties that people rely on. Long commutes, high housing costs and frequent moves make it harder to maintain friendships. Loneliness has been linked to depression, heart disease and shorter life expectancy. Some cities are responding with community centres, public benches and programmes that bring neighbours together. However, critics argue that these measures are small compared with the structural causes of isolation. Researchers suggest that transport, housing and work policies all shape social connection, and that loneliness cannot be solved by social events alone.",
-    "model": "Although community programmes can reduce urban loneliness, transport, housing and work policies also shape social connection, so loneliness cannot be solved by social events alone.",
+    "instruction": "10 分钟，读 200–300 词长文，用一句话（5–75 词）概括。只能有一个句号。",
+    "content": "Urban loneliness is increasingly recognised as a public health issue. Large cities offer anonymity and freedom, but they can also weaken the social ties that people rely on. Long commutes, high housing costs and frequent moves make it harder to maintain friendships. People who live alone, are new to a city or work irregular hours may be especially vulnerable.\n\nLoneliness has been linked to depression, heart disease and shorter life expectancy. It can also affect productivity and trust in public institutions. The causes are not simply individual: transport, housing and work policies shape opportunities for connection. A neighbourhood with no affordable places to meet, or a job that leaves no time for social life, makes loneliness more likely.\n\nSome cities are responding with community centres, public benches and programmes that bring neighbours together. These measures can help, but critics argue that they are small compared with the structural causes of isolation. Social events cannot compensate for insecure housing or a two-hour commute. Digital tools can connect people, but they can also replace face-to-face contact.\n\nResearchers suggest that loneliness policy should be integrated across government. Transport planning can reduce journey times, housing policy can support mixed communities, and employers can protect time for social connection. Community programmes remain valuable, but they work best when the wider environment makes everyday interaction possible.",
+    "model": "Urban loneliness harms health and is shaped by transport, housing and work, so community programmes alone are insufficient unless structural policies and everyday social connection are also prioritised.",
     "checklist": [
       "只有一个句号",
-      "35–55 词",
+      "30–50 词",
       "主旨 + 转折",
       "没有抄整句"
     ],
-    "explanation": "SWT 评分：Content 2、Form 1、Grammar 2、Vocabulary 2；两个句号 = Form 0。",
-    "tip": "Although A, B because C；先保一句，再改词。"
+    "explanation": "长文结构：背景→好处→限制→结论。答案用 Although/while/because 把主旨和转折压进一句；只保留 3 个关键点，不抄细节。",
+    "tip": "先划主题句、however 后的限制、结论句；写完数词数，只留一个句号。"
   },
   {
     "id": "sst-15",
