@@ -1,5 +1,5 @@
 /* PTE 52 Lab Plus — 378 questions
- * FIB-RW 01-08 upgraded to 4 blanks, 80-100 words.
+ * FIB-R batch: 80-95 words, 5 blanks.
  */
 window.QUESTIONS = [
   {
@@ -2990,22 +2990,22 @@ window.QUESTIONS = [
     "id": "fib-r-01",
     "type": "fib-r",
     "section": "reading",
-    "level": 2,
+    "level": 3,
     "time": 150,
     "title": "旅游与环境",
-    "instruction": "从词库选词填空。先判词性，再看搭配和逻辑。",
-    "explanation": "① bring income 是固定搭配；② fragile environments 脆弱的生态环境；③ limit numbers 限制人数；④ public transport 公共交通。",
-    "tip": "词库有干扰项：先按词性排除，再看搭配。",
-    "content": "Tourism can bring [[1]] to local communities, but it can also damage [[2]] environments. Some destinations now [[3]] visitor numbers and invest in public [[4]].",
+    "instruction": "从 8 个词中选 5 个填空。每空 1 分。",
+    "explanation": "income / fragile / limit / transport / involved；increase、private、ignore 是干扰项。",
+    "tip": "先看搭配：bring income；fragile environments；limit numbers；public transport；involved in decisions。",
+    "content": "Tourism can bring [[1]] to local communities, but it can also damage [[2]] environments. Some destinations now [[3]] visitor numbers and invest in public [[4]]. Local residents should also be [[5]] in decisions about tourism, because their support determines whether the industry is sustainable. Clear rules and reliable data are needed to balance growth with protection. Researchers also recommend reviewing these measures regularly, monitoring their long-term effects and involving local communities in decisions that affect their daily lives. The evidence should guide future policy.",
     "bank": [
       "income",
       "fragile",
       "limit",
       "transport",
-      "fragile",
-      "income",
+      "involved",
       "increase",
-      "private"
+      "private",
+      "ignore"
     ],
     "blanks": [
       {
@@ -3019,6 +3019,9 @@ window.QUESTIONS = [
       },
       {
         "answer": "transport"
+      },
+      {
+        "answer": "involved"
       }
     ]
   },
@@ -3026,22 +3029,22 @@ window.QUESTIONS = [
     "id": "fib-r-02",
     "type": "fib-r",
     "section": "reading",
-    "level": 2,
+    "level": 3,
     "time": 150,
     "title": "远程工作",
-    "instruction": "从词库选词填空。先判词性，再看搭配和逻辑。",
-    "explanation": "① reduce time 减少时间；② more flexibility 更灵活；③ contact between colleagues 同事间联系；④ offer a mix 提供混合模式。",
-    "tip": "词库有干扰项：先按词性排除，再看搭配。",
-    "content": "Remote work can [[1]] commuting time and give employees more [[2]]. However, it may reduce [[3]] between colleagues. Many companies therefore [[4]] a mix of home and office work.",
+    "instruction": "从 8 个词中选 5 个填空。每空 1 分。",
+    "explanation": "reduce / flexibility / contact / offer / set；increase、refuse、ignore 是干扰项。",
+    "tip": "can reduce；more flexibility；reduce contact；offer a mix；set expectations。",
+    "content": "Remote work can [[1]] commuting time and give employees more [[2]]. However, it may reduce [[3]] between colleagues. Many companies therefore [[4]] a mix of home and office work. Junior staff may also miss informal mentoring, which is difficult to replace online. Managers should [[5]] clear expectations about when teams meet and how quickly messages are answered. Trust depends on communication, not simply on location. The evidence suggests that these measures should be reviewed regularly and adjusted over time. The issue is complex.",
     "bank": [
       "reduce",
       "flexibility",
       "contact",
       "offer",
+      "set",
       "increase",
-      "flexibility",
-      "contact",
-      "refuse"
+      "refuse",
+      "ignore"
     ],
     "blanks": [
       {
@@ -3055,6 +3058,9 @@ window.QUESTIONS = [
       },
       {
         "answer": "offer"
+      },
+      {
+        "answer": "set"
       }
     ]
   },
@@ -3062,22 +3068,22 @@ window.QUESTIONS = [
     "id": "fib-r-03",
     "type": "fib-r",
     "section": "reading",
-    "level": 2,
+    "level": 3,
     "time": 150,
     "title": "植物与城市",
-    "instruction": "从词库选词填空。先判词性，再看搭配和逻辑。",
-    "explanation": "① improve air quality；② lower temperatures；③ provide habitats；④ need water。",
-    "tip": "词库有干扰项：先按词性排除，再看搭配。",
-    "content": "Plants in cities can [[1]] air quality and lower [[2]]. They also provide [[3]] for birds and insects. However, they need [[4]] and careful maintenance.",
+    "instruction": "从 8 个词中选 5 个填空。每空 1 分。",
+    "explanation": "improve / temperatures / habitats / water / essential；damage、space、optional 是干扰项。",
+    "tip": "improve air quality；lower temperatures；provide habitats；need water；remains essential。",
+    "content": "Plants in cities can [[1]] air quality and lower [[2]]. They also provide [[3]] for birds and insects. However, they need [[4]] and careful maintenance. Young trees are especially vulnerable to drought and construction damage. Residents can help by watering street trees, but professional care remains [[5]]. Cities should therefore treat planting as long-term infrastructure. Researchers also recommend reviewing these measures regularly, monitoring their long-term effects and involving local communities in decisions that affect their daily lives. The evidence should guide future policy.",
     "bank": [
       "improve",
       "temperatures",
       "habitats",
       "water",
+      "essential",
       "damage",
-      "temperatures",
-      "habitats",
-      "space"
+      "space",
+      "optional"
     ],
     "blanks": [
       {
@@ -3091,6 +3097,9 @@ window.QUESTIONS = [
       },
       {
         "answer": "water"
+      },
+      {
+        "answer": "essential"
       }
     ]
   },
@@ -3098,22 +3107,22 @@ window.QUESTIONS = [
     "id": "fib-r-04",
     "type": "fib-r",
     "section": "reading",
-    "level": 2,
+    "level": 3,
     "time": 150,
     "title": "博物馆",
-    "instruction": "从词库选词填空。先判词性，再看搭配和逻辑。",
-    "explanation": "① offer workshops；② engage communities；③ require funding；④ plan spending。",
-    "tip": "词库有干扰项：先按词性排除，再看搭配。",
-    "content": "Museums now [[1]] workshops and digital tours to attract younger visitors. These activities can [[2]] local communities and create jobs. However, they require [[3]] and staff time. Museums must therefore [[4]] their spending carefully.",
+    "instruction": "从 8 个词中选 5 个填空。每空 1 分。",
+    "explanation": "offer / engage / funding / plan / engagement；refuse、ignore、optional 是干扰项。",
+    "tip": "offer workshops；engage communities；require funding；plan spending；public engagement。",
+    "content": "Museums now [[1]] workshops and digital tours to attract younger visitors. These activities can [[2]] local communities and create jobs. However, they require [[3]] and staff time. Museums must therefore [[4]] their spending carefully. Some charge for special exhibitions while keeping permanent collections free. Others consult community groups before designing displays. The most successful museums balance public [[5]] with financial sustainability. Researchers also recommend reviewing these measures regularly, monitoring their long-term effects and involving local communities in decisions that affect their daily lives. The evidence should guide future policy.",
     "bank": [
       "offer",
       "engage",
       "funding",
       "plan",
+      "engagement",
       "refuse",
-      "engage",
-      "funding",
-      "ignore"
+      "ignore",
+      "optional"
     ],
     "blanks": [
       {
@@ -3127,6 +3136,9 @@ window.QUESTIONS = [
       },
       {
         "answer": "plan"
+      },
+      {
+        "answer": "engagement"
       }
     ]
   },
@@ -4358,21 +4370,21 @@ window.QUESTIONS = [
     "id": "fib-r-05",
     "type": "fib-r",
     "section": "reading",
-    "level": 2,
+    "level": 3,
     "time": 150,
     "title": "珊瑚礁",
     "lesson": "L6",
-    "instruction": "从词库选词填空。先判词性，再看搭配和逻辑。",
-    "content": "Coral reefs support an enormous [[1]] of marine life. However, rising sea temperatures can cause coral to lose its colour, a process known as [[2]]. Reefs also face pressure from pollution and overfishing. Scientists are now testing ways to [[3]] damaged reefs, including growing coral in laboratories. Protecting these ecosystems is [[4]] for coastal communities that depend on fishing and tourism.",
+    "instruction": "从 8 个词中选 5 个填空。每空 1 分。",
+    "content": "Coral reefs support an enormous [[1]] of marine life. However, rising sea temperatures can cause coral to lose its colour, a process known as [[2]]. Reefs also face pressure from pollution and overfishing. Scientists are now testing ways to [[3]] damaged reefs, including growing coral in laboratories. Protecting these ecosystems is [[4]] for coastal communities that depend on fishing and tourism. Restoration is expensive, so reducing emissions remains [[5]]. The evidence suggests that these measures should be reviewed regularly and adjusted over time.",
     "bank": [
       "variety",
       "bleaching",
       "restore",
       "essential",
+      "vital",
       "decline",
       "harvest",
-      "optional",
-      "pollution"
+      "optional"
     ],
     "blanks": [
       {
@@ -4386,30 +4398,33 @@ window.QUESTIONS = [
       },
       {
         "answer": "essential"
+      },
+      {
+        "answer": "vital"
       }
     ],
-    "explanation": "① an enormous variety of 固定搭配；② coral bleaching 珊瑚白化；③ restore damaged reefs 修复；④ be essential for 固定搭配。",
-    "tip": "先按词性分组：名词 variety/bleaching/decline/harvest/pollution；动词 restore；形容词 essential/optional。"
+    "explanation": "variety / bleaching / restore / essential / vital；decline、harvest、optional 是干扰项。",
+    "tip": "an enormous variety；coral bleaching；restore reefs；essential for；remains vital。"
   },
   {
     "id": "fib-r-06",
     "type": "fib-r",
     "section": "reading",
-    "level": 2,
+    "level": 3,
     "time": 150,
     "title": "公共演讲",
     "lesson": "L6",
-    "instruction": "从词库选词填空。先判词性，再看搭配和逻辑。",
-    "content": "Many people feel anxious about speaking in public. Preparation and practice can reduce this [[1]]. It also helps to focus on the audience rather than on your own [[2]]. Speaking slowly and pausing between points makes your message [[3]]. Finally, remember that most listeners are [[4]] to hear what you have to say.",
+    "instruction": "从 8 个词中选 5 个填空。每空 1 分。",
+    "content": "Many people feel anxious about speaking in public. Preparation and practice can reduce this [[1]]. It also helps to focus on the audience rather than on your own [[2]]. Speaking slowly and pausing between points makes your message [[3]]. Finally, remember that most listeners are [[4]] to hear what you have to say. Rehearsing the opening and closing is often more useful than memorising every word. With experience, most speakers become more [[5]]. The evidence suggests that these measures should be reviewed regularly and adjusted over time.",
     "bank": [
       "anxiety",
       "nerves",
       "clearer",
       "eager",
+      "confident",
       "confidence",
       "louder",
-      "hostile",
-      "optional"
+      "hostile"
     ],
     "blanks": [
       {
@@ -4423,30 +4438,33 @@ window.QUESTIONS = [
       },
       {
         "answer": "eager"
+      },
+      {
+        "answer": "confident"
       }
     ],
-    "explanation": "① reduce this anxiety 焦虑；② your own nerves 紧张；③ make + 宾语 + 形容词比较级 clearer；④ be eager to do 渴望。",
-    "tip": "make your message clearer 是“make + 宾语 + 形容词”结构。"
+    "explanation": "anxiety / nerves / clearer / eager / confident；confidence、louder、hostile 是干扰项。",
+    "tip": "reduce anxiety；own nerves；message clearer；eager to hear；more confident。"
   },
   {
     "id": "fib-r-07",
     "type": "fib-r",
     "section": "reading",
-    "level": 2,
+    "level": 3,
     "time": 150,
     "title": "食品标签",
     "lesson": "L6",
-    "instruction": "从词库选词填空。先判词性，再看搭配和逻辑。",
-    "content": "Food labels can help shoppers make healthier [[1]]. However, the information is often difficult to [[2]], especially for people with limited literacy. Some countries now use simple front-of-pack labels with colours or stars. Research suggests that clear labels can [[3]] consumers towards healthier products. Campaigners argue that labelling should be [[4]] across all supermarkets.",
+    "instruction": "从 8 个词中选 5 个填空。每空 1 分。",
+    "content": "Food labels can help shoppers make healthier [[1]]. However, the information is often difficult to [[2]], especially for people with limited literacy. Some countries now use simple front-of-pack labels with colours or stars. Research suggests that clear labels can [[3]] consumers towards healthier products. Campaigners argue that labelling should be [[4]] across all supermarkets. They also want labels to show how much [[5]] a product contains, because health depends on portion size as well as ingredients. The evidence suggests that these measures should be reviewed regularly and adjusted over time.",
     "bank": [
       "choices",
       "understand",
       "guide",
       "consistent",
+      "sugar",
       "prices",
       "ignore",
-      "optional",
-      "reduce"
+      "optional"
     ],
     "blanks": [
       {
@@ -4460,30 +4478,33 @@ window.QUESTIONS = [
       },
       {
         "answer": "consistent"
+      },
+      {
+        "answer": "sugar"
       }
     ],
-    "explanation": "① make healthier choices 固定搭配；② difficult to understand；③ guide consumers towards；④ should be consistent 一致的。",
-    "tip": "difficult to 后接动词原形；should be 后接形容词。"
+    "explanation": "choices / understand / guide / consistent / sugar；prices、ignore、optional 是干扰项。",
+    "tip": "healthier choices；difficult to understand；guide consumers；consistent across；how much sugar。"
   },
   {
     "id": "fib-r-08",
     "type": "fib-r",
     "section": "reading",
-    "level": 2,
+    "level": 3,
     "time": 150,
     "title": "远程团队",
     "lesson": "L6",
-    "instruction": "从词库选词填空。先判词性，再看搭配和逻辑。",
-    "content": "Remote teams depend on clear communication. Without regular [[1]], members may work on the wrong tasks. Managers should set [[2]] goals and check progress in short meetings. It is also important to [[3]] time for informal conversation, which helps build trust. Teams that communicate well can be just as [[4]] as those in the same office.",
+    "instruction": "从 8 个词中选 5 个填空。每空 1 分。",
+    "content": "Remote teams depend on clear communication. Without regular [[1]], members may work on the wrong tasks. Managers should set [[2]] goals and check progress in short meetings. It is also important to [[3]] time for informal conversation, which helps build trust. Teams that communicate well can be just as [[4]] as those in the same office. However, written messages can be misunderstood, so complex issues are better discussed by video. Leaders should also [[5]] that quieter members have a chance to speak.",
     "bank": [
       "updates",
       "measurable",
       "allow",
       "productive",
+      "ensure",
       "delays",
       "personal",
-      "refuse",
-      "expensive"
+      "refuse"
     ],
     "blanks": [
       {
@@ -4497,10 +4518,13 @@ window.QUESTIONS = [
       },
       {
         "answer": "productive"
+      },
+      {
+        "answer": "ensure"
       }
     ],
-    "explanation": "① regular updates 定期更新；② measurable goals 可衡量目标；③ allow time for 留出时间；④ as productive as 和……一样高效。",
-    "tip": "as + 形容词 + as 结构；productive 是形容词。"
+    "explanation": "updates / measurable / allow / productive / ensure；delays、personal、refuse 是干扰项。",
+    "tip": "regular updates；measurable goals；allow time；as productive as；ensure that。"
   },
   {
     "id": "ro-07",
@@ -5784,21 +5808,21 @@ window.QUESTIONS = [
     "id": "fib-r-09",
     "type": "fib-r",
     "section": "reading",
-    "level": 4,
-    "time": 170,
+    "level": 3,
+    "time": 150,
     "title": "传粉昆虫（高难）",
     "lesson": "L6",
-    "instruction": "从词库选词填空。高难：先按词性分组，再看搭配。",
-    "content": "Honeybees and wild pollinators are essential for many crops. Their populations are [[1]] by pesticides, disease and the loss of flowering habitats. Farmers who depend on pollination may see lower [[2]] and higher production costs. Planting wildflower strips and reducing pesticide use can [[3]] pollinator numbers. However, such measures require coordination between neighbouring farms, because bees do not respect [[4]].",
+    "instruction": "从 8 个词中选 5 个填空。每空 1 分。",
+    "content": "Honeybees and wild pollinators are essential for many crops. Their populations are [[1]] by pesticides, disease and the loss of flowering habitats. Farmers who depend on pollination may see lower [[2]] and higher production costs. Planting wildflower strips and reducing pesticide use can [[3]] pollinator numbers. However, such measures require coordination between neighbouring farms, because bees do not respect [[4]]. Public awareness can also reduce pesticide use in gardens. Protecting pollinators is therefore a shared [[5]]. The evidence suggests that these measures should be reviewed regularly and adjusted over time.",
     "bank": [
       "threatened",
       "yields",
       "restore",
       "boundaries",
+      "responsibility",
       "increased",
       "prices",
-      "ignore",
-      "borders"
+      "ignore"
     ],
     "blanks": [
       {
@@ -5812,30 +5836,33 @@ window.QUESTIONS = [
       },
       {
         "answer": "boundaries"
+      },
+      {
+        "answer": "responsibility"
       }
     ],
-    "explanation": "① are + 过去分词 → threatened；② lower + 名词 → yields；③ can + 动词原形 → restore；④ respect + 名词复数 → boundaries。",
-    "tip": "高难：threatened by；lower yields；restore numbers；boundaries 边界。"
+    "explanation": "threatened / yields / restore / boundaries / responsibility；increased、prices、ignore 是干扰项。",
+    "tip": "are threatened by；lower yields；restore numbers；respect boundaries；shared responsibility。"
   },
   {
     "id": "fib-r-10",
     "type": "fib-r",
     "section": "reading",
-    "level": 4,
-    "time": 170,
+    "level": 3,
+    "time": 150,
     "title": "零的历史（高难）",
     "lesson": "L6",
-    "instruction": "从词库选词填空。高难：先按词性分组，再看搭配。",
-    "content": "The concept of zero emerged separately in several ancient cultures. At first, it was used as a [[1]] to show an empty position in a number. Later, mathematicians began to treat zero as a number in its own right, which [[2]] new forms of calculation. The idea took centuries to become [[3]] in Europe. Its acceptance depended as much on trade and accounting as on [[4]].",
+    "instruction": "从 8 个词中选 5 个填空。每空 1 分。",
+    "content": "The concept of zero emerged separately in several ancient cultures. At first, it was used as a [[1]] to show an empty position in a number. Later, mathematicians began to treat zero as a number in its own right, which [[2]] new forms of calculation. The idea took centuries to become [[3]] in Europe. Its acceptance depended as much on trade and accounting as on [[4]]. Religious and philosophical objections slowed its spread, and some societies resisted the idea of [[5]].",
     "bank": [
       "placeholder",
       "enabled",
       "accepted",
       "mathematics",
+      "nothing",
       "symbol",
       "prevented",
-      "rare",
-      "commerce"
+      "rare"
     ],
     "blanks": [
       {
@@ -5849,29 +5876,32 @@ window.QUESTIONS = [
       },
       {
         "answer": "mathematics"
+      },
+      {
+        "answer": "nothing"
       }
     ],
-    "explanation": "① a + 名词 → placeholder；② which + 谓语 → enabled；③ become + 形容词 → accepted；④ as on + 名词 → mathematics。",
-    "tip": "高难：placeholder 占位符；enabled new forms；accepted 被接受。"
+    "explanation": "placeholder / enabled / accepted / mathematics / nothing；symbol、prevented、rare 是干扰项。",
+    "tip": "a placeholder；enabled calculations；become accepted；as on mathematics；idea of nothing。"
   },
   {
     "id": "fib-r-11",
     "type": "fib-r",
     "section": "reading",
-    "level": 4,
-    "time": 170,
+    "level": 3,
+    "time": 150,
     "title": "青少年睡眠（高难）",
     "lesson": "L6",
-    "instruction": "从词库选词填空。高难：先按词性分组，再看搭配。",
-    "content": "Adolescents experience a shift in their [[1]] rhythms, which makes it difficult for them to fall asleep early. Early school start times can therefore [[2]] sleep deprivation. This is associated with poorer concentration and lower academic [[3]]. Some districts have responded by delaying the start of the school day, and early evidence suggests that attendance and [[4]] improve.",
+    "instruction": "从 8 个词中选 5 个填空。每空 1 分。",
+    "content": "Adolescents experience a shift in their [[1]] rhythms, which makes it difficult for them to fall asleep early. Early school start times can therefore [[2]] sleep deprivation. This is associated with poorer concentration and lower academic [[3]]. Some districts have responded by delaying the start of the school day, and early evidence suggests that attendance and [[4]] improve. However, later starts can create transport problems and affect after-school activities. Schools should therefore consult families before changing the [[5]]. The evidence suggests that these measures should be reviewed regularly and adjusted over time.",
     "bank": [
       "circadian",
       "worsen",
       "performance",
       "wellbeing",
+      "timetable",
       "digestive",
       "improve",
-      "attendance",
       "anxiety"
     ],
     "blanks": [
@@ -5886,30 +5916,33 @@ window.QUESTIONS = [
       },
       {
         "answer": "wellbeing"
+      },
+      {
+        "answer": "timetable"
       }
     ],
-    "explanation": "① circadian rhythms 生物钟；② can + 动词原形 → worsen；③ academic performance 固定搭配；④ attendance and wellbeing 并列。",
-    "tip": "高难：circadian rhythms；worsen deprivation；academic performance；wellbeing。"
+    "explanation": "circadian / worsen / performance / wellbeing / timetable；digestive、improve、anxiety 是干扰项。",
+    "tip": "circadian rhythms；worsen deprivation；academic performance；wellbeing；change the timetable。"
   },
   {
     "id": "fib-r-12",
     "type": "fib-r",
     "section": "reading",
-    "level": 4,
-    "time": 170,
+    "level": 3,
+    "time": 150,
     "title": "漂绿（高难）",
     "lesson": "L6",
-    "instruction": "从词库选词填空。高难：先按词性分组，再看搭配。",
-    "content": "Companies increasingly advertise their environmental credentials, but not all claims are [[1]]. Greenwashing occurs when a firm [[2]] a small improvement to distract from a larger problem. Consumers may lack the expertise to [[3]] such claims, and regulators have been slow to act. Clear standards and independent verification are needed to [[4]] trust.",
+    "instruction": "从 8 个词中选 5 个填空。每空 1 分。",
+    "content": "Companies increasingly advertise their environmental credentials, but not all claims are [[1]]. Greenwashing occurs when a firm [[2]] a small improvement to distract from a larger problem. Consumers may lack the expertise to [[3]] such claims, and regulators have been slow to act. Clear standards and independent verification are needed to [[4]] trust. Penalties for false claims should also be [[5]] enough to deter repeated offences. Transparency about supply chains would help consumers make informed choices. The evidence suggests that these measures should be reviewed regularly and adjusted over time.",
     "bank": [
       "accurate",
       "highlights",
       "verify",
       "restore",
+      "strong",
       "false",
       "hides",
-      "ignore",
-      "reduce"
+      "ignore"
     ],
     "blanks": [
       {
@@ -5923,30 +5956,33 @@ window.QUESTIONS = [
       },
       {
         "answer": "restore"
+      },
+      {
+        "answer": "strong"
       }
     ],
-    "explanation": "① are + 形容词 → accurate；② a firm 单数，谓语 highlights；③ to + 动词原形 → verify；④ to + 动词原形 → restore。",
-    "tip": "高难：greenwashing 漂绿；highlights a small improvement；verify claims；restore trust。"
+    "explanation": "accurate / highlights / verify / restore / strong；false、hides、ignore 是干扰项。",
+    "tip": "claims accurate；firm highlights；verify claims；restore trust；strong enough。"
   },
   {
     "id": "fib-r-13",
     "type": "fib-r",
     "section": "reading",
-    "level": 4,
-    "time": 170,
+    "level": 3,
+    "time": 150,
     "title": "遗忘的适应性（高难）",
     "lesson": "L6",
-    "instruction": "从词库选词填空。高难：先按词性分组，再看搭配。",
-    "content": "Forgetting is often seen as a failure of memory, but it can be [[1]]. The brain prunes information that is no longer useful, which [[2]] the retrieval of what matters. Forgetting also reduces [[3]] between similar memories. Rather than trying to remember everything, learners may benefit from [[4]] what they need and reviewing it at intervals.",
+    "instruction": "从 8 个词中选 5 个填空。每空 1 分。",
+    "content": "Forgetting is often seen as a failure of memory, but it can be [[1]]. The brain prunes information that is no longer useful, which [[2]] the retrieval of what matters. Forgetting also reduces [[3]] between similar memories. Rather than trying to remember everything, learners may benefit from [[4]] what they need and reviewing it at intervals. However, forgetting can be problematic when it affects important safety information or medical instructions. In such cases, external reminders and clear [[5]] are essential.",
     "bank": [
       "adaptive",
       "facilitates",
       "interference",
       "selecting",
+      "procedures",
       "harmful",
       "blocks",
-      "attention",
-      "ignoring"
+      "attention"
     ],
     "blanks": [
       {
@@ -5960,10 +5996,13 @@ window.QUESTIONS = [
       },
       {
         "answer": "selecting"
+      },
+      {
+        "answer": "procedures"
       }
     ],
-    "explanation": "① can be + 形容词 → adaptive；② which + 谓语 → facilitates；③ reduces + 名词 → interference；④ from + 动名词 → selecting。",
-    "tip": "高难：adaptive 适应性的；facilitates retrieval；interference 干扰；selecting。"
+    "explanation": "adaptive / facilitates / interference / selecting / procedures；harmful、blocks、attention 是干扰项。",
+    "tip": "can be adaptive；facilitates retrieval；reduces interference；selecting information；clear procedures。"
   },
   {
     "id": "ro-19",
