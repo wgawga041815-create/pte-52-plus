@@ -1,5 +1,5 @@
 /* PTE 52 Lab Plus — 378 questions
- * FIB-L batch upgraded to 100-130 words, 4 blanks.
+ * RL batch upgraded to 110-140 word lectures.
  */
 window.QUESTIONS = [
   {
@@ -198,10 +198,10 @@ window.QUESTIONS = [
     "id": "rts-01",
     "type": "rts",
     "section": "speaking",
-    "level": 1,
-    "time": 55,
+    "level": 3,
+    "time": 60,
     "title": "同学借笔记",
-    "instruction": "读情景，10 秒准备，40 秒作答。用“回应—建议—理由—收尾”。",
+    "instruction": "读情景，20 秒准备，40 秒作答。用“回应—说明—理由/安排—收尾”。",
     "content": "Your classmate asks to borrow your notes the night before the exam. Respond to your classmate.",
     "model": "Sure, I can share my notes. I'd suggest we review them together for an hour, because they only make sense with the lecture context. Let's meet at the library at seven. Let me know if that works for you.",
     "checklist": [
@@ -216,10 +216,10 @@ window.QUESTIONS = [
     "id": "rts-02",
     "type": "rts",
     "section": "speaking",
-    "level": 2,
-    "time": 55,
+    "level": 3,
+    "time": 60,
     "title": "朋友找自习室",
-    "instruction": "10 秒准备，40 秒作答。给一个具体地点 + 两个理由。",
+    "instruction": "读情景，20 秒准备，40 秒作答。用“回应—说明—理由/安排—收尾”。",
     "content": "Your friend cannot find a quiet place to study. You know an empty seminar room on campus. Respond to your friend.",
     "model": "Hi, I know the library is full. You could use the empty seminar room on the second floor; I saw it was free this morning. It's quiet until four, so you could study there. I can show you where it is.",
     "checklist": [
@@ -1849,10 +1849,10 @@ window.QUESTIONS = [
     "id": "rts-03",
     "type": "rts",
     "section": "speaking",
-    "level": 2,
-    "time": 55,
+    "level": 3,
+    "time": 60,
     "title": "小组作业有人不出现",
-    "instruction": "读情景，10 秒准备，40 秒作答。用“回应—建议—理由—收尾”。",
+    "instruction": "读情景，20 秒准备，40 秒作答。用“回应—说明—理由/安排—收尾”。",
     "explanation": "RTS 考“合不合适”，不是考观点深度。四步框架能覆盖内容分。",
     "tip": "不要背 DI 模板；一开口就要像在跟人说话。",
     "content": "Your group is preparing a presentation. One member has missed two meetings and has not done their part. Talk to this group member.",
@@ -1867,10 +1867,10 @@ window.QUESTIONS = [
     "id": "rts-04",
     "type": "rts",
     "section": "speaking",
-    "level": 2,
-    "time": 55,
+    "level": 3,
+    "time": 60,
     "title": "错过讲座",
-    "instruction": "读情景，10 秒准备，40 秒作答。用“回应—建议—理由—收尾”。",
+    "instruction": "读情景，20 秒准备，40 秒作答。用“回应—说明—理由/安排—收尾”。",
     "explanation": "RTS 考“合不合适”，不是考观点深度。四步框架能覆盖内容分。",
     "tip": "不要背 DI 模板；一开口就要像在跟人说话。",
     "content": "You missed an important lecture because you were ill. Ask a classmate for help.",
@@ -1885,10 +1885,10 @@ window.QUESTIONS = [
     "id": "rts-05",
     "type": "rts",
     "section": "speaking",
-    "level": 2,
-    "time": 55,
+    "level": 3,
+    "time": 60,
     "title": "借不到书",
-    "instruction": "读情景，10 秒准备，40 秒作答。用“回应—建议—理由—收尾”。",
+    "instruction": "读情景，20 秒准备，40 秒作答。用“回应—说明—理由/安排—收尾”。",
     "explanation": "RTS 考“合不合适”，不是考观点深度。四步框架能覆盖内容分。",
     "tip": "不要背 DI 模板；一开口就要像在跟人说话。",
     "content": "The book you need is already borrowed from the library. Ask the librarian for another option.",
@@ -1903,10 +1903,10 @@ window.QUESTIONS = [
     "id": "rts-06",
     "type": "rts",
     "section": "speaking",
-    "level": 2,
-    "time": 55,
+    "level": 3,
+    "time": 60,
     "title": "室友晚上太吵",
-    "instruction": "读情景，10 秒准备，40 秒作答。用“回应—建议—理由—收尾”。",
+    "instruction": "读情景，20 秒准备，40 秒作答。用“回应—说明—理由/安排—收尾”。",
     "explanation": "RTS 考“合不合适”，不是考观点深度。四步框架能覆盖内容分。",
     "tip": "不要背 DI 模板；一开口就要像在跟人说话。",
     "content": "Your roommate plays loud music late at night. Talk to your roommate.",
@@ -1921,10 +1921,10 @@ window.QUESTIONS = [
     "id": "rts-07",
     "type": "rts",
     "section": "speaking",
-    "level": 2,
-    "time": 55,
+    "level": 3,
+    "time": 60,
     "title": "实习与课程冲突",
-    "instruction": "读情景，10 秒准备，40 秒作答。用“回应—建议—理由—收尾”。",
+    "instruction": "读情景，20 秒准备，40 秒作答。用“回应—说明—理由/安排—收尾”。",
     "explanation": "RTS 考“合不合适”，不是考观点深度。四步框架能覆盖内容分。",
     "tip": "不要背 DI 模板；一开口就要像在跟人说话。",
     "content": "Your internship starts next week, but it clashes with a required class. Explain the situation to your supervisor.",
@@ -1939,10 +1939,10 @@ window.QUESTIONS = [
     "id": "rts-08",
     "type": "rts",
     "section": "speaking",
-    "level": 2,
-    "time": 55,
+    "level": 3,
+    "time": 60,
     "title": "搭档演讲紧张",
-    "instruction": "读情景，10 秒准备，40 秒作答。用“回应—建议—理由—收尾”。",
+    "instruction": "读情景，20 秒准备，40 秒作答。用“回应—说明—理由/安排—收尾”。",
     "explanation": "RTS 考“合不合适”，不是考观点深度。四步框架能覆盖内容分。",
     "tip": "不要背 DI 模板；一开口就要像在跟人说话。",
     "content": "Your partner is nervous about tomorrow's presentation. Encourage your partner.",
@@ -3463,11 +3463,11 @@ window.QUESTIONS = [
     "type": "rl",
     "section": "speaking",
     "level": 2,
-    "time": 100,
+    "time": 110,
     "title": "城市绿地（讲座）",
     "lesson": "L3",
-    "instruction": "听讲座，10 秒准备，40 秒复述。记 4 个关键词，用自己的话。",
-    "audio": "Today I want to discuss green spaces in cities. Parks are not just decorative. They cool the air, absorb rainwater and give people a place to exercise. Research also shows that residents living near trees report lower stress. However, parks are expensive to maintain, and some cities struggle to keep them safe. The speaker argues that cities should design green spaces that are cheap to maintain and easy to use, rather than building expensive showpiece parks.",
+    "instruction": "听 110–140 词讲座，10 秒准备，40 秒复述。记 4 个关键词，用自己的话。",
+    "audio": "Today I want to discuss green spaces in cities. Parks are not just decorative. They cool the air, absorb rainwater and give people a place to exercise. Research also shows that residents living near trees report lower stress. However, parks are expensive to maintain, and some cities struggle to keep them safe. The speaker argues that cities should design green spaces that are cheap to maintain and easy to use, rather than building expensive showpiece parks. Well-designed parks also provide shade and places for children to play. The speaker warns that cities should consult residents before redesigning a park, because local needs vary. Maintenance budgets should be planned from the beginning.",
     "keypoints": [
       "Parks cool air, absorb rainwater, provide exercise",
       "Residents near trees report lower stress",
@@ -3483,18 +3483,18 @@ window.QUESTIONS = [
       "40 秒内说完"
     ],
     "explanation": "RL 评分看 Content（关键要点、关系、结论）、Oral fluency、Pronunciation；不要逐句背原文。",
-    "tip": "两个好处 + 一个转折 + 一个建议；不要背原文形容词。"
+    "tip": "第一句说主题；中间说两个要点；最后一句说结论。40 秒内说完。"
   },
   {
     "id": "rl-02",
     "type": "rl",
     "section": "speaking",
     "level": 2,
-    "time": 100,
+    "time": 110,
     "title": "睡眠与记忆（讲座）",
     "lesson": "L3",
-    "instruction": "听讲座，10 秒准备，40 秒复述。记 4 个关键词，用自己的话。",
-    "audio": "Today's lecture is about sleep and memory. During deep sleep, the brain replays information from the day and moves it into long-term memory. Students who sleep seven to eight hours before an exam usually remember more than those who stay up late. However, caffeine and screens can delay sleep. The speaker recommends a regular routine and says that a good night's sleep is part of effective revision.",
+    "instruction": "听 110–140 词讲座，10 秒准备，40 秒复述。记 4 个关键词，用自己的话。",
+    "audio": "Today's lecture is about sleep and memory. During deep sleep, the brain replays information from the day and moves it into long-term memory. Students who sleep seven to eight hours before an exam usually remember more than those who stay up late. However, caffeine and screens can delay sleep. The speaker recommends a regular routine and says that a good night's sleep is part of effective revision. The lecture also explains that sleep affects mood and attention, not only memory. Students who sacrifice sleep to study may perform worse the next day. A consistent routine is more effective than a single long sleep, and caffeine and screens should be avoided late in the evening.",
     "keypoints": [
       "Deep sleep moves information into long-term memory",
       "7–8 hours before an exam improves recall",
@@ -3510,18 +3510,18 @@ window.QUESTIONS = [
       "40 秒内说完"
     ],
     "explanation": "RL 评分看 Content（关键要点、关系、结论）、Oral fluency、Pronunciation；不要逐句背原文。",
-    "tip": "数字 7–8 小时要保留；caffeine / screens 是第二个要点。"
+    "tip": "第一句说主题；中间说两个要点；最后一句说结论。40 秒内说完。"
   },
   {
     "id": "rl-03",
     "type": "rl",
     "section": "speaking",
     "level": 2,
-    "time": 100,
+    "time": 110,
     "title": "远程工作（讲座）",
     "lesson": "L3",
-    "instruction": "听讲座，10 秒准备，40 秒复述。记 4 个关键词，用自己的话。",
-    "audio": "Remote work has become common in many companies. Employees save time on commuting and can organize their day more flexibly. However, working alone for long periods can make people feel isolated, and managers find it harder to build trust. Many companies now combine remote work with regular office days. The speaker suggests that the future is hybrid, not fully remote.",
+    "instruction": "听 110–140 词讲座，10 秒准备，40 秒复述。记 4 个关键词，用自己的话。",
+    "audio": "Remote work has become common in many companies. Employees save time on commuting and can organize their day more flexibly. However, working alone for long periods can make people feel isolated, and managers find it harder to build trust. Many companies now combine remote work with regular office days. The speaker suggests that the future is hybrid, not fully remote. Hybrid work can also widen recruitment, because companies can hire people who live far away. However, junior employees may need more face-to-face mentoring than senior staff. The speaker argues that managers should agree clear rules about when teams meet. Trust depends on communication, not simply on location. The speaker concludes that this issue requires both individual action and public policy.",
     "keypoints": [
       "Saves commuting time; flexible schedule",
       "Isolation; harder to build trust",
@@ -3537,18 +3537,18 @@ window.QUESTIONS = [
       "40 秒内说完"
     ],
     "explanation": "RL 评分看 Content（关键要点、关系、结论）、Oral fluency、Pronunciation；不要逐句背原文。",
-    "tip": "两个好处 + 两个问题 + 一个结论；hybrid 是关键词。"
+    "tip": "第一句说主题；中间说两个要点；最后一句说结论。40 秒内说完。"
   },
   {
     "id": "rl-04",
     "type": "rl",
     "section": "speaking",
     "level": 2,
-    "time": 100,
+    "time": 110,
     "title": "食物浪费（讲座）",
     "lesson": "L3",
-    "instruction": "听讲座，10 秒准备，40 秒复述。记 4 个关键词，用自己的话。",
-    "audio": "A third of the food produced for human consumption is wasted. In wealthy countries, much of this waste happens in shops and homes, where food is thrown away after passing a label date. In poorer countries, waste often occurs after harvest because storage is inadequate. Apps can connect shops with buyers, but the speaker argues that prevention is better than finding new uses for wasted food. Solutions therefore need to differ by region.",
+    "instruction": "听 110–140 词讲座，10 秒准备，40 秒复述。记 4 个关键词，用自己的话。",
+    "audio": "A third of the food produced for human consumption is wasted. In wealthy countries, much of this waste happens in shops and homes, where food is thrown away after passing a label date. In poorer countries, waste often occurs after harvest because storage is inadequate. Apps can connect shops with buyers, but the speaker argues that prevention is better than finding new uses for wasted food. Solutions therefore need to differ by region. Households can reduce waste by planning meals and storing food correctly. Retailers can also relax cosmetic standards for fruit and vegetables. The speaker argues that measurement is essential, because countries cannot manage what they do not count.",
     "keypoints": [
       "One third of food is wasted",
       "Rich countries: shops and homes",
@@ -3564,18 +3564,18 @@ window.QUESTIONS = [
       "40 秒内说完"
     ],
     "explanation": "RL 评分看 Content（关键要点、关系、结论）、Oral fluency、Pronunciation；不要逐句背原文。",
-    "tip": "对比 rich / poor 两个原因；prevention 是结论关键词。"
+    "tip": "第一句说主题；中间说两个要点；最后一句说结论。40 秒内说完。"
   },
   {
     "id": "rl-05",
     "type": "rl",
     "section": "speaking",
     "level": 2,
-    "time": 100,
+    "time": 110,
     "title": "博物馆与社区（讲座）",
     "lesson": "L3",
-    "instruction": "听讲座，10 秒准备，40 秒复述。记 4 个关键词，用自己的话。",
-    "audio": "Today's topic is the changing role of museums. Museums used to be mainly storehouses of objects, but many now run workshops, talks and school programmes. These activities attract local residents who rarely visit traditional exhibitions. However, they require staff time and funding. The speaker argues that museums should measure their community impact, not only visitor numbers.",
+    "instruction": "听 110–140 词讲座，10 秒准备，40 秒复述。记 4 个关键词，用自己的话。",
+    "audio": "Today's topic is the changing role of museums. Museums used to be mainly storehouses of objects, but many now run workshops, talks and school programmes. These activities attract local residents who rarely visit traditional exhibitions. However, they require staff time and funding. The speaker argues that museums should measure their community impact, not only visitor numbers. Museums also face questions about contested objects and colonial collections. Consulting source communities can be slow, but it often improves exhibitions. The speaker argues that museums should publish how they make decisions and who is involved. Trust depends on transparency, not only on attendance. The speaker concludes that this issue requires both individual action and public policy.",
     "keypoints": [
       "Museums used to store objects",
       "Now run workshops, talks, school programmes",
@@ -3591,7 +3591,7 @@ window.QUESTIONS = [
       "40 秒内说完"
     ],
     "explanation": "RL 评分看 Content（关键要点、关系、结论）、Oral fluency、Pronunciation；不要逐句背原文。",
-    "tip": "过去 vs 现在；转折 however；结论是 measure community impact。"
+    "tip": "第一句说主题；中间说两个要点；最后一句说结论。40 秒内说完。"
   },
   {
     "id": "sgd-01",
@@ -3744,11 +3744,11 @@ window.QUESTIONS = [
     "id": "rts-09",
     "type": "rts",
     "section": "speaking",
-    "level": 2,
-    "time": 55,
+    "level": 3,
+    "time": 60,
     "title": "请教授写推荐信",
     "lesson": "L4",
-    "instruction": "读情景，10 秒准备，40 秒作答。用“回应—说明—理由/安排—收尾”。",
+    "instruction": "读情景，20 秒准备，40 秒作答。用“回应—说明—理由/安排—收尾”。",
     "content": "Your professor has agreed to write a reference letter for your master's application, but you need to confirm the deadline and provide your CV. Talk to your professor.",
     "model": "Dear Professor Lee, thank you for agreeing to write my reference letter. The application deadline is 15 November. I've attached my CV and a list of relevant courses. Would you like any other information, such as my transcript or personal statement? I'm happy to meet during your office hours.",
     "checklist": [
@@ -3763,11 +3763,11 @@ window.QUESTIONS = [
     "id": "rts-10",
     "type": "rts",
     "section": "speaking",
-    "level": 2,
-    "time": 55,
+    "level": 3,
+    "time": 60,
     "title": "图书馆书逾期",
     "lesson": "L4",
-    "instruction": "读情景，10 秒准备，40 秒作答。用“回应—说明—理由/安排—收尾”。",
+    "instruction": "读情景，20 秒准备，40 秒作答。用“回应—说明—理由/安排—收尾”。",
     "content": "Your library book is three days overdue because you were ill. Explain the situation to the librarian and ask what to do.",
     "model": "Hello, I'm sorry my book is three days overdue. I was ill last week and couldn't come to campus. Could you tell me the fine and whether I can renew it? I can pay the fine now and return the book this afternoon.",
     "checklist": [
@@ -3782,11 +3782,11 @@ window.QUESTIONS = [
     "id": "rts-11",
     "type": "rts",
     "section": "speaking",
-    "level": 2,
-    "time": 55,
+    "level": 3,
+    "time": 60,
     "title": "邀请同学加入学习小组",
     "lesson": "L4",
-    "instruction": "读情景，10 秒准备，40 秒作答。用“回应—说明—理由/安排—收尾”。",
+    "instruction": "读情景，20 秒准备，40 秒作答。用“回应—说明—理由/安排—收尾”。",
     "content": "You are forming a study group for the statistics exam. Invite a classmate who is struggling with the subject.",
     "model": "Hi Sam, a few of us are forming a statistics study group. We meet on Tuesdays at six in the library. Would you like to join us? We can go through past papers together, and I can explain the topics you found difficult.",
     "checklist": [
@@ -3801,11 +3801,11 @@ window.QUESTIONS = [
     "id": "rts-12",
     "type": "rts",
     "section": "speaking",
-    "level": 2,
-    "time": 55,
+    "level": 3,
+    "time": 60,
     "title": "房东修暖气",
     "lesson": "L4",
-    "instruction": "读情景，10 秒准备，40 秒作答。用“回应—说明—理由/安排—收尾”。",
+    "instruction": "读情景，20 秒准备，40 秒作答。用“回应—说明—理由/安排—收尾”。",
     "content": "The heating in your rented flat has stopped working. Ask your landlord to repair it.",
     "model": "Hello, the heating in my flat has stopped working since Monday. The rooms are very cold, and I have a health condition that makes it difficult to sleep. Could you arrange for a repair this week? I'm available on Wednesday or Friday afternoon.",
     "checklist": [
@@ -3820,11 +3820,11 @@ window.QUESTIONS = [
     "id": "rts-13",
     "type": "rts",
     "section": "speaking",
-    "level": 2,
-    "time": 55,
+    "level": 3,
+    "time": 60,
     "title": "拒绝朋友生日邀请",
     "lesson": "L4",
-    "instruction": "读情景，10 秒准备，40 秒作答。用“回应—说明—理由/安排—收尾”。",
+    "instruction": "读情景，20 秒准备，40 秒作答。用“回应—说明—理由/安排—收尾”。",
     "content": "Your friend invites you to a birthday party, but you have an important exam the next morning. Decline politely and suggest another time.",
     "model": "Thanks so much for inviting me. I'd really like to come, but I have an important exam the next morning and need to revise. Could we meet for lunch on Sunday instead? I'd love to celebrate with you then.",
     "checklist": [
@@ -3839,11 +3839,11 @@ window.QUESTIONS = [
     "id": "rts-14",
     "type": "rts",
     "section": "speaking",
-    "level": 2,
-    "time": 55,
+    "level": 3,
+    "time": 60,
     "title": "和同事换班",
     "lesson": "L4",
-    "instruction": "读情景，10 秒准备，40 秒作答。用“回应—说明—理由/安排—收尾”。",
+    "instruction": "读情景，20 秒准备，40 秒作答。用“回应—说明—理由/安排—收尾”。",
     "content": "You cannot work your Saturday shift because of a family event. Ask a coworker to swap shifts with you.",
     "model": "Hi Alex, are you free to swap shifts this Saturday? I have a family event that I can't move. I could take your Sunday shift instead, or cover two of your evening shifts next week. Let me know which works better for you.",
     "checklist": [
@@ -3858,11 +3858,11 @@ window.QUESTIONS = [
     "id": "rts-15",
     "type": "rts",
     "section": "speaking",
-    "level": 2,
-    "time": 55,
+    "level": 3,
+    "time": 60,
     "title": "向小组道歉",
     "lesson": "L4",
-    "instruction": "读情景，10 秒准备，40 秒作答。用“回应—说明—理由/安排—收尾”。",
+    "instruction": "读情景，20 秒准备，40 秒作答。用“回应—说明—理由/安排—收尾”。",
     "content": "You missed a group deadline because you were ill. Apologize to your group and explain how you will fix it.",
     "model": "Hi everyone, I'm really sorry I missed the deadline. I was ill for two days and didn't finish my section in time. I've completed it now and will send it tonight. I can also take the editing task this week to make up for the delay.",
     "checklist": [
@@ -3877,11 +3877,11 @@ window.QUESTIONS = [
     "id": "rts-16",
     "type": "rts",
     "section": "speaking",
-    "level": 2,
-    "time": 55,
+    "level": 3,
+    "time": 60,
     "title": "重置学校密码",
     "lesson": "L4",
-    "instruction": "读情景，10 秒准备，40 秒作答。用“回应—说明—理由/安排—收尾”。",
+    "instruction": "读情景，20 秒准备，40 秒作答。用“回应—说明—理由/安排—收尾”。",
     "content": "You cannot log in to the university portal because your password has expired. Ask IT support for help.",
     "model": "Hello, I can't log in to the student portal because my password has expired. Could you help me reset it? My student ID is 2024123. I can verify my identity by email or come to the IT desk this afternoon.",
     "checklist": [
@@ -7734,10 +7734,10 @@ window.QUESTIONS = [
     "type": "rts",
     "section": "speaking",
     "level": 3,
-    "time": 55,
+    "time": 60,
     "title": "请教授延长小组作业",
     "lesson": "PLUS",
-    "instruction": "读情景，10 秒准备，40 秒作答。用“回应—说明—理由/安排—收尾”。",
+    "instruction": "读情景，20 秒准备，40 秒作答。用“回应—说明—理由/安排—收尾”。",
     "content": "Your group needs two more days to finish a project because one member was ill. Ask your professor for an extension.",
     "model": "Hello Professor Lee, our group needs two more days to finish the project because one member was ill. Could we submit on Friday instead of Wednesday? We have completed most of the work and only need time to check the data. I can send you a short progress report today.",
     "checklist": [
@@ -7753,10 +7753,10 @@ window.QUESTIONS = [
     "type": "rts",
     "section": "speaking",
     "level": 3,
-    "time": 55,
+    "time": 60,
     "title": "房租上涨询问",
     "lesson": "PLUS",
-    "instruction": "读情景，10 秒准备，40 秒作答。用“回应—说明—理由/安排—收尾”。",
+    "instruction": "读情景，20 秒准备，40 秒作答。用“回应—说明—理由/安排—收尾”。",
     "content": "Your landlord has informed you that the rent will increase next month. Ask for clarification and discuss your options.",
     "model": "Hello, thank you for letting me know about the rent increase. Could you explain how much it will rise and when it takes effect? I would also like to discuss whether a longer lease could keep the current rate. I am happy to meet and talk it through.",
     "checklist": [
@@ -7772,10 +7772,10 @@ window.QUESTIONS = [
     "type": "rts",
     "section": "speaking",
     "level": 3,
-    "time": 55,
+    "time": 60,
     "title": "图书馆噪音",
     "lesson": "PLUS",
-    "instruction": "读情景，10 秒准备，40 秒作答。用“回应—说明—理由/安排—收尾”。",
+    "instruction": "读情景，20 秒准备，40 秒作答。用“回应—说明—理由/安排—收尾”。",
     "content": "Someone is talking loudly in the library quiet zone. Ask them politely to be quieter.",
     "model": "Excuse me, I'm sorry to interrupt, but this is the quiet study area. Would you mind taking your call outside or speaking more quietly? I have an exam tomorrow and I'm finding it hard to concentrate. Thank you for understanding.",
     "checklist": [
@@ -7791,10 +7791,10 @@ window.QUESTIONS = [
     "type": "rts",
     "section": "speaking",
     "level": 3,
-    "time": 55,
+    "time": 60,
     "title": "朋友借自行车",
     "lesson": "PLUS",
-    "instruction": "读情景，10 秒准备，40 秒作答。用“回应—说明—理由/安排—收尾”。",
+    "instruction": "读情景，20 秒准备，40 秒作答。用“回应—说明—理由/安排—收尾”。",
     "content": "Your friend asks to borrow your bicycle for the weekend. Respond to your friend.",
     "model": "Sure, you can borrow my bike this weekend. I'm not using it on Saturday or Sunday. Just check the brakes before you go, and please lock it when you leave it outside. Could you return it on Sunday evening? I need it for class on Monday.",
     "checklist": [
@@ -7810,10 +7810,10 @@ window.QUESTIONS = [
     "type": "rts",
     "section": "speaking",
     "level": 3,
-    "time": 55,
+    "time": 60,
     "title": "同学请你看演讲稿",
     "lesson": "PLUS",
-    "instruction": "读情景，10 秒准备，40 秒作答。用“回应—说明—理由/安排—收尾”。",
+    "instruction": "读情景，20 秒准备，40 秒作答。用“回应—说明—理由/安排—收尾”。",
     "content": "Your classmate asks you to review their presentation slides before tomorrow. Respond to your classmate.",
     "model": "Of course, I can look at your slides tonight. Send them to me by seven and I'll check the structure and the data. I can give you comments by nine. If you want, we can also practise the opening together tomorrow morning.",
     "checklist": [
@@ -7829,10 +7829,10 @@ window.QUESTIONS = [
     "type": "rts",
     "section": "speaking",
     "level": 3,
-    "time": 55,
+    "time": 60,
     "title": "和经理换班",
     "lesson": "PLUS",
-    "instruction": "读情景，10 秒准备，40 秒作答。用“回应—说明—理由/安排—收尾”。",
+    "instruction": "读情景，20 秒准备，40 秒作答。用“回应—说明—理由/安排—收尾”。",
     "content": "You need to change your shift next week because of a medical appointment. Ask your manager.",
     "model": "Hello, I'd like to ask about my shift next Tuesday. I have a medical appointment in the morning and can't start at eight. Could I swap to the afternoon shift or take a half day? I can cover someone else's evening shift later in the week.",
     "checklist": [
@@ -7848,10 +7848,10 @@ window.QUESTIONS = [
     "type": "rts",
     "section": "speaking",
     "level": 3,
-    "time": 55,
+    "time": 60,
     "title": "请老师写推荐信",
     "lesson": "PLUS",
-    "instruction": "读情景，10 秒准备，40 秒作答。用“回应—说明—理由/安排—收尾”。",
+    "instruction": "读情景，20 秒准备，40 秒作答。用“回应—说明—理由/安排—收尾”。",
     "content": "You are applying for a master's programme and need a reference letter. Ask a professor who taught you last semester.",
     "model": "Dear Professor Chen, I am applying for a master's programme in public policy and would be grateful if you could write me a reference letter. The deadline is 15 December. I have attached my CV and personal statement. Please let me know if you need any other information.",
     "checklist": [
@@ -7867,10 +7867,10 @@ window.QUESTIONS = [
     "type": "rts",
     "section": "speaking",
     "level": 3,
-    "time": 55,
+    "time": 60,
     "title": "邻居停车",
     "lesson": "PLUS",
-    "instruction": "读情景，10 秒准备，40 秒作答。用“回应—说明—理由/安排—收尾”。",
+    "instruction": "读情景，20 秒准备，40 秒作答。用“回应—说明—理由/安排—收尾”。",
     "content": "Your neighbour's car is blocking your driveway. Ask them to move it.",
     "model": "Hi, I'm sorry to bother you, but your car is blocking my driveway and I need to leave for work. Could you move it when you have a moment? If you're parking here regularly, maybe we can agree on a space that works for both of us.",
     "checklist": [
@@ -7886,10 +7886,10 @@ window.QUESTIONS = [
     "type": "rts",
     "section": "speaking",
     "level": 3,
-    "time": 55,
+    "time": 60,
     "title": "改预约时间",
     "lesson": "PLUS",
-    "instruction": "读情景，10 秒准备，40 秒作答。用“回应—说明—理由/安排—收尾”。",
+    "instruction": "读情景，20 秒准备，40 秒作答。用“回应—说明—理由/安排—收尾”。",
     "content": "You have a doctor's appointment tomorrow but need to reschedule because of a work commitment. Call the clinic.",
     "model": "Good morning, I have an appointment with Dr Patel tomorrow at ten, but I need to reschedule because of a work commitment. Could I move it to Friday morning or early next week? My name is Alex Chen and my date of birth is 12 March 1998.",
     "checklist": [
@@ -7905,10 +7905,10 @@ window.QUESTIONS = [
     "type": "rts",
     "section": "speaking",
     "level": 3,
-    "time": 55,
+    "time": 60,
     "title": "邀请参加社团",
     "lesson": "PLUS",
-    "instruction": "读情景，10 秒准备，40 秒作答。用“回应—说明—理由/安排—收尾”。",
+    "instruction": "读情景，20 秒准备，40 秒作答。用“回应—说明—理由/安排—收尾”。",
     "content": "You are in a photography club and want to invite a classmate to the next meeting. Talk to your classmate.",
     "model": "Hi Sam, our photography club is meeting on Thursday at six in the student centre. We're reviewing portraits this week, and you could bring any photos you like. Would you like to come? I can introduce you to the group and show you the equipment.",
     "checklist": [
@@ -8607,8 +8607,8 @@ window.QUESTIONS = [
     "time": 110,
     "title": "习惯的形成（讲座）",
     "lesson": "RLPLUS",
-    "instruction": "听讲座，10 秒准备，40 秒复述。记 4 个关键词，用自己的话。",
-    "audio": "Today I want to discuss how habits form. A habit begins with a cue that triggers a routine, and the routine is followed by a reward. Over time, the cue and the routine become linked, so the behaviour feels automatic. This is why changing a habit is easier when you change the environment rather than relying on willpower. If you remove the cue, the old routine becomes less automatic. The speaker suggests replacing an unwanted habit with a new routine that provides a similar reward.",
+    "instruction": "听 110–140 词讲座，10 秒准备，40 秒复述。记 4 个关键词，用自己的话。",
+    "audio": "Today I want to discuss how habits form. A habit begins with a cue that triggers a routine, and the routine is followed by a reward. Over time, the cue and the routine become linked, so the behaviour feels automatic. This is why changing a habit is easier when you change the environment rather than relying on willpower. If you remove the cue, the old routine becomes less automatic. The speaker suggests replacing an unwanted habit with a new routine that provides a similar reward. Habits also depend on repetition and immediate rewards. A new routine is more likely to last if it is easy at first and fits an existing cue. The speaker recommends tracking progress and adjusting the environment when a habit slips.",
     "keypoints": [
       "Cue → routine → reward",
       "Repetition makes behaviour automatic",
@@ -8624,7 +8624,7 @@ window.QUESTIONS = [
       "40 秒内说完"
     ],
     "explanation": "RL 评分看 Content（关键要点、关系、结论）、Oral fluency、Pronunciation；不要逐句背原文。",
-    "tip": "习惯回路 + 环境 + 替代；不要只说“靠意志力”。"
+    "tip": "第一句说主题；中间说两个要点；最后一句说结论。40 秒内说完。"
   },
   {
     "id": "rl-07",
@@ -8634,8 +8634,8 @@ window.QUESTIONS = [
     "time": 110,
     "title": "拖延心理（讲座）",
     "lesson": "RLPLUS",
-    "instruction": "听讲座，10 秒准备，40 秒复述。记 4 个关键词，用自己的话。",
-    "audio": "Procrastination is often mistaken for laziness, but it is usually a way of managing negative emotions. When a task feels boring, difficult or threatening, people delay it to avoid discomfort. This brings short-term relief but increases stress later. Research suggests that breaking tasks into smaller steps and forgiving past delays can help. The speaker argues that self-compassion is more effective than self-criticism.",
+    "instruction": "听 110–140 词讲座，10 秒准备，40 秒复述。记 4 个关键词，用自己的话。",
+    "audio": "Procrastination is often mistaken for laziness, but it is usually a way of managing negative emotions. When a task feels boring, difficult or threatening, people delay it to avoid discomfort. This brings short-term relief but increases stress later. Research suggests that breaking tasks into smaller steps and forgiving past delays can help. The speaker argues that self-compassion is more effective than self-criticism. Students often delay tasks that threaten their self-image, not just tasks that are boring. Breaking work into small steps reduces the feeling of threat and makes starting easier. The speaker argues that self-compassion helps people recover after a delay instead of giving up. Perfectionism can make procrastination worse.",
     "keypoints": [
       "Not laziness; managing emotions",
       "Delay avoids discomfort",
@@ -8651,7 +8651,7 @@ window.QUESTIONS = [
       "40 秒内说完"
     ],
     "explanation": "RL 评分看 Content（关键要点、关系、结论）、Oral fluency、Pronunciation；不要逐句背原文。",
-    "tip": "情绪调节 + 短期/长期 + 两个对策。"
+    "tip": "第一句说主题；中间说两个要点；最后一句说结论。40 秒内说完。"
   },
   {
     "id": "rl-08",
@@ -8661,8 +8661,8 @@ window.QUESTIONS = [
     "time": 110,
     "title": "垂直农业（讲座）",
     "lesson": "RLPLUS",
-    "instruction": "听讲座，10 秒准备，40 秒复述。记 4 个关键词，用自己的话。",
-    "audio": "Vertical farms grow crops in stacked layers indoors. They use less land and water than conventional farms and can operate near cities, reducing transport. However, they consume large amounts of electricity for lighting and cooling. Leafy greens work well, but staple crops such as wheat are difficult to grow profitably. The speaker argues that vertical farms will play a role in specific markets, not replace traditional agriculture.",
+    "instruction": "听 110–140 词讲座，10 秒准备，40 秒复述。记 4 个关键词，用自己的话。",
+    "audio": "Vertical farms grow crops in stacked layers indoors. They use less land and water than conventional farms and can operate near cities, reducing transport. However, they consume large amounts of electricity for lighting and cooling. Leafy greens work well, but staple crops such as wheat are difficult to grow profitably. The speaker argues that vertical farms will play a role in specific markets, not replace traditional agriculture. Vertical farms can also reduce pesticide use and protect crops from extreme weather. However, they require reliable electricity and skilled staff. The speaker argues that they are best suited to leafy greens and herbs, not staple crops. Their environmental benefits depend on how the electricity is produced.",
     "keypoints": [
       "Stacked layers indoors",
       "Less land/water; near cities",
@@ -8678,7 +8678,7 @@ window.QUESTIONS = [
       "40 秒内说完"
     ],
     "explanation": "RL 评分看 Content（关键要点、关系、结论）、Oral fluency、Pronunciation；不要逐句背原文。",
-    "tip": "好处 + 限制 + 结论：niche, not replacement。"
+    "tip": "第一句说主题；中间说两个要点；最后一句说结论。40 秒内说完。"
   },
   {
     "id": "rl-09",
@@ -8688,8 +8688,8 @@ window.QUESTIONS = [
     "time": 110,
     "title": "传粉昆虫减少（讲座）",
     "lesson": "RLPLUS",
-    "instruction": "听讲座，10 秒准备，40 秒复述。记 4 个关键词，用自己的话。",
-    "audio": "Pollinators such as bees and butterflies are essential for many crops. Their populations are threatened by pesticides, disease and the loss of flowering habitats. Farmers who depend on pollination may face lower yields and higher costs. Planting wildflower strips and reducing pesticide use can help, but bees do not respect farm boundaries, so neighbouring farms need to coordinate. The speaker argues that pollinator protection requires landscape-level planning, not just individual action.",
+    "instruction": "听 110–140 词讲座，10 秒准备，40 秒复述。记 4 个关键词，用自己的话。",
+    "audio": "Pollinators such as bees and butterflies are essential for many crops. Their populations are threatened by pesticides, disease and the loss of flowering habitats. Farmers who depend on pollination may face lower yields and higher costs. Planting wildflower strips and reducing pesticide use can help, but bees do not respect farm boundaries, so neighbouring farms need to coordinate. The speaker argues that pollinator protection requires landscape-level planning, not just individual action. Wildflower strips can also support natural predators that control pests. However, these habitats need to be managed over several years. The speaker argues that farmers should be paid for the ecological services they provide. Public awareness can also reduce pesticide use in gardens.",
     "keypoints": [
       "Pollinators essential for crops",
       "Pesticides, disease, habitat loss",
@@ -8705,7 +8705,7 @@ window.QUESTIONS = [
       "40 秒内说完"
     ],
     "explanation": "RL 评分看 Content（关键要点、关系、结论）、Oral fluency、Pronunciation；不要逐句背原文。",
-    "tip": "问题 + 后果 + 措施 + 结论；landscape-level 是关键词。"
+    "tip": "第一句说主题；中间说两个要点；最后一句说结论。40 秒内说完。"
   },
   {
     "id": "rl-10",
@@ -8715,8 +8715,8 @@ window.QUESTIONS = [
     "time": 110,
     "title": "共享经济（讲座）",
     "lesson": "RLPLUS",
-    "instruction": "听讲座，10 秒准备，40 秒复述。记 4 个关键词，用自己的话。",
-    "audio": "The sharing economy allows people to rent out rooms, cars and tools through digital platforms. It can reduce costs and make better use of underused assets. However, workers who provide services may lack insurance and stable income, and regulations have struggled to keep up. The speaker argues that platforms should be treated as employers in some cases, and that rules should protect both consumers and workers without destroying flexibility.",
+    "instruction": "听 110–140 词讲座，10 秒准备，40 秒复述。记 4 个关键词，用自己的话。",
+    "audio": "The sharing economy allows people to rent out rooms, cars and tools through digital platforms. It can reduce costs and make better use of underused assets. However, workers who provide services may lack insurance and stable income, and regulations have struggled to keep up. The speaker argues that platforms should be treated as employers in some cases, and that rules should protect both consumers and workers without destroying flexibility. Platforms can also create new opportunities for people who cannot work traditional hours. However, ratings and algorithmic ranking can give platforms enormous power over workers. The speaker argues that portable benefits and clear contracts would protect workers without removing flexibility. The speaker concludes that this issue requires both individual action and public policy.",
     "keypoints": [
       "Rent rooms/cars/tools via platforms",
       "Lower costs; better use of assets",
@@ -8732,7 +8732,7 @@ window.QUESTIONS = [
       "40 秒内说完"
     ],
     "explanation": "RL 评分看 Content（关键要点、关系、结论）、Oral fluency、Pronunciation；不要逐句背原文。",
-    "tip": "好处 + 问题 + 监管平衡；不要一边倒。"
+    "tip": "第一句说主题；中间说两个要点；最后一句说结论。40 秒内说完。"
   },
   {
     "id": "rl-11",
@@ -8742,8 +8742,8 @@ window.QUESTIONS = [
     "time": 110,
     "title": "茶的历史（讲座）",
     "lesson": "RLPLUS",
-    "instruction": "听讲座，10 秒准备，40 秒复述。记 4 个关键词，用自己的话。",
-    "audio": "Tea was first drunk in China thousands of years ago. It spread to Japan and later to Europe, where it became popular in the eighteenth century. Traders shipped it in large quantities, which made it cheaper. Today it is one of the most widely consumed drinks in the world. The speaker argues that tea's history shows how trade, taste and empire shaped everyday life.",
+    "instruction": "听 110–140 词讲座，10 秒准备，40 秒复述。记 4 个关键词，用自己的话。",
+    "audio": "Tea was first drunk in China thousands of years ago. It spread to Japan and later to Europe, where it became popular in the eighteenth century. Traders shipped it in large quantities, which made it cheaper. Today it is one of the most widely consumed drinks in the world. The speaker argues that tea's history shows how trade, taste and empire shaped everyday life. Tea also shaped rituals and social life, from Japanese tea ceremonies to British afternoon tea. Taxes on tea even contributed to political conflict in the American colonies. The speaker argues that everyday objects can reveal wider histories of trade and power. Tea's popularity also depended on advertising and changing tastes.",
     "keypoints": [
       "First drunk in China",
       "Spread to Japan/Europe",
@@ -8759,7 +8759,7 @@ window.QUESTIONS = [
       "40 秒内说完"
     ],
     "explanation": "RL 评分看 Content（关键要点、关系、结论）、Oral fluency、Pronunciation；不要逐句背原文。",
-    "tip": "时间线 + 贸易 + 结论；不要漏 empire。"
+    "tip": "第一句说主题；中间说两个要点；最后一句说结论。40 秒内说完。"
   },
   {
     "id": "rl-12",
@@ -8769,8 +8769,8 @@ window.QUESTIONS = [
     "time": 110,
     "title": "海洋酸化（讲座）",
     "lesson": "RLPLUS",
-    "instruction": "听讲座，10 秒准备，40 秒复述。记 4 个关键词，用自己的话。",
-    "audio": "The ocean absorbs about a quarter of the carbon dioxide released by human activity. This changes the chemistry of seawater, making it more acidic. Acidification can damage coral reefs and shellfish, which struggle to build shells and skeletons. The effects are uneven, and some species may adapt. The speaker argues that reducing emissions is the only long-term solution, because local cleanup cannot reverse the change.",
+    "instruction": "听 110–140 词讲座，10 秒准备，40 秒复述。记 4 个关键词，用自己的话。",
+    "audio": "The ocean absorbs about a quarter of the carbon dioxide released by human activity. This changes the chemistry of seawater, making it more acidic. Acidification can damage coral reefs and shellfish, which struggle to build shells and skeletons. The effects are uneven, and some species may adapt. The speaker argues that reducing emissions is the only long-term solution, because local cleanup cannot reverse the change. Shellfish farms in some regions have already suffered, and coral reefs are at risk of collapse. The effects vary because some species can tolerate more acidic water. The speaker argues that local pollution controls can help reefs but cannot solve acidification. Only rapid cuts in carbon emissions can stabilise ocean chemistry.",
     "keypoints": [
       "Ocean absorbs CO2",
       "Seawater more acidic",
@@ -8786,7 +8786,7 @@ window.QUESTIONS = [
       "40 秒内说完"
     ],
     "explanation": "RL 评分看 Content（关键要点、关系、结论）、Oral fluency、Pronunciation；不要逐句背原文。",
-    "tip": "机制 + 影响 + 结论；不要夸大“所有物种都会死”。"
+    "tip": "第一句说主题；中间说两个要点；最后一句说结论。40 秒内说完。"
   },
   {
     "id": "rl-13",
@@ -8796,8 +8796,8 @@ window.QUESTIONS = [
     "time": 110,
     "title": "流媒体经济（讲座）",
     "lesson": "RLPLUS",
-    "instruction": "听讲座，10 秒准备，40 秒复述。记 4 个关键词，用自己的话。",
-    "audio": "Streaming has changed how music and films are produced and consumed. Platforms pay artists per stream, which often means small payments for individual musicians. Algorithms influence what listeners discover, and producers increasingly design content to fit those algorithms. The speaker argues that streaming has increased access but concentrated power in a few platforms, and that regulation may be needed to protect cultural diversity.",
+    "instruction": "听 110–140 词讲座，10 秒准备，40 秒复述。记 4 个关键词，用自己的话。",
+    "audio": "Streaming has changed how music and films are produced and consumed. Platforms pay artists per stream, which often means small payments for individual musicians. Algorithms influence what listeners discover, and producers increasingly design content to fit those algorithms. The speaker argues that streaming has increased access but concentrated power in a few platforms, and that regulation may be needed to protect cultural diversity. Streaming also changed the length and structure of songs, because platforms count a play after a short period. Some artists release shorter tracks to increase plays. The speaker argues that transparency in payment and recommendation systems would help. Public service media may also need support to protect local culture.",
     "keypoints": [
       "Streaming changed production/consumption",
       "Per-stream payments often small",
@@ -8813,7 +8813,7 @@ window.QUESTIONS = [
       "40 秒内说完"
     ],
     "explanation": "RL 评分看 Content（关键要点、关系、结论）、Oral fluency、Pronunciation；不要逐句背原文。",
-    "tip": "好处 + 问题 + 监管；algorithm 是关键词。"
+    "tip": "第一句说主题；中间说两个要点；最后一句说结论。40 秒内说完。"
   },
   {
     "id": "rl-14",
@@ -8823,8 +8823,8 @@ window.QUESTIONS = [
     "time": 110,
     "title": "城市热岛（讲座）",
     "lesson": "RLPLUS",
-    "instruction": "听讲座，10 秒准备，40 秒复述。记 4 个关键词，用自己的话。",
-    "audio": "Cities are often hotter than surrounding countryside because concrete and asphalt absorb heat. Trees can cool streets through shade and evaporation, but not all neighbourhoods have equal access to green space. Low-income areas often have fewer trees and more heat-related health problems. The speaker argues that planting programmes should target these areas and include long-term maintenance, not just one-off planting events.",
+    "instruction": "听 110–140 词讲座，10 秒准备，40 秒复述。记 4 个关键词，用自己的话。",
+    "audio": "Cities are often hotter than surrounding countryside because concrete and asphalt absorb heat. Trees can cool streets through shade and evaporation, but not all neighbourhoods have equal access to green space. Low-income areas often have fewer trees and more heat-related health problems. The speaker argues that planting programmes should target these areas and include long-term maintenance, not just one-off planting events. Shade can reduce surface temperatures by several degrees, and trees also improve air quality. However, young trees need water and care for many years. The speaker argues that heat plans should include vulnerable residents and public cooling spaces. Insurance costs and energy demand also rise during heatwaves. The speaker concludes that this issue requires both individual action and public policy.",
     "keypoints": [
       "Concrete/asphalt absorb heat",
       "Trees cool via shade/evaporation",
@@ -8840,7 +8840,7 @@ window.QUESTIONS = [
       "40 秒内说完"
     ],
     "explanation": "RL 评分看 Content（关键要点、关系、结论）、Oral fluency、Pronunciation；不要逐句背原文。",
-    "tip": "问题 + 不平等 + 建议；maintenance 是关键词。"
+    "tip": "第一句说主题；中间说两个要点；最后一句说结论。40 秒内说完。"
   },
   {
     "id": "rl-15",
@@ -8850,8 +8850,8 @@ window.QUESTIONS = [
     "time": 110,
     "title": "基因编辑伦理（讲座）",
     "lesson": "RLPLUS",
-    "instruction": "听讲座，10 秒准备，40 秒复述。记 4 个关键词，用自己的话。",
-    "audio": "Gene editing allows scientists to change DNA with great precision. It could help treat inherited diseases, but changes to embryos can be passed to future generations. This raises questions about consent, safety and equity. The speaker argues that regulation should be international, because research can move across borders, and that public dialogue is essential before these technologies become widespread.",
+    "instruction": "听 110–140 词讲座，10 秒准备，40 秒复述。记 4 个关键词，用自己的话。",
+    "audio": "Gene editing allows scientists to change DNA with great precision. It could help treat inherited diseases, but changes to embryos can be passed to future generations. This raises questions about consent, safety and equity. The speaker argues that regulation should be international, because research can move across borders, and that public dialogue is essential before these technologies become widespread. The technology is not equally available to all patients, and private clinics may offer unproven treatments. International rules are difficult to enforce because laws differ between countries. The speaker argues that scientists should involve the public in deciding where the limits should be. Regulation must keep pace with scientific change. The speaker concludes that this issue requires both individual action and public policy.",
     "keypoints": [
       "Precise DNA changes",
       "Could treat inherited disease",
@@ -8867,7 +8867,7 @@ window.QUESTIONS = [
       "40 秒内说完"
     ],
     "explanation": "RL 评分看 Content（关键要点、关系、结论）、Oral fluency、Pronunciation；不要逐句背原文。",
-    "tip": "好处 + 伦理问题 + 治理；三个关键词 consent/safety/equity。"
+    "tip": "第一句说主题；中间说两个要点；最后一句说结论。40 秒内说完。"
   },
   {
     "id": "ro-24",
